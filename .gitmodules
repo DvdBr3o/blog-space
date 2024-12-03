@@ -1,0 +1,3 @@
+[submodule "themes/stack"]
+	path = themes/stack
+	url = git@github.com:DvdBr3o/hugo-theme-stack.git
