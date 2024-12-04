@@ -1,4 +1,4 @@
-baseURL = 'blog-space-ten.vercel.app'
+# baseURL = 'blog-space-ten.vercel.app'
 languageCode = 'en-us'
 title = 'DvdBr3o Blog Space'
 theme = [ 'stack', 'admonitions' ]
