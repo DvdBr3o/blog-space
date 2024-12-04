@@ -5,8 +5,8 @@ tags:
 dg-publish: "true"
 publish: true
 title: KMP
-date modified: 星期三, 十二月 4日 2024, 4:33:27 下午
-date: 星期四, 十一月 21日 2024, 6:50:02 晚上
+date: 2024-11-21T18:50:02+08:00
+lastmod: 2024-12-04T16:37:29+08:00
 ---
 
 ```cardlink
