@@ -1,6 +1,6 @@
-# [submodule "themes/stack"]
-# 	path = themes/stack
-# 	url = https://github.com/DvdBr3o/hugo-theme-stack.git
+[submodule "themes/stack"]
+	path = themes/stack
+	url = https://github.com/DvdBr3o/hugo-theme-stack.git
 [submodule "themes/admonitions"]
 	path = themes/admonitions
 	url = https://github.com/DvdBr3o/hugo-admonitions.git
