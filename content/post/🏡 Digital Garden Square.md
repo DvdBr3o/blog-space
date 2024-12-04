@@ -1,5 +1,5 @@
 ---
-banner: https://s2.loli.net/2024/11/21/sStDMNkwvinG6ce.png
+cover: https://s2.loli.net/2024/11/21/sStDMNkwvinG6ce.png
 dg-publish: true
 dg-home: true
 publish: "true"
