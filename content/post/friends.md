@@ -1,5 +1,5 @@
 ---
-title: Friends
+title: friends
 slug: friends
 layout: links
 comments: true
@@ -11,6 +11,6 @@ menu:
     params:
       icon: user
 date: 2024-12-04T22:28:16+08:00
-lastmod: 2024-12-04T22:30:05+08:00
+lastmod: 2024-12-04T22:42:48+08:00
 publish: true
 ---

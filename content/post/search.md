@@ -1,8 +1,8 @@
 ---
-title: Search
+title: search
 slug: search
 date: 2024-12-04T21:49:04+08:00
-lastmod: 2024-12-04T22:30:13+08:00
+lastmod: 2024-12-04T22:42:51+08:00
 layout: search
 publish: true
 outputs:
