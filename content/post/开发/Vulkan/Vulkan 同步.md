@@ -4,6 +4,9 @@ tags:
   - graphics
 dg-publish: "true"
 publish: "true"
+title: Vulkan 同步
+date created: 星期四, 十一月 28日 2024, 11:28:03 上午
+date modified: 星期三, 十二月 4日 2024, 4:28:44 下午
 ---
 主要有两种同步原语：
 + **Fence** 栅栏：用于 **应用程序 $\Leftrightarrow$  渲染**
