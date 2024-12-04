@@ -3,4 +3,4 @@
 	url = https://github.com/DvdBr3o/hugo-theme-stack.git
 [submodule "themes/admonitions"]
 	path = themes/admonitions
-	url = git@github.com:DvdBr3o/hugo-admonitions.git
+	url = https://github.com/DvdBr3o/hugo-admonitions.git
