@@ -6,7 +6,7 @@ dg-publish: "true"
 publish: true
 title: KMP
 date: 2024-11-21T18:50:02+08:00
-lastmod: 2024-12-04T16:37:29+08:00
+lastmod: 2024-12-04T21:34:19+08:00
 ---
 
 ```cardlink
@@ -26,7 +26,7 @@ $$
 \pi[i] = \max_{k=0...i}\{{k: s[0 ... k] = s[i - k + 1 ... i]}\}
 $$
 
-> [!例子]
+> [!note] 例子
 > 对于字符串 `abcabcd` 的前缀函数 $\pi[i]$ ：
 > 
 > | $i$ | $\pi[i]$ | 子串        | 相等前后缀  |
