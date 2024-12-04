@@ -4,6 +4,9 @@ tags:
   - 字符串
 dg-publish: "true"
 publish: true
+title: KMP
+date created: 星期四, 十一月 21日 2024, 6:50:02 晚上
+date modified: 星期三, 十二月 4日 2024, 4:28:21 下午
 ---
 
 ```cardlink
