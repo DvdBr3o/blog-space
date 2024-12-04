@@ -8,7 +8,6 @@ lastmod: 2024-12-04T22:29:43+08:00
 menu:
   main:
     weight: -30
-    params:
-      icon: address-card-solid
+    params: 
 publish: true
 ---
