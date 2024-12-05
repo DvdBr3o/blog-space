@@ -2,3 +2,17 @@
 languageCode = 'en-us'
 title = 'DvdBr3o Blog Space'
 theme = [ 'stack', 'admonitions' ]
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart =1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
