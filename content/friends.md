@@ -15,5 +15,3 @@ lastmod: 2024-12-04T22:42:48+08:00
 publish: true
 ---
 
-# Friends
-
