@@ -1,6 +1,6 @@
 # baseURL = 'blog-space-ten.vercel.app'
 languageCode = 'en-us'
-title = 'DvdBr3o Blog Space'
+title = 'DvdBr3o'
 theme = [ 'stack', 'admonitions' ]
 
 [markup]
