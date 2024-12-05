@@ -1,5 +1,5 @@
 ---
-title: about
+title: About
 slug: about
 description: 关于页面
 date: 2024-12-04T22:29:31+08:00

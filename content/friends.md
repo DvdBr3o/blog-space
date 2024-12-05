@@ -1,8 +1,8 @@
 ---
-title: friends
+title: Friends
 slug: friends
 layout: links
-comments: true
+comments: false
 license: false
 image: 
 menu:
@@ -14,3 +14,6 @@ date: 2024-12-04T22:28:16+08:00
 lastmod: 2024-12-04T22:42:48+08:00
 publish: true
 ---
+
+# Friends
+

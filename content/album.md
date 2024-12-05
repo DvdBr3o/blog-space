@@ -1,5 +1,5 @@
 ---
-title: album
+title: Album
 slug: album
 description: 画册
 license: 个人拍照，禁止转载✏️
