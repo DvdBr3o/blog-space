@@ -1,6 +1,6 @@
 .admonition {
-  margin: 1rem 0;
-  border-radius: 4px;
+  margin: 1.5em 0;
+  border-radius: 4px 25px 25px 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
   transition: all 0.3s ease;
 }
