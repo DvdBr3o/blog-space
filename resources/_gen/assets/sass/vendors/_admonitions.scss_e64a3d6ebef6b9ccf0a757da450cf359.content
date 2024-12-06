@@ -1,7 +1,7 @@
 .admonition {
   margin: 1.5em 0;
   border-radius: 4px 25px 25px 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
   transition: all 0.3s ease;
 }
 
@@ -24,7 +24,9 @@
 
 .admonition-content {
   padding: 2rem;
+  background-color: #ffffff;
   border-radius: 0 0 25px 0;
+  color: #000000;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -61,10 +63,23 @@
   font-size: 0.9em;
 }
 
-@media (prefers-color-scheme: dark) {
-  .admonition-content {
-    background-color: #1D1E20;
-  }
+[data-scheme="dark"] .admonition-content {
+  background-color: #1D1E20;
+  color: #e6e6e6;
+}
+
+[data-scheme="dark"] .admonition-content blockquote {
+  border-left-color: #45475a;
+  color: #cdd6f4;
+}
+
+[data-scheme="dark"] body.dark .admonition-content {
+  background-color: #1D1E20;
+}
+
+[data-scheme="dark"] body.dark .admonition-content blockquote {
+  border-left-color: #45475a;
+  color: #cdd6f4;
 }
 
 .admonition.abstract {
