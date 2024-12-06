@@ -24,9 +24,7 @@
 
 .admonition-content {
   padding: 2rem;
-  background-color: #ffffff;
   border-radius: 0 0 25px 0;
-  color: #000000;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -78,11 +76,6 @@
     border-left-color: #45475a;
     color: #cdd6f4;
   }
-}
-
-body.dark .admonition-content {
-  background-color: #1D1E20;
-  color: #e6e6e6;
 }
 
 body.dark .admonition-content code {
