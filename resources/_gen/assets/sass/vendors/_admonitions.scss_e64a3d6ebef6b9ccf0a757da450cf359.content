@@ -56,8 +56,6 @@
 }
 
 .admonition-content code {
-  background-color: #f5f5f5;
-  color: #24292e;
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-size: 0.9em;
@@ -66,26 +64,7 @@
 @media (prefers-color-scheme: dark) {
   .admonition-content {
     background-color: #1D1E20;
-    color: #e6e6e6;
   }
-  .admonition-content code {
-    background-color: #313244;
-    color: #cdd6f4;
-  }
-  .admonition-content blockquote {
-    border-left-color: #45475a;
-    color: #cdd6f4;
-  }
-}
-
-body.dark .admonition-content code {
-  background-color: #313244;
-  color: #cdd6f4;
-}
-
-body.dark .admonition-content blockquote {
-  border-left-color: #45475a;
-  color: #cdd6f4;
 }
 
 .admonition.abstract {
