@@ -17,3 +17,6 @@ theme = [ 'stack', 'admonitions' ]
     noClasses = false
     style = "monokai"
     tabWidth = 4
+
+[params]
+favicon="/dvdbr3o.ico"
