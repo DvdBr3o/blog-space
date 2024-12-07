@@ -6,7 +6,8 @@ dg-publish: "true"
 publish: true
 title: KMP
 date: 2024-11-21T18:50:02+08:00
-lastmod: 2024-12-04T21:34:19+08:00
+lastmod: 2024-12-07T19:50:35+08:00
+categories: 算法
 ---
 
 ```cardlink
