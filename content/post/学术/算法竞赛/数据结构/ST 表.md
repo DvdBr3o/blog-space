@@ -5,7 +5,7 @@ tags:
 dg-publish: "true"
 title: ST 表
 date: 2024-11-26T17:23:39+08:00
-lastmod: 2024-12-07T19:51:03+08:00
+lastmod: 2024-12-07T23:58:43+08:00
 publish: true
 categories: 算法
 ---
@@ -25,7 +25,7 @@ categories: 算法
 
 解决 **可重复贡献问题**。
 
-> [!可重复贡献问题]
+> [!info] 可重复贡献问题
 > 指只包含运算符 $\mathrm{op}$ 操作的区间问题，其中 $\mathrm{op}$ 满足 $x \ \mathrm{op} \ x = x$。
 > 例如：
 > + RMQ 问题 (区间最值问题)：$\max(x, x) = x$
