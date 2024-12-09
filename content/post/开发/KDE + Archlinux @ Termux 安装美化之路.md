@@ -8,6 +8,7 @@ tags:
   - termux
 publish: true
 categories: Linux
+slug: kde-archlinux-termux-安装美化之路
 ---
 
 ## 前情提要
