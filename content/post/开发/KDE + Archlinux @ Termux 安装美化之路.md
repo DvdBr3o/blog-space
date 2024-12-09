@@ -1,7 +1,7 @@
 ---
 title: KDE + Archlinux @ Termux 安装美化之路
 date: 2024-12-08T16:42:04+08:00
-lastmod: 2024-12-09T20:09:14+08:00
+lastmod: 2024-12-09T22:25:16+08:00
 tags:
   - archlinux
   - kde
@@ -13,6 +13,7 @@ slug: kde-archlinux-termux-安装美化之路
 
 >[!warning]
 >因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)
+>TLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭
 
 ## 前情提要
 
@@ -166,3 +167,4 @@ yay -S visual-studio-code-bin
 
 大家千万别以为平板可以当生产力工具，尤其是 unrooted pads。。
 有打代码需求老老实实买个轻薄本，装 windows (with wsl2)，特别是避开 arm 架构 QAQ
+现在已经改变方向了，准备入手一台二合一笔记本，就是不知道手写笔+Obsidian 在 Windows 上体验如何。目前看中的是 xiaomi book air 13，生态什么的已经无所谓了，能在宿舍外打 vulkan 已经很满足了 QAQ
