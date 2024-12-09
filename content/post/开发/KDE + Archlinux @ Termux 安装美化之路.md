@@ -1,7 +1,7 @@
 ---
 title: KDE + Archlinux @ Termux 安装美化之路
 date: 2024-12-08T16:42:04+08:00
-lastmod: 2024-12-09T15:43:11+08:00
+lastmod: 2024-12-09T20:09:14+08:00
 tags:
   - archlinux
   - kde
@@ -128,25 +128,11 @@ yay -S ttf-harmonyos-sans # 鸿蒙一般般，但是它字体确实好看
 
 平板 TouchPad 感觉不是很顺手，双指滑动没有预期的 scroll 操作。而且按键盘上的搜索键 plasma 提示 `Touchpad off`，明显是收到了 keycode 但是 Touchpad 或者 Keyboard 哪里设置不正常。自然想到去 `System Settings > Mouse & Touchpad` 排查，但是竟然闪退了？？查看 log 定位到是 `xcb_mouse: unable to select appropriate backend`，应该是 `xinput` 的锅。但是调用  `xinput list` 输出的 device list 看起来却很正常，又有 Mouse 又有 Touchpad 。。。
 
+找不到解决方案。。感觉是权限问题。不管了。。。
+## 输入法
+
+用 `fctix5` 。
 ## 主题
-
-## 动态壁纸
-## Code Server
-
-## Vulkan
-
-
-- [ ] TODO: KDE Wallpaper Engine:
-
-```cardlink
-url: https://github.com/catsout/wallpaper-engine-kde-plugin
-title: "GitHub - catsout/wallpaper-engine-kde-plugin: A kde wallpaper plugin integrating wallpaper engine"
-description: "A kde wallpaper plugin integrating wallpaper engine - catsout/wallpaper-engine-kde-plugin"
-host: github.com
-favicon: https://github.githubassets.com/favicons/favicon.svg
-image: https://opengraph.githubassets.com/43af126a03e3e45843e51f38160e2791bb0c7e7e16a5b4a3e19b398da3ccc5b9/catsout/wallpaper-engine-kde-plugin
-```
-
 
 ```cardlink
 url: https://hujiekang.top/posts/kde-customization/
@@ -157,3 +143,26 @@ favicon: https://hujiekang.top/apple-touch-icon.png
 image: https://hujiekang.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E
 ```
 
+## 动态壁纸
+
+```cardlink
+url: https://github.com/catsout/wallpaper-engine-kde-plugin
+title: "GitHub - catsout/wallpaper-engine-kde-plugin: A kde wallpaper plugin integrating wallpaper engine"
+description: "A kde wallpaper plugin integrating wallpaper engine - catsout/wallpaper-engine-kde-plugin"
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://opengraph.githubassets.com/43af126a03e3e45843e51f38160e2791bb0c7e7e16a5b4a3e19b398da3ccc5b9/catsout/wallpaper-engine-kde-plugin
+```
+## vscode
+
+```bash
+yay -S visual-studio-code-bin
+```
+## Vulkan
+
+屁嘞，我在想什么。。首先基于 vnc 的方案屏幕那么卡我搞个蛋的图形学。。其次权限这么严怎么可能 gpu passthrough。。最后，你平板是 `arm` 架构连 `clangd` 都装不上 😅😅😅 我 `ctrl` 那么依赖模板没有 language server 我怎么活？？心累，，随时随地开发 Vulkan 的梦破灭了。。。vulkan 的开发门槛还挺高的，，这平板只能拿来写写 server 或者前端了。。。打代码也用不上 `termux` 那么完全的环境，那屏幕投影卡的不如原生的阉割版 vscode 的 Marscode Web IDE 啊啊。。但是哪怕是写 server 和前端 Marscode 体验也比 `termux-x11` 好啊 😭😭 白买了白买了。。
+
+## 总结
+
+大家千万别以为平板可以当生产力工具，尤其是 unrooted pads。。
+有打代码需求老老实实买个轻薄本，装 windows (with wsl2)，特别是避开 arm 架构 QAQ
