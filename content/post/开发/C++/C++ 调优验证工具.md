@@ -1,11 +1,12 @@
 ---
 title: C++ 调优验证工具
 date: 2024-12-10T22:57:25+08:00
-lastmod: 2024-12-10T22:59:40+08:00
+lastmod: 2024-12-10T23:12:48+08:00
 categories: C++
 tags:
   - cpp
 publish: true
+slug: cpp-调优验证工具
 ---
 
 ```cardlink
