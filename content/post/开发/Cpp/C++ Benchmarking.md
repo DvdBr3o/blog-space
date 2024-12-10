@@ -1,12 +1,13 @@
 ---
 title: C++ Benchmarking
 date: 2024-12-10T23:15:57+08:00
-lastmod: 2024-12-10T23:24:51+08:00
+lastmod: 2024-12-10T23:26:13+08:00
 tags:
   - cpp
   - benchmark
 categories: C++
 publish: true
+slug: cpp-benchmarking
 ---
 
 ## 候选名单
