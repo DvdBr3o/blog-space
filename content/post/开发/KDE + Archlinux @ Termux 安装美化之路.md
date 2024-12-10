@@ -1,7 +1,7 @@
 ---
 title: KDE + Archlinux @ Termux 安装美化之路
 date: 2024-12-08T16:42:04+08:00
-lastmod: 2024-12-09T22:25:16+08:00
+lastmod: 2024-12-10T20:23:15+08:00
 tags:
   - archlinux
   - kde
@@ -13,6 +13,7 @@ slug: kde-archlinux-termux-安装美化之路
 
 >[!warning]
 >因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)
+>
 >TLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭
 
 ## 前情提要
