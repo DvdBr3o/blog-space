@@ -1,9 +1,10 @@
 ---
 title: 迁移到 C++ Module
 date: 2024-12-11T23:51:35+08:00
-lastmod: 2024-12-12T13:05:01+08:00
-sllug: 迁移到-cpp-module
+lastmod: 2024-12-12T19:26:07+08:00
+slug: 迁移到-cpp-module
 publish: true
+categories: C++
 ---
 
 ## 前情提要
