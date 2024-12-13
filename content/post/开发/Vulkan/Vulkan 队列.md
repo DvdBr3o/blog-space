@@ -3,7 +3,7 @@ tags:
   - vulkan
 title: Vulkan 队列
 date: 2024-12-13T14:10:03+08:00
-lastmod: 2024-12-13T14:23:25+08:00
+lastmod: 2024-12-13T14:57:36+08:00
 publish: true
 categories: Vulkan
 ---
@@ -31,6 +31,8 @@ image: https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=
 | Compute        | Compute Pipeline Commands                        | `vkCmdDispath`      |
 | Transfer       | Transfer/Copy Commands                           | `vkCmdCopy`         |
 | Sparse Binding | change the binding of sparse resources to memory | `vkQueueBindSparse` |
+
+一般最老的支持 Vulkan API 的设备也会有至少一个同时有以上四种能力的队列。
 
 一个队列一次只能有一个线程提交。但是每个队列的提交可以同时进行。
 
