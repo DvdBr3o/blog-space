@@ -3,8 +3,9 @@ tags:
   - vulkan
 title: Vulkan 队列
 date: 2024-12-13T14:10:03+08:00
-lastmod: 2024-12-13T14:21:06+08:00
+lastmod: 2024-12-13T14:23:25+08:00
 publish: true
+categories: Vulkan
 ---
 
 
@@ -30,7 +31,9 @@ image: https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=
 | Compute        | Compute Pipeline Commands                        | `vkCmdDispath`      |
 | Transfer       | Transfer/Copy Commands                           | `vkCmdCopy`         |
 | Sparse Binding | change the binding of sparse resources to memory | `vkQueueBindSparse` |
+
 一个队列一次只能有一个线程提交。但是每个队列的提交可以同时进行。
+
 ## 队列簇 Queue Family
 
 一个队列簇包含具有同样指令能力的多个队列。(类似于队列是实例，队列簇是类)
