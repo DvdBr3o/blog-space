@@ -1,11 +1,12 @@
 ---
-title: 部署 ollama + vscode or cursor
+title: 部署 ollama + vscode
 date: 2024-12-17T18:12:13+08:00
-lastmod: 2024-12-17T20:22:50+08:00
+lastmod: 2024-12-17T21:02:16+08:00
 tags:
   - ollama
   - ai
 publish: true
+slug: 部署-ollama-and-vscode
 ---
 
 >[!info] 前情提要
