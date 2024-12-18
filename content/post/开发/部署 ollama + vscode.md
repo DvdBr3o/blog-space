@@ -1,7 +1,7 @@
 ---
 title: 部署 ollama + vscode
 date: 2024-12-17T18:12:13+08:00
-lastmod: 2024-12-17T21:02:16+08:00
+lastmod: 2024-12-18T13:25:30+08:00
 tags:
   - ollama
   - ai
@@ -58,6 +58,6 @@ vscode 安装 continue。
 Then you are good to go ~ 🎉
 ## 远程
 
-嘻嘻之前买的服务器派上用场了，远程部署一个在外面轻薄本~~(还没买，有钱是遥遥无期)~~也能用上 ollama。
+嘻嘻之前买的服务器派上用场了，远程部署一个在外面轻薄本 ~~(还没买，有钱是遥遥无期)~~ 也能用上 ollama。
 
 - [ ] TODO: 尝试在服务器上部署一个 ollama (with docker)。📅 2025-07-01
