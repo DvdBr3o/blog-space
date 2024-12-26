@@ -1,7 +1,7 @@
 ---
 title: 部署 ollama + vscode
 date: 2024-12-17T18:12:13+08:00
-lastmod: 2024-12-18T13:25:30+08:00
+lastmod: 2024-12-19T11:30:32+08:00
 tags:
   - ollama
   - ai
@@ -54,6 +54,18 @@ vscode 安装 continue。
   // ...
 }
 ```
+
+🔗**更多模态**：
+
+```cardlink
+url: https://docs.continue.dev/customize/context-providers#built-in-context-providers
+title: "Context providers | Continue"
+description: "Type '@' to select content to the LLM as context"
+host: docs.continue.dev
+favicon: https://docs.continue.dev/img/favicon.ico
+image: https://docs.continue.dev/img/continue-social-card.png
+```
+
 
 Then you are good to go ~ 🎉
 ## 远程

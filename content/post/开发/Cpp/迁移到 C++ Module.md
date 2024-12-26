@@ -1,7 +1,7 @@
 ---
 title: 迁移到 C++ Module
 date: 2024-12-11T23:51:35+08:00
-lastmod: 2024-12-12T19:26:07+08:00
+lastmod: 2024-12-21T00:23:52+08:00
 slug: 迁移到-cpp-module
 publish: true
 categories: C++
@@ -20,6 +20,6 @@ categories: C++
 
 ## 实践过程
 
-- [ ] TODO: 把 `ctrl` 迁移到 C++ module
+- [ ] TODO: 把 `ctrl` 迁移到 C++ module 📅 2025-01-31
 
 ~~（慢慢等 Clang 19 什么时候在 Windows 上实装吧。。。）~~
