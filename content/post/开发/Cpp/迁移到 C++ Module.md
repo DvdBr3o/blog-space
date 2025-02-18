@@ -20,6 +20,6 @@ categories: C++
 
 ## 实践过程
 
-- [ ] TODO: 把 `ctrl` 迁移到 C++ module 📅 2025-01-31
+- [x] TODO: 把 `ctrl` 迁移到 C++ module 📅 2025-01-31 ✅ 2025-02-16
 
 ~~（慢慢等 Clang 19 什么时候在 Windows 上实装吧。。。）~~
