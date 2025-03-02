@@ -1,11 +1,19 @@
 ---
 title: 迁移到 C++ Module
 date: 2024-12-11T23:51:35+08:00
-lastmod: 2024-12-21T00:23:52+08:00
+lastmod: 2025-02-26T18:02:40+08:00
 slug: 迁移到-cpp-module
 publish: true
 categories: C++
 ---
+
+
+```cardlink
+url: https://quadnucyard.github.io/posts/cpp/clang-std-modules.html
+title: "使用 VSCode + XMake + LLVM 开发现代 C++！（llvm-mingw + clangd + modules）"
+description: "使用 VSCode + XMake + LLVM 开发现代 C++！（llvm-mingw + clangd + modules） 现在已经 4202 年了，C++ 模块已经经过了长足的发展，但就模块是否得到工具支持仍然有历史遗留的争议。 本文将说明在 VSCode 下配合 XMake 和 Clangd 是可行方案，并给出指导。 先说结论，配置 xma..."
+host: quadnucyard.github.io
+```
 
 ## 前情提要
 
