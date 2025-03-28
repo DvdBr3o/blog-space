@@ -3,7 +3,7 @@ tags:
   - vulkan
 title: Vulkan 队列
 date: 2024-12-13T14:10:03+08:00
-lastmod: 2024-12-13T14:57:36+08:00
+lastmod: 2025-03-17T14:36:10+08:00
 publish: true
 categories: Vulkan
 ---
@@ -36,7 +36,7 @@ image: https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=
 
 一个队列一次只能有一个线程提交。但是每个队列的提交可以同时进行。
 
-## 队列簇 Queue Family
+## 队列族 Queue Family
 
-一个队列簇包含具有同样指令能力的多个队列。(类似于队列是实例，队列簇是类)
+一个队列族包含具有同样指令能力的多个队列。(类似于队列是实例，队列族是类)
 
