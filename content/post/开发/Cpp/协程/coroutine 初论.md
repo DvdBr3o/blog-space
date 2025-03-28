@@ -1,7 +1,7 @@
 ---
 title: coroutine 初论
 date: 2025-03-06T14:32:27+08:00
-lastmod: 2025-03-06T19:59:13+08:00
+lastmod: 2025-03-07T10:50:20+08:00
 tags:
   - cpp
   - coroutine
@@ -13,6 +13,14 @@ publish: true
 url: https://en.cppreference.com/w/cpp/language/coroutines
 title: "Coroutines (C++20) - cppreference.com"
 host: en.cppreference.com
+```
+
+
+```cardlink
+url: https://www.bennyhuo.com/2022/03/06/cpp-coroutines-00-foreword/
+title: "渡劫 C++ 协程"
+host: www.bennyhuo.com
+favicon: https://www.bennyhuo.com/assets/favicon-32x32.png
 ```
 
 [【知乎】如何编写 C++ 20 协程(Coroutines)](https://zhuanlan.zhihu.com/p/355100152)
@@ -131,7 +139,7 @@ auto __actual_coroutine(auto&&... args) -> Awaitable {
 #### Awaitable
 
 ```
-Awaitable := Sum
+Awaitable := Concept
 	type promise_type
 	requires .await_ready() -> bool
 	requires .await_suspend(std::coroutine_handle) \
@@ -152,7 +160,7 @@ std::suspend_always := Awaitable
 #### Promise
 
 ```
-Promise := Sum
+Promise := Concept
 	requires .initial_suspend() -> Awaitable
 	requires .final_suspend() -> Awaitable
 	requires .get_return_object() -> Awaitable
@@ -169,7 +177,15 @@ Promise := Sum
 #### Coroutine Handle
 
 ```
-coroutine_handle<T>
+coroutine_handle<Promise> := Class
+	.operator bool()      // valid
+	.done()               // done
+	.resume()             // === .operator()
+	.promise()            // handle  -> promise
+	static from_promise() // promise -> handle
+	.address()
+	static from_address()
+	// ...
 ```
 
 ### 三大协程操作

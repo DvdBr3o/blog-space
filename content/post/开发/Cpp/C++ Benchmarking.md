@@ -64,5 +64,5 @@ image: https://opengraph.githubassets.com/0355853d13b70aca57f886710c407e982a7381
 
 ## 试试看！
 
-- [ ] Test cpp benchmarking tools 🔽 📅 2024-12-22
+- [x] Test cpp benchmarking tools 🔽 📅 2024-12-22 ✅ 2025-03-09
 
