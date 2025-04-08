@@ -1,7 +1,7 @@
 ---
 title: coroutine 初论
 date: 2025-03-06T14:32:27+08:00
-lastmod: 2025-03-07T10:50:20+08:00
+lastmod: 2025-04-03T08:45:22+08:00
 tags:
   - cpp
   - coroutine
@@ -50,25 +50,25 @@ Coroutine $:=$ 含有 `co_return`/`co_await`/`co_yield` 的可暂停/唤醒的�
 > 1. 调用 `operator new` 分配 coroutine state
 > 2. `auto promise = return_type::promise_type{ /* ... */ };` 
 > 	构造 Promise object 根据 `return_type::promise_type`
-> 	3. 优先选择**参数为函数参数**の构造函数
-> 	4. 如果没有，则选用默认构造函数
-> 35. auto internal_local_val = promise.get_return_object();`
-> 	6. `return_object` 会在协程第一次暂停时返回给 caller
-> 	7. exception 返回给 caller，promise 不保留 exception
-> 48. co_await promise.inital_suspend();`
+> 	- 优先选择**参数为函数参数**の构造函数
+> 	- 如果没有，则选用默认构造函数
+> 3. `internal_local_val = promise.get_return_object();`
+> 4.  `return_object` 会在协程第一次暂停时返回给 caller
+> 5.  exception 返回给 caller，promise 不保留 exception
+> 6. `await promise.inital_suspend();` 
 > 	- `-> suspend_never` : eager-started, 立刻开始
 > 	- `-> suspend_always` : lazy-started, 等待主动调用 `coroutine_handle.resume()` 开始协程
-> 1. 继续执行函数体
-> 2. 遇到暂停点
-> 3.  执行 [三大协程操作](coroutine%20%E5%88%9D%E8%AE%BA.md#) 中的两大 
-> 4.  caller/resumer 得到 `static_cast<return_type>(return_object)`
-> 5. 执行到 `co_return expr;`
-> 6.  执行 `promise.return_xxx()`
-> 7. . `decltype(expr) == void` $\to$ 执行 `promise.return_void()`
-> 8. . `decltype(expr) != void` $\to$ 执行 `promise.return_value(expr)`
-> 9. . `co_return;` $\to$ 1.
-> 10.  raii 倒序析构
-> 11. `promise.final_suspend();`
+> 7. 继续执行函数体
+> 8. 遇到暂停点
+> 9.  执行 [三大协程操作](coroutine%20%E5%88%9D%E8%AE%BA.md#) 中的两大 
+> 10.  caller/resumer 得到 `static_cast<return_type>(return_object)`
+> 11. 执行到 `co_return expr;`
+> 12.  执行 `promise.return_xxx()`
+> 	-   `decltype(expr) == void` $\to$ 执行 `promise.return_void()`
+> 	-  `decltype(expr) != void` $\to$ 执行 `promise.return_value(expr)`
+> 	-  `co_return;` $\to$ `promise.return_void()`
+> 11.  raii 倒序析构
+> 12. `promise.final_suspend();`
 > 	- `-> suspend_never` : 立即销毁
 > 	- `-> suspend_always` : 等待主动调用 `coroutine_handle.destroy()` 销毁协程
 
@@ -85,14 +85,16 @@ auto __actual_coroutine(auto&&... args) -> Awaitable {
 
 	// 假设这里是原函数体的一处暂停点
 	// 这时发生:
-	//     1. 执行 `co_await` 流程, 详见[[#co_await]].
-	//     2. caller/resumer 收到 `return_object`
+	//   1. 执行 `co_await` 流程, 详见[[#co_await]].
+	//   2. caller/resumer 收到控制权，不获得 return_object
 	auto expr = co_await foo();
 
 	/* 原函数体结束 (除了 `co_return`) */
 
+	// co_return expr;
 	promise.return_value(expr); // or `.return_void()` accordingly
-	co_return expr; // caller/resumer 收到 `return_object`
+	    // return_value(expr) 只改变 return_object，
+	    // caller/resumer 不会直接收到 expr
 	//! 自动存储变量在这行析构
 	co_await promise.final_suspend();
 }
@@ -210,7 +212,7 @@ AWAIT_READY --->|true| CONTINUE["直接继续current_coroutine，避免不必要
 AWAIT_READY --->|false| SUSPEND["current_coroutine_handle.suspend()"]
 SUSPEND ---> AWAIT_SUSPEND{"awaitable.await_suspend(current_coroutine_handle)"}
 AWAIT_SUSPEND ---> AWAIT_SUSPEND_VOID(void)
-AWAIT_SUSPEND_VOID ---> TRANSFER_CONTROL["返回控制权给 caller/resumer"]
+AWAIT_SUSPEND_VOID ---> TRANSFER_CONTROL["返回控制权给 current_coroutine_handle の caller/resumer"]
 AWAIT_SUSPEND ---> AWAIT_SUSPEND_BOOL(bool)
 AWAIT_SUSPEND_BOOL --->|true| TRANSFER_CONTROL
 AWAIT_SUSPEND_BOOL --->|false| RESUME_CURRENT["current_coroutine_handle.resume()"]
