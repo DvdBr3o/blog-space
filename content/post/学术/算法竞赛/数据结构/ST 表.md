@@ -5,7 +5,7 @@ tags:
 dg-publish: "true"
 title: ST 表
 date: 2024-11-26T17:23:39+08:00
-lastmod: 2024-12-07T23:58:43+08:00
+lastmod: 2025-04-05T13:09:26+08:00
 publish: true
 categories: 算法
 ---
@@ -65,7 +65,8 @@ SparseTable(const std::vector<T>& t, Op op) : op(op) {
     for (int i = 0; i < n; ++i) st[i][0] = t[i];
     for (int j = 1; j < s; ++j) {
         auto pj = 1 << (j - 1);  // power of j
-        for (int i = 0; i + pj < n; ++i) st[i][j] = op(st[i][j - 1], st[i + pj][j - 1]);
+        for (int i = 0; i + pj < n; ++i)
+	        st[i][j] = op(st[i][j - 1], st[i + pj][j - 1]);
     }
 }
 ```
