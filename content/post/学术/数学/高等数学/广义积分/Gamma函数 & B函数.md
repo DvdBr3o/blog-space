@@ -1,7 +1,7 @@
 ---
-title: 伽玛函数 & B函数
+title: Gamma函数 & B函数
 date: 2025-03-13T09:22:11+08:00
-lastmod: 2025-04-08T21:03:03+08:00
+lastmod: 2025-04-10T17:12:32+08:00
 tags:
   - 积分
   - 高等数学
@@ -23,6 +23,8 @@ $$
 - $\Gamma(n)=(n-1)!$ when $n\in N_+$
 - $\Gamma(1)=1$
 - $\Gamma(1/2)=\sqrt{ \pi }$
+- 【加倍公式】$\Gamma(2x)=2^{2x-1} \frac{\Gamma(x)\Gamma\left( x+\frac{1}{2} \right)}{\Gamma\left( \frac{1}{2} \right)}$
+- 【余元公式】在 $0<x<1$ 上 $$\Gamma(x)\Gamma(1-x)=\frac{\pi}{\sin \pi x}$$
 
 ## B函数
 
