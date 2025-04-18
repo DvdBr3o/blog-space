@@ -2,14 +2,14 @@
 tags:
   - 高等数学
   - 积分
-title: 华里士公式
+title: Wallis 公式
 date: 2024-11-27T11:46:59+08:00
-lastmod: 2024-12-28T10:35:54+08:00
+lastmod: 2025-04-18T21:10:36+08:00
 categories: 高等数学
 publish: true
 ---
 
-![2025张宇考研数学基础30讲-高等数学分册 (张宇) (Z-Library), p.175](../2025%E5%BC%A0%E5%AE%87%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%8030%E8%AE%B2-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%88%86%E5%86%8C%20(%E5%BC%A0%E5%AE%87)%20(Z-Library).pdf.md#page175andrect59364461658andcolornote)
+![2025张宇考研数学基础30讲-高等数学分册 (张宇) (Z-Library), p.175](../%E5%BC%A0%E5%AE%87/2025%E5%BC%A0%E5%AE%87%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%8030%E8%AE%B2-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%88%86%E5%86%8C%20(%E5%BC%A0%E5%AE%87)%20(Z-Library).pdf.md#page175andrect59364461658andcolornote)
 
 $$
 \int_{0}^{\frac{\pi}{2}} \sin ^{n}x \, dx=\int_{0}^{\frac{\pi}2{}}\cos ^{n}x  \, dx=\left\{ \begin{align}
