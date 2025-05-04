@@ -4,7 +4,7 @@ tags:
   - 积分
 title: Wallis 公式
 date: 2024-11-27T11:46:59+08:00
-lastmod: 2025-04-18T21:10:36+08:00
+lastmod: 2025-04-19T12:29:27+08:00
 categories: 高等数学
 publish: true
 ---
@@ -14,7 +14,7 @@ publish: true
 $$
 \int_{0}^{\frac{\pi}{2}} \sin ^{n}x \, dx=\int_{0}^{\frac{\pi}2{}}\cos ^{n}x  \, dx=\left\{ \begin{align}
 &\frac{(n-1)!!}{n!!}& (n为奇) \\
-&\frac{(n-1)}{n!!}\cdot \frac{\pi}{2}&(n为偶)
+&\frac{(n-1)!!}{n!!}\cdot \frac{\pi}{2}&(n为偶)
 \end{align} \right.
 $$
 $$

@@ -1,7 +1,7 @@
 ---
 title: C++ Benchmarking
 date: 2024-12-10T23:15:57+08:00
-lastmod: 2024-12-12T19:26:03+08:00
+lastmod: 2025-04-30T21:56:07+08:00
 tags:
   - cpp
   - benchmark
