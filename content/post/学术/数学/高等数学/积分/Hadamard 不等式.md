@@ -1,7 +1,7 @@
 ---
 title: Hadamard 不等式
 date: 2025-04-17T18:34:23+08:00
-lastmod: 2025-05-04T23:27:16+08:00
+lastmod: 2025-05-11T13:21:42+08:00
 tags:
   - 高等数学
   - 积分
@@ -18,7 +18,7 @@ publish: true
 则
 
 $$
-(x_{2}-x_{1})f\left( \frac{x_{1}+x_{2}}{2} \right)\leq \int_{x_{1}}^{x_{2}} f(t) \, \mathrm{d}t\leq(x_{2}-x_{1}) \frac{f(x_{1})+f(x_{2})}{2} 
+f\left( \frac{x_{1}+x_{2}}{2} \right)\leq \frac{\int_{x_{1}}^{x_{2}} f(t) \, \mathrm{d}t}{(x_{2}-x_{1})}\leq \frac{f(x_{1})+f(x_{2})}{2} 
 $$
 
 >[!hint] 证明

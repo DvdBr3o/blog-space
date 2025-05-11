@@ -19,7 +19,7 @@ $$
 f(x) \le A(x) + \int_{a}^{x} g(t)A(t)\exp\left(\int_{t}^{x} g(r) \, \mathrm{d}r \right) \, \mathrm{d}t 
 $$
 
->[!note] 记忆方式
+>[!note] 记忆
 >两端对 $x$ 求导，解微分方程得 $f(t)=A(t)\exp\left(\int_{t}^{x} g(r) \, \mathrm{d}r\right)$ 代入原不等式得证
 
 >[!hint] 证明

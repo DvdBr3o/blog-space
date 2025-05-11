@@ -46,8 +46,9 @@ $$
 $$
 \int_{a}^{b} \left|f \cdot f'\right| \, \mathrm{d}x \le \frac{b-a}{4} \int_{a}^{b} \left[f'\right]^{2} \, \mathrm{d}x  
 $$
+
 >[!hint] 证明
->1. 对 $[a,\frac{a+b}{2}]$ 和 $-[\frac{a+b}{2}, b]$ 使用[线性单端零点](Opial%20%E4%B8%8D%E7%AD%89%E5%BC%8F.md#) 结论
+>1. 对 $[a,\frac{a+b}{2}]$ 和 $-[\frac{a+b}{2}, b]$ 使用 [线性单端零点](Opial%20%E4%B8%8D%E7%AD%89%E5%BC%8F.md#) 结论
 >2. 将两个不等式相加得证
 
 ## Beesack Opial 拓展
