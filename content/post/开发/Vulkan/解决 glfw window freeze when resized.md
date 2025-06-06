@@ -28,4 +28,4 @@ windows 下的 event loop 在 window resize 时会阻塞，体现在 `glfwPollEv
 
 要把 render 和 window event loop 放在不同的线程，防止阻塞
 
-- [ ] TODO: 完成[解决 glfw window freeze when resized > 方案](%E8%A7%A3%E5%86%B3%20glfw%20window%20freeze%20when%20resized.md#) 的详细解决代码 📅 2025-05-28
+- [x] TODO: 完成[解决 glfw window freeze when resized > 方案](%E8%A7%A3%E5%86%B3%20glfw%20window%20freeze%20when%20resized.md#) 的详细解决代码 📅 2025-05-28 ✅ 2025-06-05

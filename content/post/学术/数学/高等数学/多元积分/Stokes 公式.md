@@ -1,7 +1,7 @@
 ---
-title: 斯托克斯公式
+title: Stokes 公式
 date: 2025-02-08T14:07:02+08:00
-lastmod: 2025-02-19T01:25:52+08:00
+lastmod: 2025-05-11T16:38:46+08:00
 tags:
   - 高等数学
   - 多元
@@ -41,7 +41,7 @@ P& Q& R
 $$
 ### 旋度形式
 
-由[朴素行列式形式](%E6%96%AF%E6%89%98%E5%85%8B%E6%96%AF%E5%85%AC%E5%BC%8F.md#)可以引出**旋度** $\mathrm{rot}$
+由[朴素行列式形式](Stokes%20%E5%85%AC%E5%BC%8F.md#)可以引出**旋度** $\mathrm{rot}$
 
 $$
 \oint_{L+}\vec{F}\,d\vec{S} = \iint_{S+}\mathrm{rot}\,\vec{F}\cdot d\vec{S}
@@ -61,8 +61,8 @@ P& Q& R
 $$
 $$
 \begin{align}
-d\vec{S} & =(\cos\alpha,\cos\beta,\cos\gamma)\cdot dS \\
- & =(dy\,dz,dx\,dz,dx\,dy)
+d\vec{S} & =(\cos\alpha,\cos\beta,\cos\gamma)\cdot \mathrm{d}S \\
+ & =(\mathrm{d}y\mathrm{d}z,\mathrm{d}z\mathrm{d}x,\mathrm{d}x\mathrm{d}y)
 \end{align}
 $$
 ### 旋度变式形式
@@ -72,7 +72,7 @@ $$
 \cos\alpha & \cos\beta & \cos\gamma \\
 \frac{\partial}{\partial x}& \frac{\partial}{\partial y}& \frac{\partial}{\partial z} \\
 P& Q& R
-\end{matrix} \right| \,dS
+\end{matrix} \right| \,\mathrm{d}S
 $$
 
 ## 证明

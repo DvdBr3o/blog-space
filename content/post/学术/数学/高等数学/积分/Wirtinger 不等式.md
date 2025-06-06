@@ -1,7 +1,7 @@
 ---
 title: Wirtinger 不等式
 date: 2025-05-06T11:48:58+08:00
-lastmod: 2025-05-11T14:48:31+08:00
+lastmod: 2025-05-14T12:51:50+08:00
 tags:
   - 高等数学
   - 积分
@@ -32,7 +32,7 @@ $$
 >	则 $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} f'^{2} \, \mathrm{d}x $$
 
 >[!hint] 证明
->[Parseval 等式](../../../../../../Parseval%20%E7%AD%89%E5%BC%8F.md) + Fourier 级数逐项可导性
+>Parseval 等式 + Fourier 级数逐项可导性
 >
 >其中逐项可导性可得
 >- $a'_{n}=nb_{n}\geq b_{n}$
