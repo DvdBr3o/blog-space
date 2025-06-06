@@ -25,7 +25,7 @@ $$
 >4. 求值
 >	1. $\left| r \right|<1$ 时 
 >		- $r^{2^{n}}\to 0$
->		- $I(r^{2^{n}})\to 0$
+>		- $I(r^{2^{n}})\to I(0)=0$
 >		- $I(r)=0$
 >	2. $\left| r \right| >1$ 时
 >		- $I(r)=I\left( \frac{1}{r} \right)+\int_{0}^{\pi} \ln r^{2} \, \mathrm{d}\theta=0+2\pi \ln \left| r \right|$
