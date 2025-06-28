@@ -18,7 +18,7 @@ $$
 $$
 
 >[!info] 变种形式
->1. $\Gamma(\alpha)=\int_{0}^{+\infty} x^{2\alpha-1}e^{-x^{2}} \, \mathrm{d}x$
+>1. $\Gamma(\alpha)=2\int_{0}^{+\infty} x^{2\alpha-1}e^{-x^{2}} \, \mathrm{d}x$
 
 ### 性质
 
