@@ -1,7 +1,7 @@
 ---
 title: 解决 glfw window freeze when resized
 date: 2025-03-29T13:07:04+08:00
-lastmod: 2025-03-29T13:10:27+08:00
+lastmod: 2025-07-04T20:31:02+08:00
 tags:
   - graphics
   - window
@@ -28,4 +28,54 @@ windows 下的 event loop 在 window resize 时会阻塞，体现在 `glfwPollEv
 
 要把 render 和 window event loop 放在不同的线程，防止阻塞
 
-- [x] TODO: 完成[解决 glfw window freeze when resized > 方案](%E8%A7%A3%E5%86%B3%20glfw%20window%20freeze%20when%20resized.md#) 的详细解决代码 📅 2025-05-28 ✅ 2025-06-05
+### Opengl
+
+```cpp
+#include <glad/gl.h>
+#include <GLFW/glfw3.h>
+
+#include <atomic>
+#include <jthread>
+
+struct Size {
+	int width;
+	int height;
+}
+
+GLFWwindow* window;
+std::atomic<bool> _framebuffer_resized = false;
+
+auto get_size(GLFWwindow* window) -> Size {
+	int width;
+	int height;
+	glfwGetWindowSize(window, &width, &height);
+	return { width, height };
+} 
+
+auto resize_framebuffer(GLFWwindow* window) -> void {
+	const auto size = get_size(window);
+	glViewport(0, 0, size.width, size.height);
+}
+
+int main() {
+	GLFWwindow* window = glfwCreateWindow(800, 600, "title", nullptr, nullptr);
+	gladLoadGLES2(glfwGetProcAddress);
+	
+	std::jthread render_thread { [&] {
+		glfwMakeContextCurrent(window);
+		resize_framebuffer(window);
+		while(!glfwWindowShouldClose(window)) {
+			if (_framebuffer_resized) {
+				resize_framebuffer(window);
+				_framebuffer_resized = false;
+			}
+			glfwSwapbuffers(window);
+		}
+	} };
+
+	while(!glfwWindowShouldClose(window))
+		glfwPollEvents();
+}
+```
+
+### Vulkan
