@@ -5,7 +5,7 @@ lastmod: 2025-06-29T23:22:58+08:00
 tags:
   - 线性代数
   - 正交
-category: 线性代数
+categories: 线性代数
 publish: true
 ---
 
