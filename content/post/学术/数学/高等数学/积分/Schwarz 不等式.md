@@ -6,25 +6,28 @@ tags:
   - 高等数学
   - 积分
   - 不等式
-category: 高等数学
+categories: 高等数学
 publish: true
 ---
 
 $$
-\int_{a}^{b} f^{2}(x) \, \mathrm{d}x\int_{a}^{b} g^{2}(x) \, \mathrm{d}x \geq \left(\int_{a}^{b} f(x)g(x) \, \mathrm{d}x \right)^{2} 
+\int_{a}^{b} f^{2}(x) \, \mathrm{d}x\int_{a}^{b} g^{2}(x) \, \mathrm{d}x \geq \left(\int_{a}^{b} f(x)g(x) \, \mathrm{d}x \right)^{2}
 $$
 
->[!hint] 证明
+> [!hint] 证明
+>
 > $$
 > \begin{align}
 > \int_{a}^{b} \left(f(x)+\lambda g(x)\right)^{2} \, \mathrm{d}x & =\int_{a}^{b} \lambda^{2}g^{2}(x)+2f(x)g(x)\lambda+f^{2}(x) \, \mathrm{d}x \\
 >  & =\left(\int_{a}^{b} g^{2}(x) \, \mathrm{d}x \right)\lambda^{2}+2\left(\int_{a}^{b} f(x)g(x) \, \mathrm{d}x \right)\lambda+\int_{a}^{b} f^{2}(x) \, \mathrm{d}x \\
->  & \geq 0   
+>  & \geq 0
 > \end{align}
 > $$
+>
 > 所以
+>
 > $$
-> \Delta=4\left(\int_{a}^{b} f(x)g(x) \, \mathrm{d}x \right)^{2}-4\int_{a}^{b} f^{2}(x) \, \mathrm{d}x\int_{a}^{b} g^{2}(x) \, \mathrm{d}x \leq 0  
+> \Delta=4\left(\int_{a}^{b} f(x)g(x) \, \mathrm{d}x \right)^{2}-4\int_{a}^{b} f^{2}(x) \, \mathrm{d}x\int_{a}^{b} g^{2}(x) \, \mathrm{d}x \leq 0
 > $$
+>
 > 得到 Schwarz 不等式
-
