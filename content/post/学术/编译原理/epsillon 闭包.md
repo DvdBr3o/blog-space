@@ -1,11 +1,11 @@
 ---
 title: epsillon 闭包
 date: 2025-07-05T12:08:07+08:00
-lastmod: 2025-07-05T12:29:38+08:00
+lastmod: 2025-07-05T20:10:07+08:00
 tags:
   - 编译原理
   - 自动机
-category: 编译原理
+categories: 编译原理
 publish: true
 ---
 
@@ -13,10 +13,11 @@ publish: true
 
 $\varepsilon-\mathrm{closure}\left\{ p \right\} :=$ 状态 $p$ 通过空边 $\varepsilon$ 能到达的所有状态
 
->[!example] 例子
+> [!example] 例子
+>
 > ```mermaid
 > graph LR
-> 
+>
 > 1--->|a|2
 > 2--->|a|3
 > 1--->|ε|4
@@ -24,8 +25,9 @@ $\varepsilon-\mathrm{closure}\left\{ p \right\} :=$ 状态 $p$ 通过空边 $\va
 > 2--->|ε|4
 > 4--->|ε|6
 > ```
-> 
+>
 > 则
+>
 > - $\varepsilon-\mathrm{clossure}\left\{ 1 \right\}=\left\{ 1,4,5,6 \right\}$
 > - $\varepsilon-\mathrm{clossure}\left\{ 2 \right\}=\left\{ 2,4,6 \right\}$
 > - $\varepsilon-\mathrm{clossure}\left\{ 4 \right\}=\left\{ 4,6 \right\}$

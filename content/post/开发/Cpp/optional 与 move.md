@@ -6,7 +6,7 @@ tags:
   - cpp
   - optional
   - move
-category: C++
+categories: C++
 publish: true
 ---
 
@@ -26,7 +26,7 @@ std::optional<T> opt = /* ... */;
 auto x = std::move(opt.value());
 
 // good
-auto x = std::move(opt).value(); 
+auto x = std::move(opt).value();
 ```
 
 ## rvo

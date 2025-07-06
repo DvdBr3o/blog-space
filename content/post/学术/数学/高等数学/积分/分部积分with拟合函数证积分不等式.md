@@ -2,7 +2,7 @@
 title: 分部积分with拟合函数证积分不等式
 date: 2025-05-06T23:03:55+08:00
 lastmod: 2025-05-11T15:16:27+08:00
-category: 高等数学
+categories: 高等数学
 tags:
   - 高等数学
   - 积分
@@ -25,21 +25,22 @@ image: https://i2.hdslb.com/bfs/archive/cba0838a7c33195d80626fc79dbe48e3732db479
 ## 形式
 
 $$
-\int_{a}^{b} F(f') \, \mathrm{d}x \leq C\int_{a}^{b} F(f) \, \mathrm{d}x 
+\int_{a}^{b} F(f') \, \mathrm{d}x \leq C\int_{a}^{b} F(f) \, \mathrm{d}x
 $$
+
 通常 $F(f)=f^{2}$
 
 ## 解法
 
 1. 找出最优函数 $\bar{f}$
-	- 题目给出
-	- 插值拟合
-		- Lagrange 插值
-		- Hermite 插值
-	- 背景知识
-		- Parseval 等式
-2. 构造 
-	- $f=\varphi(x)\cdot \bar{f}$ 
-	- $f'=\varphi'\cdot \bar{f}+\varphi\cdot \bar{f}'$
+   - 题目给出
+   - 插值拟合
+     - Lagrange 插值
+     - Hermite 插值
+   - 背景知识
+     - Parseval 等式
+2. 构造
+   - $f=\varphi(x)\cdot \bar{f}$
+   - $f'=\varphi'\cdot \bar{f}+\varphi\cdot \bar{f}'$
 3. 不等式移到一边，带入 3. 中替换掉 $f$, $f'$ 证 $$\int_{a}^{b} F(f'(\varphi,\bar{f}))-F(f(\varphi,\bar{f})) \, \mathrm{d}x \leq 0 $$
 4. 展开+分部积分
