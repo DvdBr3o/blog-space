@@ -1,7 +1,7 @@
 ---
 title: KDE + Archlinux @ Termux 安装美化之路
 date: 2024-12-08T16:42:04+08:00
-lastmod: 2024-12-10T20:23:15+08:00
+lastmod: 2025-07-06T21:45:50+08:00
 tags:
   - archlinux
   - kde
@@ -18,7 +18,7 @@ slug: kde-archlinux-termux-安装美化之路
 
 ## 前情提要
 
-咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 `termux` 敲代码，还能画个画啥的。结果 `termux` 面对 ColorOS 当场碰壁，详见 [archlinux @ termux @ ColorOS](../../../../archlinux%20@%20termux%20@%20ColorOS.md)。没错，ColorOS 的 `termux` 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉
+咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 `termux` 敲代码，还能画个画啥的。结果 `termux` 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS。没错，ColorOS 的 `termux` 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉
 
 美中不足是 ColorOS (或者说所有 Android 14+？) 权限越缩越紧，导致 `lspci` 会被 `Permission Denied`。从而就导致一大批 Wayland Compositor 没办法在 unrooted termux 上运行。。~~（NO~ 我的 Hyprland 😭😭）~~
 
