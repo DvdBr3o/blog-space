@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>空间几何 on DvdBr3o</title>
+        <link>//localhost:1313/tags/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95/</link>
+        <description>Recent content in 空间几何 on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 07 Jan 2025 20:48:10 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>多元微分几何</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/</link>
+        <pubDate>Mon, 30 Dec 2024 12:37:47 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/</guid>
+        <description>&lt;h2 id=&#34;曲线&#34;&gt;&lt;a href=&#34;#%e6%9b%b2%e7%ba%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;曲线
+&lt;/h2&gt;&lt;h3 id=&#34;切线&#34;&gt;&lt;a href=&#34;#%e5%88%87%e7%ba%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;切线
+&lt;/h3&gt;&lt;h4 id=&#34;参数方程&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e6%95%b0%e6%96%b9%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参数方程
+&lt;/h4&gt;&lt;p&gt;已知曲线
+$$
+\left{ \begin{align}
+x=x(t) \
+y=y(t) \
+z=z(t)
+\end{align} \right.
+$$
+则 $(x_{0},y_{0},z_{0})$ 处切线：
+$$
+\frac{x-x_{0}}{x&amp;rsquo;(t)}=\frac{y-y_{0}}{y&amp;rsquo;(t)}=\frac{z-z_{0}}{z&amp;rsquo;(t)}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;非参方程&#34;&gt;&lt;a href=&#34;#%e9%9d%9e%e5%8f%82%e6%96%b9%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;非参方程
+&lt;/h4&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;非参方程
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;非参方程一般由两个曲面联立给出。&lt;/p&gt;
+&lt;p&gt;含明显九种标准二次曲线型的一般可以参数方程化。&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;p&gt;已知曲线
+$$
+\left{ \begin{align}
+F(x,y,z)=0 \
+G(x,y,z)=0
+\end{align} \right.
+$$
+则取微分：
+$$
+\left{ \begin{align}
+F_{x},dx+F_{y},dy+F_{z},dz=0 \
+G_{x},dx+G_{y},dy+G_{z},dz=0
+\end{align} \right.
+$$
+解得（运用
+
+ &lt;a
+  href=&#34;../../../../../../%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99.md&#34;
+  
+  &gt;克莱姆法则&lt;/a
+&gt;
+）：
+$$
+\left{ \begin{align}
+\frac{dy}{dx}=\dots \
+\frac{dz}{dx}=\dots
+\end{align} \right.
+$$
+切线的法向量为 $\left( 1, \frac{dy}{dx}, \frac{dz}{dx} \right)$，切线为：
+$$
+\frac{x-x_{0}}{dx}=\frac{y-y_{0}}{dy}=\frac{z-z_{0}}{dz}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;法平面&#34;&gt;&lt;a href=&#34;#%e6%b3%95%e5%b9%b3%e9%9d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;法平面
+&lt;/h3&gt;&lt;p&gt;已知切线：
+$$
+\frac{x-x_{0}}{A}=\frac{y-y_{0}}{B}=\frac{z-z_{0}}{C}
+$$
+则发平面为：
+$$
+A(x-x_{0})+B(y-y_{0})+C(z-z_{0})=0
+$$&lt;/p&gt;
+&lt;h2 id=&#34;曲面&#34;&gt;&lt;a href=&#34;#%e6%9b%b2%e9%9d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;曲面
+&lt;/h2&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;曲面的参数方程与非参方程
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;与曲线刚好相反，曲面的非参方程可以直接给出&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h3 id=&#34;切平面&#34;&gt;&lt;a href=&#34;#%e5%88%87%e5%b9%b3%e9%9d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;切平面
+&lt;/h3&gt;&lt;h4 id=&#34;参数方程-1&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e6%95%b0%e6%96%b9%e7%a8%8b-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参数方程
+&lt;/h4&gt;&lt;p&gt;已知曲面：
+$$
+\left{ \begin{align}
+x=x(u,v) \
+y=y(u,v) \
+z=z(u,v)
+\end{align} \right.
+$$
+$$
+\vec{n}=\frac{D(x,y,z)}{D(u,v)}=\begin{array}{|}
+x-x_{0} &amp;amp; y-y_{0} &amp;amp; z-z_{0} \
+x_{u} &amp;amp; y_{u} &amp;amp; z_{u} \
+x_{v} &amp;amp; y_{v} &amp;amp; z_{v}
+\end{array}
+$$
+根据法向量求切平面&lt;/p&gt;
+&lt;h4 id=&#34;非参方程-1&#34;&gt;&lt;a href=&#34;#%e9%9d%9e%e5%8f%82%e6%96%b9%e7%a8%8b-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;非参方程
+&lt;/h4&gt;&lt;p&gt;已知曲面：
+$$
+F(x,y,z)=0
+$$
+则 $(x_{0},y_{0},z_{0})$ 处的切平面为：&lt;/p&gt;
+&lt;p&gt;$$
+F_x&amp;rsquo;|&lt;em&gt;{(x_0,y_0,z_0)}\cdot(x-x_0)+F_y&amp;rsquo;|&lt;/em&gt;{(x_0,y_0,z_0)}\cdot(y-y_0)+F_z&amp;rsquo;|_{(x_0,y_0,z_0)}\cdot(z-z_0)=0
+$$&lt;/p&gt;
+&lt;h3 id=&#34;法线&#34;&gt;&lt;a href=&#34;#%e6%b3%95%e7%ba%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;法线
+&lt;/h3&gt;&lt;p&gt;显然易得。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>空间几何点线面</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%82%B9%E7%BA%BF%E9%9D%A2/</link>
+        <pubDate>Thu, 26 Dec 2024 22:25:21 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%82%B9%E7%BA%BF%E9%9D%A2/</guid>
+        <description>
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;约定
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;点 $P_{k}(x_{k},y_{k},z_{k})$&lt;/li&gt;
+&lt;li&gt;线 $l_{k}:\  \frac{x-x_{k}}{m_{k}}=\frac{y-y_{k}}{n_{k}}=\frac{z-z_{k}}{p_{k}}$
+&lt;ul&gt;
+&lt;li&gt;方向向量 $\vec{v_{k}}=(m_{k},n_{k},p_{k})$&lt;/li&gt;
+&lt;li&gt;直线上任一点 $A_{k} \in l_{k}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;面 $\pi_{k}:\ A_{k}x+B_{k}y+C_{k}z+D_{k}=0$
+&lt;ul&gt;
+&lt;li&gt;法向量 $\vec{n}=(A_{k},B_{k},C_{k})$&lt;/li&gt;
+&lt;li&gt;平面上任一点 $Q_{k} \in \pi$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;投影：投影在 $Y$ 上的 $X$ 记作 $X&amp;rsquo;_{Y}$ abbr. $X&#39;$
+&lt;ul&gt;
+&lt;li&gt;点在线上投影：$P&amp;rsquo;_{l}(x&amp;rsquo;,y&amp;rsquo;,z&amp;rsquo;)$&lt;/li&gt;
+&lt;li&gt;点在面上投影：$P&amp;rsquo;_{\pi}(x&amp;rsquo;,y&amp;rsquo;,z&amp;rsquo;)$&lt;/li&gt;
+&lt;li&gt;线在面上投影：$l&amp;rsquo;_{\pi}:\ \frac{x-x&amp;rsquo;}{m&amp;rsquo;}=\frac{y-y&amp;rsquo;}{n&amp;rsquo;}=\frac{z-z&amp;rsquo;}{p&amp;rsquo;}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;交集&#34;&gt;&lt;a href=&#34;#%e4%ba%a4%e9%9b%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;交集
+&lt;/h2&gt;&lt;p&gt;联立方程即可。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;线线：各分量相等 e.g. $\frac{x-x_{1}}{m_{1}}=\frac{x-x_{2}}{m_{2}}$&lt;/li&gt;
+&lt;li&gt;线面：直线参数方程法&lt;/li&gt;
+&lt;li&gt;面面：主元法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;距离&#34;&gt;&lt;a href=&#34;#%e8%b7%9d%e7%a6%bb&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;距离
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;点点：$d(P_{1},P_{2})=\sqrt{ (x_{1}-x_{2})^2 + (y_{1}-y_{2})^2+(z_{1}-z_{2})^2 }$&lt;/li&gt;
+&lt;li&gt;点线：$d(P,l)=\frac{\left| \vec{AP}\times \vec{v} \right|}{\left| \vec{v} \right|}$&lt;/li&gt;
+&lt;li&gt;点面：$d(P_{0},\pi)=\frac{\left| Ax_{0}+By_{0}+Cz_{0}+D \right|}{\sqrt{ A^2+B^2+C^2 }}$&lt;/li&gt;
+&lt;li&gt;线线：$d(l_{1},l_{2})=\frac{\left| \vec{A_{1}A_{2}} \cdot (\vec{v_{1}}\times\vec{v_{2}}) \right|}{\left| \vec{v_{1}}\times  \vec{v_{2}} \right|}$&lt;/li&gt;
+&lt;li&gt;线面：$d(l_{0},\pi)=\frac{\left| Ax_{0}+By_{0}+Cz_{0}+D \right|}{\sqrt{ A^2+B^2+C^2 }}$
+&lt;ul&gt;
+&lt;li&gt;前提：线面平行 $\leftrightarrow$ $Am_{0}+Bn_{0}+Cp_{0}=0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;面面：$d(\pi_{1},\pi_{2})=\frac{\left| D_{1}-D_{2} \right|}{\sqrt{ A^2+B^2+C^2 }}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;投影&#34;&gt;&lt;a href=&#34;#%e6%8a%95%e5%bd%b1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;投影
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;del&gt;点点&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;点线：${P_{0}}&amp;rsquo;_{l}=A+\frac{\vec{AP}\cdot \vec{v}}{\left| \vec{v} \right|^{2}}\vec{v}$&lt;/li&gt;
+&lt;li&gt;点面：${P_{0}}&amp;rsquo;_{\pi}=Q+\frac{\vec{AP}\cdot \vec{n}}{\left| \vec{n} \right|^{2}}\vec{n}$&lt;/li&gt;
+&lt;li&gt;线面：$\vec{v&amp;rsquo;_{\pi}}=\vec{v}-\frac{\vec{v}\cdot \vec{n}}{\left| \vec{n} \right|^{2}}\vec{n}$
+&lt;ul&gt;
+&lt;li&gt;标准点可取交点，用参数方程联立直线和平面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;投影向量
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;$\vec{v}$ 在 $\vec{n}$ 上的投影向量 $\vec{v&amp;rsquo;_{\vec{n}}}=\frac{\vec{v}\cdot \vec{n}}{\left| \vec{n} \right|^{2}}\vec{n}$&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Termux on DvdBr3o</title>
+        <link>//localhost:1313/tags/termux/</link>
+        <description>Recent content in Termux on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 10 Dec 2024 20:23:15 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/termux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>KDE &#43; Archlinux @ Termux 安装美化之路</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/</link>
+        <pubDate>Sun, 08 Dec 2024 16:42:04 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/</guid>
+        <description>
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition warning&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;Warning
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)&lt;/p&gt;
+&lt;p&gt;TLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;前情提要&#34;&gt;&lt;a href=&#34;#%e5%89%8d%e6%83%85%e6%8f%90%e8%a6%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;前情提要
+&lt;/h2&gt;&lt;p&gt;咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 &lt;code&gt;termux&lt;/code&gt; 敲代码，还能画个画啥的。结果 &lt;code&gt;termux&lt;/code&gt; 面对 ColorOS 当场碰壁，详见 
+
+ &lt;a
+  href=&#34;../../../../archlinux%20@%20termux%20@%20ColorOS.md&#34;
+  
+  &gt;archlinux @ termux @ ColorOS&lt;/a
+&gt;
+。没错，ColorOS 的 &lt;code&gt;termux&lt;/code&gt; 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉&lt;/p&gt;
+&lt;p&gt;美中不足是 ColorOS (或者说所有 Android 14+？) 权限越缩越紧，导致 &lt;code&gt;lspci&lt;/code&gt; 会被 &lt;code&gt;Permission Denied&lt;/code&gt;。从而就导致一大批 Wayland Compositor 没办法在 unrooted termux 上运行。。&lt;del&gt;（NO~ 我的 Hyprland 😭😭）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;你知道的，我勒紧裤头才省钱省出来买个平板，不想随随便便 root，真怕变板砖。。。所以只好委屈一下用 x11 的 window manger 了。。为了避免太多 hacking，最终选定了比较成熟的 &lt;strong&gt;KDE&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;安装-termux--archlinux&#34;&gt;&lt;a href=&#34;#%e5%ae%89%e8%a3%85-termux--archlinux&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;安装 termux &amp;amp; archlinux
+&lt;/h2&gt; 
+
+&lt;a href=https://akawa.ink/2023/09/29/install-termux-and-proot-and-archlinux-desktop-on-android target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;因为 &lt;code&gt;xfce&lt;/code&gt; 不是很好看，也不太好定制，所以后面管关于 &lt;code&gt;vnc&lt;/code&gt; 和 &lt;code&gt;xfce4&lt;/code&gt; 的部分不看，转而使用 &lt;code&gt;kde plasma&lt;/code&gt; 和更新更好的 &lt;code&gt;termux-x11&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;安装-kde-plasma&#34;&gt;&lt;a href=&#34;#%e5%ae%89%e8%a3%85-kde-plasma&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;安装 KDE Plasma
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yay -S plasma-meta
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后在 termux 下写个快捷脚本，借鉴 
+
+ &lt;a
+  href=&#34;https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/scripts/proot_arch/startkde_arch.sh&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/scripts/proot_arch/startkde_arch.sh&lt;/a
+&gt;
+ ：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/data/data/com.termux/files/usr/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Kill open X11 processes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;kill&lt;/span&gt; -9 &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;pgrep -f &lt;span class=&#34;s2&#34;&gt;&amp;#34;termux.x11&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; 2&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Enable PulseAudio over Network&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pulseaudio --start --load&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1&amp;#34;&lt;/span&gt; --exit-idle-time&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;-1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Prepare termux-x11 session&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;XDG_RUNTIME_DIR&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;TMPDIR&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;termux-x11 :1 &amp;gt;/dev/null &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Wait a bit until termux-x11 gets started.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sleep &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Launch Termux X11 main activity&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;am start --user &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; -n com.termux.x11/com.termux.x11.MainActivity &amp;gt; /dev/null 2&amp;gt;&lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sleep &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Login in PRoot Environment. Do some initialization for PulseAudio, /tmp directory&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# and run KDE as user droidmaster.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# See also: https://github.com/termux/proot-distro&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Argument -- acts as terminator of proot-distro login options processing.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# All arguments behind it would not be treated as options of PRoot Distro.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;proot-distro login archlinux --shared-tmp -- /bin/bash -c  &lt;span class=&#34;s1&#34;&gt;&amp;#39;export PULSE_SERVER=127.0.0.1 &amp;amp;&amp;amp; export XDG_RUNTIME_DIR=${TMPDIR} &amp;amp;&amp;amp; su - dvdbr3o -c &amp;#34;DISPLAY=:1 dbus-launch startplasma-x11&amp;#34;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;exit&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后用这个脚本进 arch 就可以看到 KDE 了！！&lt;/p&gt;
+&lt;h2 id=&#34;修改分辨率&#34;&gt;&lt;a href=&#34;#%e4%bf%ae%e6%94%b9%e5%88%86%e8%be%a8%e7%8e%87&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;修改分辨率
+&lt;/h2&gt;&lt;p&gt;默认分辨率是 3000x15__，忘了，但是不重要，这么宽，这么大的分辨率在我平板上我怎么看？而且它还强制默认只有这一种分辨率。。所以要手动缩小分辨率，用到 &lt;code&gt;xrandr&lt;/code&gt;。&lt;/p&gt;
+ 
+
+&lt;a href=https://dev.to/ksckaan1/setting-up-custom-screen-resolution-on-linux-permanently-1abg target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;不知道是啥蜜汁问题，&lt;code&gt;startplasma-x11&lt;/code&gt; 进系统竟然没有加载 &lt;code&gt;~/.xprofile&lt;/code&gt; / &lt;code&gt;~/.xsession&lt;/code&gt; / &lt;code&gt;~/.xinitrc&lt;/code&gt; ？？浪费我一下午时间 😅 问我为什么不用 &lt;code&gt;/etc/profile&lt;/code&gt;？要是 &lt;code&gt;profile&lt;/code&gt; 在 &lt;code&gt;kde&lt;/code&gt; 之后执行那我能不乐意😅 但想想就是不可能，必须找个能在 &lt;code&gt;plasma&lt;/code&gt; 启动后的 startup script 方案。&lt;/p&gt;
+ 
+
+&lt;a href=https://docs.kde.org/stable5/en/plasma-workspace/kcontrol/autostart/index.html target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;最后解决方案是用 &lt;code&gt;kde-workspace&lt;/code&gt;。在 &lt;code&gt;~/.config/plasma-workspace/env/&lt;/code&gt; 下的脚本都会在 &lt;code&gt;plasma&lt;/code&gt; 启动后执行。于是在 &lt;code&gt;~/.config/plasma-workspace/env/display.sh&lt;/code&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# Display Resolution&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrandr --newmode &lt;span class=&#34;s2&#34;&gt;&amp;#34;1920x1080_60.00&amp;#34;&lt;/span&gt;  173.00  &lt;span class=&#34;m&#34;&gt;1920&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2048&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2248&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2576&lt;/span&gt;  &lt;span class=&#34;m&#34;&gt;1080&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1083&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1088&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1120&lt;/span&gt; -hsync +vsync
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrandr --newmode &lt;span class=&#34;s2&#34;&gt;&amp;#34;1280x768_60.00&amp;#34;&lt;/span&gt;   79.50  &lt;span class=&#34;m&#34;&gt;1280&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1344&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1472&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1664&lt;/span&gt;  &lt;span class=&#34;m&#34;&gt;768&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;771&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;781&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;798&lt;/span&gt; -hsync +vsync
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrandr --addmode &lt;span class=&#34;s2&#34;&gt;&amp;#34;Builtin Display&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;1920x1080_60.00&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrandr --addmode &lt;span class=&#34;s2&#34;&gt;&amp;#34;Builtin Display&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;1280x768_60.00&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrandr --output &lt;span class=&#34;s2&#34;&gt;&amp;#34;Builtin Display&amp;#34;&lt;/span&gt; --mode &lt;span class=&#34;s2&#34;&gt;&amp;#34;1920x1080_60.00&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;最后发现 termux-x11 设置里 &lt;code&gt;Output &amp;gt; Display resolution mode&lt;/code&gt; 改为 &lt;code&gt;exact&lt;/code&gt; 并指定分辨率好像就可以解决。。。😅&lt;/p&gt;
+&lt;p&gt;浪费了周末的一个下午。。😭😭😭😭&lt;/p&gt;
+&lt;h2 id=&#34;中文支持&#34;&gt;&lt;a href=&#34;#%e4%b8%ad%e6%96%87%e6%94%af%e6%8c%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;中文支持
+&lt;/h2&gt;&lt;p&gt;前面的 blog 提到了本地化而且讲的很清楚，但是要注意的是一定要先下一个中文字体，否则中文还是都是问号乱码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yay -S ttf-harmonyos-sans &lt;span class=&#34;c1&#34;&gt;# 鸿蒙一般般，但是它字体确实好看&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;del&gt;（话说本来还想在 ColorOS 也全局用 HarmonyOS Sans，这何尝不是一种 NTR，结果你懂的，什么叫做主题商店啊😅）&lt;/del&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; TODO: 今晚好晚了，明天还要上课，现在先去洗澡。还有好多好多美化工作，最后还有重量级就是看能不能支持 Vulkan 开发了。。。要是不能我还不如直接买个轻薄本，买个 Surface Book 不比平板好？但不管怎么说游戏本性能不如台式机，还不能承担笔记本功能的逆天事实已经被证实了。。。到底是谁在怂恿我买游戏本啊啊啊啊啊😤😤 🛫 2024-12-08 ✅ 2024-12-09&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;鼠标--触控板支持&#34;&gt;&lt;a href=&#34;#%e9%bc%a0%e6%a0%87--%e8%a7%a6%e6%8e%a7%e6%9d%bf%e6%94%af%e6%8c%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;鼠标 ＆ 触控板支持
+&lt;/h2&gt;&lt;p&gt;平板 TouchPad 感觉不是很顺手，双指滑动没有预期的 scroll 操作。而且按键盘上的搜索键 plasma 提示 &lt;code&gt;Touchpad off&lt;/code&gt;，明显是收到了 keycode 但是 Touchpad 或者 Keyboard 哪里设置不正常。自然想到去 &lt;code&gt;System Settings &amp;gt; Mouse &amp;amp; Touchpad&lt;/code&gt; 排查，但是竟然闪退了？？查看 log 定位到是 &lt;code&gt;xcb_mouse: unable to select appropriate backend&lt;/code&gt;，应该是 &lt;code&gt;xinput&lt;/code&gt; 的锅。但是调用  &lt;code&gt;xinput list&lt;/code&gt; 输出的 device list 看起来却很正常，又有 Mouse 又有 Touchpad 。。。&lt;/p&gt;
+&lt;p&gt;找不到解决方案。。感觉是权限问题。不管了。。。&lt;/p&gt;
+&lt;h2 id=&#34;输入法&#34;&gt;&lt;a href=&#34;#%e8%be%93%e5%85%a5%e6%b3%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;输入法
+&lt;/h2&gt;&lt;p&gt;用 &lt;code&gt;fctix5&lt;/code&gt; 。&lt;/p&gt;
+&lt;h2 id=&#34;主题&#34;&gt;&lt;a href=&#34;#%e4%b8%bb%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;主题
+&lt;/h2&gt; 
+
+&lt;a href=https://hujiekang.top/posts/kde-customization/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;h2 id=&#34;动态壁纸&#34;&gt;&lt;a href=&#34;#%e5%8a%a8%e6%80%81%e5%a3%81%e7%ba%b8&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;动态壁纸
+&lt;/h2&gt; 
+
+&lt;a href=https://github.com/catsout/wallpaper-engine-kde-plugin target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;h2 id=&#34;vscode&#34;&gt;&lt;a href=&#34;#vscode&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;vscode
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yay -S visual-studio-code-bin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;vulkan&#34;&gt;&lt;a href=&#34;#vulkan&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Vulkan
+&lt;/h2&gt;&lt;p&gt;屁嘞，我在想什么。。首先基于 vnc 的方案屏幕那么卡我搞个蛋的图形学。。其次权限这么严怎么可能 gpu passthrough。。最后，你平板是 &lt;code&gt;arm&lt;/code&gt; 架构连 &lt;code&gt;clangd&lt;/code&gt; 都装不上 😅😅😅 我 &lt;code&gt;ctrl&lt;/code&gt; 那么依赖模板没有 language server 我怎么活？？心累，，随时随地开发 Vulkan 的梦破灭了。。。vulkan 的开发门槛还挺高的，，这平板只能拿来写写 server 或者前端了。。。打代码也用不上 &lt;code&gt;termux&lt;/code&gt; 那么完全的环境，那屏幕投影卡的不如原生的阉割版 vscode 的 Marscode Web IDE 啊啊。。但是哪怕是写 server 和前端 Marscode 体验也比 &lt;code&gt;termux-x11&lt;/code&gt; 好啊 😭😭 白买了白买了。。&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;a href=&#34;#%e6%80%bb%e7%bb%93&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;总结
+&lt;/h2&gt;&lt;p&gt;大家千万别以为平板可以当生产力工具，尤其是 unrooted pads。。
+有打代码需求老老实实买个轻薄本，装 windows (with wsl2)，特别是避开 arm 架构 QAQ
+现在已经改变方向了，准备入手一台二合一笔记本，就是不知道手写笔+Obsidian 在 Windows 上体验如何。目前看中的是 xiaomi book air 13，生态什么的已经无所谓了，能在宿舍外打 vulkan 已经很满足了 QAQ&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

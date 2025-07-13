@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad},f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div},\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot},\\vec{F}=\\left| \\begin{matrix}\\vec{i} &amp; \\vec{j} &amp; \\vec{k} \\ \\frac{ \\partial }{ \\partial x } &amp; \\frac{ \\partial }{ \\partial y } &amp; \\frac{ \\partial }{ \\partial z } \\ P &amp; Q &amp; R\\end{matrix} \\right|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
+<title>场论初步</title>
+
+<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/'>
+
+<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="场论初步">
+<meta property='og:description' content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad},f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div},\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot},\\vec{F}=\\left| \\begin{matrix}\\vec{i} &amp; \\vec{j} &amp; \\vec{k} \\ \\frac{ \\partial }{ \\partial x } &amp; \\frac{ \\partial }{ \\partial y } &amp; \\frac{ \\partial }{ \\partial z } \\ P &amp; Q &amp; R\\end{matrix} \\right|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
+<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/'>
+<meta property='og:site_name' content='DvdBr3o'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='微分' /><meta property='article:tag' content='积分' /><meta property='article:published_time' content='2025-02-08T13:58:53&#43;08:00'/><meta property='article:modified_time' content='2025-02-15T02:12:16&#43;08:00'/>
+<meta name="twitter:title" content="场论初步">
+<meta name="twitter:description" content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad},f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div},\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot},\\vec{F}=\\left| \\begin{matrix}\\vec{i} &amp; \\vec{j} &amp; \\vec{k} \\ \\frac{ \\partial }{ \\partial x } &amp; \\frac{ \\partial }{ \\partial y } &amp; \\frac{ \\partial }{ \\partial z } \\ P &amp; Q &amp; R\\end{matrix} \\right|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
+    <link rel="shortcut icon" href="/dvdbr3o.ico" />
+<script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://s2.loli.net/2024/11/21/sStDMNkwvinG6ce.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🥰</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h2 class="site-description">一个天天都在想她的白痴</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/DvdBr3o'
+                        target="_blank"
+                        title="Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://mastodon.social/@dvdbr3o'
+                        target="_blank"
+                        title="Mastodon"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" class="icon icon-tabler icon-tabler-brand-github" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M7 13.5V9c0-3 5-3 5 0v3m5 1.5V9c0-3-5-3-5 0v3"/><path d="M8 17c7.5 1 13 0 13-4V9c0-5.5-4-6.5-6-6.5H9c-3 0-6.067 1-5.863 6.5c.074 1.987.036 4.385.363 7c1 8 10.5 5.5 12 5v-1.5S7.5 21 8 17"/>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='mailto:dvdbr3o@qq.com'
+                        target="_blank"
+                        title="邮箱"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7"/>
+<rect x="3" y="5" width="18" height="14" rx="2"/>
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/friends/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                <form action="/search/" class="search-form widget" >
+        <p>
+            <label>搜索</label>
+            <input name="keyword" required placeholder="输入关键词..." />
+        
+            <button title="搜索">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
+                <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">标签云</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+                高等数学
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+                积分
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+                多元
+            </a>
+        
+            <a href="/tags/algorithm/" class="font_size_9">
+                Algorithm
+            </a>
+        
+            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
+                微分
+            </a>
+        
+            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
+                数据结构
+            </a>
+        
+            <a href="/tags/vulkan/" class="font_size_4">
+                Vulkan
+            </a>
+        
+            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
+                极限
+            </a>
+        
+            <a href="/tags/cpp/" class="font_size_3">
+                Cpp
+            </a>
+        
+            <a href="/tags/graphics/" class="font_size_2">
+                Graphics
+            </a>
+        
+    </div>
+</section>
+            
+        
+            
+                
+    <section class="widget toc">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#场">场</a>
+      <ul>
+        <li><a href="#关键量对比">关键量对比</a></li>
+      </ul>
+    </li>
+    <li><a href="#微分场论">微分场论</a>
+      <ul>
+        <li><a href="#等值面">等值面</a></li>
+        <li><a href="#梯度">梯度</a></li>
+      </ul>
+    </li>
+    <li><a href="#积分场论">积分场论</a>
+      <ul>
+        <li><a href="#通量">通量</a></li>
+        <li><a href="#散度">散度</a></li>
+        <li><a href="#环量">环量</a></li>
+        <li><a href="#旋度">旋度</a></li>
+      </ul>
+    </li>
+    <li><a href="#保守场">保守场</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
+                高等数学
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/">场论初步</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 08, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 2 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="场"><a href="#%e5%9c%ba" class="header-anchor"></a>场
+</h2><ul>
+<li>数量场 $f:(x,y,z)\to \mathrm{val}$</li>
+<li>向量场 $f:(x,y,z)\to(\alpha,\beta,\gamma)$</li>
+</ul>
+<h3 id="关键量对比"><a href="#%e5%85%b3%e9%94%ae%e9%87%8f%e5%af%b9%e6%af%94" class="header-anchor"></a>关键量对比
+</h3><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>量</th>
+          <th>度</th>
+          <th>类型映射</th>
+          <th>实现</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>方向向量/等值面</td>
+          <td>梯度 $\mathrm{grad}$</td>
+          <td>数量场 $\to$ 向量场</td>
+          <td>$\mathrm{grad},f=\left( \frac{ \partial f }{ \partial x },\frac{ \partial f }{ \partial y },\frac{ \partial f }{ \partial z } \right)$</td>
+      </tr>
+      <tr>
+          <td>通量</td>
+          <td>散度 $\mathrm{div}$</td>
+          <td>向量场 $\to$ 值 (通量)</td>
+          <td>$\mathrm{div},\vec{F}=\frac{ \partial P }{ \partial x }+\frac{ \partial Q }{ \partial y }+\frac{ \partial R }{ \partial z }$</td>
+      </tr>
+      <tr>
+          <td>旋量</td>
+          <td>旋度 $\mathrm{rot}$</td>
+          <td>向量场 $\to$ 向量场</td>
+          <td>$\mathrm{rot},\vec{F}=\left| \begin{matrix}\vec{i} &amp; \vec{j} &amp; \vec{k} \ \frac{ \partial }{ \partial x } &amp; \frac{ \partial }{ \partial y } &amp; \frac{ \partial }{ \partial z } \ P &amp; Q &amp; R\end{matrix} \right|$</td>
+      </tr>
+  </tbody>
+</table></div>
+<p><del>($\mathrm{rot}$ 实现显示有误，不是双竖线)</del></p>
+<h2 id="微分场论"><a href="#%e5%be%ae%e5%88%86%e5%9c%ba%e8%ae%ba" class="header-anchor"></a>微分场论
+</h2><h3 id="等值面"><a href="#%e7%ad%89%e5%80%bc%e9%9d%a2" class="header-anchor"></a>等值面
+</h3><p>$$
+M_{C} = \left{ (x,y,z),|,f(x,y,z)=C \right}
+$$</p>
+<h3 id="梯度"><a href="#%e6%a2%af%e5%ba%a6" class="header-anchor"></a>梯度
+</h3><p>已知数量场 $$u=f(x,y,z)$$
+则其<strong>梯度</strong>为一向量场如下
+$$
+\nabla f=\mathrm{grad},f=\left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right)
+$$</p>
+<h4 id="几何意义"><a href="#%e5%87%a0%e4%bd%95%e6%84%8f%e4%b9%89" class="header-anchor"></a>几何意义
+</h4><ol>
+<li><strong>梯度</strong>是当前点<strong>等值面の法向量</strong></li>
+<li><strong>梯度</strong>指向当前点<strong>最大方向导数の方向</strong></li>
+</ol>
+<h4 id="运算法则"><a href="#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99" class="header-anchor"></a>运算法则
+</h4><ol>
+<li>符合 <strong>类导数 四则运算法则</strong>
+<ol>
+<li>$\nabla C=0$</li>
+<li>$\nabla(u\pm v)=\nabla u\pm \nabla v$</li>
+<li>$\nabla(u\cdot v)=u\nabla v+v\nabla u$</li>
+<li>$\nabla \frac{u}{v}=\frac{1}{v^{2}}\left( v\nabla u-u\nabla v \right)$</li>
+</ol>
+</li>
+<li>符合 <strong>类导数 链式法则</strong>
+<ol>
+<li>$\nabla\phi(u)=\phi&rsquo;(u)\nabla u$</li>
+<li>$\nabla \phi(u,v)=\phi&rsquo;<em>{u}\nabla u+\phi&rsquo;</em>{v}\nabla v$</li>
+<li>$\dots$</li>
+</ol>
+</li>
+</ol>
+<h2 id="积分场论"><a href="#%e7%a7%af%e5%88%86%e5%9c%ba%e8%ae%ba" class="header-anchor"></a>积分场论
+</h2><h3 id="通量"><a href="#%e9%80%9a%e9%87%8f" class="header-anchor"></a>通量
+</h3><p>向量场 $\vec{F}$ 在曲面 $S$ 上的<strong>第二型曲面积分</strong>
+$$
+\iint_{S} \vec{F}\cdot \vec{n},dS
+$$
+aka
+$$
+\iint_{S}\vec{F},d\vec{S}
+$$</p>
+<h4 id="物理意义"><a href="#%e7%89%a9%e7%90%86%e6%84%8f%e4%b9%89" class="header-anchor"></a>物理意义
+</h4><ul>
+<li>通量 $=$ 流出量 $-$ 流入量</li>
+</ul>
+<h3 id="散度"><a href="#%e6%95%a3%e5%ba%a6" class="header-anchor"></a>散度
+</h3><p>已知</p>
+<ul>
+<li>空间 $V$
+<ul>
+<li>$m(V)$ 表示 $V$ 的体积</li>
+</ul>
+</li>
+<li>任一点 $M_{0} \in V$</li>
+<li>向量场 $$\vec{u}=\vec{F}(x,y,z)$$
+则其散度为
+$$
+\nabla\cdot \vec{F}= \mathrm{div},\vec{F}=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}
+$$</li>
+</ul>
+<h4 id="定义概念"><a href="#%e5%ae%9a%e4%b9%89%e6%a6%82%e5%bf%b5" class="header-anchor"></a>定义概念
+</h4><p>由积分中值定理，散度在特定点の定义式为
+$$
+\mathrm{div},\vec{F}|<em>{M</em>{0}}=\lim_{ V \to M_{0} } \frac{\iiint \vec{F},d\vec{S}}{m(V)}
+$$
+可以理解为，<strong>散度可以看作点附近单位体积内的的通量</strong>。</p>
+<p>由此引入 点&amp;散度 の相关概念</p>
+<ul>
+<li><strong>源</strong>：点の散度 $&gt;0$</li>
+<li><strong>漏</strong>：点の散度 $&lt;0$</li>
+<li><strong>非源非漏</strong>：点の散度 $=0$</li>
+<li><strong>无源场</strong>/<strong>管形场</strong>：场内 $\mathrm{div},\vec{F}(M)\equiv 0$</li>
+</ul>
+<h4 id="运算法则-1"><a href="#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99-1" class="header-anchor"></a>运算法则
+</h4><ol>
+<li>符合 <strong>数乘&amp;加减 の 线性运算</strong>
+<ol>
+<li>$\mathrm{div},(\lambda\vec{F})=\lambda,\mathrm{div},\vec{F}$</li>
+<li>$\mathrm{div}\left( \vec{F_{1}} \pm \vec{F_{2}} \right)=\mathrm{div},\vec{F_{1}}+\mathrm{div},\vec{F_{2}}$</li>
+</ol>
+</li>
+<li>$\mathrm{div}\left( \phi,\vec{F} \right)=\phi ,\mathrm{div}, \vec{F}+\vec{F}\cdot \mathrm{grad},\phi$，其中 $\phi$ 是数量场</li>
+<li>$$\mathrm{div},\mathrm{grad},\phi=\frac{\partial^{2} \phi}{\partial x^{2}}+\frac{\partial^{2} \phi}{\partial y^{2}}+\frac{\partial^{2} \phi}{\partial z^{2}}$$
+<strong>aka</strong> $\nabla\cdot,\nabla, \phi=\Delta$
+其中 $\Delta$ 是<strong>拉普拉斯算子</strong>，$$\Delta=\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}+\frac{\partial^{2}}{\partial z^{2}}$$</li>
+</ol>
+<h3 id="环量"><a href="#%e7%8e%af%e9%87%8f" class="header-anchor"></a>环量
+</h3><p>已知向量场 $\vec{F}=P,\vec{i}+Q,\vec{j}+R,\vec{k}$
+则其环量为$$
+\begin{align}
+I &amp; =\oint_{L}P,\mathrm{d}x+Q,\mathrm{d}y+R,\mathrm{d}z \
+&amp; =\oint_{L}\vec{F}\cdot ,\mathrm{d}\vec{r} \
+&amp; =\oint_{L}\vec{F}\cdot \left( \mathrm{d}x,,\mathrm{d}y,,\mathrm{d}z \right)
+\end{align}
+$$</p>
+<h4 id="环量面密度"><a href="#%e7%8e%af%e9%87%8f%e9%9d%a2%e5%af%86%e5%ba%a6" class="header-anchor"></a>环量面密度
+</h4><p>aka 方向旋量</p>
+<p>$$
+\frac{\lim_{ \lambda(S) \to 0 } \oint_{L}\vec{F},\mathrm{d}\vec{r}}{m(S)}
+$$
+其中</p>
+<ul>
+<li>$\lambda(S)$ 为 $S$ 的直径</li>
+<li>$m(S)$ 为 $S$ 的面积</li>
+</ul>
+<h3 id="旋度"><a href="#%e6%97%8b%e5%ba%a6" class="header-anchor"></a>旋度
+</h3><p>$$
+\mathrm{rot},\vec{F}=\left| \begin{matrix}
+\vec{i} &amp; \vec{j} &amp; \vec{k} \
+\frac{ \partial  }{ \partial x }  &amp; \frac{ \partial }{ \partial y }  &amp; \frac{ \partial }{ \partial z }  \
+P &amp; Q &amp; R
+\end{matrix} \right|
+$$</p>
+<h4 id="运算法则-2"><a href="#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99-2" class="header-anchor"></a>运算法则
+</h4><p>已知 $F$, $G$ 为向量场，$u$ 为数量场，足够阶可微，$C$ 为常数</p>
+<ol>
+<li>符合 <strong>数乘&amp;加减 の 线性运算</strong>
+<ol>
+<li>$\mathrm{rot}\left( C\vec{F} \right)=C\cdot \mathrm{rot},\vec{F}$</li>
+<li>$\mathrm{rot}\left( \vec{F}\pm \vec{G} \right)=\mathrm{rot},\vec{F}\pm \mathrm{rot},\vec{G}$</li>
+</ol>
+</li>
+<li>数向内旋$$\mathrm{rot}\left( u\vec{F} \right)=u,\mathrm{rot},\vec{F}+\mathrm{grad},u \times \vec{F} $$</li>
+<li>向向外散$$\mathrm{div}\left( \vec{F}\times \vec{G} \right) = \vec{G}\cdot \mathrm{rot},\vec{F}-\vec{F}\cdot \mathrm{rot},\vec{G}$$</li>
+<li>数量场归零$$\mathrm{rot}\left( \mathrm{grad},u \right)=0 $$</li>
+<li>向量场归零$$\mathrm{div}\left( \mathrm{rot},\vec{F} \right)=0 $$</li>
+</ol>
+<h2 id="保守场"><a href="#%e4%bf%9d%e5%ae%88%e5%9c%ba" class="header-anchor"></a>保守场
+</h2><p>以下三个命题等价</p>
+<ol>
+<li>$\vec{F}$ 在 $D$ 内是保守场</li>
+<li>$\vec{F}$ 在 $D$ 内任意闭曲线环量为零，aka. $$\oint_{\Gamma}\vec{F}\cdot ,\mathrm{d}\vec{r}=0$$</li>
+<li>$\vec{F}$ 在 $D$ 内是<strong>无旋场</strong>，aka. $$\mathrm{rot},\vec{F}=0$$</li>
+</ol>
+
+    
+    
+    
+
+    
+    
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/">多元</a>
+        
+            <a href="/tags/%E5%BE%AE%E5%88%86/">微分</a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/">积分</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Feb 15, 2025 02:12 CST
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E7%8E%AF%E7%A7%AF%E5%88%86%E8%BD%AC%E5%8C%96%E5%85%AC%E5%BC%8F/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">环积分转化公式</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%AB%98%E6%96%AF%E5%85%AC%E5%BC%8F/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">高斯公式</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">曲面积分</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">曲线积分</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">曲面面积</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="DvdBr3o/blog-space"
+    data-repo-id="R_kgDONYYyEw"
+    data-category="Announcements"
+    data-category-id="DIC_kwDONYYyE84Ck4tK"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('preferred_color_scheme');
+            } else {
+                setGiscusTheme('preferred_color_scheme');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 DvdBr3o
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<style>
+  @font-face {
+    font-family: 'CaskaydiaCove';
+    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'HarmonyOSSans';
+    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+  }
+
+
+  :root {
+    --base-font-family: HarmonyOSSans, sans-serif;
+    --code-font-family: CaskaydiaCove, sans-serif;
+  }
+</style>
+
+<style>
+  body {
+    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+    </body>
+</html>

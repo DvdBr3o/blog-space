@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Benchmark on DvdBr3o</title>
+        <link>//localhost:1313/tags/benchmark/</link>
+        <description>Recent content in Benchmark on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 12 Dec 2024 19:26:03 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/benchmark/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>C&#43;&#43; Benchmarking</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</link>
+        <pubDate>Tue, 10 Dec 2024 23:15:57 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</guid>
+        <description>&lt;h2 id=&#34;候选名单&#34;&gt;&lt;a href=&#34;#%e5%80%99%e9%80%89%e5%90%8d%e5%8d%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;候选名单
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrepo search benchmark
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;找到以下几个候选库：&lt;/p&gt;
+ 
+
+&lt;a href=https://github.com/google/benchmark target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;谷歌大厂出品，但是不出意料有臭臭の宏。。&lt;/p&gt;
+ 
+
+&lt;a href=https://github.com/iboB/picobench target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;9 months ago&amp;hellip; 估计死透了吧这库，还是 C++11 的，感觉已经可以放弃了 &lt;del&gt;(logo 还挺萌的)&lt;/del&gt;&lt;/p&gt;
+ 
+
+&lt;a href=https://github.com/martinus/nanobench target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;支持到 C++20，seems promising。但是 example 里直接写 lambda 感觉不是很模块化，况且 lambda capture by reference 感觉也有性能误差问题。。之后详细看看&lt;/p&gt;
+ 
+
+&lt;a href=https://github.com/Compaile/ctrack target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;到 C++17，至少微 modern。而且打了 lightweight high-performance 的标签 &lt;del&gt;(在抢 nano 的饭碗吗阿喂)&lt;/del&gt; 感觉可以一试&lt;/p&gt;
+&lt;h2 id=&#34;试试看&#34;&gt;&lt;a href=&#34;#%e8%af%95%e8%af%95%e7%9c%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;试试看！
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Test cpp benchmarking tools 🔽 📅 2024-12-22&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

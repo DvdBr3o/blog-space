@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS\r。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
+<title>KDE &#43; Archlinux @ Termux 安装美化之路</title>
+
+<link rel='canonical' href='//localhost:1313/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/'>
+
+<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="KDE + Archlinux @ Termux 安装美化之路">
+<meta property='og:description' content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS\r。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
+<meta property='og:url' content='//localhost:1313/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/'>
+<meta property='og:site_name' content='DvdBr3o'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='archlinux' /><meta property='article:tag' content='kde' /><meta property='article:tag' content='termux' /><meta property='article:published_time' content='2024-12-08T16:42:04&#43;08:00'/><meta property='article:modified_time' content='2024-12-10T20:23:15&#43;08:00'/>
+<meta name="twitter:title" content="KDE + Archlinux @ Termux 安装美化之路">
+<meta name="twitter:description" content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS\r。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
+    <link rel="shortcut icon" href="/dvdbr3o.ico" />
+<script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://s2.loli.net/2024/11/21/sStDMNkwvinG6ce.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🥰</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h2 class="site-description">一个天天都在想她的白痴</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/DvdBr3o'
+                        target="_blank"
+                        title="Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://mastodon.social/@dvdbr3o'
+                        target="_blank"
+                        title="Mastodon"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" class="icon icon-tabler icon-tabler-brand-github" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M7 13.5V9c0-3 5-3 5 0v3m5 1.5V9c0-3-5-3-5 0v3"/><path d="M8 17c7.5 1 13 0 13-4V9c0-5.5-4-6.5-6-6.5H9c-3 0-6.067 1-5.863 6.5c.074 1.987.036 4.385.363 7c1 8 10.5 5.5 12 5v-1.5S7.5 21 8 17"/>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='mailto:dvdbr3o@qq.com'
+                        target="_blank"
+                        title="邮箱"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7"/>
+<rect x="3" y="5" width="18" height="14" rx="2"/>
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/friends/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                <form action="/search/" class="search-form widget" >
+        <p>
+            <label>搜索</label>
+            <input name="keyword" required placeholder="输入关键词..." />
+        
+            <button title="搜索">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
+                <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">标签云</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+                高等数学
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+                积分
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+                多元
+            </a>
+        
+            <a href="/tags/algorithm/" class="font_size_9">
+                Algorithm
+            </a>
+        
+            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
+                微分
+            </a>
+        
+            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
+                数据结构
+            </a>
+        
+            <a href="/tags/vulkan/" class="font_size_4">
+                Vulkan
+            </a>
+        
+            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
+                极限
+            </a>
+        
+            <a href="/tags/cpp/" class="font_size_3">
+                Cpp
+            </a>
+        
+            <a href="/tags/graphics/" class="font_size_2">
+                Graphics
+            </a>
+        
+    </div>
+</section>
+            
+        
+            
+                
+    <section class="widget toc">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#前情提要">前情提要</a></li>
+    <li><a href="#安装-termux--archlinux">安装 termux &amp; archlinux</a></li>
+    <li><a href="#安装-kde-plasma">安装 KDE Plasma</a></li>
+    <li><a href="#修改分辨率">修改分辨率</a></li>
+    <li><a href="#中文支持">中文支持</a></li>
+    <li><a href="#鼠标--触控板支持">鼠标 ＆ 触控板支持</a></li>
+    <li><a href="#输入法">输入法</a></li>
+    <li><a href="#主题">主题</a></li>
+    <li><a href="#动态壁纸">动态壁纸</a></li>
+    <li><a href="#vscode">vscode</a></li>
+    <li><a href="#vulkan">Vulkan</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/linux/" >
+                Linux
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/">KDE &#43; Archlinux @ Termux 安装美化之路</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 08, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    
+        <link rel="stylesheet" href="/css/vendors/admonitions.css">
+  <div class="admonition warning">
+    <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>Warning
+    </div>
+      <div class="admonition-content">
+        <p>因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)</p>
+<p>TLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭</p>
+
+      </div>
+  </div>
+<h2 id="前情提要"><a href="#%e5%89%8d%e6%83%85%e6%8f%90%e8%a6%81" class="header-anchor"></a>前情提要
+</h2><p>咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 <code>termux</code> 敲代码，还能画个画啥的。结果 <code>termux</code> 面对 ColorOS 当场碰壁，详见 
+
+ <a
+  href="../../../../archlinux%20@%20termux%20@%20ColorOS.md"
+  
+  >archlinux @ termux @ ColorOS</a
+>
+。没错，ColorOS 的 <code>termux</code> 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉</p>
+<p>美中不足是 ColorOS (或者说所有 Android 14+？) 权限越缩越紧，导致 <code>lspci</code> 会被 <code>Permission Denied</code>。从而就导致一大批 Wayland Compositor 没办法在 unrooted termux 上运行。。<del>（NO~ 我的 Hyprland 😭😭）</del></p>
+<p>你知道的，我勒紧裤头才省钱省出来买个平板，不想随随便便 root，真怕变板砖。。。所以只好委屈一下用 x11 的 window manger 了。。为了避免太多 hacking，最终选定了比较成熟的 <strong>KDE</strong>。</p>
+<h2 id="安装-termux--archlinux"><a href="#%e5%ae%89%e8%a3%85-termux--archlinux" class="header-anchor"></a>安装 termux &amp; archlinux
+</h2> 
+
+<a href=https://akawa.ink/2023/09/29/install-termux-and-proot-and-archlinux-desktop-on-android target="_blank" data-tag="cardlink"></a>
+
+<p>因为 <code>xfce</code> 不是很好看，也不太好定制，所以后面管关于 <code>vnc</code> 和 <code>xfce4</code> 的部分不看，转而使用 <code>kde plasma</code> 和更新更好的 <code>termux-x11</code>。</p>
+<h2 id="安装-kde-plasma"><a href="#%e5%ae%89%e8%a3%85-kde-plasma" class="header-anchor"></a>安装 KDE Plasma
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay -S plasma-meta
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后在 termux 下写个快捷脚本，借鉴 
+
+ <a
+  href="https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/scripts/proot_arch/startkde_arch.sh"
+  
+  target="_blank"
+  
+  >https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/scripts/proot_arch/startkde_arch.sh</a
+>
+ ：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/data/data/com.termux/files/usr/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Kill open X11 processes</span>
+</span></span><span class="line"><span class="cl"><span class="nb">kill</span> -9 <span class="k">$(</span>pgrep -f <span class="s2">&#34;termux.x11&#34;</span><span class="k">)</span> 2&gt;/dev/null
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Enable PulseAudio over Network</span>
+</span></span><span class="line"><span class="cl">pulseaudio --start --load<span class="o">=</span><span class="s2">&#34;module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1&#34;</span> --exit-idle-time<span class="o">=</span>-1
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Prepare termux-x11 session</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">XDG_RUNTIME_DIR</span><span class="o">=</span><span class="si">${</span><span class="nv">TMPDIR</span><span class="si">}</span>
+</span></span><span class="line"><span class="cl">termux-x11 :1 &gt;/dev/null <span class="p">&amp;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Wait a bit until termux-x11 gets started.</span>
+</span></span><span class="line"><span class="cl">sleep <span class="m">3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Launch Termux X11 main activity</span>
+</span></span><span class="line"><span class="cl">am start --user <span class="m">0</span> -n com.termux.x11/com.termux.x11.MainActivity &gt; /dev/null 2&gt;<span class="p">&amp;</span><span class="m">1</span>
+</span></span><span class="line"><span class="cl">sleep <span class="m">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Login in PRoot Environment. Do some initialization for PulseAudio, /tmp directory</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># and run KDE as user droidmaster.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># See also: https://github.com/termux/proot-distro</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Argument -- acts as terminator of proot-distro login options processing.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># All arguments behind it would not be treated as options of PRoot Distro.</span>
+</span></span><span class="line"><span class="cl">proot-distro login archlinux --shared-tmp -- /bin/bash -c  <span class="s1">&#39;export PULSE_SERVER=127.0.0.1 &amp;&amp; export XDG_RUNTIME_DIR=${TMPDIR} &amp;&amp; su - dvdbr3o -c &#34;DISPLAY=:1 dbus-launch startplasma-x11&#34;&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">exit</span> <span class="m">0</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后用这个脚本进 arch 就可以看到 KDE 了！！</p>
+<h2 id="修改分辨率"><a href="#%e4%bf%ae%e6%94%b9%e5%88%86%e8%be%a8%e7%8e%87" class="header-anchor"></a>修改分辨率
+</h2><p>默认分辨率是 3000x15__，忘了，但是不重要，这么宽，这么大的分辨率在我平板上我怎么看？而且它还强制默认只有这一种分辨率。。所以要手动缩小分辨率，用到 <code>xrandr</code>。</p>
+ 
+
+<a href=https://dev.to/ksckaan1/setting-up-custom-screen-resolution-on-linux-permanently-1abg target="_blank" data-tag="cardlink"></a>
+
+<p>不知道是啥蜜汁问题，<code>startplasma-x11</code> 进系统竟然没有加载 <code>~/.xprofile</code> / <code>~/.xsession</code> / <code>~/.xinitrc</code> ？？浪费我一下午时间 😅 问我为什么不用 <code>/etc/profile</code>？要是 <code>profile</code> 在 <code>kde</code> 之后执行那我能不乐意😅 但想想就是不可能，必须找个能在 <code>plasma</code> 启动后的 startup script 方案。</p>
+ 
+
+<a href=https://docs.kde.org/stable5/en/plasma-workspace/kcontrol/autostart/index.html target="_blank" data-tag="cardlink"></a>
+
+<p>最后解决方案是用 <code>kde-workspace</code>。在 <code>~/.config/plasma-workspace/env/</code> 下的脚本都会在 <code>plasma</code> 启动后执行。于是在 <code>~/.config/plasma-workspace/env/display.sh</code>：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="c1"># Display Resolution</span>
+</span></span><span class="line"><span class="cl">xrandr --newmode <span class="s2">&#34;1920x1080_60.00&#34;</span>  173.00  <span class="m">1920</span> <span class="m">2048</span> <span class="m">2248</span> <span class="m">2576</span>  <span class="m">1080</span> <span class="m">1083</span> <span class="m">1088</span> <span class="m">1120</span> -hsync +vsync
+</span></span><span class="line"><span class="cl">xrandr --newmode <span class="s2">&#34;1280x768_60.00&#34;</span>   79.50  <span class="m">1280</span> <span class="m">1344</span> <span class="m">1472</span> <span class="m">1664</span>  <span class="m">768</span> <span class="m">771</span> <span class="m">781</span> <span class="m">798</span> -hsync +vsync
+</span></span><span class="line"><span class="cl">xrandr --addmode <span class="s2">&#34;Builtin Display&#34;</span> <span class="s2">&#34;1920x1080_60.00&#34;</span>
+</span></span><span class="line"><span class="cl">xrandr --addmode <span class="s2">&#34;Builtin Display&#34;</span> <span class="s2">&#34;1280x768_60.00&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">xrandr --output <span class="s2">&#34;Builtin Display&#34;</span> --mode <span class="s2">&#34;1920x1080_60.00&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>最后发现 termux-x11 设置里 <code>Output &gt; Display resolution mode</code> 改为 <code>exact</code> 并指定分辨率好像就可以解决。。。😅</p>
+<p>浪费了周末的一个下午。。😭😭😭😭</p>
+<h2 id="中文支持"><a href="#%e4%b8%ad%e6%96%87%e6%94%af%e6%8c%81" class="header-anchor"></a>中文支持
+</h2><p>前面的 blog 提到了本地化而且讲的很清楚，但是要注意的是一定要先下一个中文字体，否则中文还是都是问号乱码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay -S ttf-harmonyos-sans <span class="c1"># 鸿蒙一般般，但是它字体确实好看</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><del>（话说本来还想在 ColorOS 也全局用 HarmonyOS Sans，这何尝不是一种 NTR，结果你懂的，什么叫做主题商店啊😅）</del></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> TODO: 今晚好晚了，明天还要上课，现在先去洗澡。还有好多好多美化工作，最后还有重量级就是看能不能支持 Vulkan 开发了。。。要是不能我还不如直接买个轻薄本，买个 Surface Book 不比平板好？但不管怎么说游戏本性能不如台式机，还不能承担笔记本功能的逆天事实已经被证实了。。。到底是谁在怂恿我买游戏本啊啊啊啊啊😤😤 🛫 2024-12-08 ✅ 2024-12-09</li>
+</ul>
+<h2 id="鼠标--触控板支持"><a href="#%e9%bc%a0%e6%a0%87--%e8%a7%a6%e6%8e%a7%e6%9d%bf%e6%94%af%e6%8c%81" class="header-anchor"></a>鼠标 ＆ 触控板支持
+</h2><p>平板 TouchPad 感觉不是很顺手，双指滑动没有预期的 scroll 操作。而且按键盘上的搜索键 plasma 提示 <code>Touchpad off</code>，明显是收到了 keycode 但是 Touchpad 或者 Keyboard 哪里设置不正常。自然想到去 <code>System Settings &gt; Mouse &amp; Touchpad</code> 排查，但是竟然闪退了？？查看 log 定位到是 <code>xcb_mouse: unable to select appropriate backend</code>，应该是 <code>xinput</code> 的锅。但是调用  <code>xinput list</code> 输出的 device list 看起来却很正常，又有 Mouse 又有 Touchpad 。。。</p>
+<p>找不到解决方案。。感觉是权限问题。不管了。。。</p>
+<h2 id="输入法"><a href="#%e8%be%93%e5%85%a5%e6%b3%95" class="header-anchor"></a>输入法
+</h2><p>用 <code>fctix5</code> 。</p>
+<h2 id="主题"><a href="#%e4%b8%bb%e9%a2%98" class="header-anchor"></a>主题
+</h2> 
+
+<a href=https://hujiekang.top/posts/kde-customization/ target="_blank" data-tag="cardlink"></a>
+
+<h2 id="动态壁纸"><a href="#%e5%8a%a8%e6%80%81%e5%a3%81%e7%ba%b8" class="header-anchor"></a>动态壁纸
+</h2> 
+
+<a href=https://github.com/catsout/wallpaper-engine-kde-plugin target="_blank" data-tag="cardlink"></a>
+
+<h2 id="vscode"><a href="#vscode" class="header-anchor"></a>vscode
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay -S visual-studio-code-bin
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="vulkan"><a href="#vulkan" class="header-anchor"></a>Vulkan
+</h2><p>屁嘞，我在想什么。。首先基于 vnc 的方案屏幕那么卡我搞个蛋的图形学。。其次权限这么严怎么可能 gpu passthrough。。最后，你平板是 <code>arm</code> 架构连 <code>clangd</code> 都装不上 😅😅😅 我 <code>ctrl</code> 那么依赖模板没有 language server 我怎么活？？心累，，随时随地开发 Vulkan 的梦破灭了。。。vulkan 的开发门槛还挺高的，，这平板只能拿来写写 server 或者前端了。。。打代码也用不上 <code>termux</code> 那么完全的环境，那屏幕投影卡的不如原生的阉割版 vscode 的 Marscode Web IDE 啊啊。。但是哪怕是写 server 和前端 Marscode 体验也比 <code>termux-x11</code> 好啊 😭😭 白买了白买了。。</p>
+<h2 id="总结"><a href="#%e6%80%bb%e7%bb%93" class="header-anchor"></a>总结
+</h2><p>大家千万别以为平板可以当生产力工具，尤其是 unrooted pads。。
+有打代码需求老老实实买个轻薄本，装 windows (with wsl2)，特别是避开 arm 架构 QAQ
+现在已经改变方向了，准备入手一台二合一笔记本，就是不知道手写笔+Obsidian 在 Windows 上体验如何。目前看中的是 xiaomi book air 13，生态什么的已经无所谓了，能在宿舍外打 vulkan 已经很满足了 QAQ</p>
+
+    
+    
+    
+
+    
+    
+      <script>
+        cardLink.server = 'https://api.allorigins.win/raw?url=';
+        
+        cardLink(document.querySelectorAll('article a[target=_blank][data-tag=cardlink]'));
+      </script>
+    
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/archlinux/">Archlinux</a>
+        
+            <a href="/tags/kde/">Kde</a>
+        
+            <a href="/tags/termux/">Termux</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Dec 10, 2024 20:23 CST
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="DvdBr3o/blog-space"
+    data-repo-id="R_kgDONYYyEw"
+    data-category="Announcements"
+    data-category-id="DIC_kwDONYYyE84Ck4tK"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('preferred_color_scheme');
+            } else {
+                setGiscusTheme('preferred_color_scheme');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 DvdBr3o
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<style>
+  @font-face {
+    font-family: 'CaskaydiaCove';
+    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'HarmonyOSSans';
+    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+  }
+
+
+  :root {
+    --base-font-family: HarmonyOSSans, sans-serif;
+    --code-font-family: CaskaydiaCove, sans-serif;
+  }
+</style>
+
+<style>
+  body {
+    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>极限 on DvdBr3o</title>
+        <link>//localhost:1313/tags/%E6%9E%81%E9%99%90/</link>
+        <description>Recent content in 极限 on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 27 Dec 2024 23:27:44 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/%E6%9E%81%E9%99%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>定义证明函数连续性</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</link>
+        <pubDate>Thu, 26 Dec 2024 10:33:22 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</guid>
+        <description>&lt;p&gt;
+
+ &lt;a
+  href=&#34;https://zhuanlan.zhihu.com/p/370063904&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;https://zhuanlan.zhihu.com/p/370063904&lt;/a
+&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;-真题&#34;&gt;&lt;a href=&#34;#-%e7%9c%9f%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;🔗 真题
+&lt;/h2&gt;&lt;p&gt;(2021·中山大学·高等数学I·期末考试) 证明 $\lim_{ x \to a }x^{3}=a^{3}$.&lt;/p&gt;
+
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;解答
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;&lt;strong&gt;法一&lt;/strong&gt;
+不妨 $\left| x-a \right|&amp;lt; \frac{a}{2}$，则 $f(x)=\left| x^{2}+a^{2}+ax \right|&amp;lt;f\left( \frac{3}{2}a \right)=\frac{19}{4}a^{2}$.
+则 $$\begin{align}\left| x^{3}-a^{3} \right|&amp;amp;=\left| x-a \right|\left| x^{2}+a^{2}+ax \right|\&amp;amp;&amp;lt;\left| x-a \right|\cdot \frac{19}{4}a^{2}\&amp;amp;&amp;lt;\epsilon\end{align}$$
+所以只需取 $\delta= \mathrm{min} \left{  \frac{a}{2}, \frac{4\epsilon}{19a^{2}}  \right}$，即可 $\forall \epsilon&amp;gt;0$， $\forall \left| x-a \right|&amp;lt;\delta$，$\left| x^3-a^3 \right|&amp;lt;\epsilon$.&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;方法论&#34;&gt;&lt;a href=&#34;#%e6%96%b9%e6%b3%95%e8%ae%ba&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;方法论
+&lt;/h2&gt;&lt;p&gt;不必一开始就找到 $\delta$ 的取法，可以先对 $\delta$ 假设一定值(第一前提)，然后根据后续不等式找到的临界点，取假定定值与临界点的 $\mathrm{min}$ 作为 $\delta$ 的取法。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;可以先对 $\delta$ 假设一定值(&lt;strong&gt;第一前提&lt;/strong&gt;)。&lt;/li&gt;
+&lt;li&gt;根据 &lt;strong&gt;第一前提&lt;/strong&gt; 放缩，消去 $x$，转化为 $x_{0}$ / 其他定值。&lt;/li&gt;
+&lt;li&gt;最终转化为 $\mathrm{const}\ \cdot \ f(\delta) &amp;lt; \epsilon$ 的形式得出临界点。(最好是 $f(\delta)=\delta$)&lt;/li&gt;
+&lt;li&gt;将 $\delta=\mathrm{min}{ 第一前提，各临界点 }$ 作为取法
+（实际上是第一前提区间与各临界区间的交集，产生的 $\delta$ 取法）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;现在我们再回顾真题的解答法一：
+不妨 $\left| x-a \right|&amp;lt; \frac{a}{2}$， (第一步：第一前提)
+则 $f(x)=\left| x^{2}+a^{2}+ax \right|&amp;lt;f\left( \frac{3}{2}a \right)=\frac{19}{4}a^{2}$. （第二步：根据第一前提放缩，向定值靠拢）
+则 $$\begin{align}\left| x^{3}-a^{3} \right|&amp;amp;=\left| x-a \right|\left| x^{2}+a^{2}+ax \right|\&amp;amp;&amp;lt;\left| x-a \right|\cdot \frac{19}{4}a^{2}\&amp;amp;&amp;lt;\epsilon\end{align}$$ （第三步：得出临界点）
+所以只需取 $\delta= \mathrm{min} \left{  \frac{a}{2}, \frac{4\epsilon}{19a^{2}}  \right}$，即可 $\forall \epsilon&amp;gt;0$， $\forall \left| x-a \right|&amp;lt;\delta$，$\left| x^3-a^3 \right|&amp;lt;\epsilon$. （第四步：取临界点交集作为 $\delta$ 取法）&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>可爱因子与夹逼准则的选择</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%8F%AF%E7%88%B1%E5%9B%A0%E5%AD%90%E4%B8%8E%E5%A4%B9%E9%80%BC%E5%87%86%E5%88%99%E7%9A%84%E9%80%89%E6%8B%A9/</link>
+        <pubDate>Thu, 26 Dec 2024 10:14:49 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%8F%AF%E7%88%B1%E5%9B%A0%E5%AD%90%E4%B8%8E%E5%A4%B9%E9%80%BC%E5%87%86%E5%88%99%E7%9A%84%E9%80%89%E6%8B%A9/</guid>
+        <description>&lt;p&gt;一言以蔽之：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;变量部分与主体部分相比是&lt;strong&gt;次量级&lt;/strong&gt; $\Rightarrow$ 夹逼准则&lt;/li&gt;
+&lt;li&gt;变量部分与主体部分相比是&lt;strong&gt;同量级&lt;/strong&gt; $\Rightarrow$ 可爱因子&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>高阶无穷小运算</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E9%AB%98%E9%98%B6%E6%97%A0%E7%A9%B7%E5%B0%8F%E8%BF%90%E7%AE%97/</link>
+        <pubDate>Wed, 25 Dec 2024 23:13:47 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E9%AB%98%E9%98%B6%E6%97%A0%E7%A9%B7%E5%B0%8F%E8%BF%90%E7%AE%97/</guid>
+        <description>&lt;p&gt;牢记以下几条法则：
+$$
+x^{m}\cdot o(x^{n})=o(x^{m+n})
+$$
+$$
+o(x^{m})\cdot o(x^{n})=o(x^{m+n})
+$$
+$$
+o(x^{m})+o(x^{n})=o(x^{\mathrm{min}{ m,n }}) \ (x\to 0)
+$$&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>函数极限</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/</link>
+        <pubDate>Wed, 18 Dec 2024 17:15:26 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/</guid>
+        <description>&lt;h2 id=&#34;不定型&#34;&gt;&lt;a href=&#34;#%e4%b8%8d%e5%ae%9a%e5%9e%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;不定型
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;$\frac{0}{0}$ 型 / $\frac{\infty}{\infty}$ 型 / $0\cdot \infty$ 型 $\Rightarrow$ 洛必达&lt;/li&gt;
+&lt;li&gt;幂指函数 $\Rightarrow$ $a^{b}=e^{b\ln a}=\exp{ b\ln a}$
+&lt;ol&gt;
+&lt;li&gt;$0^{\infty}$ 型 $\Rightarrow$ $\exp{b\ln a}$&lt;/li&gt;
+&lt;li&gt;$1^{\infty}$ 型 $\Rightarrow$ $\exp{b\ln a}=\exp{b(a-1)}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;$\infty-\infty$  型 $\Rightarrow$
+&lt;ul&gt;
+&lt;li&gt;有分母 $\Rightarrow$ 通分&lt;/li&gt;
+&lt;li&gt;无分母 $\Rightarrow$ 提公因式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;泰勒展开&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

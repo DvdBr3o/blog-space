@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Dashboard on DvdBr3o</title>
+        <link>//localhost:1313/tags/dashboard/</link>
+        <description>Recent content in Dashboard on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 10 Dec 2024 23:15:02 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/dashboard/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Vulkan 学习资料汇总</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</link>
+        <pubDate>Thu, 21 Nov 2024 22:19:23 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</guid>
+        <description>&lt;h2 id=&#34;tutorial&#34;&gt;&lt;a href=&#34;#tutorial&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Tutorial
+&lt;/h2&gt; 
+
+&lt;a href=https://zeromake.github.io/VulkanTutorialCN target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+ 
+
+&lt;a href=https://vulkan-tutorial.com/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;&lt;a href=&#34;#video&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Video
+&lt;/h2&gt; 
+
+&lt;a href=https://www.bilibili.com/video/BV1mz4y1W7Mq?vd_source&amp;#61;a1c01e05f37358eba70e99aa002a20b1&amp;amp;spm_id_from&amp;#61;333.788.videopod.sections target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;(Day 2 尾巴才装了 Vulkan，Day 3 才开始写 Vulkan &amp;hellip; )&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;&lt;a href=&#34;#examples&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Examples
+&lt;/h2&gt; 
+
+&lt;a href=https://github.com/KhronosGroup/Vulkan-Samples target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+ 
+
+&lt;a href=https://github.com/SaschaWillems/Vulkan target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;h2 id=&#34;官网资源&#34;&gt;&lt;a href=&#34;#%e5%ae%98%e7%bd%91%e8%b5%84%e6%ba%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;官网资源
+&lt;/h2&gt;&lt;p&gt;
+
+ &lt;a
+  href=&#34;https://docs.vulkan.org/guide/latest/index.html&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;https://docs.vulkan.org/guide/latest/index.html&lt;/a
+&gt;
+
+
+
+ &lt;a
+  href=&#34;https://docs.vulkan.org/tutorial/latest/00_Introduction.html&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;https://docs.vulkan.org/tutorial/latest/00_Introduction.html&lt;/a
+&gt;
+&lt;/p&gt;
+ 
+
+&lt;a href=https://www.vulkan.org/learn#vulkan-tutorials target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+</description>
+        </item>
+        
+    </channel>
+</rss>

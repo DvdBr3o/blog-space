@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on DvdBr3o</title>
+        <link>//localhost:1313/categories/</link>
+        <description>Recent content in Categories on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 10 Dec 2024 20:23:15 +0800</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linux</title>
+        <link>//localhost:1313/categories/linux/</link>
+        <pubDate>Sun, 08 Dec 2024 16:42:04 +0800</pubDate>
+        
+        <guid>//localhost:1313/categories/linux/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>C&#43;&#43;</title>
+        <link>//localhost:1313/categories/c&#43;&#43;/</link>
+        <pubDate>Wed, 04 Dec 2024 22:05:53 +0800</pubDate>
+        
+        <guid>//localhost:1313/categories/c&#43;&#43;/</guid>
+        <description>&lt;img src="https://s2.loli.net/2024/12/07/rMJnuiWcjzQGfo5.png" alt="Featured image of post C&#43;&#43;" /&gt;</description>
+        </item>
+        <item>
+        <title>Vulkan</title>
+        <link>//localhost:1313/categories/vulkan/</link>
+        <pubDate>Wed, 04 Dec 2024 22:05:53 +0800</pubDate>
+        
+        <guid>//localhost:1313/categories/vulkan/</guid>
+        <description>&lt;img src="https://s2.loli.net/2024/12/07/qRCAPEuwd5OIFro.png" alt="Featured image of post Vulkan" /&gt;</description>
+        </item>
+        <item>
+        <title>高等数学</title>
+        <link>//localhost:1313/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</link>
+        <pubDate>Wed, 04 Dec 2024 22:05:53 +0800</pubDate>
+        
+        <guid>//localhost:1313/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</guid>
+        <description>&lt;img src="https://s2.loli.net/2024/12/07/FlqAa9cSRuBWmDv.jpg" alt="Featured image of post 高等数学" /&gt;</description>
+        </item>
+        <item>
+        <title>算法</title>
+        <link>//localhost:1313/categories/%E7%AE%97%E6%B3%95/</link>
+        <pubDate>Wed, 04 Dec 2024 22:05:53 +0800</pubDate>
+        
+        <guid>//localhost:1313/categories/%E7%AE%97%E6%B3%95/</guid>
+        <description>&lt;img src="https://s2.loli.net/2024/12/07/b3HWqjxT8V9I5SB.jpg" alt="Featured image of post 算法" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

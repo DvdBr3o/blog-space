@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>微分 on DvdBr3o</title>
+        <link>//localhost:1313/tags/%E5%BE%AE%E5%88%86/</link>
+        <description>Recent content in 微分 on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 18 Feb 2025 23:59:14 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/%E5%BE%AE%E5%88%86/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>外微分</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/</link>
+        <pubDate>Sat, 08 Feb 2025 21:27:03 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/</guid>
+        <description>&lt;h2 id=&#34;微分形式&#34;&gt;&lt;a href=&#34;#%e5%be%ae%e5%88%86%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;微分形式
+&lt;/h2&gt;&lt;p&gt;aka 外微分形式&lt;/p&gt;
+&lt;h3 id=&#34;重要微分形式&#34;&gt;&lt;a href=&#34;#%e9%87%8d%e8%a6%81%e5%be%ae%e5%88%86%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;重要微分形式
+&lt;/h3&gt;&lt;p&gt;在 $\mathbb{R}^{n}$ 域下&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;零阶微分形式&lt;/strong&gt;：光滑函数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;一阶微分形式&lt;/strong&gt;
+$$
+\sum_{i=1}^{n} f_{i}(\dots),\mathrm{d}x_{i}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;二阶微分形式&lt;/strong&gt;
+$$
+\sum_{i,j=1}^{n} f_{ij}(\dots),\mathrm{d}x_{i} \land ,\mathrm{d}x_{j}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;记号&#34;&gt;&lt;a href=&#34;#%e8%ae%b0%e5%8f%b7&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;记号
+&lt;/h3&gt;&lt;p&gt;记 $\Lambda_{m}(D)$ 是在 $D\in \mathbb{R}^{n}$ 的所有 $m$ 阶微分形式的集合&lt;/p&gt;
+&lt;h3 id=&#34;运算&#34;&gt;&lt;a href=&#34;#%e8%bf%90%e7%ae%97&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;运算
+&lt;/h3&gt;&lt;h4 id=&#34;线性运算&#34;&gt;&lt;a href=&#34;#%e7%ba%bf%e6%80%a7%e8%bf%90%e7%ae%97&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;线性运算
+&lt;/h4&gt;&lt;p&gt;把微分形式看成多项式，每一项看作一阶线性空间的一维&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数乘&lt;/li&gt;
+&lt;li&gt;加减&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;外积运算&#34;&gt;&lt;a href=&#34;#%e5%a4%96%e7%a7%af%e8%bf%90%e7%ae%97&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;外积运算
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;对于 $m$ 阶的外微分形式 $\mathrm{d}x_{1}\land \mathrm{d}x_{2}\land\dots \land \mathrm{d}x_{m}$ 中的&lt;strong&gt;任意连续两项&lt;/strong&gt;$$\mathrm{d}x_{i}\land \mathrm{d}x_{j}=-,\mathrm{d}x_{j}\land \mathrm{d}x_{i}$$&lt;/li&gt;
+&lt;li&gt;$\mathrm{d}x_{i}\land \mathrm{d}x_{i}=0$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;外微分运算&#34;&gt;&lt;a href=&#34;#%e5%a4%96%e5%be%ae%e5%88%86%e8%bf%90%e7%ae%97&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;外微分运算
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;0 $\to$ 1 (全微分运算) $$\mathrm{d}F(x_{1},\dots,x_{n})=\sum_{i=1}^{n} \frac{ \partial F }{ \partial x_{1} } \mathrm{d}x_{i}$$&lt;/li&gt;
+&lt;li&gt;1 $\to$ 2 $$\mathrm{d}\left( \sum_{i=1}^{n} f_{i},\mathrm{d}x_{i} \right)=\sum_{i=1}^{n} \mathrm{d}f_{i}\land \mathrm{d}x_{i}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;庞加莱定理&#34;&gt;&lt;a href=&#34;#%e5%ba%9e%e5%8a%a0%e8%8e%b1%e5%ae%9a%e7%90%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;庞加莱定理
+&lt;/h2&gt;&lt;h3 id=&#34;恰当微分&#34;&gt;&lt;a href=&#34;#%e6%81%b0%e5%bd%93%e5%be%ae%e5%88%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;恰当微分
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;已知&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;$\omega \in \Lambda_{m}(D)$&lt;/li&gt;
+&lt;li&gt;$\exists ,\Omega$ s.t. $\mathrm{d}\Omega=\omega$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结论&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;$\omega$ 是 &lt;strong&gt;恰当微分&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;闭的微分形式&#34;&gt;&lt;a href=&#34;#%e9%97%ad%e7%9a%84%e5%be%ae%e5%88%86%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;闭的微分形式
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;已知&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;$\omega \in\Lambda_{m}(D)$&lt;/li&gt;
+&lt;li&gt;$\mathrm{d}\omega=0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结论&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;$\omega$ 是 &lt;strong&gt;闭的微分形式&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;庞加莱定理-1&#34;&gt;&lt;a href=&#34;#%e5%ba%9e%e5%8a%a0%e8%8e%b1%e5%ae%9a%e7%90%86-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;庞加莱定理
+&lt;/h3&gt;&lt;p&gt;恰当微分是闭的
+aka
+$$
+\mathrm{d}\mathrm{d}\Omega=0
+$$&lt;/p&gt;
+&lt;h2 id=&#34;应用&#34;&gt;&lt;a href=&#34;#%e5%ba%94%e7%94%a8&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;应用
+&lt;/h2&gt;&lt;h3 id=&#34;一般形式の环积分公式&#34;&gt;&lt;a href=&#34;#%e4%b8%80%e8%88%ac%e5%bd%a2%e5%bc%8f%e3%81%ae%e7%8e%af%e7%a7%af%e5%88%86%e5%85%ac%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;一般形式の环积分公式
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;公式&lt;/th&gt;
+          &lt;th&gt;一般形式&lt;/th&gt;
+          &lt;th&gt;条件&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;格林公式&lt;/td&gt;
+          &lt;td&gt;$$\int_{S}\omega=\iint_{\Omega}\mathrm{d}\omega$$&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;高斯公式&lt;/td&gt;
+          &lt;td&gt;$$\iint_{S}\omega=\iiint_{\Omega}\mathrm{d}\omega$$&lt;br&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;斯托克斯公式&lt;/td&gt;
+          &lt;td&gt;$$\int_{S}\omega=\iint_{\Omega}\mathrm{d}\omega$$&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;统一表述&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$$\int_{\partial \sum}\omega=\int_{\sum}\mathrm{d}\omega$$&lt;/td&gt;
+          &lt;td&gt;$\omega$ 在 $\sum \cap ,\partial \sum$ 上光滑&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;其中 $\partial \sum$ 是 $\sum$ 的边界&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition note&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;统一表述与牛顿莱布尼茨公式
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;牛顿莱布尼茨公式 $$\int_{a}^{b} f(x) , dx = F(b) - F(a)$$
+可以把 $(a,b)$ 看作 $\sum$，则其边界为 $\partial \sum=\left{ a,b \right}$
+所以遵守统一表述 $\int_{\partial \sum}\omega=\int_{\sum}\mathrm{d}\omega$&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h3 id=&#34;外微分意义下的场论&#34;&gt;&lt;a href=&#34;#%e5%a4%96%e5%be%ae%e5%88%86%e6%84%8f%e4%b9%89%e4%b8%8b%e7%9a%84%e5%9c%ba%e8%ae%ba&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;外微分意义下的场论
+&lt;/h3&gt;&lt;p&gt;在 $\mathbb{R}^{3}$ 下&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;度&lt;/th&gt;
+          &lt;th&gt;外微分阶数&lt;/th&gt;
+          &lt;th&gt;意义&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;梯度 $\mathrm{grad}$&lt;/td&gt;
+          &lt;td&gt;0 $\to$ 1&lt;/td&gt;
+          &lt;td&gt;零阶微分形式 的 外微分运算&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;旋度 $\mathrm{rot}$&lt;/td&gt;
+          &lt;td&gt;1 $\to$ 2&lt;/td&gt;
+          &lt;td&gt;一阶微分形式 的 外微分运算&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;散度 $\mathrm{div}$&lt;/td&gt;
+          &lt;td&gt;2 $\to$ 3&lt;/td&gt;
+          &lt;td&gt;二阶微分形式 的 外微分运算&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;场论中的庞加莱定理&#34;&gt;&lt;a href=&#34;#%e5%9c%ba%e8%ae%ba%e4%b8%ad%e7%9a%84%e5%ba%9e%e5%8a%a0%e8%8e%b1%e5%ae%9a%e7%90%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;场论中的庞加莱定理
+&lt;/h3&gt;&lt;p&gt;$$
+\mathrm{d}\mathrm{d}\Omega=0
+$$
+$\implies$
+$$
+\mathrm{grad},\mathrm{rot},f=0
+$$
+$$
+\mathrm{rot},\mathrm{div},f=0
+$$&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>场论初步</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/</link>
+        <pubDate>Sat, 08 Feb 2025 13:58:53 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/</guid>
+        <description>&lt;h2 id=&#34;场&#34;&gt;&lt;a href=&#34;#%e5%9c%ba&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;场
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;数量场 $f:(x,y,z)\to \mathrm{val}$&lt;/li&gt;
+&lt;li&gt;向量场 $f:(x,y,z)\to(\alpha,\beta,\gamma)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关键量对比&#34;&gt;&lt;a href=&#34;#%e5%85%b3%e9%94%ae%e9%87%8f%e5%af%b9%e6%af%94&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;关键量对比
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;量&lt;/th&gt;
+          &lt;th&gt;度&lt;/th&gt;
+          &lt;th&gt;类型映射&lt;/th&gt;
+          &lt;th&gt;实现&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;方向向量/等值面&lt;/td&gt;
+          &lt;td&gt;梯度 $\mathrm{grad}$&lt;/td&gt;
+          &lt;td&gt;数量场 $\to$ 向量场&lt;/td&gt;
+          &lt;td&gt;$\mathrm{grad},f=\left( \frac{ \partial f }{ \partial x },\frac{ \partial f }{ \partial y },\frac{ \partial f }{ \partial z } \right)$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;通量&lt;/td&gt;
+          &lt;td&gt;散度 $\mathrm{div}$&lt;/td&gt;
+          &lt;td&gt;向量场 $\to$ 值 (通量)&lt;/td&gt;
+          &lt;td&gt;$\mathrm{div},\vec{F}=\frac{ \partial P }{ \partial x }+\frac{ \partial Q }{ \partial y }+\frac{ \partial R }{ \partial z }$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;旋量&lt;/td&gt;
+          &lt;td&gt;旋度 $\mathrm{rot}$&lt;/td&gt;
+          &lt;td&gt;向量场 $\to$ 向量场&lt;/td&gt;
+          &lt;td&gt;$\mathrm{rot},\vec{F}=\left| \begin{matrix}\vec{i} &amp;amp; \vec{j} &amp;amp; \vec{k} \ \frac{ \partial }{ \partial x } &amp;amp; \frac{ \partial }{ \partial y } &amp;amp; \frac{ \partial }{ \partial z } \ P &amp;amp; Q &amp;amp; R\end{matrix} \right|$&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;del&gt;($\mathrm{rot}$ 实现显示有误，不是双竖线)&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;微分场论&#34;&gt;&lt;a href=&#34;#%e5%be%ae%e5%88%86%e5%9c%ba%e8%ae%ba&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;微分场论
+&lt;/h2&gt;&lt;h3 id=&#34;等值面&#34;&gt;&lt;a href=&#34;#%e7%ad%89%e5%80%bc%e9%9d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;等值面
+&lt;/h3&gt;&lt;p&gt;$$
+M_{C} = \left{ (x,y,z),|,f(x,y,z)=C \right}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;梯度&#34;&gt;&lt;a href=&#34;#%e6%a2%af%e5%ba%a6&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;梯度
+&lt;/h3&gt;&lt;p&gt;已知数量场 $$u=f(x,y,z)$$
+则其&lt;strong&gt;梯度&lt;/strong&gt;为一向量场如下
+$$
+\nabla f=\mathrm{grad},f=\left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right)
+$$&lt;/p&gt;
+&lt;h4 id=&#34;几何意义&#34;&gt;&lt;a href=&#34;#%e5%87%a0%e4%bd%95%e6%84%8f%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;几何意义
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;梯度&lt;/strong&gt;是当前点&lt;strong&gt;等值面の法向量&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;梯度&lt;/strong&gt;指向当前点&lt;strong&gt;最大方向导数の方向&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;运算法则&#34;&gt;&lt;a href=&#34;#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;运算法则
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;符合 &lt;strong&gt;类导数 四则运算法则&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;$\nabla C=0$&lt;/li&gt;
+&lt;li&gt;$\nabla(u\pm v)=\nabla u\pm \nabla v$&lt;/li&gt;
+&lt;li&gt;$\nabla(u\cdot v)=u\nabla v+v\nabla u$&lt;/li&gt;
+&lt;li&gt;$\nabla \frac{u}{v}=\frac{1}{v^{2}}\left( v\nabla u-u\nabla v \right)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;符合 &lt;strong&gt;类导数 链式法则&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;$\nabla\phi(u)=\phi&amp;rsquo;(u)\nabla u$&lt;/li&gt;
+&lt;li&gt;$\nabla \phi(u,v)=\phi&amp;rsquo;&lt;em&gt;{u}\nabla u+\phi&amp;rsquo;&lt;/em&gt;{v}\nabla v$&lt;/li&gt;
+&lt;li&gt;$\dots$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;积分场论&#34;&gt;&lt;a href=&#34;#%e7%a7%af%e5%88%86%e5%9c%ba%e8%ae%ba&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;积分场论
+&lt;/h2&gt;&lt;h3 id=&#34;通量&#34;&gt;&lt;a href=&#34;#%e9%80%9a%e9%87%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;通量
+&lt;/h3&gt;&lt;p&gt;向量场 $\vec{F}$ 在曲面 $S$ 上的&lt;strong&gt;第二型曲面积分&lt;/strong&gt;
+$$
+\iint_{S} \vec{F}\cdot \vec{n},dS
+$$
+aka
+$$
+\iint_{S}\vec{F},d\vec{S}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;物理意义&#34;&gt;&lt;a href=&#34;#%e7%89%a9%e7%90%86%e6%84%8f%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;物理意义
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;通量 $=$ 流出量 $-$ 流入量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;散度&#34;&gt;&lt;a href=&#34;#%e6%95%a3%e5%ba%a6&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;散度
+&lt;/h3&gt;&lt;p&gt;已知&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;空间 $V$
+&lt;ul&gt;
+&lt;li&gt;$m(V)$ 表示 $V$ 的体积&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;任一点 $M_{0} \in V$&lt;/li&gt;
+&lt;li&gt;向量场 $$\vec{u}=\vec{F}(x,y,z)$$
+则其散度为
+$$
+\nabla\cdot \vec{F}= \mathrm{div},\vec{F}=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;定义概念&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89%e6%a6%82%e5%bf%b5&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义概念
+&lt;/h4&gt;&lt;p&gt;由积分中值定理，散度在特定点の定义式为
+$$
+\mathrm{div},\vec{F}|&lt;em&gt;{M&lt;/em&gt;{0}}=\lim_{ V \to M_{0} } \frac{\iiint \vec{F},d\vec{S}}{m(V)}
+$$
+可以理解为，&lt;strong&gt;散度可以看作点附近单位体积内的的通量&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;由此引入 点&amp;amp;散度 の相关概念&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;源&lt;/strong&gt;：点の散度 $&amp;gt;0$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;漏&lt;/strong&gt;：点の散度 $&amp;lt;0$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非源非漏&lt;/strong&gt;：点の散度 $=0$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;无源场&lt;/strong&gt;/&lt;strong&gt;管形场&lt;/strong&gt;：场内 $\mathrm{div},\vec{F}(M)\equiv 0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;运算法则-1&#34;&gt;&lt;a href=&#34;#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;运算法则
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;符合 &lt;strong&gt;数乘&amp;amp;加减 の 线性运算&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;$\mathrm{div},(\lambda\vec{F})=\lambda,\mathrm{div},\vec{F}$&lt;/li&gt;
+&lt;li&gt;$\mathrm{div}\left( \vec{F_{1}} \pm \vec{F_{2}} \right)=\mathrm{div},\vec{F_{1}}+\mathrm{div},\vec{F_{2}}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;$\mathrm{div}\left( \phi,\vec{F} \right)=\phi ,\mathrm{div}, \vec{F}+\vec{F}\cdot \mathrm{grad},\phi$，其中 $\phi$ 是数量场&lt;/li&gt;
+&lt;li&gt;$$\mathrm{div},\mathrm{grad},\phi=\frac{\partial^{2} \phi}{\partial x^{2}}+\frac{\partial^{2} \phi}{\partial y^{2}}+\frac{\partial^{2} \phi}{\partial z^{2}}$$
+&lt;strong&gt;aka&lt;/strong&gt; $\nabla\cdot,\nabla, \phi=\Delta$
+其中 $\Delta$ 是&lt;strong&gt;拉普拉斯算子&lt;/strong&gt;，$$\Delta=\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}+\frac{\partial^{2}}{\partial z^{2}}$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;环量&#34;&gt;&lt;a href=&#34;#%e7%8e%af%e9%87%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;环量
+&lt;/h3&gt;&lt;p&gt;已知向量场 $\vec{F}=P,\vec{i}+Q,\vec{j}+R,\vec{k}$
+则其环量为$$
+\begin{align}
+I &amp;amp; =\oint_{L}P,\mathrm{d}x+Q,\mathrm{d}y+R,\mathrm{d}z \
+&amp;amp; =\oint_{L}\vec{F}\cdot ,\mathrm{d}\vec{r} \
+&amp;amp; =\oint_{L}\vec{F}\cdot \left( \mathrm{d}x,,\mathrm{d}y,,\mathrm{d}z \right)
+\end{align}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;环量面密度&#34;&gt;&lt;a href=&#34;#%e7%8e%af%e9%87%8f%e9%9d%a2%e5%af%86%e5%ba%a6&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;环量面密度
+&lt;/h4&gt;&lt;p&gt;aka 方向旋量&lt;/p&gt;
+&lt;p&gt;$$
+\frac{\lim_{ \lambda(S) \to 0 } \oint_{L}\vec{F},\mathrm{d}\vec{r}}{m(S)}
+$$
+其中&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\lambda(S)$ 为 $S$ 的直径&lt;/li&gt;
+&lt;li&gt;$m(S)$ 为 $S$ 的面积&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;旋度&#34;&gt;&lt;a href=&#34;#%e6%97%8b%e5%ba%a6&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;旋度
+&lt;/h3&gt;&lt;p&gt;$$
+\mathrm{rot},\vec{F}=\left| \begin{matrix}
+\vec{i} &amp;amp; \vec{j} &amp;amp; \vec{k} \
+\frac{ \partial  }{ \partial x }  &amp;amp; \frac{ \partial }{ \partial y }  &amp;amp; \frac{ \partial }{ \partial z }  \
+P &amp;amp; Q &amp;amp; R
+\end{matrix} \right|
+$$&lt;/p&gt;
+&lt;h4 id=&#34;运算法则-2&#34;&gt;&lt;a href=&#34;#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99-2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;运算法则
+&lt;/h4&gt;&lt;p&gt;已知 $F$, $G$ 为向量场，$u$ 为数量场，足够阶可微，$C$ 为常数&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;符合 &lt;strong&gt;数乘&amp;amp;加减 の 线性运算&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;$\mathrm{rot}\left( C\vec{F} \right)=C\cdot \mathrm{rot},\vec{F}$&lt;/li&gt;
+&lt;li&gt;$\mathrm{rot}\left( \vec{F}\pm \vec{G} \right)=\mathrm{rot},\vec{F}\pm \mathrm{rot},\vec{G}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;数向内旋$$\mathrm{rot}\left( u\vec{F} \right)=u,\mathrm{rot},\vec{F}+\mathrm{grad},u \times \vec{F} $$&lt;/li&gt;
+&lt;li&gt;向向外散$$\mathrm{div}\left( \vec{F}\times \vec{G} \right) = \vec{G}\cdot \mathrm{rot},\vec{F}-\vec{F}\cdot \mathrm{rot},\vec{G}$$&lt;/li&gt;
+&lt;li&gt;数量场归零$$\mathrm{rot}\left( \mathrm{grad},u \right)=0 $$&lt;/li&gt;
+&lt;li&gt;向量场归零$$\mathrm{div}\left( \mathrm{rot},\vec{F} \right)=0 $$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;保守场&#34;&gt;&lt;a href=&#34;#%e4%bf%9d%e5%ae%88%e5%9c%ba&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;保守场
+&lt;/h2&gt;&lt;p&gt;以下三个命题等价&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\vec{F}$ 在 $D$ 内是保守场&lt;/li&gt;
+&lt;li&gt;$\vec{F}$ 在 $D$ 内任意闭曲线环量为零，aka. $$\oint_{\Gamma}\vec{F}\cdot ,\mathrm{d}\vec{r}=0$$&lt;/li&gt;
+&lt;li&gt;$\vec{F}$ 在 $D$ 内是&lt;strong&gt;无旋场&lt;/strong&gt;，aka. $$\mathrm{rot},\vec{F}=0$$&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>常微分方程</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</link>
+        <pubDate>Fri, 03 Jan 2025 15:29:41 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</guid>
+        <description>&lt;h2 id=&#34;一阶线性常微分方程&#34;&gt;&lt;a href=&#34;#%e4%b8%80%e9%98%b6%e7%ba%bf%e6%80%a7%e5%b8%b8%e5%be%ae%e5%88%86%e6%96%b9%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;一阶线性常微分方程
+&lt;/h2&gt;&lt;p&gt;已知 $y&amp;rsquo;+P(x)\cdot y=Q(x)$&lt;/p&gt;
+&lt;p&gt;则 $y$ 的通解：
+$$
+y=e^{-\int P(x) , dx }\cdot \int e^{\int P(x) , dx } \cdot Q(x) , dx
+$$&lt;/p&gt;
+
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;推导思路
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;两边同乘 $e^{\int P(x) , dx}$ 凑左边的 $\left( y\cdot e^{\int P(x) , dx} \right)&amp;rsquo;$，最后化简即可。&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;伯努利方程&#34;&gt;&lt;a href=&#34;#%e4%bc%af%e5%8a%aa%e5%88%a9%e6%96%b9%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;伯努利方程
+&lt;/h2&gt;&lt;p&gt;已知 $y&amp;rsquo;+P(x)\cdot y=Q(x)\cdot y^{\alpha}$&lt;/p&gt;
+&lt;p&gt;则 $y$ 的通解为：
+$$
+y^{1-\alpha}=e^{-(1-\alpha)\int P_{x} , dx }\cdot \int e^{(1-\alpha)\int P(x) , dx }\cdot(1-\alpha) Q(x) , dx
+$$&lt;/p&gt;
+
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;推导思路
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;两边同除 $y^{\alpha}$&lt;/li&gt;
+&lt;li&gt;换元 $z=y^{1-\alpha}$&lt;/li&gt;
+&lt;li&gt;等价于求 $\frac{1}{1-\alpha}z&amp;rsquo;+P(x)\cdot z=Q(x)$&lt;/li&gt;
+&lt;/ol&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;二阶常系数线性&#34;&gt;&lt;a href=&#34;#%e4%ba%8c%e9%98%b6%e5%b8%b8%e7%b3%bb%e6%95%b0%e7%ba%bf%e6%80%a7&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;二阶常系数线性
+&lt;/h2&gt;&lt;h3 id=&#34;齐次&#34;&gt;&lt;a href=&#34;#%e9%bd%90%e6%ac%a1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;齐次
+&lt;/h3&gt;&lt;h4 id=&#34;形式&#34;&gt;&lt;a href=&#34;#%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;形式
+&lt;/h4&gt;&lt;p&gt;$$
+y&amp;rsquo;&amp;rsquo;+py&amp;rsquo;+qy=0
+$$&lt;/p&gt;
+&lt;h4 id=&#34;解的结构&#34;&gt;&lt;a href=&#34;#%e8%a7%a3%e7%9a%84%e7%bb%93%e6%9e%84&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;解的结构
+&lt;/h4&gt;&lt;p&gt;$$
+y=C_{1}y_{1}+C_{2}y_{2}
+$$&lt;/p&gt;
+&lt;p&gt;其中 $\frac{y_{1}}{y_{2}}\neq C$，线性无关&lt;/p&gt;
+&lt;h4 id=&#34;通解&#34;&gt;&lt;a href=&#34;#%e9%80%9a%e8%a7%a3&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;通解
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;特征方程&lt;/strong&gt;：$r^2+p r+q=0$
+两根分别是 $r_{1}$ 和 $r_{2}$，两者相等时 $r=r_{1}=r_{2}$
+无实根时共轭复根记作 $\alpha\pm\beta i$&lt;/p&gt;
+&lt;p&gt;通解为：
+$$
+y=\left{ \begin{align}
+&amp;amp; C_{1}e^{r_{1}x} + C_{2}e^{r_{2}x} &amp;amp; \Delta=p^2-4q&amp;gt;0 \
+\
+&amp;amp; (C_{1}+C_{2}x)e^{rx} &amp;amp; \Delta=p^2-4q=0 \
+\
+&amp;amp; e^{\alpha x}(C_{1}\cos\beta x+C_{2}\sin\beta x) &amp;amp; \Delta=p^2-4q&amp;lt;0
+\end{align} \right.
+$$&lt;/p&gt;
+&lt;h3 id=&#34;非齐次&#34;&gt;&lt;a href=&#34;#%e9%9d%9e%e9%bd%90%e6%ac%a1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;非齐次
+&lt;/h3&gt;&lt;h4 id=&#34;形式-1&#34;&gt;&lt;a href=&#34;#%e5%bd%a2%e5%bc%8f-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;形式
+&lt;/h4&gt;&lt;p&gt;$$
+y&amp;rsquo;&amp;rsquo;+py+q=f(x)
+$$&lt;/p&gt;
+&lt;h4 id=&#34;解的结构-1&#34;&gt;&lt;a href=&#34;#%e8%a7%a3%e7%9a%84%e7%bb%93%e6%9e%84-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;解的结构
+&lt;/h4&gt;&lt;h4 id=&#34;通解-1&#34;&gt;&lt;a href=&#34;#%e9%80%9a%e8%a7%a3-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;通解
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; TODO: 完成 
+
+ &lt;a
+  href=&#34;//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/&#34;
+  
+  &gt;常微分方程&lt;/a
+&gt;
+ 剩余笔记 📅 2025-04-28&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>多元微分几何</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/</link>
+        <pubDate>Mon, 30 Dec 2024 12:37:47 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/</guid>
+        <description>&lt;h2 id=&#34;曲线&#34;&gt;&lt;a href=&#34;#%e6%9b%b2%e7%ba%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;曲线
+&lt;/h2&gt;&lt;h3 id=&#34;切线&#34;&gt;&lt;a href=&#34;#%e5%88%87%e7%ba%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;切线
+&lt;/h3&gt;&lt;h4 id=&#34;参数方程&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e6%95%b0%e6%96%b9%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参数方程
+&lt;/h4&gt;&lt;p&gt;已知曲线
+$$
+\left{ \begin{align}
+x=x(t) \
+y=y(t) \
+z=z(t)
+\end{align} \right.
+$$
+则 $(x_{0},y_{0},z_{0})$ 处切线：
+$$
+\frac{x-x_{0}}{x&amp;rsquo;(t)}=\frac{y-y_{0}}{y&amp;rsquo;(t)}=\frac{z-z_{0}}{z&amp;rsquo;(t)}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;非参方程&#34;&gt;&lt;a href=&#34;#%e9%9d%9e%e5%8f%82%e6%96%b9%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;非参方程
+&lt;/h4&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;非参方程
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;非参方程一般由两个曲面联立给出。&lt;/p&gt;
+&lt;p&gt;含明显九种标准二次曲线型的一般可以参数方程化。&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;p&gt;已知曲线
+$$
+\left{ \begin{align}
+F(x,y,z)=0 \
+G(x,y,z)=0
+\end{align} \right.
+$$
+则取微分：
+$$
+\left{ \begin{align}
+F_{x},dx+F_{y},dy+F_{z},dz=0 \
+G_{x},dx+G_{y},dy+G_{z},dz=0
+\end{align} \right.
+$$
+解得（运用
+
+ &lt;a
+  href=&#34;../../../../../../%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99.md&#34;
+  
+  &gt;克莱姆法则&lt;/a
+&gt;
+）：
+$$
+\left{ \begin{align}
+\frac{dy}{dx}=\dots \
+\frac{dz}{dx}=\dots
+\end{align} \right.
+$$
+切线的法向量为 $\left( 1, \frac{dy}{dx}, \frac{dz}{dx} \right)$，切线为：
+$$
+\frac{x-x_{0}}{dx}=\frac{y-y_{0}}{dy}=\frac{z-z_{0}}{dz}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;法平面&#34;&gt;&lt;a href=&#34;#%e6%b3%95%e5%b9%b3%e9%9d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;法平面
+&lt;/h3&gt;&lt;p&gt;已知切线：
+$$
+\frac{x-x_{0}}{A}=\frac{y-y_{0}}{B}=\frac{z-z_{0}}{C}
+$$
+则发平面为：
+$$
+A(x-x_{0})+B(y-y_{0})+C(z-z_{0})=0
+$$&lt;/p&gt;
+&lt;h2 id=&#34;曲面&#34;&gt;&lt;a href=&#34;#%e6%9b%b2%e9%9d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;曲面
+&lt;/h2&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;曲面的参数方程与非参方程
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;与曲线刚好相反，曲面的非参方程可以直接给出&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h3 id=&#34;切平面&#34;&gt;&lt;a href=&#34;#%e5%88%87%e5%b9%b3%e9%9d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;切平面
+&lt;/h3&gt;&lt;h4 id=&#34;参数方程-1&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e6%95%b0%e6%96%b9%e7%a8%8b-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参数方程
+&lt;/h4&gt;&lt;p&gt;已知曲面：
+$$
+\left{ \begin{align}
+x=x(u,v) \
+y=y(u,v) \
+z=z(u,v)
+\end{align} \right.
+$$
+$$
+\vec{n}=\frac{D(x,y,z)}{D(u,v)}=\begin{array}{|}
+x-x_{0} &amp;amp; y-y_{0} &amp;amp; z-z_{0} \
+x_{u} &amp;amp; y_{u} &amp;amp; z_{u} \
+x_{v} &amp;amp; y_{v} &amp;amp; z_{v}
+\end{array}
+$$
+根据法向量求切平面&lt;/p&gt;
+&lt;h4 id=&#34;非参方程-1&#34;&gt;&lt;a href=&#34;#%e9%9d%9e%e5%8f%82%e6%96%b9%e7%a8%8b-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;非参方程
+&lt;/h4&gt;&lt;p&gt;已知曲面：
+$$
+F(x,y,z)=0
+$$
+则 $(x_{0},y_{0},z_{0})$ 处的切平面为：&lt;/p&gt;
+&lt;p&gt;$$
+F_x&amp;rsquo;|&lt;em&gt;{(x_0,y_0,z_0)}\cdot(x-x_0)+F_y&amp;rsquo;|&lt;/em&gt;{(x_0,y_0,z_0)}\cdot(y-y_0)+F_z&amp;rsquo;|_{(x_0,y_0,z_0)}\cdot(z-z_0)=0
+$$&lt;/p&gt;
+&lt;h3 id=&#34;法线&#34;&gt;&lt;a href=&#34;#%e6%b3%95%e7%ba%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;法线
+&lt;/h3&gt;&lt;p&gt;显然易得。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>隐函数存在定理</title>
+        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E9%9A%90%E5%87%BD%E6%95%B0%E5%AD%98%E5%9C%A8%E5%AE%9A%E7%90%86/</link>
+        <pubDate>Thu, 05 Dec 2024 15:03:08 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E9%9A%90%E5%87%BD%E6%95%B0%E5%AD%98%E5%9C%A8%E5%AE%9A%E7%90%86/</guid>
+        <description>&lt;h2 id=&#34;隐函数存在定理&#34;&gt;&lt;a href=&#34;#%e9%9a%90%e5%87%bd%e6%95%b0%e5%ad%98%e5%9c%a8%e5%ae%9a%e7%90%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;隐函数存在定理
+&lt;/h2&gt;&lt;p&gt;$$
+\frac{\partial{y}}{\partial{x}} = - \frac{F&amp;rsquo;_x}{F&amp;rsquo;_y}
+$$
+分数有意义时存在隐函数关系。&lt;/p&gt;
+
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition note&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;dz 与 df 的区别
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;$\frac{\partial{z}}{\partial{x}}$ $\Rightarrow$ 要&lt;strong&gt;考虑链式关系/隐函数关系&lt;/strong&gt;的，简写成 $z_x$&lt;/li&gt;
+&lt;li&gt;$\frac{\partial{f}}{\partial{x}}$ $\Rightarrow$ 把各变量&lt;strong&gt;看做无关变量&lt;/strong&gt;，简写成 $f&amp;rsquo;_x$ 或者 $f_x$&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;admonition note&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;高阶偏导
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;高次偏导应该把前项看成函数而非变量。
+例如 $\frac{\partial^{2}z}{\partial x^{2}}=\frac{\partial}{\partial x}\left( \frac{\partial z}{\partial x} \right)$, 其中的 $\frac{\partial z}{\partial x}$ 就是一个函数而非变量，进行二阶偏导时把 $z$ 外的其他变量看作无关变量。&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

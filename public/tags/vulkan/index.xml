@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Vulkan on DvdBr3o</title>
+        <link>//localhost:1313/tags/vulkan/</link>
+        <description>Recent content in Vulkan on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 13 Dec 2024 15:03:52 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/vulkan/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Vulkan Project Examples</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-project-examples/</link>
+        <pubDate>Fri, 13 Dec 2024 15:02:51 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-project-examples/</guid>
+        <description> 
+
+&lt;a href=https://github.com/Novum/vkQuake target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+ 
+
+&lt;a href=https://github.com/DustinHLand/vkDOOM3 target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+</description>
+        </item>
+        <item>
+        <title>Vulkan 队列</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E9%98%9F%E5%88%97/</link>
+        <pubDate>Fri, 13 Dec 2024 14:10:03 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E9%98%9F%E5%88%97/</guid>
+        <description> 
+
+&lt;a href=https://stackoverflow.com/questions/55272626/what-is-actually-a-queue-family-in-vulkan target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;h2 id=&#34;队列-queue&#34;&gt;&lt;a href=&#34;#%e9%98%9f%e5%88%97-queue&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;队列 Queue
+&lt;/h2&gt;&lt;p&gt;指令运行的场所。&lt;/p&gt;
+&lt;p&gt;同一队列的指令按顺序执行。不同队列的指令不保证顺序，除非使用同步原语 (如 &lt;code&gt;Semaphore&lt;/code&gt; )&lt;/p&gt;
+&lt;p&gt;一个队列可以运行一种或多种指令：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;队列类型&lt;/th&gt;
+          &lt;th&gt;命令类型&lt;/th&gt;
+          &lt;th&gt;开始命令&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Graphics&lt;/td&gt;
+          &lt;td&gt;Graphics Pipeline Commands&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;vkCmdDraw*&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Compute&lt;/td&gt;
+          &lt;td&gt;Compute Pipeline Commands&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;vkCmdDispath&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Transfer&lt;/td&gt;
+          &lt;td&gt;Transfer/Copy Commands&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;vkCmdCopy&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sparse Binding&lt;/td&gt;
+          &lt;td&gt;change the binding of sparse resources to memory&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;vkQueueBindSparse&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;一般最老的支持 Vulkan API 的设备也会有至少一个同时有以上四种能力的队列。&lt;/p&gt;
+&lt;p&gt;一个队列一次只能有一个线程提交。但是每个队列的提交可以同时进行。&lt;/p&gt;
+&lt;h2 id=&#34;队列簇-queue-family&#34;&gt;&lt;a href=&#34;#%e9%98%9f%e5%88%97%e7%b0%87-queue-family&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;队列簇 Queue Family
+&lt;/h2&gt;&lt;p&gt;一个队列簇包含具有同样指令能力的多个队列。(类似于队列是实例，队列簇是类)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Vulkan 同步</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E5%90%8C%E6%AD%A5/</link>
+        <pubDate>Thu, 28 Nov 2024 11:28:03 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E5%90%8C%E6%AD%A5/</guid>
+        <description>&lt;p&gt;主要有两种同步原语：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fence&lt;/strong&gt; 栅栏：用于 &lt;strong&gt;应用程序 $\Leftrightarrow$  渲染&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semaphore&lt;/strong&gt; 信号量：用于 &lt;strong&gt;指令队列内/指令队列间 の 指令间&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Vulkan 学习资料汇总</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</link>
+        <pubDate>Thu, 21 Nov 2024 22:19:23 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</guid>
+        <description>&lt;h2 id=&#34;tutorial&#34;&gt;&lt;a href=&#34;#tutorial&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Tutorial
+&lt;/h2&gt; 
+
+&lt;a href=https://zeromake.github.io/VulkanTutorialCN target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+ 
+
+&lt;a href=https://vulkan-tutorial.com/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;&lt;a href=&#34;#video&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Video
+&lt;/h2&gt; 
+
+&lt;a href=https://www.bilibili.com/video/BV1mz4y1W7Mq?vd_source&amp;#61;a1c01e05f37358eba70e99aa002a20b1&amp;amp;spm_id_from&amp;#61;333.788.videopod.sections target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;(Day 2 尾巴才装了 Vulkan，Day 3 才开始写 Vulkan &amp;hellip; )&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;&lt;a href=&#34;#examples&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Examples
+&lt;/h2&gt; 
+
+&lt;a href=https://github.com/KhronosGroup/Vulkan-Samples target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+ 
+
+&lt;a href=https://github.com/SaschaWillems/Vulkan target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;h2 id=&#34;官网资源&#34;&gt;&lt;a href=&#34;#%e5%ae%98%e7%bd%91%e8%b5%84%e6%ba%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;官网资源
+&lt;/h2&gt;&lt;p&gt;
+
+ &lt;a
+  href=&#34;https://docs.vulkan.org/guide/latest/index.html&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;https://docs.vulkan.org/guide/latest/index.html&lt;/a
+&gt;
+
+
+
+ &lt;a
+  href=&#34;https://docs.vulkan.org/tutorial/latest/00_Introduction.html&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;https://docs.vulkan.org/tutorial/latest/00_Introduction.html&lt;/a
+&gt;
+&lt;/p&gt;
+ 
+
+&lt;a href=https://www.vulkan.org/learn#vulkan-tutorials target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+</description>
+        </item>
+        
+    </channel>
+</rss>

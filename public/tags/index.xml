@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on DvdBr3o</title>
+        <link>//localhost:1313/tags/</link>
+        <description>Recent content in Tags on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 18 Feb 2025 23:59:14 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>多元</title>
+        <link>//localhost:1313/tags/%E5%A4%9A%E5%85%83/</link>
+        <pubDate>Sat, 08 Feb 2025 21:27:03 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E5%A4%9A%E5%85%83/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>高等数学</title>
+        <link>//localhost:1313/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</link>
+        <pubDate>Sat, 08 Feb 2025 21:27:03 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>积分</title>
+        <link>//localhost:1313/tags/%E7%A7%AF%E5%88%86/</link>
+        <pubDate>Sat, 08 Feb 2025 21:27:03 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E7%A7%AF%E5%88%86/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>微分</title>
+        <link>//localhost:1313/tags/%E5%BE%AE%E5%88%86/</link>
+        <pubDate>Sat, 08 Feb 2025 21:27:03 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E5%BE%AE%E5%88%86/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>曲面</title>
+        <link>//localhost:1313/tags/%E6%9B%B2%E9%9D%A2/</link>
+        <pubDate>Sun, 12 Jan 2025 17:15:11 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E6%9B%B2%E9%9D%A2/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>曲线</title>
+        <link>//localhost:1313/tags/%E6%9B%B2%E7%BA%BF/</link>
+        <pubDate>Sun, 12 Jan 2025 15:11:34 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E6%9B%B2%E7%BA%BF/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>空间几何</title>
+        <link>//localhost:1313/tags/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95/</link>
+        <pubDate>Mon, 30 Dec 2024 12:37:47 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>极限</title>
+        <link>//localhost:1313/tags/%E6%9E%81%E9%99%90/</link>
+        <pubDate>Thu, 26 Dec 2024 10:33:22 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E6%9E%81%E9%99%90/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>连续</title>
+        <link>//localhost:1313/tags/%E8%BF%9E%E7%BB%AD/</link>
+        <pubDate>Thu, 26 Dec 2024 10:33:22 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E8%BF%9E%E7%BB%AD/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ai</title>
+        <link>//localhost:1313/tags/ai/</link>
+        <pubDate>Tue, 17 Dec 2024 18:12:13 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/ai/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ollama</title>
+        <link>//localhost:1313/tags/ollama/</link>
+        <pubDate>Tue, 17 Dec 2024 18:12:13 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/ollama/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Vulkan</title>
+        <link>//localhost:1313/tags/vulkan/</link>
+        <pubDate>Fri, 13 Dec 2024 15:02:51 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/vulkan/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Cpp</title>
+        <link>//localhost:1313/tags/cpp/</link>
+        <pubDate>Thu, 12 Dec 2024 12:57:31 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/cpp/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Benchmark</title>
+        <link>//localhost:1313/tags/benchmark/</link>
+        <pubDate>Tue, 10 Dec 2024 23:15:57 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/benchmark/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Git</title>
+        <link>//localhost:1313/tags/git/</link>
+        <pubDate>Mon, 09 Dec 2024 19:28:30 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/git/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ssh</title>
+        <link>//localhost:1313/tags/ssh/</link>
+        <pubDate>Mon, 09 Dec 2024 19:28:30 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/ssh/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Archlinux</title>
+        <link>//localhost:1313/tags/archlinux/</link>
+        <pubDate>Sun, 08 Dec 2024 16:42:04 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/archlinux/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Kde</title>
+        <link>//localhost:1313/tags/kde/</link>
+        <pubDate>Sun, 08 Dec 2024 16:42:04 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/kde/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Termux</title>
+        <link>//localhost:1313/tags/termux/</link>
+        <pubDate>Sun, 08 Dec 2024 16:42:04 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/termux/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Algorithm</title>
+        <link>//localhost:1313/tags/algorithm/</link>
+        <pubDate>Fri, 29 Nov 2024 16:16:01 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/algorithm/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>图论</title>
+        <link>//localhost:1313/tags/%E5%9B%BE%E8%AE%BA/</link>
+        <pubDate>Fri, 29 Nov 2024 16:16:01 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E5%9B%BE%E8%AE%BA/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Graphics</title>
+        <link>//localhost:1313/tags/graphics/</link>
+        <pubDate>Thu, 28 Nov 2024 11:28:03 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/graphics/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>数据结构</title>
+        <link>//localhost:1313/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+        <pubDate>Wed, 27 Nov 2024 12:46:42 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Dashboard</title>
+        <link>//localhost:1313/tags/dashboard/</link>
+        <pubDate>Thu, 21 Nov 2024 22:19:23 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/dashboard/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>字符串</title>
+        <link>//localhost:1313/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+        <pubDate>Thu, 21 Nov 2024 18:50:02 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>哈希</title>
+        <link>//localhost:1313/tags/%E5%93%88%E5%B8%8C/</link>
+        <pubDate>Thu, 21 Nov 2024 17:52:36 +0800</pubDate>
+        
+        <guid>//localhost:1313/tags/%E5%93%88%E5%B8%8C/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

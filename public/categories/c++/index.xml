@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>C&#43;&#43; on DvdBr3o</title>
+        <link>//localhost:1313/categories/c&#43;&#43;/</link>
+        <description>Recent content in C&#43;&#43; on DvdBr3o</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sat, 21 Dec 2024 00:23:52 +0800</lastBuildDate><atom:link href="//localhost:1313/categories/c++/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>addressof 与 移动函数实践</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/addressof-%E4%B8%8E-%E7%A7%BB%E5%8A%A8%E5%87%BD%E6%95%B0%E5%AE%9E%E8%B7%B5/</link>
+        <pubDate>Sat, 21 Dec 2024 00:17:14 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/addressof-%E4%B8%8E-%E7%A7%BB%E5%8A%A8%E5%87%BD%E6%95%B0%E5%AE%9E%E8%B7%B5/</guid>
+        <description> 
+
+&lt;a href=https://en.cppreference.com/w/cpp/memory/addressof target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;&lt;code&gt;std::addressof&lt;/code&gt; 用于获得真实地址，无视 &lt;code&gt;operator&amp;amp;&lt;/code&gt; 的重载。&lt;/p&gt;
+&lt;p&gt;因此为了避免 &lt;code&gt;operator&amp;amp;&lt;/code&gt; 重载问题，应该在移动函数判重中使用 &lt;code&gt;std::addressof&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;auto&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;MyClass&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Myclass&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;another&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;noexcept&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;another&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* ... */&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// ill-formed
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;addressof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;another&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// ok
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;		&lt;span class=&#34;cm&#34;&gt;/* ... */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;auto&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Myclass&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;another&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;noexcept&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* ... */&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 同理
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>C&#43;&#43; 错误机制</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E9%94%99%E8%AF%AF%E6%9C%BA%E5%88%B6/</link>
+        <pubDate>Thu, 12 Dec 2024 12:57:31 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E9%94%99%E8%AF%AF%E6%9C%BA%E5%88%B6/</guid>
+        <description>&lt;h2 id=&#34;备选方式&#34;&gt;&lt;a href=&#34;#%e5%a4%87%e9%80%89%e6%96%b9%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;备选方式
+&lt;/h2&gt;&lt;p&gt;不看 outdated 的方式，只看 modern C++ 的错误处理方式主要是以下几种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;异常 exception&lt;/li&gt;
+&lt;li&gt;std::expected&amp;lt;T, E&amp;gt; (since C++23 or with &lt;code&gt;tl_expected&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;assert/panic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用情景&#34;&gt;&lt;a href=&#34;#%e4%bd%bf%e7%94%a8%e6%83%85%e6%99%af&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;使用情景
+&lt;/h2&gt;&lt;p&gt;为了开销考虑，很有可能是无法 exclusively 选择其中一种的，需要按照错误发生的可能性进行特定选择。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;错误机制&lt;/th&gt;
+          &lt;th&gt;运行开销&lt;/th&gt;
+          &lt;th&gt;使用情景&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;exception&lt;/td&gt;
+          &lt;td&gt;错误路径动态分配&lt;/td&gt;
+          &lt;td&gt;默认避免使用异常以防开销，非常肯定出错无法解决就 &lt;code&gt;noexcept&lt;/code&gt;，如果抛出就 crash 则与 assert 无差别&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;std::expected&lt;/td&gt;
+          &lt;td&gt;Error 空间分配开销&lt;/td&gt;
+          &lt;td&gt;错误路径可能性大且倾向于可解决，如 io 错误&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;assert/panic&lt;/td&gt;
+          &lt;td&gt;无&lt;/td&gt;
+          &lt;td&gt;非常肯定出错无法解决&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;推荐策略&#34;&gt;&lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e7%ad%96%e7%95%a5&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;推荐策略
+&lt;/h2&gt;&lt;p&gt;在 modern c++ 可以避免使用 &lt;code&gt;assert&lt;/code&gt;。&lt;code&gt;assert&lt;/code&gt; 可以作为逻辑检查的补充。&lt;/p&gt;
+&lt;p&gt;而在 &lt;code&gt;exception&lt;/code&gt; 和 &lt;code&gt;std::expected&lt;/code&gt; 的选择，可以顾名思义：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;exception&lt;/code&gt;：意料之外的错误，无法解决，抛出并最好 crash。概率在 1% 下时可以考虑。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;std::expected&lt;/code&gt;：意料之中的错误，可以解决，显式处理。错误路径概率不低。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>迁移到 C&#43;&#43; Module</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/%E8%BF%81%E7%A7%BB%E5%88%B0-cpp-module/</link>
+        <pubDate>Wed, 11 Dec 2024 23:51:35 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/%E8%BF%81%E7%A7%BB%E5%88%B0-cpp-module/</guid>
+        <description>&lt;h2 id=&#34;前情提要&#34;&gt;&lt;a href=&#34;#%e5%89%8d%e6%83%85%e6%8f%90%e8%a6%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;前情提要
+&lt;/h2&gt;&lt;p&gt;我的 gui 项目原本是写成 headeronly + inline 的形式。但是转念一想我这个项目最低标准也是 &lt;code&gt;C++20&lt;/code&gt; ，索性一把梭哈只支持 module 的接口形式不就好了。&lt;/p&gt;
+&lt;p&gt;而且一想想 headeronly 那一改的编译时长，比 static lib 慢得满地找牙。。更别提图形学部分之外还有对 Widget 的抽象，那真是 template 满天飞，以后规模大了改一下可以放肆摸鱼等编译了估计。(现在没啥规模改一下都要 4s 编译😅) 所以急迫需要模块加快编译速度 😭😭&lt;/p&gt;
+&lt;p&gt;但考虑到智能提示对 module 落后的支持，我到现在才开始着手迁移到 module。&lt;/p&gt;
+
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;C++ Module 笑话
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;C++20 就已经有了 module，但是直到 2024 年的 clangd 19 才初步支持 module 的智能提示 (看 
+
+ &lt;a
+  href=&#34;https://github.com/clangd/clangd/issues/1293&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;issue&lt;/a
+&gt;
+ 听起来是真的非常初步)，然后截至我开始写这篇文章 📅 2024-12-11，clang 19 还没支持 Windows (or just clangd, idk)。。。&lt;/p&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;实践过程&#34;&gt;&lt;a href=&#34;#%e5%ae%9e%e8%b7%b5%e8%bf%87%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;实践过程
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; TODO: 把 &lt;code&gt;ctrl&lt;/code&gt; 迁移到 C++ module 📅 2025-01-31 ✅ 2025-02-16&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;del&gt;（慢慢等 Clang 19 什么时候在 Windows 上实装吧。。。）&lt;/del&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>C&#43;&#43; Benchmarking</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</link>
+        <pubDate>Tue, 10 Dec 2024 23:15:57 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</guid>
+        <description>&lt;h2 id=&#34;候选名单&#34;&gt;&lt;a href=&#34;#%e5%80%99%e9%80%89%e5%90%8d%e5%8d%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;候选名单
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrepo search benchmark
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;找到以下几个候选库：&lt;/p&gt;
+ 
+
+&lt;a href=https://github.com/google/benchmark target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;谷歌大厂出品，但是不出意料有臭臭の宏。。&lt;/p&gt;
+ 
+
+&lt;a href=https://github.com/iboB/picobench target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;9 months ago&amp;hellip; 估计死透了吧这库，还是 C++11 的，感觉已经可以放弃了 &lt;del&gt;(logo 还挺萌的)&lt;/del&gt;&lt;/p&gt;
+ 
+
+&lt;a href=https://github.com/martinus/nanobench target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;支持到 C++20，seems promising。但是 example 里直接写 lambda 感觉不是很模块化，况且 lambda capture by reference 感觉也有性能误差问题。。之后详细看看&lt;/p&gt;
+ 
+
+&lt;a href=https://github.com/Compaile/ctrack target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;到 C++17，至少微 modern。而且打了 lightweight high-performance 的标签 &lt;del&gt;(在抢 nano 的饭碗吗阿喂)&lt;/del&gt; 感觉可以一试&lt;/p&gt;
+&lt;h2 id=&#34;试试看&#34;&gt;&lt;a href=&#34;#%e8%af%95%e8%af%95%e7%9c%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;试试看！
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Test cpp benchmarking tools 🔽 📅 2024-12-22&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>C&#43;&#43; 调优验证工具</title>
+        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E8%B0%83%E4%BC%98%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Tue, 10 Dec 2024 22:57:25 +0800</pubDate>
+        
+        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E8%B0%83%E4%BC%98%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7/</guid>
+        <description> 
+
+&lt;a href=https://mq-b.github.io/Loser-HomeWork/src/%E5%8D%A2%E7%91%9F%E6%97%A5%E7%BB%8F/godbolt%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3 target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
+
+&lt;p&gt;&lt;del&gt;(疑似 mq 白？)&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;博客中另外提到的好用工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+ &lt;a
+  href=&#34;https://cppinsights.io/&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;cppinsights&lt;/a
+&gt;
+ 用于查看编译器处理 C++ 语法之后的代码。&lt;/li&gt;
+&lt;li&gt;
+
+ &lt;a
+  href=&#34;https://quick-bench.com/&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;quick-bench&lt;/a
+&gt;
+ 对比测试 C++ 代码效率。&lt;/li&gt;
+&lt;li&gt;
+
+ &lt;a
+  href=&#34;https://build-bench.com/&#34;
+  
+  target=&#34;_blank&#34;
+  
+  &gt;build-bench&lt;/a
+&gt;
+ 对比测试 C++ 代码效率，用法比前面的简单。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
