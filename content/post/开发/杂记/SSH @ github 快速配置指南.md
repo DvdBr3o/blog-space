@@ -1,7 +1,7 @@
 ---
 title: SSH @ github 快速配置指南
 date: 2024-12-09T19:28:30+08:00
-lastmod: 2025-06-23T12:19:28+08:00
+lastmod: 2025-07-13T23:13:59+08:00
 tags:
   - ssh
   - git
