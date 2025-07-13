@@ -1,7 +1,7 @@
 ---
 title: remove_cvref vs decay
 date: 2025-03-05T21:04:41+08:00
-lastmod: 2025-03-05T21:06:22+08:00
+lastmod: 2025-07-11T22:41:21+08:00
 tags:
   - cpp
 categories: C++

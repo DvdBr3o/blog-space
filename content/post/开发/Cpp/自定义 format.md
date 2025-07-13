@@ -1,8 +1,9 @@
 ---
 title: 自定义 format
 date: 2024-12-19T09:42:12+08:00
-lastmod: 2025-04-30T21:56:00+08:00
+lastmod: 2025-07-07T02:50:52+08:00
 publish: true
+categories: C++
 ---
 
 标准库 `<format>` 和 fmt 的定制 format 很像：
