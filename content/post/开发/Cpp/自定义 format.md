@@ -1,7 +1,7 @@
 ---
 title: 自定义 format
 date: 2024-12-19T09:42:12+08:00
-lastmod: 2025-07-07T02:50:52+08:00
+lastmod: 2025-08-30T16:13:54+08:00
 publish: true
 categories: C++
 ---
@@ -22,6 +22,16 @@ struct std::formatter<MyType> {
     }
 };
 ```
+
+|Expression|Return type|Requirement|
+|---|---|---|
+|`g.parse(pc)`|`PC::iterator`|Parses format-spec ([format.string]) for type T in the range [pc.begin(), pc.end()) until the first unmatched character. Throws `format_error` unless the whole range is parsed or the unmatched character is }. Note: This allows formatters to emit meaningful error messages. Stores the parsed format specifiers in `*this` and returns an iterator past the end of the parsed range.|
+|`f.format(t, fc)`|`FC::iterator`|Formats `t` according to the specifiers stored in `*this`, writes the output to `fc.out()` and returns an iterator past the end of the output range. The output shall only depend on `t`, `fc.locale()`, and the range `[pc.begin(), pc.end())` from the last call to `f.parse(pc)`.|
+
+Where:
+
+- `f` is a value of type (possibly `const`) F, (in other words: the `format` function should be a const member function)
+- `g` is an lvalue of type F.
 
 ```cpp
 // fmt::format
