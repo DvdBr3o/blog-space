@@ -1,13 +1,13 @@
 ---
+title: KMP
+date: 2024-11-21T18:50:02+08:00
+lastmod: 2025-10-17T14:48:37+08:00
+dg-publish: "true"
 tags:
   - algorithm
   - 字符串
-dg-publish: "true"
-publish: true
-title: KMP
-date: 2024-11-21T18:50:02+08:00
-lastmod: 2024-12-07T19:50:35+08:00
 categories: 算法
+publish: true
 ---
 
 ```cardlink
@@ -23,6 +23,7 @@ favicon: ../../favicon.ico
 ### 定义
 
 最长相等 真前缀 & 真后缀 の 长度
+
 $$
 \pi[i] = \max_{k=0...i}\{{k: s[0 ... k] = s[i - k + 1 ... i]}\}
 $$
@@ -78,6 +79,7 @@ str[j] = str[i] \\
 str[0 ... j - 1] = str[i - j ... i - 1] = str[\pi[i] - j + 1, \pi[i] - 1]
 \end{cases}
 $$
+
 第二条比较关键，即 $j$ 在 $str[0 ... i]$ 是真前后缀匹配的，$\pi[i]$ 也是在 $str[0 ... i]$ 真前后缀匹配的
 $\Rightarrow$ $j$ 在 $str[0 ... \pi[i] - 1]$ 是前后缀匹配的
 
@@ -87,7 +89,7 @@ $$
 j^{(n)} = \pi[j^{(n - 1)} - 1]
 $$
 
-:star:最终实现：
+⭐️ 最终实现：
 
 ```cpp
 for (int i = 0; i < str.size(); i++) {
@@ -124,6 +126,5 @@ auto find_occurrences(std::string_view text, std::string_view pattern) -> std::v
 	return occurences;
 }
 ```
-
 
 - [ ] TODO: 因为字符串在 oi 中不算热点内容，所以暂时先更到 kmp 🔽 
