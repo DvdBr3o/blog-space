@@ -1,7 +1,7 @@
 ---
 title: MVP矩阵
 date: 2025-03-08T13:55:45+08:00
-lastmod: 2025-11-09T12:55:20+08:00
+lastmod: 2025-11-14T13:42:33+08:00
 tags:
   - 3d
   - graphics
@@ -21,7 +21,7 @@ host: www.opengl-tutorial.org
 
 相对于三维坐标 $(x,y,z)$ 引入第四维 $(x,y,z,w)$
 
-- 若 $w=0$ 则 $(x,y,z,0)$ 是一个**方向**
+- 若 $w=0$ 则 $(x,y,z,0)$ 是一个**方向** (无穷远点)
 - 若 $w = 1$ 则 $(x,y,z,1)$ 是一个**位置**
 
 引入齐次坐标主要是为了坐标变换都能表示成 $矩阵\times向量$ 的统一形式
@@ -44,6 +44,7 @@ T=\begin{bmatrix}
 \end{bmatrix}
 $$
 
+
 $$
 T(\boldsymbol{v}) =\begin{bmatrix}
 1 & 0 & 0 & X \\
@@ -64,6 +65,7 @@ z+Z \\
 1
 \end{bmatrix}
 $$
+
 $$
 T(\boldsymbol{w}) =\begin{bmatrix}
 1 & 0 & 0 & X \\
@@ -95,6 +97,7 @@ X & 0 & 0 & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
+
 $$
 S(\boldsymbol{x})=\begin{bmatrix}
 X & 0 & 0 & 0 \\
@@ -192,6 +195,7 @@ CC --->|Projection Matrix| HC[Homogeneous Coordinate]
 | **Before**                                                       | **After**                                                        |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | ![image.png](https://s2.loli.net/2025/11/09/P91IfMjTb4RDC2l.png) | ![image.png](https://s2.loli.net/2025/11/09/HcMCS1yGD4BWqfa.png) |
+
 实现：
 
 ```cpp
@@ -214,10 +218,11 @@ glm::mat4 Projection = glm::perspective(glm::radians(45.0f), (float) width / (fl
 // glm::mat4 Projection = glm::ortho(-10.0f,10.0f,-10.0f,10.0f,0.0f,100.0f); // In world coordinates 
 
 // Camera matrix 
-glm::mat4 View = glm::lookAt( glm::vec3(4,3,3), 
-	// Camera is at (4,3,3), in World Space glm::vec3(0,0,0), 
-	// and looks at the origin glm::vec3(0,1,0) 
-	// Head is up (set to 0,-1,0 to look upside-down) );
+glm::mat4 View = glm::lookAt( 
+	glm::vec3(4,3,3), // Camera is at (4,3,3), in World Space 
+	glm::vec3(0,0,0), // and looks at the origin 
+	glm::vec3(0,1,0)  // Head is up (set to 0,-1,0 to look upside-down) 
+);
 	
 // Model matrix: an identity matrix (model will be at the origin) 
 glm::mat4 Model = glm::mat4(1.0f); 
