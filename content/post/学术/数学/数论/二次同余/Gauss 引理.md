@@ -1,7 +1,7 @@
 ---
 title: Gauss 引理
 date: 2025-11-03T20:36:53+08:00
-lastmod: 2025-11-09T16:46:05+08:00
+lastmod: 2025-12-05T21:52:54+08:00
 tags:
   - 数论
   - 同余
@@ -14,3 +14,13 @@ publish: true
 
 则
 - $\left( \frac{a}{p} \right)=(-1)^{m}$
+
+aka
+
+$$
+T(q,p)=\sum_{h=1}^{\frac{p-1}{2}} \left[\frac{q \cdot h}{p}\right]
+$$
+
+$$
+\left(\frac{q}{p}\right)=(-1)^{T(p,q)}
+$$
