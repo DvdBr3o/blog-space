@@ -16,6 +16,6 @@ publish: true
 - $\boldsymbol{b}$
 
 则
-1. $$A_{k}(\boldsymbol{b})=\begin{bmatrix} & \dots & \boldsymbol{a}_{k-1} & \boldsymbol{b} & \boldsymbol{a}_{k+1} & \dots & \end{bmatrix}$$
+1. $$A_{k}=\begin{bmatrix} & \dots & \boldsymbol{a}_{k-1} & \boldsymbol{b}_{k} & \boldsymbol{a}_{k+1} & \dots & \end{bmatrix}$$
 2. $$x_{k}=\frac{\det A_{k}}{\det A}$$
 
