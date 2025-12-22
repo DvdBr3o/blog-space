@@ -53,7 +53,7 @@ $$
 >而对 row reduction 进行列归一化得:
 >$$\begin{bmatrix}2 & 0 & 0 & 0\\-4 & 3 & 0 & 0\\2 & -9 & 2 & 0\\-6 & 12 & 4 & 5\end{bmatrix} \sim \begin{bmatrix}1 & 0 & 0 & 0\\-2 & 1 & 0 & 0\\1 & -3 & 1 & 0\\-3 & 4 & 2 & 1\end{bmatrix}=L$$
 >
->故 $A=LU$ 得分解为 $$\begin{bmatrix}2 & 4 & 5 & -2 \\ -4 & -5 & -8 & 1 \\ 2 & -5 & 1 & 8 \\ -6 & 0 & -3 & 1\end{bmatrix}=\begin{bmatrix}2 & 4 & 5 & -2\\0 & 3 & 2 & -3\\0 & 0 & 2 & 1\\0 & 0 & 0 & \boldsymbol{5}\end{bmatrix}\begin{bmatrix}1 & 0 & 0 & 0\\-2 & 1 & 0 & 0\\1 & -3 & 1 & 0\\-3 & 4 & 2 & 1\end{bmatrix}$$
+>故 $A=LU$ 得分解为 $$\begin{bmatrix}2 & 4 & 5 & -2 \\ -4 & -5 & -8 & 1 \\ 2 & -5 & 1 & 8 \\ -6 & 0 & -3 & 1\end{bmatrix}=\begin{bmatrix}1 & 0 & 0 & 0\\-2 & 1 & 0 & 0\\1 & -3 & 1 & 0\\-3 & 4 & 2 & 1\end{bmatrix}\begin{bmatrix}2 & 4 & 5 & -2\\0 & 3 & 2 & -3\\0 & 0 & 2 & 1\\0 & 0 & 0 & \boldsymbol{5}\end{bmatrix}$$
 
 ### LDU 分解
 
