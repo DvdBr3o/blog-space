@@ -1,7 +1,7 @@
 ---
 title: Cache
 date: 2025-11-20T11:17:27+08:00
-lastmod: 2025-11-27T10:33:28+08:00
+lastmod: 2025-12-19T19:13:03+08:00
 tags:
   - 计组原理
   - 存储器
@@ -68,6 +68,7 @@ publish: true
 	- 未命中
 		- 组未满 $\Rightarrow$ 新行置 0，其余行 +1
 		- 组满 $\Rightarrow$ 值最大的被替换，新行置 0，其余行 +1
+	- 控制位需要位数 `bit(LRU)` $=\lceil \log_{2}(组数) \rceil$
 - 最不常用 LFU
 ## 主存一致性
 
