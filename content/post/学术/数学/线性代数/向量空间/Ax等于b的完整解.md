@@ -1,7 +1,7 @@
 ---
 title: Ax等于b的完整解
 date: 2025-06-29T18:37:33+08:00
-lastmod: 2025-12-11T21:48:46+08:00
+lastmod: 2026-01-09T15:08:04+08:00
 tags:
   - 线性代数
   - 向量空间
@@ -34,7 +34,7 @@ publish: true
 
 对所有自由变量产生解组 $\{\boldsymbol{x}_{n}\}$ 张成空间(所有线性组合)记作零空间解
 
->[!warning]
+>[!warning] 
 >注意是解 $R\boldsymbol{x}=\boldsymbol{0}$！
 >不是解 $R\boldsymbol{x}=\boldsymbol{b}$！
 
