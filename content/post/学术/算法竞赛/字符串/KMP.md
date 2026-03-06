@@ -1,7 +1,7 @@
 ---
 title: KMP
 date: 2024-11-21T18:50:02+08:00
-lastmod: 2025-10-17T14:48:37+08:00
+lastmod: 2026-01-12T19:46:23+08:00
 dg-publish: "true"
 tags:
   - algorithm
@@ -94,7 +94,7 @@ $$
 ```cpp
 for (int i = 0; i < str.size(); i++) {
 	int j = pi[i - 1];
-	while(j > 0 && str[j] != str[i]) j = pi[j - 1];
+	while (j > 0 && str[j] != str[i]) j = pi[j - 1];
 	if (str[i] == str[j]) j++;  // 判断得配，str[i] = str[j] 也算一位
                                 // 如果是失配，str[i] != str[j]，那么 j = 0 不用 ++
 	pi[i] = j;
