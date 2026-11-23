@@ -2,28 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>曲线 on DvdBr3o</title>
-        <link>//localhost:1313/tags/%E6%9B%B2%E7%BA%BF/</link>
+        <link>http://localhost:38081/tags/%E6%9B%B2%E7%BA%BF/</link>
         <description>Recent content in 曲线 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 14 Jan 2025 21:47:36 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/%E6%9B%B2%E7%BA%BF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 05 Jul 2025 20:08:53 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E6%9B%B2%E7%BA%BF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Green 公式</title>
+        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/</link>
+        <pubDate>Sun, 12 Jan 2025 16:41:06 +0800</pubDate>
+        
+        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/</guid>
+        <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
+&lt;/h2&gt;&lt;h3 id=&#34;连通区域&#34;&gt;&lt;a href=&#34;#%e8%bf%9e%e9%80%9a%e5%8c%ba%e5%9f%9f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;连通区域
+&lt;/h3&gt;&lt;p&gt;连通区域分为：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;单连通区域&lt;/li&gt;
+&lt;li&gt;多连通区域&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;正向约定&#34;&gt;&lt;a href=&#34;#%e6%ad%a3%e5%90%91%e7%ba%a6%e5%ae%9a&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;正向约定
+&lt;/h3&gt;&lt;p&gt;规定第二型曲线正向 $:=$ 曲线&lt;strong&gt;左侧&lt;/strong&gt;是曲线围成的连通区域
+(跟生活中跑步跑道的正向一致)&lt;/p&gt;
+&lt;h2 id=&#34;格林公式&#34;&gt;&lt;a href=&#34;#%e6%a0%bc%e6%9e%97%e5%85%ac%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;格林公式
+&lt;/h2&gt;&lt;p&gt;已知：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P(x,y)$ 和 $Q(x,y)$ 在 &lt;strong&gt;有界闭区域$D$&lt;/strong&gt; 有连续一阶偏导&lt;/li&gt;
+&lt;li&gt;$D$ 的边界 $L$ 逐段光滑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;则
+&lt;/p&gt;
+$$
+\oint_{L+}P\,dx+Q\,dy=\iint_{D}\left( \frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y} \right)\,dx\,dy
+$$</description>
+        </item>
+        <item>
         <title>曲线积分</title>
-        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</link>
         <pubDate>Sun, 12 Jan 2025 15:11:34 +0800</pubDate>
         
-        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</guid>
         <description>&lt;h2 id=&#34;第一型曲线积分&#34;&gt;&lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e5%9e%8b%e6%9b%b2%e7%ba%bf%e7%a7%af%e5%88%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;第一型曲线积分
 &lt;/h2&gt;
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;第一型曲线积分通性
     &lt;/div&gt;
       &lt;div class=&#34;admonition-content&#34;&gt;
         &lt;p&gt;重点在于&lt;strong&gt;曲线微分 $ds$&lt;/strong&gt; 的转换：
+&lt;/p&gt;
 $$
-ds = \sqrt{ dx_{1}^{2} + dx_{2}^{2} + \dots + dx_{n}^{2} }
-$$&lt;/p&gt;
-
+&gt;ds = \sqrt{ dx_{1}^{2} + dx_{2}^{2} + \dots + dx_{n}^{2} }
+&gt;$$
       &lt;/div&gt;
   &lt;/div&gt;
 &lt;h3 id=&#34;特征&#34;&gt;&lt;a href=&#34;#%e7%89%b9%e5%be%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;特征
@@ -32,68 +60,69 @@ $$&lt;/p&gt;
 &lt;li&gt;保守性 ($\oint = 0$)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;形式&#34;&gt;&lt;a href=&#34;#%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;形式
-&lt;/h3&gt;&lt;p&gt;$$
-\int_{L}f(x_{1},x_{2},\dots,x_{n})ds = \int_{L}f(x_{1},x_{2},\dots,x_{n}) \cdot d\left( \sqrt{ \left[ dx_{1} \right] ^{2}+\left[ dx_{2} \right] ^{2} + \dots + \left[ dx_{n} \right]^{2}  } \right)
-$$&lt;/p&gt;
-&lt;h3 id=&#34;计算&#34;&gt;&lt;a href=&#34;#%e8%ae%a1%e7%ae%97&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;计算
+&lt;/h3&gt;$$
+\int_{L}f(x_{1},x_{2},\dots,x_{n})ds = \int_{L}f(x_{1},x_{2},\dots,x_{n}) \cdot  \sqrt{ \left[ dx_{1} \right] ^{2}+\left[ dx_{2} \right] ^{2} + \dots + \left[ dx_{n} \right]^{2}  }
+$$&lt;h3 id=&#34;计算&#34;&gt;&lt;a href=&#34;#%e8%ae%a1%e7%ae%97&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;计算
 &lt;/h3&gt;&lt;h4 id=&#34;隐函数型&#34;&gt;&lt;a href=&#34;#%e9%9a%90%e5%87%bd%e6%95%b0%e5%9e%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;隐函数型
-&lt;/h4&gt;&lt;p&gt;$$
-\int_{L}f(x,y(x)),ds=\int_{\alpha}^{\beta} f(x,y(x))\cdot \sqrt{ 1+\left[ y&amp;rsquo;(x) \right]^{2} } , dx
-$$&lt;/p&gt;
-
+&lt;/h4&gt;$$
+\int_{L}f(x,y(x))\,ds=\int_{\alpha}^{\beta} f(x,y(x))\cdot \sqrt{ 1+\left[ y&#39;(x) \right]^{2} } \, dx 
+$$
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;曲线积分通性
     &lt;/div&gt;
       &lt;div class=&#34;admonition-content&#34;&gt;
         &lt;p&gt;与文首提到的通性联系记忆：&lt;/p&gt;
-&lt;p&gt;$$
-\begin{align}
-ds &amp;amp; =\sqrt{ dx^{2}+dy^{2} } \
-&amp;amp; =\sqrt{ dx^{2}+(y&amp;rsquo;(x)dx)^{2} } \
-&amp;amp; =\sqrt{ 1+\left[y&amp;rsquo;(x)\right]^{2}},dx
-\end{align}
-$$&lt;/p&gt;
+$$
+&gt;\begin{aligned}
+&gt;ds &amp; =\sqrt{ dx^{2}+dy^{2} } \\
+ &amp; =\sqrt{ dx^{2}+(y&#39;(x)dx)^{2} } \\
+&gt; &amp; =\sqrt{ 1+\left[y&#39;(x)\right]^{2}}\,dx
+&gt;\end{aligned}
+&gt;$$
+      &lt;/div&gt;
+  &lt;/div&gt;
 
+  &lt;div class=&#34;admonition note&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;转换后定积分の端点值
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;第一型曲线积分&lt;strong&gt;与路径方向无关&lt;/strong&gt;
+所以端点总是 $(a,b)$ 其中 $a$ 是较小值，$b$ 是较大值&lt;/p&gt;
       &lt;/div&gt;
   &lt;/div&gt;
 &lt;h4 id=&#34;参数型&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e6%95%b0%e5%9e%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参数型
 &lt;/h4&gt;&lt;p&gt;已知&lt;/p&gt;
-&lt;p&gt;$$
-\left{ \begin{align}
-x &amp;amp; =x(t) \
-y &amp;amp; =y(t)
-\end{align} \right.
-$$&lt;/p&gt;
-&lt;p&gt;则&lt;/p&gt;
-&lt;p&gt;$$
-\int_{L}f(x(t),y(t))ds=\int_{\alpha}^{\beta} f(x(t),y(t)) \cdot \sqrt{ \left[ x&amp;rsquo;(t) \right] ^{2}+\left[ y&amp;rsquo;(t) \right] ^{2} } , ds
-$$&lt;/p&gt;
-&lt;h2 id=&#34;第二型曲线积分&#34;&gt;&lt;a href=&#34;#%e7%ac%ac%e4%ba%8c%e5%9e%8b%e6%9b%b2%e7%ba%bf%e7%a7%af%e5%88%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;第二型曲线积分
+$$
+\left\{ \begin{aligned}
+x &amp; =x(t) \\
+y &amp; =y(t)
+\end{aligned} \right.
+$$&lt;p&gt;则&lt;/p&gt;
+$$
+\int_{L}f(x(t),y(t))ds=\int_{\alpha}^{\beta} f(x(t),y(t)) \cdot \sqrt{ \left[ x&#39;(t) \right] ^{2}+\left[ y&#39;(t) \right] ^{2} } \, dt
+$$&lt;h2 id=&#34;第二型曲线积分&#34;&gt;&lt;a href=&#34;#%e7%ac%ac%e4%ba%8c%e5%9e%8b%e6%9b%b2%e7%ba%bf%e7%a7%af%e5%88%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;第二型曲线积分
 &lt;/h2&gt;&lt;h3 id=&#34;特征-1&#34;&gt;&lt;a href=&#34;#%e7%89%b9%e5%be%81-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;特征
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;有向性&lt;/li&gt;
 &lt;li&gt;不一定具有保守性 ($\oint\neq 0$)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;形式-1&#34;&gt;&lt;a href=&#34;#%e5%bd%a2%e5%bc%8f-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;形式
-&lt;/h3&gt;&lt;p&gt;$$
-\int_{\overset{\frown}{AB}}\vec{F}(x_{1},x_{2},\dots,x_{n}),d\vec{r}=\int_{\overset{\frown}{AB}} F_{1}(x_{1},x_{2},\dots,x_{n}),dx_{1}+F_{2}(x_{1},x_{2},\dots,x_{n}),dx_{2}+\dots+F_{n},(x_{1},x_{2},\dots,x_{n}),dx_{n}
-$$&lt;/p&gt;
-&lt;h3 id=&#34;计算-1&#34;&gt;&lt;a href=&#34;#%e8%ae%a1%e7%ae%97-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;计算
+&lt;/h3&gt;$$
+\int_{\overset{\frown}{AB}}\vec{F}(x_{1},x_{2},\dots,x_{n})\,d\vec{r}=\int_{\overset{\frown}{AB}} F_{1}(x_{1},x_{2},\dots,x_{n})\,dx_{1}+F_{2}(x_{1},x_{2},\dots,x_{n})\,dx_{2}+\dots+F_{n},(x_{1},x_{2},\dots,x_{n})\,dx_{n}
+$$&lt;h3 id=&#34;计算-1&#34;&gt;&lt;a href=&#34;#%e8%ae%a1%e7%ae%97-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;计算
 &lt;/h3&gt;&lt;h4 id=&#34;参数型-1&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e6%95%b0%e5%9e%8b-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参数型
 &lt;/h4&gt;&lt;p&gt;已知&lt;/p&gt;
-&lt;p&gt;$$
-\left{ \begin{align}
-x_{1} &amp;amp; =x_{1}(t) \
-x_{2} &amp;amp; =x_{2}(t) \
-&amp;amp; \dots \
-x_{n} &amp;amp; =x_{n}(t)
-\end{align} \right.
-$$&lt;/p&gt;
-&lt;p&gt;则&lt;/p&gt;
-&lt;p&gt;$$
-\int_{\overset{\frown}{AB}}\vec{F},d\vec{r}=\int_{\overset{\frown}{AB}}F_{1}\cdot x_{1}&amp;rsquo;(t),dt+\dots F_{n}\cdot x_{n}&amp;rsquo;(t),dt
-$$&lt;/p&gt;
-&lt;p&gt;仍然符合直觉上的微分运算，因此根据微分运算直觉记忆即可&lt;/p&gt;
+$$
+\left\{ \begin{aligned}
+x_{1} &amp; =x_{1}(t) \\
+x_{2} &amp; =x_{2}(t) \\
+ &amp; \dots \\
+x_{n} &amp; =x_{n}(t)
+\end{aligned} \right.
+$$&lt;p&gt;则&lt;/p&gt;
+$$
+\int_{\overset{\frown}{AB}}\vec{F}\,d\vec{r}=\int_{\overset{\frown}{AB}}F_{1}\cdot x_{1}&#39;(t)\,dt+\dots F_{n}\cdot x_{n}&#39;(t)\,dt
+$$&lt;p&gt;仍然符合直觉上的微分运算，因此根据微分运算直觉记忆即可&lt;/p&gt;
 &lt;h3 id=&#34;保守性&#34;&gt;&lt;a href=&#34;#%e4%bf%9d%e5%ae%88%e6%80%a7&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;保守性
 &lt;/h3&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
@@ -102,28 +131,27 @@ $$&lt;/p&gt;
       &lt;div class=&#34;admonition-content&#34;&gt;
         &lt;p&gt;
  &lt;a
-  href=&#34;../../../../../../%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F.md&#34;
+  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/&#34;
   
-  &gt;格林公式&lt;/a
+  &gt;Green 公式&lt;/a
 &gt;
 
-&lt;img src=&#34;//localhost:1313/%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F.md&#34;
+&lt;img src=&#34;http://localhost:38081/Green%20%E5%85%AC%E5%BC%8F.md&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;格林公式&#34;
+		alt=&#34;Green 公式&#34;
 	
 	
 &gt;&lt;/p&gt;
-
       &lt;/div&gt;
   &lt;/div&gt;
-&lt;p&gt;第二性曲线积分与路径无关条件 $\iff$ $\oint = 0$&lt;/p&gt;
+&lt;p&gt;第二型曲线积分与路径无关条件 $\iff$ $\oint = 0$&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;格林公式&lt;/strong&gt;法：$\forall(x,y)\in D$ 都满足 $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原函数&lt;/strong&gt;法：$\exists F$ 满足 $dF=P,dx+Q,dy$
+&lt;li&gt;&lt;strong&gt;原函数&lt;/strong&gt;法：$\exists F$ 满足 $dF=P\,dx+Q\,dy$
 &lt;ul&gt;
 &lt;li&gt;凑原函数法&lt;/li&gt;
 &lt;li&gt;微分方程法&lt;/li&gt;
@@ -151,13 +179,13 @@ $$&lt;/p&gt;
 &lt;li&gt;原函数法可以用于单连通区域和多连通区域&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;北大版高数教材有给出在多联通区域使用格林公式法判定保守性导致错误的案例：
-在区域 $D:0&amp;lt;\delta\leq x^{2}+y^{2}\leq 4$
+在区域 $D:0&lt;\delta\leq x^{2}+y^{2}\leq 4$
 积分
+&lt;/p&gt;
 $$
-\oint_{L+} \frac{-(x+y)}{x^{2}+y^{2}},dx+\frac{x-y}{x^{2}+y^{2}},dy
-$$
-满足 $Q_{x} = P_{y}$，但是 $D$ 中的任意圆周 $C+$ 有 $\oint_{C+}P,dx+Q,dy=2\pi\neq 0$&lt;/p&gt;
-
+&gt;\oint_{L+} \frac{-(x+y)}{x^{2}+y^{2}}\,dx+\frac{x-y}{x^{2}+y^{2}}\,dy
+&gt;$$&lt;p&gt;
+满足 $Q_{x} = P_{y}$，但是 $D$ 中的任意圆周 $C+$ 有 $\oint_{C+}P\,dx+Q\,dy=2\pi\neq 0$&lt;/p&gt;
       &lt;/div&gt;
   &lt;/div&gt;
 </description>

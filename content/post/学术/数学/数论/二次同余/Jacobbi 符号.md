@@ -34,9 +34,9 @@ $$
 
 5. 【神人1】$$\left(\frac{1}{m}\right)=1$$
 
-6. 【神人-1】$$\left( \frac{-1}{m} \right)=(-1)^{\frac{m-1}{2}}=\left\{ \begin{align} & 1 & m\equiv 1 \ \mathrm{mod}\,4 \\  & -1 & m\equiv 3 \ \mathrm{mod}\,4 \end{align}  \right. $$
+6. 【神人-1】$$\left( \frac{-1}{m} \right)=(-1)^{\frac{m-1}{2}}=\left\{ \begin{aligned} & 1 & m\equiv 1 \ \mathrm{mod}\,4 \\  & -1 & m\equiv 3 \ \mathrm{mod}\,4 \end{aligned}  \right. $$
 
-7. 【神人 2】$$\left( \frac{2}{m} \right)=(-1)^{\frac{m^{2}-1}{8}}=\left\{ \begin{align} & 1 & m\equiv \pm 1 \ \mathrm{mod}\,8 \\  & -1 & m\equiv \pm3 \ \mathrm{mod}\,8 \end{align}  \right. $$
+7. 【神人 2】$$\left( \frac{2}{m} \right)=(-1)^{\frac{m^{2}-1}{8}}=\left\{ \begin{aligned} & 1 & m\equiv \pm 1 \ \mathrm{mod}\,8 \\  & -1 & m\equiv \pm3 \ \mathrm{mod}\,8 \end{aligned}  \right. $$
 
 8. 【互反律】已知 $m,n$
 	- 都是奇素数乘积

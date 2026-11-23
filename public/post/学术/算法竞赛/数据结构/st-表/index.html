@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="定义\r一个二维表 $f(i, j)$。\n其中 $f(i, j)$ 表示区间 $\\mathrm{op}{[i .. i + 2^j - 1]}$。\n原理\r由定义显然有状态方程：$f(i, j) = \\mathrm{op}{ f(i, j - 1), f(i + 2^{j - 1}, j - 1) }$\n查询时：$\\mathrm{op}{[l .. r]} = \\mathrm{op} { \\mathrm{op}{[l .. l + 2^s - 1]}, \\mathrm{op}{[r - 2^s + 1 .. r]} } = \\mathrm{op}{f(l, s), f(r - 2^s + 1, s)}$ ，其中 $s = \\lfloor{\\log_2{(r - l + 1)}}\\rfloor$。\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="定义\r一个二维表 $f(i, j)$。\n其中 $f(i, j)$ 表示区间 $\\mathrm{op}\\{[i .. i + 2^j - 1]\\}$。\n原理\r由定义显然有状态方程：$f(i, j) = \\mathrm{op}\\{ f(i, j - 1), f(i + 2^{j - 1}, j - 1) \\}$\n查询时：$\\mathrm{op}\\{[l .. r]\\} = \\mathrm{op} \\{ \\mathrm{op}\\{[l .. l + 2^s - 1]\\}, \\mathrm{op}\\{[r - 2^s + 1 .. r]\\} \\} = \\mathrm{op}\\{f(l, s), f(r - 2^s + 1, s)\\}$ ，其中 $s = \\lfloor{\\log_2{(r - l + 1)}}\\rfloor$。\n">
 <title>ST 表</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/st-%E8%A1%A8/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/st-%E8%A1%A8/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="ST 表">
-<meta property='og:description' content="定义\r一个二维表 $f(i, j)$。\n其中 $f(i, j)$ 表示区间 $\\mathrm{op}{[i .. i + 2^j - 1]}$。\n原理\r由定义显然有状态方程：$f(i, j) = \\mathrm{op}{ f(i, j - 1), f(i + 2^{j - 1}, j - 1) }$\n查询时：$\\mathrm{op}{[l .. r]} = \\mathrm{op} { \\mathrm{op}{[l .. l + 2^s - 1]}, \\mathrm{op}{[r - 2^s + 1 .. r]} } = \\mathrm{op}{f(l, s), f(r - 2^s + 1, s)}$ ，其中 $s = \\lfloor{\\log_2{(r - l + 1)}}\\rfloor$。\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/st-%E8%A1%A8/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="ST 表">
+<meta property='og:description' content="定义\r一个二维表 $f(i, j)$。\n其中 $f(i, j)$ 表示区间 $\\mathrm{op}\\{[i .. i + 2^j - 1]\\}$。\n原理\r由定义显然有状态方程：$f(i, j) = \\mathrm{op}\\{ f(i, j - 1), f(i + 2^{j - 1}, j - 1) \\}$\n查询时：$\\mathrm{op}\\{[l .. r]\\} = \\mathrm{op} \\{ \\mathrm{op}\\{[l .. l + 2^s - 1]\\}, \\mathrm{op}\\{[r - 2^s + 1 .. r]\\} \\} = \\mathrm{op}\\{f(l, s), f(r - 2^s + 1, s)\\}$ ，其中 $s = \\lfloor{\\log_2{(r - l + 1)}}\\rfloor$。\n">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/st-%E8%A1%A8/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='algorithm' /><meta property='article:tag' content='数据结构' /><meta property='article:published_time' content='2024-11-26T17:23:39&#43;08:00'/><meta property='article:modified_time' content='2024-12-07T23:58:43&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='algorithm' /><meta property='article:tag' content='数据结构' /><meta property='article:published_time' content='2024-11-26T17:23:39&#43;08:00'/><meta property='article:modified_time' content='2025-04-05T13:09:26&#43;08:00'/>
 <meta name="twitter:title" content="ST 表">
-<meta name="twitter:description" content="定义\r一个二维表 $f(i, j)$。\n其中 $f(i, j)$ 表示区间 $\\mathrm{op}{[i .. i + 2^j - 1]}$。\n原理\r由定义显然有状态方程：$f(i, j) = \\mathrm{op}{ f(i, j - 1), f(i + 2^{j - 1}, j - 1) }$\n查询时：$\\mathrm{op}{[l .. r]} = \\mathrm{op} { \\mathrm{op}{[l .. l + 2^s - 1]}, \\mathrm{op}{[r - 2^s + 1 .. r]} } = \\mathrm{op}{f(l, s), f(r - 2^s + 1, s)}$ ，其中 $s = \\lfloor{\\log_2{(r - l + 1)}}\\rfloor$。\n">
+<meta name="twitter:description" content="定义\r一个二维表 $f(i, j)$。\n其中 $f(i, j)$ 表示区间 $\\mathrm{op}\\{[i .. i + 2^j - 1]\\}$。\n原理\r由定义显然有状态方程：$f(i, j) = \\mathrm{op}\\{ f(i, j - 1), f(i + 2^{j - 1}, j - 1) \\}$\n查询时：$\\mathrm{op}\\{[l .. r]\\} = \\mathrm{op} \\{ \\mathrm{op}\\{[l .. l + 2^s - 1]\\}, \\mathrm{op}\\{[r - 2^s + 1 .. r]\\} \\} = \\mathrm{op}\\{f(l, s), f(r - 2^s + 1, s)\\}$ ，其中 $s = \\lfloor{\\log_2{(r - l + 1)}}\\rfloor$。\n">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -401,7 +401,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E7%AE%97%E6%B3%95/" >
+            <a href="/categories/categories/%E7%AE%97%E6%B3%95/" >
                 算法
             </a>
         
@@ -464,10 +464,10 @@
     
     <h2 id="定义"><a href="#%e5%ae%9a%e4%b9%89" class="header-anchor"></a>定义
 </h2><p>一个二维表 $f(i, j)$。</p>
-<p>其中 $f(i, j)$ 表示区间 $\mathrm{op}{[i .. i + 2^j - 1]}$。</p>
+<p>其中 $f(i, j)$ 表示区间 $\mathrm{op}\{[i .. i + 2^j - 1]\}$。</p>
 <h2 id="原理"><a href="#%e5%8e%9f%e7%90%86" class="header-anchor"></a>原理
-</h2><p>由定义显然有状态方程：$f(i, j) = \mathrm{op}{ f(i, j - 1), f(i + 2^{j - 1}, j - 1) }$</p>
-<p>查询时：$\mathrm{op}{[l .. r]} = \mathrm{op} { \mathrm{op}{[l .. l + 2^s - 1]}, \mathrm{op}{[r - 2^s + 1 .. r]} } = \mathrm{op}{f(l, s), f(r - 2^s + 1, s)}$ ，其中 $s = \lfloor{\log_2{(r - l + 1)}}\rfloor$。</p>
+</h2><p>由定义显然有状态方程：$f(i, j) = \mathrm{op}\{ f(i, j - 1), f(i + 2^{j - 1}, j - 1) \}$</p>
+<p>查询时：$\mathrm{op}\{[l .. r]\} = \mathrm{op} \{ \mathrm{op}\{[l .. l + 2^s - 1]\}, \mathrm{op}\{[r - 2^s + 1 .. r]\} \} = \mathrm{op}\{f(l, s), f(r - 2^s + 1, s)\}$ ，其中 $s = \lfloor{\log_2{(r - l + 1)}}\rfloor$。</p>
 <h2 id="用途"><a href="#%e7%94%a8%e9%80%94" class="header-anchor"></a>用途
 </h2><p>解决 <strong>可重复贡献问题</strong>。</p>
 
@@ -482,7 +482,6 @@
 <li>RMQ 问题 (区间最值问题)：$\max(x, x) = x$</li>
 <li>区间 GCD 问题：$\gcd(x, x) = x$</li>
 </ul>
-
       </div>
   </div>
 <p>时间复杂度：</p>
@@ -531,6 +530,7 @@
 </span><span class="lnt">11
 </span><span class="lnt">12
 </span><span class="lnt">13
+</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">SparseTable</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="n">t</span><span class="p">,</span> <span class="n">Op</span> <span class="n">op</span><span class="p">)</span> <span class="o">:</span> <span class="n">op</span><span class="p">(</span><span class="n">op</span><span class="p">)</span> <span class="p">{</span>
@@ -543,7 +543,8 @@
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">st</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
 </span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">s</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="k">auto</span> <span class="n">pj</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>  <span class="c1">// power of j
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">+</span> <span class="n">pj</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">st</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">op</span><span class="p">(</span><span class="n">st</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">],</span> <span class="n">st</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="n">pj</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]);</span>
+</span></span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">+</span> <span class="n">pj</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	        <span class="n">st</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">op</span><span class="p">(</span><span class="n">st</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">],</span> <span class="n">st</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="n">pj</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]);</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
@@ -566,7 +567,7 @@
 </span></span><span class="line"><span class="cl">	<span class="k">using</span> <span class="n">std</span><span class="o">::</span><span class="n">log2</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="o">--</span><span class="n">l</span><span class="p">,</span> <span class="o">--</span><span class="n">r</span><span class="p">;</span> <span class="p">}</span> <span class="c1">// 如果是 1~n 序号
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">std</span><span class="o">::</span><span class="n">size_t</span> <span class="n">s</span> <span class="o">=</span> <span class="n">floor</span><span class="p">(</span><span class="n">log2</span><span class="p">(</span><span class="n">r</span> <span class="o">-</span> <span class="n">l</span> <span class="o">+</span> <span class="mi">1</span><span class="p">));</span>
+</span></span></span><span class="line"><span class="cl">	<span class="n">std</span><span class="o">::</span><span class="n">size_t</span> <span class="n">s</span> <span class="o">=</span> <span class="n">floor</span><span class="p">(</span><span class="n">log2</span><span class="p">(</span><span class="n">r</span> <span class="o">-</span> <span class="n">l</span> <span class="o">+</span> <span class="mi">1</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="nf">op</span><span class="p">(</span><span class="n">st</span><span class="p">[</span><span class="n">l</span><span class="p">][</span><span class="n">s</span><span class="p">],</span> <span class="n">st</span><span class="p">[</span><span class="n">r</span> <span class="o">-</span> <span class="p">(</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">s</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">][</span><span class="n">s</span><span class="p">]);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
@@ -603,7 +604,7 @@
 
 
         <span>
-            最后更新于 Dec 07, 2024 23:58 CST
+            最后更新于 Apr 05, 2025 13:09 CST
         </span>
     </section></footer>
 
@@ -643,6 +644,19 @@
     <h2 class="section-title">相关文章</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">树</h2>
+        </div>
+    </a>
+</article>
+
             
                 
 <article class="">
@@ -691,19 +705,6 @@
 
         <div class="article-details">
             <h2 class="article-title">KMP</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">字符串哈希</h2>
         </div>
     </a>
 </article>
@@ -773,7 +774,7 @@
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -867,7 +868,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -882,12 +883,12 @@
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -899,7 +900,7 @@
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

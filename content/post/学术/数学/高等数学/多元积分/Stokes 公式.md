@@ -50,20 +50,20 @@ $$
 其中
 
 $$
-\begin{align}
+\begin{aligned}
 \mathrm{rot}\,\vec{F} & =\mathrm{rot}\,\left( P,Q,R \right)   \\
  & = \left| \begin{matrix}
 \vec{i}& \vec{j}& \vec{k} \\
 \frac{\partial}{\partial x}& \frac{\partial}{\partial y}& \frac{\partial}{\partial z} \\
 P& Q& R
 \end{matrix} \right| 
-\end{align}
+\end{aligned}
 $$
 $$
-\begin{align}
+\begin{aligned}
 d\vec{S} & =(\cos\alpha,\cos\beta,\cos\gamma)\cdot \mathrm{d}S \\
  & =(\mathrm{d}y\mathrm{d}z,\mathrm{d}z\mathrm{d}x,\mathrm{d}x\mathrm{d}y)
-\end{align}
+\end{aligned}
 $$
 ### 旋度变式形式
 

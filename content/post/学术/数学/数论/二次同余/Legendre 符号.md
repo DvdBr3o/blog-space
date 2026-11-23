@@ -12,11 +12,11 @@ publish: true
 ## 定义
 
 $$
-\left(\frac{a}{p}\right)=\left\{\begin{align}
+\left(\frac{a}{p}\right)=\left\{\begin{aligned}
  & 1 & \mathrm{when}  & \ a \, 是 \, p \, 二次剩余 \\
  & -1 & \mathrm{when}  & \ a \, 不是 \, p \, 二次剩余 \\
  & 0 & \mathrm{when}  & \  p | a
-\end{align}\right.
+\end{aligned}\right.
 $$
 
 ## 计算

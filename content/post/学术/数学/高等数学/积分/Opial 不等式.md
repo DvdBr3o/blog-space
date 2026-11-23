@@ -30,14 +30,14 @@ publish: true
 > 则
 >
 > $$
-> \begin{align}
+> \begin{aligned}
 > \mathrm{LHS}  & \le \int_{a}^{b} h(x)h'(x) \, \mathrm{d}x \\
 >   & = \frac{1}{2}[h(x)]^{2}\bigg|_{a}^{b} \\
 >  & =\frac{1}{2}[h(b)]^{2} \\
 >  & =\frac{1}{2}\left[\int_{a}^{b} h'(x) \, \mathrm{d}x \right]^{2} \\
 >  & \le \frac{1}{2}\int_{a}^{b} 1 \, \mathrm{d}x \int_{a}^{b} [h'(x)]^{2} \, \mathrm{d}x  & (Cachy-Schwarz) \\
 >  & = \frac{b-a}{2} \int_{a}^{b} [f'(x)]^{2} \, \mathrm{d}x
-> \end{align}
+> \end{aligned}
 > $$
 
 ## 线性双端零点

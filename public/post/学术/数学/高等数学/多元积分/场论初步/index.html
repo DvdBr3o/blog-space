@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad},f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div},\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot},\\vec{F}=\\left| \\begin{matrix}\\vec{i} &amp; \\vec{j} &amp; \\vec{k} \\ \\frac{ \\partial }{ \\partial x } &amp; \\frac{ \\partial }{ \\partial y } &amp; \\frac{ \\partial }{ \\partial z } \\ P &amp; Q &amp; R\\end{matrix} \\right|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad}\\,f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div}\\,\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot}\\,\\vec{F}=\\left\\| \\begin{matrix}\\vec{i} & \\vec{j} & \\vec{k} \\\\ \\frac{ \\partial }{ \\partial x } & \\frac{ \\partial }{ \\partial y } & \\frac{ \\partial }{ \\partial z } \\\\ P & Q & R\\end{matrix} \\right\\|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
 <title>场论初步</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="场论初步">
-<meta property='og:description' content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad},f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div},\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot},\\vec{F}=\\left| \\begin{matrix}\\vec{i} &amp; \\vec{j} &amp; \\vec{k} \\ \\frac{ \\partial }{ \\partial x } &amp; \\frac{ \\partial }{ \\partial y } &amp; \\frac{ \\partial }{ \\partial z } \\ P &amp; Q &amp; R\\end{matrix} \\right|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="场论初步">
+<meta property='og:description' content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad}\\,f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div}\\,\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot}\\,\\vec{F}=\\left\\| \\begin{matrix}\\vec{i} & \\vec{j} & \\vec{k} \\\\ \\frac{ \\partial }{ \\partial x } & \\frac{ \\partial }{ \\partial y } & \\frac{ \\partial }{ \\partial z } \\\\ P & Q & R\\end{matrix} \\right\\|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='微分' /><meta property='article:tag' content='积分' /><meta property='article:published_time' content='2025-02-08T13:58:53&#43;08:00'/><meta property='article:modified_time' content='2025-02-15T02:12:16&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='微分' /><meta property='article:tag' content='积分' /><meta property='article:published_time' content='2025-02-08T13:58:53&#43;08:00'/><meta property='article:modified_time' content='2025-04-08T21:05:43&#43;08:00'/>
 <meta name="twitter:title" content="场论初步">
-<meta name="twitter:description" content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad},f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div},\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot},\\vec{F}=\\left| \\begin{matrix}\\vec{i} &amp; \\vec{j} &amp; \\vec{k} \\ \\frac{ \\partial }{ \\partial x } &amp; \\frac{ \\partial }{ \\partial y } &amp; \\frac{ \\partial }{ \\partial z } \\ P &amp; Q &amp; R\\end{matrix} \\right|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
+<meta name="twitter:description" content="场\r数量场 $f:(x,y,z)\\to \\mathrm{val}$ 向量场 $f:(x,y,z)\\to(\\alpha,\\beta,\\gamma)$ 关键量对比\r量 度 类型映射 实现 方向向量/等值面 梯度 $\\mathrm{grad}$ 数量场 $\\to$ 向量场 $\\mathrm{grad}\\,f=\\left( \\frac{ \\partial f }{ \\partial x },\\frac{ \\partial f }{ \\partial y },\\frac{ \\partial f }{ \\partial z } \\right)$ 通量 散度 $\\mathrm{div}$ 向量场 $\\to$ 值 (通量) $\\mathrm{div}\\,\\vec{F}=\\frac{ \\partial P }{ \\partial x }+\\frac{ \\partial Q }{ \\partial y }+\\frac{ \\partial R }{ \\partial z }$ 旋量 旋度 $\\mathrm{rot}$ 向量场 $\\to$ 向量场 $\\mathrm{rot}\\,\\vec{F}=\\left\\| \\begin{matrix}\\vec{i} & \\vec{j} & \\vec{k} \\\\ \\frac{ \\partial }{ \\partial x } & \\frac{ \\partial }{ \\partial y } & \\frac{ \\partial }{ \\partial z } \\\\ P & Q & R\\end{matrix} \\right\\|$ ($\\mathrm{rot}$ 实现显示有误，不是双竖线)\n">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -411,7 +411,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
+            <a href="/categories/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
                 高等数学
             </a>
         
@@ -479,48 +479,48 @@
 </ul>
 <h3 id="关键量对比"><a href="#%e5%85%b3%e9%94%ae%e9%87%8f%e5%af%b9%e6%af%94" class="header-anchor"></a>关键量对比
 </h3><div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>量</th>
-          <th>度</th>
-          <th>类型映射</th>
-          <th>实现</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>方向向量/等值面</td>
-          <td>梯度 $\mathrm{grad}$</td>
-          <td>数量场 $\to$ 向量场</td>
-          <td>$\mathrm{grad},f=\left( \frac{ \partial f }{ \partial x },\frac{ \partial f }{ \partial y },\frac{ \partial f }{ \partial z } \right)$</td>
-      </tr>
-      <tr>
-          <td>通量</td>
-          <td>散度 $\mathrm{div}$</td>
-          <td>向量场 $\to$ 值 (通量)</td>
-          <td>$\mathrm{div},\vec{F}=\frac{ \partial P }{ \partial x }+\frac{ \partial Q }{ \partial y }+\frac{ \partial R }{ \partial z }$</td>
-      </tr>
-      <tr>
-          <td>旋量</td>
-          <td>旋度 $\mathrm{rot}$</td>
-          <td>向量场 $\to$ 向量场</td>
-          <td>$\mathrm{rot},\vec{F}=\left| \begin{matrix}\vec{i} &amp; \vec{j} &amp; \vec{k} \ \frac{ \partial }{ \partial x } &amp; \frac{ \partial }{ \partial y } &amp; \frac{ \partial }{ \partial z } \ P &amp; Q &amp; R\end{matrix} \right|$</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>量</th>
+					<th>度</th>
+					<th>类型映射</th>
+					<th>实现</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>方向向量/等值面</td>
+					<td>梯度 $\mathrm{grad}$</td>
+					<td>数量场 $\to$ 向量场</td>
+					<td>$\mathrm{grad}\,f=\left( \frac{ \partial f }{ \partial x },\frac{ \partial f }{ \partial y },\frac{ \partial f }{ \partial z } \right)$</td>
+			</tr>
+			<tr>
+					<td>通量</td>
+					<td>散度 $\mathrm{div}$</td>
+					<td>向量场 $\to$ 值 (通量)</td>
+					<td>$\mathrm{div}\,\vec{F}=\frac{ \partial P }{ \partial x }+\frac{ \partial Q }{ \partial y }+\frac{ \partial R }{ \partial z }$</td>
+			</tr>
+			<tr>
+					<td>旋量</td>
+					<td>旋度 $\mathrm{rot}$</td>
+					<td>向量场 $\to$ 向量场</td>
+					<td>$\mathrm{rot}\,\vec{F}=\left\| \begin{matrix}\vec{i} & \vec{j} & \vec{k} \\ \frac{ \partial }{ \partial x } & \frac{ \partial }{ \partial y } & \frac{ \partial }{ \partial z } \\ P & Q & R\end{matrix} \right\|$</td>
+			</tr>
+	</tbody>
 </table></div>
 <p><del>($\mathrm{rot}$ 实现显示有误，不是双竖线)</del></p>
 <h2 id="微分场论"><a href="#%e5%be%ae%e5%88%86%e5%9c%ba%e8%ae%ba" class="header-anchor"></a>微分场论
 </h2><h3 id="等值面"><a href="#%e7%ad%89%e5%80%bc%e9%9d%a2" class="header-anchor"></a>等值面
-</h3><p>$$
-M_{C} = \left{ (x,y,z),|,f(x,y,z)=C \right}
-$$</p>
-<h3 id="梯度"><a href="#%e6%a2%af%e5%ba%a6" class="header-anchor"></a>梯度
-</h3><p>已知数量场 $$u=f(x,y,z)$$
+</h3>$$
+M_{C} = \left\{ (x,y,z)\,|\,f(x,y,z)=C \right\} 
+$$<h3 id="梯度"><a href="#%e6%a2%af%e5%ba%a6" class="header-anchor"></a>梯度
+</h3><p>已知数量场 </p>
+$$u=f(x,y,z)$$<p>
 则其<strong>梯度</strong>为一向量场如下
+</p>
 $$
-\nabla f=\mathrm{grad},f=\left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right)
-$$</p>
-<h4 id="几何意义"><a href="#%e5%87%a0%e4%bd%95%e6%84%8f%e4%b9%89" class="header-anchor"></a>几何意义
+\nabla f=\mathrm{grad}\,f=\left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right) 
+$$<h4 id="几何意义"><a href="#%e5%87%a0%e4%bd%95%e6%84%8f%e4%b9%89" class="header-anchor"></a>几何意义
 </h4><ol>
 <li><strong>梯度</strong>是当前点<strong>等值面の法向量</strong></li>
 <li><strong>梯度</strong>指向当前点<strong>最大方向导数の方向</strong></li>
@@ -537,8 +537,8 @@ $$</p>
 </li>
 <li>符合 <strong>类导数 链式法则</strong>
 <ol>
-<li>$\nabla\phi(u)=\phi&rsquo;(u)\nabla u$</li>
-<li>$\nabla \phi(u,v)=\phi&rsquo;<em>{u}\nabla u+\phi&rsquo;</em>{v}\nabla v$</li>
+<li>$\nabla\phi(u)=\phi'(u)\nabla u$</li>
+<li>$\nabla \phi(u,v)=\phi'_{u}\nabla u+\phi'_{v}\nabla v$</li>
 <li>$\dots$</li>
 </ol>
 </li>
@@ -546,14 +546,15 @@ $$</p>
 <h2 id="积分场论"><a href="#%e7%a7%af%e5%88%86%e5%9c%ba%e8%ae%ba" class="header-anchor"></a>积分场论
 </h2><h3 id="通量"><a href="#%e9%80%9a%e9%87%8f" class="header-anchor"></a>通量
 </h3><p>向量场 $\vec{F}$ 在曲面 $S$ 上的<strong>第二型曲面积分</strong>
+</p>
 $$
-\iint_{S} \vec{F}\cdot \vec{n},dS
-$$
+\iint_{S} \vec{F}\cdot \vec{n}\,dS
+$$<p>
 aka
+</p>
 $$
-\iint_{S}\vec{F},d\vec{S}
-$$</p>
-<h4 id="物理意义"><a href="#%e7%89%a9%e7%90%86%e6%84%8f%e4%b9%89" class="header-anchor"></a>物理意义
+\iint_{S}\vec{F}\,d\vec{S}
+$$<h4 id="物理意义"><a href="#%e7%89%a9%e7%90%86%e6%84%8f%e4%b9%89" class="header-anchor"></a>物理意义
 </h4><ul>
 <li>通量 $=$ 流出量 $-$ 流入量</li>
 </ul>
@@ -566,85 +567,96 @@ $$</p>
 </ul>
 </li>
 <li>任一点 $M_{0} \in V$</li>
-<li>向量场 $$\vec{u}=\vec{F}(x,y,z)$$
+<li>向量场
+$$\vec{u}=\vec{F}(x,y,z)$$
 则其散度为
+
 $$
-\nabla\cdot \vec{F}= \mathrm{div},\vec{F}=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}
+\nabla\cdot \vec{F}= \mathrm{div}\,\vec{F}=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}
 $$</li>
 </ul>
 <h4 id="定义概念"><a href="#%e5%ae%9a%e4%b9%89%e6%a6%82%e5%bf%b5" class="header-anchor"></a>定义概念
 </h4><p>由积分中值定理，散度在特定点の定义式为
+</p>
 $$
-\mathrm{div},\vec{F}|<em>{M</em>{0}}=\lim_{ V \to M_{0} } \frac{\iiint \vec{F},d\vec{S}}{m(V)}
-$$
+\mathrm{div}\,\vec{F}|_{M_{0}}=\lim_{ V \to M_{0} } \frac{\iiint \vec{F}\,d\vec{S}}{m(V)}
+$$<p>
 可以理解为，<strong>散度可以看作点附近单位体积内的的通量</strong>。</p>
 <p>由此引入 点&amp;散度 の相关概念</p>
 <ul>
-<li><strong>源</strong>：点の散度 $&gt;0$</li>
-<li><strong>漏</strong>：点の散度 $&lt;0$</li>
+<li><strong>源</strong>：点の散度 $>0$</li>
+<li><strong>漏</strong>：点の散度 $<0$</li>
 <li><strong>非源非漏</strong>：点の散度 $=0$</li>
-<li><strong>无源场</strong>/<strong>管形场</strong>：场内 $\mathrm{div},\vec{F}(M)\equiv 0$</li>
+<li><strong>无源场</strong>/<strong>管形场</strong>：场内 $\mathrm{div}\,\vec{F}(M)\equiv 0$</li>
 </ul>
 <h4 id="运算法则-1"><a href="#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99-1" class="header-anchor"></a>运算法则
 </h4><ol>
 <li>符合 <strong>数乘&amp;加减 の 线性运算</strong>
 <ol>
-<li>$\mathrm{div},(\lambda\vec{F})=\lambda,\mathrm{div},\vec{F}$</li>
-<li>$\mathrm{div}\left( \vec{F_{1}} \pm \vec{F_{2}} \right)=\mathrm{div},\vec{F_{1}}+\mathrm{div},\vec{F_{2}}$</li>
+<li>$\mathrm{div}\,(\lambda\vec{F})=\lambda\,\mathrm{div}\,\vec{F}$</li>
+<li>$\mathrm{div}\left( \vec{F_{1}} \pm \vec{F_{2}} \right)=\mathrm{div}\,\vec{F_{1}}+\mathrm{div}\,\vec{F_{2}}$</li>
 </ol>
 </li>
-<li>$\mathrm{div}\left( \phi,\vec{F} \right)=\phi ,\mathrm{div}, \vec{F}+\vec{F}\cdot \mathrm{grad},\phi$，其中 $\phi$ 是数量场</li>
-<li>$$\mathrm{div},\mathrm{grad},\phi=\frac{\partial^{2} \phi}{\partial x^{2}}+\frac{\partial^{2} \phi}{\partial y^{2}}+\frac{\partial^{2} \phi}{\partial z^{2}}$$
-<strong>aka</strong> $\nabla\cdot,\nabla, \phi=\Delta$
-其中 $\Delta$ 是<strong>拉普拉斯算子</strong>，$$\Delta=\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}+\frac{\partial^{2}}{\partial z^{2}}$$</li>
+<li>$\mathrm{div}\left( \phi\,\vec{F} \right)=\phi \,\mathrm{div}\, \vec{F}+\vec{F}\cdot \mathrm{grad}\,\phi$，其中 $\phi$ 是数量场</li>
+<li>
+$$\mathrm{div}\,\mathrm{grad}\,\phi=\frac{\partial^{2} \phi}{\partial x^{2}}+\frac{\partial^{2} \phi}{\partial y^{2}}+\frac{\partial^{2} \phi}{\partial z^{2}}$$
+<strong>aka</strong> $\nabla\cdot\,\nabla\, \phi=\Delta$
+其中 $\Delta$ 是<strong>拉普拉斯算子</strong>，
+$$\Delta=\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}+\frac{\partial^{2}}{\partial z^{2}}$$</li>
 </ol>
 <h3 id="环量"><a href="#%e7%8e%af%e9%87%8f" class="header-anchor"></a>环量
-</h3><p>已知向量场 $\vec{F}=P,\vec{i}+Q,\vec{j}+R,\vec{k}$
-则其环量为$$
-\begin{align}
-I &amp; =\oint_{L}P,\mathrm{d}x+Q,\mathrm{d}y+R,\mathrm{d}z \
-&amp; =\oint_{L}\vec{F}\cdot ,\mathrm{d}\vec{r} \
-&amp; =\oint_{L}\vec{F}\cdot \left( \mathrm{d}x,,\mathrm{d}y,,\mathrm{d}z \right)
-\end{align}
-$$</p>
-<h4 id="环量面密度"><a href="#%e7%8e%af%e9%87%8f%e9%9d%a2%e5%af%86%e5%ba%a6" class="header-anchor"></a>环量面密度
-</h4><p>aka 方向旋量</p>
-<p>$$
-\frac{\lim_{ \lambda(S) \to 0 } \oint_{L}\vec{F},\mathrm{d}\vec{r}}{m(S)}
+</h3><p>已知向量场 $\vec{F}=P\,\vec{i}+Q\,\vec{j}+R\,\vec{k}$
+则其环量为
+</p>
 $$
+\begin{aligned}
+I & =\oint_{L}P\,\mathrm{d}x+Q\,\mathrm{d}y+R\,\mathrm{d}z \\
+ & =\oint_{L}\vec{F}\cdot \,\mathrm{d}\vec{r} \\
+ & =\oint_{L}\vec{F}\cdot \left( \mathrm{d}x,\,\mathrm{d}y,\,\mathrm{d}z \right)
+\end{aligned}
+$$<h4 id="环量面密度"><a href="#%e7%8e%af%e9%87%8f%e9%9d%a2%e5%af%86%e5%ba%a6" class="header-anchor"></a>环量面密度
+</h4><p>aka 方向旋量</p>
+$$
+\frac{\lim_{ \lambda(S) \to 0 } \oint_{L}\vec{F}\,\mathrm{d}\vec{r}}{m(S)}
+$$<p>
 其中</p>
 <ul>
 <li>$\lambda(S)$ 为 $S$ 的直径</li>
 <li>$m(S)$ 为 $S$ 的面积</li>
 </ul>
 <h3 id="旋度"><a href="#%e6%97%8b%e5%ba%a6" class="header-anchor"></a>旋度
-</h3><p>$$
-\mathrm{rot},\vec{F}=\left| \begin{matrix}
-\vec{i} &amp; \vec{j} &amp; \vec{k} \
-\frac{ \partial  }{ \partial x }  &amp; \frac{ \partial }{ \partial y }  &amp; \frac{ \partial }{ \partial z }  \
-P &amp; Q &amp; R
-\end{matrix} \right|
-$$</p>
-<h4 id="运算法则-2"><a href="#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99-2" class="header-anchor"></a>运算法则
+</h3>$$
+\mathrm{rot}\,\vec{F}=\left| \begin{matrix}
+\vec{i} & \vec{j} & \vec{k} \\
+\frac{ \partial  }{ \partial x }  & \frac{ \partial }{ \partial y }  & \frac{ \partial }{ \partial z }  \\
+P & Q & R
+\end{matrix} \right| 
+$$<h4 id="运算法则-2"><a href="#%e8%bf%90%e7%ae%97%e6%b3%95%e5%88%99-2" class="header-anchor"></a>运算法则
 </h4><p>已知 $F$, $G$ 为向量场，$u$ 为数量场，足够阶可微，$C$ 为常数</p>
 <ol>
 <li>符合 <strong>数乘&amp;加减 の 线性运算</strong>
 <ol>
-<li>$\mathrm{rot}\left( C\vec{F} \right)=C\cdot \mathrm{rot},\vec{F}$</li>
-<li>$\mathrm{rot}\left( \vec{F}\pm \vec{G} \right)=\mathrm{rot},\vec{F}\pm \mathrm{rot},\vec{G}$</li>
+<li>$\mathrm{rot}\left( C\vec{F} \right)=C\cdot \mathrm{rot}\,\vec{F}$</li>
+<li>$\mathrm{rot}\left( \vec{F}\pm \vec{G} \right)=\mathrm{rot}\,\vec{F}\pm \mathrm{rot}\,\vec{G}$</li>
 </ol>
 </li>
-<li>数向内旋$$\mathrm{rot}\left( u\vec{F} \right)=u,\mathrm{rot},\vec{F}+\mathrm{grad},u \times \vec{F} $$</li>
-<li>向向外散$$\mathrm{div}\left( \vec{F}\times \vec{G} \right) = \vec{G}\cdot \mathrm{rot},\vec{F}-\vec{F}\cdot \mathrm{rot},\vec{G}$$</li>
-<li>数量场归零$$\mathrm{rot}\left( \mathrm{grad},u \right)=0 $$</li>
-<li>向量场归零$$\mathrm{div}\left( \mathrm{rot},\vec{F} \right)=0 $$</li>
+<li>数向内旋
+$$\mathrm{rot}\left( u\vec{F} \right)=u\,\mathrm{rot}\,\vec{F}+\mathrm{grad}\,u \times \vec{F} $$</li>
+<li>向向外散
+$$\mathrm{div}\left( \vec{F}\times \vec{G} \right) = \vec{G}\cdot \mathrm{rot}\,\vec{F}-\vec{F}\cdot \mathrm{rot}\,\vec{G}$$</li>
+<li>数量场归零
+$$\mathrm{rot}\left( \mathrm{grad}\,u \right)=0 $$</li>
+<li>向量场归零
+$$\mathrm{div}\left( \mathrm{rot}\,\vec{F} \right)=0 $$</li>
 </ol>
 <h2 id="保守场"><a href="#%e4%bf%9d%e5%ae%88%e5%9c%ba" class="header-anchor"></a>保守场
 </h2><p>以下三个命题等价</p>
 <ol>
 <li>$\vec{F}$ 在 $D$ 内是保守场</li>
-<li>$\vec{F}$ 在 $D$ 内任意闭曲线环量为零，aka. $$\oint_{\Gamma}\vec{F}\cdot ,\mathrm{d}\vec{r}=0$$</li>
-<li>$\vec{F}$ 在 $D$ 内是<strong>无旋场</strong>，aka. $$\mathrm{rot},\vec{F}=0$$</li>
+<li>$\vec{F}$ 在 $D$ 内任意闭曲线环量为零，aka.
+$$\oint_{\Gamma}\vec{F}\cdot \,\mathrm{d}\vec{r}=0$$</li>
+<li>$\vec{F}$ 在 $D$ 内是<strong>无旋场</strong>，aka.
+$$\mathrm{rot}\,\vec{F}=0$$</li>
 </ol>
 
     
@@ -680,7 +692,7 @@ $$</p>
 
 
         <span>
-            最后更新于 Feb 15, 2025 02:12 CST
+            最后更新于 Apr 08, 2025 21:05 CST
         </span>
     </section></footer>
 
@@ -736,12 +748,12 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%AB%98%E6%96%AF%E5%85%AC%E5%BC%8F/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/gauss-%E5%85%AC%E5%BC%8F/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">高斯公式</h2>
+            <h2 class="article-title">Gauss 公式</h2>
         </div>
     </a>
 </article>
@@ -762,12 +774,12 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">曲线积分</h2>
+            <h2 class="article-title">Green 公式</h2>
         </div>
     </a>
 </article>
@@ -775,12 +787,12 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">曲面面积</h2>
+            <h2 class="article-title">曲线积分</h2>
         </div>
     </a>
 </article>
@@ -850,7 +862,7 @@ $$</p>
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -944,7 +956,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -959,12 +971,12 @@ $$</p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -976,7 +988,7 @@ $$</p>
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

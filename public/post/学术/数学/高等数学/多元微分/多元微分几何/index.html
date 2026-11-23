@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="曲线\r切线\r参数方程\r已知曲线 $$ \\left{ \\begin{align} x=x(t) \\ y=y(t) \\ z=z(t) \\end{align} \\right. $$ 则 $(x_{0},y_{0},z_{0})$ 处切线： $$ \\frac{x-x_{0}}{x&rsquo;(t)}=\\frac{y-y_{0}}{y&rsquo;(t)}=\\frac{z-z_{0}}{z&rsquo;(t)} $$\n非参方程\r非参方程\r非参方程一般由两个曲面联立给出。\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="曲线\r切线\r参数方程\r已知曲线 $$\r\\left\\{ \\begin{aligned}\rx=x(t) \\\\\ry=y(t) \\\\\rz=z(t)\r\\end{aligned} \\right.\r$$ 则 $(x_{0},y_{0},z_{0})$ 处切线： $$\r\\frac{x-x_{0}}{x'(t)}=\\frac{y-y_{0}}{y'(t)}=\\frac{z-z_{0}}{z'(t)}\r$$ 或者 $$\r\\mathrm{d}\\vec{l}=(x_{t},y_{t},z_{t})\r$$ 非参方程\r非参方程\r非参方程一般由两个曲面联立给出。\n含明显九种标准二次曲线型的一般可以参数方程化。\n">
 <title>多元微分几何</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="多元微分几何">
-<meta property='og:description' content="曲线\r切线\r参数方程\r已知曲线 $$ \\left{ \\begin{align} x=x(t) \\ y=y(t) \\ z=z(t) \\end{align} \\right. $$ 则 $(x_{0},y_{0},z_{0})$ 处切线： $$ \\frac{x-x_{0}}{x&rsquo;(t)}=\\frac{y-y_{0}}{y&rsquo;(t)}=\\frac{z-z_{0}}{z&rsquo;(t)} $$\n非参方程\r非参方程\r非参方程一般由两个曲面联立给出。\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="多元微分几何">
+<meta property='og:description' content="曲线\r切线\r参数方程\r已知曲线 $$\r\\left\\{ \\begin{aligned}\rx=x(t) \\\\\ry=y(t) \\\\\rz=z(t)\r\\end{aligned} \\right.\r$$ 则 $(x_{0},y_{0},z_{0})$ 处切线： $$\r\\frac{x-x_{0}}{x'(t)}=\\frac{y-y_{0}}{y'(t)}=\\frac{z-z_{0}}{z'(t)}\r$$ 或者 $$\r\\mathrm{d}\\vec{l}=(x_{t},y_{t},z_{t})\r$$ 非参方程\r非参方程\r非参方程一般由两个曲面联立给出。\n含明显九种标准二次曲线型的一般可以参数方程化。\n">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='微分' /><meta property='article:tag' content='空间几何' /><meta property='article:published_time' content='2024-12-30T12:37:47&#43;08:00'/><meta property='article:modified_time' content='2025-01-07T20:48:10&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='微分' /><meta property='article:tag' content='空间几何' /><meta property='article:published_time' content='2024-12-30T12:37:47&#43;08:00'/><meta property='article:modified_time' content='2025-05-11T17:10:09&#43;08:00'/>
 <meta name="twitter:title" content="多元微分几何">
-<meta name="twitter:description" content="曲线\r切线\r参数方程\r已知曲线 $$ \\left{ \\begin{align} x=x(t) \\ y=y(t) \\ z=z(t) \\end{align} \\right. $$ 则 $(x_{0},y_{0},z_{0})$ 处切线： $$ \\frac{x-x_{0}}{x&rsquo;(t)}=\\frac{y-y_{0}}{y&rsquo;(t)}=\\frac{z-z_{0}}{z&rsquo;(t)} $$\n非参方程\r非参方程\r非参方程一般由两个曲面联立给出。\n">
+<meta name="twitter:description" content="曲线\r切线\r参数方程\r已知曲线 $$\r\\left\\{ \\begin{aligned}\rx=x(t) \\\\\ry=y(t) \\\\\rz=z(t)\r\\end{aligned} \\right.\r$$ 则 $(x_{0},y_{0},z_{0})$ 处切线： $$\r\\frac{x-x_{0}}{x'(t)}=\\frac{y-y_{0}}{y'(t)}=\\frac{z-z_{0}}{z'(t)}\r$$ 或者 $$\r\\mathrm{d}\\vec{l}=(x_{t},y_{t},z_{t})\r$$ 非参方程\r非参方程\r非参方程一般由两个曲面联立给出。\n含明显九种标准二次曲线型的一般可以参数方程化。\n">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -403,7 +403,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
+            <a href="/categories/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
                 高等数学
             </a>
         
@@ -468,18 +468,24 @@
 </h2><h3 id="切线"><a href="#%e5%88%87%e7%ba%bf" class="header-anchor"></a>切线
 </h3><h4 id="参数方程"><a href="#%e5%8f%82%e6%95%b0%e6%96%b9%e7%a8%8b" class="header-anchor"></a>参数方程
 </h4><p>已知曲线
+</p>
 $$
-\left{ \begin{align}
-x=x(t) \
-y=y(t) \
+\left\{ \begin{aligned}
+x=x(t) \\
+y=y(t) \\
 z=z(t)
-\end{align} \right.
-$$
+\end{aligned} \right.
+$$<p>
 则 $(x_{0},y_{0},z_{0})$ 处切线：
+</p>
 $$
-\frac{x-x_{0}}{x&rsquo;(t)}=\frac{y-y_{0}}{y&rsquo;(t)}=\frac{z-z_{0}}{z&rsquo;(t)}
-$$</p>
-<h4 id="非参方程"><a href="#%e9%9d%9e%e5%8f%82%e6%96%b9%e7%a8%8b" class="header-anchor"></a>非参方程
+\frac{x-x_{0}}{x'(t)}=\frac{y-y_{0}}{y'(t)}=\frac{z-z_{0}}{z'(t)}
+$$<p>
+或者
+</p>
+$$
+\mathrm{d}\vec{l}=(x_{t},y_{t},z_{t})
+$$<h4 id="非参方程"><a href="#%e9%9d%9e%e5%8f%82%e6%96%b9%e7%a8%8b" class="header-anchor"></a>非参方程
 </h4>
         <link rel="stylesheet" href="/css/vendors/admonitions.css">
   <div class="admonition info">
@@ -488,90 +494,98 @@ $$</p>
       <div class="admonition-content">
         <p>非参方程一般由两个曲面联立给出。</p>
 <p>含明显九种标准二次曲线型的一般可以参数方程化。</p>
-
       </div>
   </div>
 <p>已知曲线
+</p>
 $$
-\left{ \begin{align}
-F(x,y,z)=0 \
+\left\{ \begin{aligned}
+F(x,y,z)=0 \\
 G(x,y,z)=0
-\end{align} \right.
-$$
+\end{aligned} \right.
+$$<p>
 则取微分：
+</p>
 $$
-\left{ \begin{align}
-F_{x},dx+F_{y},dy+F_{z},dz=0 \
-G_{x},dx+G_{y},dy+G_{z},dz=0
-\end{align} \right.
+\left\{ \begin{aligned}
+F_{x}\,dx+F_{y}\,dy+F_{z}\,dz=0 \\
+G_{x}\,dx+G_{y}\,dy+G_{z}\,dz=0
+\end{aligned} \right.
+$$<p>
+解得（运用克莱姆法则）：
+</p>
 $$
-解得（运用
-
- <a
-  href="../../../../../../%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99.md"
-  
-  >克莱姆法则</a
->
-）：
-$$
-\left{ \begin{align}
-\frac{dy}{dx}=\dots \
+\left\{ \begin{aligned}
+\frac{dy}{dx}=\dots \\
 \frac{dz}{dx}=\dots
-\end{align} \right.
-$$
+\end{aligned} \right.
+$$<p>
 切线的法向量为 $\left( 1, \frac{dy}{dx}, \frac{dz}{dx} \right)$，切线为：
+</p>
 $$
 \frac{x-x_{0}}{dx}=\frac{y-y_{0}}{dy}=\frac{z-z_{0}}{dz}
-$$</p>
-<h3 id="法平面"><a href="#%e6%b3%95%e5%b9%b3%e9%9d%a2" class="header-anchor"></a>法平面
+$$<p>
+或者
+</p>
+$$
+\mathrm{d}\vec{l}=\left( \frac{ \partial (F,G) }{ \partial (y,z) }, \frac{ \partial (F,G) }{ \partial (z,x) } , \frac{ \partial (F,G) }{ \partial (x,y) }   \right)
+$$<h3 id="法平面"><a href="#%e6%b3%95%e5%b9%b3%e9%9d%a2" class="header-anchor"></a>法平面
 </h3><p>已知切线：
+</p>
 $$
 \frac{x-x_{0}}{A}=\frac{y-y_{0}}{B}=\frac{z-z_{0}}{C}
-$$
-则发平面为：
+$$<p>
+则法平面为：
+</p>
 $$
 A(x-x_{0})+B(y-y_{0})+C(z-z_{0})=0
-$$</p>
-<h2 id="曲面"><a href="#%e6%9b%b2%e9%9d%a2" class="header-anchor"></a>曲面
+$$<h2 id="曲面"><a href="#%e6%9b%b2%e9%9d%a2" class="header-anchor"></a>曲面
 </h2>
   <div class="admonition info">
     <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>曲面的参数方程与非参方程
     </div>
       <div class="admonition-content">
         <p>与曲线刚好相反，曲面的非参方程可以直接给出</p>
-
       </div>
   </div>
 <h3 id="切平面"><a href="#%e5%88%87%e5%b9%b3%e9%9d%a2" class="header-anchor"></a>切平面
 </h3><h4 id="参数方程-1"><a href="#%e5%8f%82%e6%95%b0%e6%96%b9%e7%a8%8b-1" class="header-anchor"></a>参数方程
 </h4><p>已知曲面：
+</p>
 $$
-\left{ \begin{align}
-x=x(u,v) \
-y=y(u,v) \
+\left\{ \begin{aligned}
+x=x(u,v) \\
+y=y(u,v) \\
 z=z(u,v)
-\end{align} \right.
+\end{aligned} \right.
+$$<p>
+则切平面表达式为
+</p>
 $$
-$$
-\vec{n}=\frac{D(x,y,z)}{D(u,v)}=\begin{array}{|}
-x-x_{0} &amp; y-y_{0} &amp; z-z_{0} \
-x_{u} &amp; y_{u} &amp; z_{u} \
-x_{v} &amp; y_{v} &amp; z_{v}
+\frac{D(x,y,z)}{D(u,v)}=\begin{array}{|}
+x-x_{0} & y-y_{0} & z-z_{0} \\
+x_{u} & y_{u} & z_{u} \\
+x_{v} & y_{v} & z_{v}
 \end{array}
-$$
-根据法向量求切平面</p>
+$$<p>
+根据切平面求法向量</p>
 <h4 id="非参方程-1"><a href="#%e9%9d%9e%e5%8f%82%e6%96%b9%e7%a8%8b-1" class="header-anchor"></a>非参方程
 </h4><p>已知曲面：
+</p>
 $$
 F(x,y,z)=0
-$$
+$$<p>
 则 $(x_{0},y_{0},z_{0})$ 处的切平面为：</p>
-<p>$$
-F_x&rsquo;|<em>{(x_0,y_0,z_0)}\cdot(x-x_0)+F_y&rsquo;|</em>{(x_0,y_0,z_0)}\cdot(y-y_0)+F_z&rsquo;|_{(x_0,y_0,z_0)}\cdot(z-z_0)=0
-$$</p>
-<h3 id="法线"><a href="#%e6%b3%95%e7%ba%bf" class="header-anchor"></a>法线
-</h3><p>显然易得。</p>
-
+$$
+F_x'|_{(x_0,y_0,z_0)}\cdot(x-x_0)+F_y'|_{(x_0,y_0,z_0)}\cdot(y-y_0)+F_z'|_{(x_0,y_0,z_0)}\cdot(z-z_0)=0
+$$<h3 id="法线"><a href="#%e6%b3%95%e7%ba%bf" class="header-anchor"></a>法线
+</h3><h4 id="参数形式"><a href="#%e5%8f%82%e6%95%b0%e5%bd%a2%e5%bc%8f" class="header-anchor"></a>参数形式
+</h4>$$
+\vec{n}\parallel\left( \frac{ \partial (y,z) }{ \partial (u,v) } ,\frac{ \partial (z,x) }{ \partial (u,v) }, \frac{ \partial (x,y) }{ \partial (u,v) }   \right)
+$$<h4 id="非参形式"><a href="#%e9%9d%9e%e5%8f%82%e5%bd%a2%e5%bc%8f" class="header-anchor"></a>非参形式
+</h4>$$
+\vec{n} \parallel (F'_{x}\bigg|_{(x_{0},y_{0},z_{0})},F'_{y}\bigg|_{(x_{0},y_{0},z_{0})},F'_{z}\bigg|_{(x_{0},y_{0},z_{0})})
+$$
     
     
     
@@ -607,7 +621,7 @@ $$</p>
 
 
         <span>
-            最后更新于 Jan 07, 2025 20:48 CST
+            最后更新于 May 11, 2025 17:10 CST
         </span>
     </section></footer>
 
@@ -650,6 +664,19 @@ $$</p>
             
                 
 <article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E6%9E%81%E5%80%BC%E9%97%AE%E9%A2%98/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">极值问题</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E9%9A%90%E5%87%BD%E6%95%B0%E5%AD%98%E5%9C%A8%E5%AE%9A%E7%90%86/">
         
         
@@ -663,7 +690,7 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%82%B9%E7%BA%BF%E9%9D%A2/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%82%B9%E7%BA%BF%E9%9D%A2/">
         
         
 
@@ -695,19 +722,6 @@ $$</p>
 
         <div class="article-details">
             <h2 class="article-title">多元泰勒</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0-%E5%81%8F%E5%AF%BC-%E5%BE%AE%E5%88%86/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">多元函数 偏导 微分</h2>
         </div>
     </a>
 </article>
@@ -777,7 +791,7 @@ $$</p>
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -871,7 +885,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -886,12 +900,12 @@ $$</p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -903,7 +917,7 @@ $$</p>
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

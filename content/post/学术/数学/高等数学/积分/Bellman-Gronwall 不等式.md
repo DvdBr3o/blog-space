@@ -31,20 +31,20 @@ $$
 > 则
 >
 > $$
-> \begin{align}
+> \begin{aligned}
 > v'(t) & =\left(f(t)-\int_{a}^{t} f(r)g(r) \, \mathrm{d}r \right)g(t)\exp\left(-\int_{a}^{t} g(r) \, \mathrm{d}r \right) \\
 >  & \le A(t)g(t)\exp\left(-\int_{a}^{t} g(r) \, \mathrm{d}r \right)
-> \end{align}
+> \end{aligned}
 > $$
 >
 > 两边对 $[a,x]$ 求定积分，根据 $v(a)=0$ 得
 >
 > $$
-> \begin{align}
+> \begin{aligned}
 > v(x)  & \le \int_{a}^{x} A(t)g(t)\exp\left(-\int_{a}^{t} g(r) \, \mathrm{d}r \right) \, \mathrm{d}t  \\
 > \int_{a}^{x} f(t)g(t) \, \mathrm{d}t & \le \int_{a}^{x} A(t)g(t)\exp\left(\int_{a}^{x} g(r) \, \mathrm{d}r - \int_{a}^{t} g(r) \, \mathrm{d}r  \right) \, \mathrm{d}t \\
 > \int_{a}^{x} f(t)g(t) \, \mathrm{d}t & \le \int_{a}^{x} A(t)g(t) \exp\left(\int_{t}^{x} g(r) \, \mathrm{d}r \right) \, \mathrm{d}t
-> \end{align}
+> \end{aligned}
 > $$
 >
 > 从而轻易有

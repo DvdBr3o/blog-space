@@ -17,11 +17,11 @@ $$
 > [!hint] 证明
 >
 > $$
-> \begin{align}
+> \begin{aligned}
 > \int_{a}^{b} \left(f(x)+\lambda g(x)\right)^{2} \, \mathrm{d}x & =\int_{a}^{b} \lambda^{2}g^{2}(x)+2f(x)g(x)\lambda+f^{2}(x) \, \mathrm{d}x \\
 >  & =\left(\int_{a}^{b} g^{2}(x) \, \mathrm{d}x \right)\lambda^{2}+2\left(\int_{a}^{b} f(x)g(x) \, \mathrm{d}x \right)\lambda+\int_{a}^{b} f^{2}(x) \, \mathrm{d}x \\
 >  & \geq 0
-> \end{align}
+> \end{aligned}
 > $$
 >
 > 所以

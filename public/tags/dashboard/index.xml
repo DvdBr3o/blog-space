@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Dashboard on DvdBr3o</title>
-        <link>//localhost:1313/tags/dashboard/</link>
+        <link>http://localhost:38081/tags/dashboard/</link>
         <description>Recent content in Dashboard on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 10 Dec 2024 23:15:02 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/dashboard/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Dec 2024 23:15:02 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/dashboard/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Vulkan 学习资料汇总</title>
-        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</link>
+        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</link>
         <pubDate>Thu, 21 Nov 2024 22:19:23 +0800</pubDate>
         
-        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</guid>
+        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</guid>
         <description>&lt;h2 id=&#34;tutorial&#34;&gt;&lt;a href=&#34;#tutorial&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Tutorial
 &lt;/h2&gt; 
 

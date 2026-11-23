@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Floyd\r核心逻辑：\n1 2 3 4 for (auto k = 1; k &lt;= n; ++k) for (auto x = 1; x &lt;= n; ++x) for (auto y = 1; y &lt;= n; ++y) f[x][y] = std::min(f[x][y], f[x][k] + f[k][y]); 时间复杂度 $O(n^3)$，空间复杂度 $O(n^2)$\nBellman-Ford\r用途\r处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。\n时间复杂度 $O(mn)$。\n实现\r判负环\r🔗 洛谷 P3385 【模板】负环\rSPFA\r用途\r优先队列优化 Bellman-Ford 时间复杂度。\n时间复杂度\n实现\rDijkstra\r被证明普遍最优了 :)\n用途\r求解\u00a0非负权图\u00a0上单源最短路径\n实现\r将所有点分为 已经确定最短路点集 $S$ (vis[u] = true) 和 未确定最短路点集 $T$ (vis[u] = false])。\n初始化源点 $s$ 有 $dis(s) = 0$，其他 $dis(u) = +\\infty$\n然后重复操作：\n从 $T$ 取最短路长度最小的点，移到 $S$ 对刚刚被加进 $S$ 的点所有出边进行松弛 $T$ 为空时结束。\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Floyd\r核心逻辑：\n1 2 3 4 for (auto k = 1; k &lt;= n; ++k) for (auto x = 1; x &lt;= n; ++x) for (auto y = 1; y &lt;= n; ++y) f[x][y] = std::min(f[x][y], f[x][k] + f[k][y]); 时间复杂度 $O(|V|^3)$，空间复杂度 $O(|V|^2)$\nBellman-Ford\r用途\r处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。\n时间复杂度 $O(|V||E|)$。\n实现\r判负环\r🔗 洛谷 P3385 【模板】负环\rSPFA\r用途\r优先队列优化 Bellman-Ford 时间复杂度。\n时间复杂度\n实现\rDijkstra\r被证明普遍最优了 :)\n用途\r求解\u00a0非负权图\u00a0上单源最短路径\n实现\r将所有点分为 已经确定最短路点集 $S$ (vis[u] = true) 和 未确定最短路点集 $T$ (vis[u] = false])。\n初始化源点 $s$ 有 $dis(s) = 0$，其他 $dis(u) = +\\infty$\n然后重复操作：\n从 $T$ 取最短路长度最小的点，移到 $S$ 对刚刚被加进 $S$ 的点所有出边进行松弛 $T$ 为空时结束。\n">
 <title>最短路</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="最短路">
-<meta property='og:description' content="Floyd\r核心逻辑：\n1 2 3 4 for (auto k = 1; k &lt;= n; ++k) for (auto x = 1; x &lt;= n; ++x) for (auto y = 1; y &lt;= n; ++y) f[x][y] = std::min(f[x][y], f[x][k] + f[k][y]); 时间复杂度 $O(n^3)$，空间复杂度 $O(n^2)$\nBellman-Ford\r用途\r处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。\n时间复杂度 $O(mn)$。\n实现\r判负环\r🔗 洛谷 P3385 【模板】负环\rSPFA\r用途\r优先队列优化 Bellman-Ford 时间复杂度。\n时间复杂度\n实现\rDijkstra\r被证明普遍最优了 :)\n用途\r求解\u00a0非负权图\u00a0上单源最短路径\n实现\r将所有点分为 已经确定最短路点集 $S$ (vis[u] = true) 和 未确定最短路点集 $T$ (vis[u] = false])。\n初始化源点 $s$ 有 $dis(s) = 0$，其他 $dis(u) = +\\infty$\n然后重复操作：\n从 $T$ 取最短路长度最小的点，移到 $S$ 对刚刚被加进 $S$ 的点所有出边进行松弛 $T$ 为空时结束。\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="最短路">
+<meta property='og:description' content="Floyd\r核心逻辑：\n1 2 3 4 for (auto k = 1; k &lt;= n; ++k) for (auto x = 1; x &lt;= n; ++x) for (auto y = 1; y &lt;= n; ++y) f[x][y] = std::min(f[x][y], f[x][k] + f[k][y]); 时间复杂度 $O(|V|^3)$，空间复杂度 $O(|V|^2)$\nBellman-Ford\r用途\r处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。\n时间复杂度 $O(|V||E|)$。\n实现\r判负环\r🔗 洛谷 P3385 【模板】负环\rSPFA\r用途\r优先队列优化 Bellman-Ford 时间复杂度。\n时间复杂度\n实现\rDijkstra\r被证明普遍最优了 :)\n用途\r求解\u00a0非负权图\u00a0上单源最短路径\n实现\r将所有点分为 已经确定最短路点集 $S$ (vis[u] = true) 和 未确定最短路点集 $T$ (vis[u] = false])。\n初始化源点 $s$ 有 $dis(s) = 0$，其他 $dis(u) = +\\infty$\n然后重复操作：\n从 $T$ 取最短路长度最小的点，移到 $S$ 对刚刚被加进 $S$ 的点所有出边进行松弛 $T$ 为空时结束。\n">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='algorithm' /><meta property='article:tag' content='图论' /><meta property='article:published_time' content='2024-11-29T16:16:01&#43;08:00'/><meta property='article:modified_time' content='2024-12-17T13:31:29&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='algorithm' /><meta property='article:tag' content='图论' /><meta property='article:published_time' content='2024-11-29T16:16:01&#43;08:00'/><meta property='article:modified_time' content='2026-01-14T22:54:24&#43;08:00'/>
 <meta name="twitter:title" content="最短路">
-<meta name="twitter:description" content="Floyd\r核心逻辑：\n1 2 3 4 for (auto k = 1; k &lt;= n; ++k) for (auto x = 1; x &lt;= n; ++x) for (auto y = 1; y &lt;= n; ++y) f[x][y] = std::min(f[x][y], f[x][k] + f[k][y]); 时间复杂度 $O(n^3)$，空间复杂度 $O(n^2)$\nBellman-Ford\r用途\r处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。\n时间复杂度 $O(mn)$。\n实现\r判负环\r🔗 洛谷 P3385 【模板】负环\rSPFA\r用途\r优先队列优化 Bellman-Ford 时间复杂度。\n时间复杂度\n实现\rDijkstra\r被证明普遍最优了 :)\n用途\r求解\u00a0非负权图\u00a0上单源最短路径\n实现\r将所有点分为 已经确定最短路点集 $S$ (vis[u] = true) 和 未确定最短路点集 $T$ (vis[u] = false])。\n初始化源点 $s$ 有 $dis(s) = 0$，其他 $dis(u) = +\\infty$\n然后重复操作：\n从 $T$ 取最短路长度最小的点，移到 $S$ 对刚刚被加进 $S$ 的点所有出边进行松弛 $T$ 为空时结束。\n">
+<meta name="twitter:description" content="Floyd\r核心逻辑：\n1 2 3 4 for (auto k = 1; k &lt;= n; ++k) for (auto x = 1; x &lt;= n; ++x) for (auto y = 1; y &lt;= n; ++y) f[x][y] = std::min(f[x][y], f[x][k] + f[k][y]); 时间复杂度 $O(|V|^3)$，空间复杂度 $O(|V|^2)$\nBellman-Ford\r用途\r处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。\n时间复杂度 $O(|V||E|)$。\n实现\r判负环\r🔗 洛谷 P3385 【模板】负环\rSPFA\r用途\r优先队列优化 Bellman-Ford 时间复杂度。\n时间复杂度\n实现\rDijkstra\r被证明普遍最优了 :)\n用途\r求解\u00a0非负权图\u00a0上单源最短路径\n实现\r将所有点分为 已经确定最短路点集 $S$ (vis[u] = true) 和 未确定最短路点集 $T$ (vis[u] = false])。\n初始化源点 $s$ 有 $dis(s) = 0$，其他 $dis(u) = +\\infty$\n然后重复操作：\n从 $T$ 取最短路长度最小的点，移到 $S$ 对刚刚被加进 $S$ 的点所有出边进行松弛 $T$ 为空时结束。\n">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -416,7 +416,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E7%AE%97%E6%B3%95/" >
+            <a href="/categories/categories/%E7%AE%97%E6%B3%95/" >
                 算法
             </a>
         
@@ -493,11 +493,11 @@
 </span></span><span class="line"><span class="cl">			<span class="n">f</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">y</span><span class="p">]</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">min</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">y</span><span class="p">],</span> <span class="n">f</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">k</span><span class="p">]</span> <span class="o">+</span> <span class="n">f</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="n">y</span><span class="p">]);</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>时间复杂度 $O(n^3)$，空间复杂度 $O(n^2)$</p>
+</div><p>时间复杂度 $O(|V|^3)$，空间复杂度 $O(|V|^2)$</p>
 <h2 id="bellman-ford"><a href="#bellman-ford" class="header-anchor"></a>Bellman-Ford
 </h2><h3 id="用途"><a href="#%e7%94%a8%e9%80%94" class="header-anchor"></a>用途
 </h3><p>处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。</p>
-<p>时间复杂度 $O(mn)$。</p>
+<p>时间复杂度 $O(|V||E|)$。</p>
 <h3 id="实现"><a href="#%e5%ae%9e%e7%8e%b0" class="header-anchor"></a>实现
 </h3><h4 id="判负环"><a href="#%e5%88%a4%e8%b4%9f%e7%8e%af" class="header-anchor"></a>判负环
 </h4><p>🔗 
@@ -625,11 +625,11 @@
 </span></span><span class="line"><span class="cl">	<span class="p">{}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">	<span class="c1">// add_edges(...)
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">// ...
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">	<span class="c1">// ...
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">	<span class="k">auto</span> <span class="nf">dijkstra</span><span class="p">(</span><span class="n">size_t</span> <span class="n">s</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">void</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="n">std</span><span class="o">::</span><span class="n">priority_queue</span><span class="o">&lt;</span><span class="n">Node</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">Node</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">greater</span><span class="o">&lt;</span><span class="n">Node</span><span class="o">&gt;&gt;</span> <span class="n">q</span><span class="p">;</span> <span class="c1">// subset of $T$
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>		<span class="n">dis</span><span class="p">[</span><span class="n">s</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="n">std</span><span class="o">::</span><span class="n">priority_queue</span><span class="o">&lt;</span><span class="n">Node</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">Node</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">greater</span><span class="o">&lt;&gt;&gt;</span> <span class="n">q</span><span class="p">;</span> <span class="c1">// subset of $T$
+</span></span></span><span class="line"><span class="cl">		<span class="n">dis</span><span class="p">[</span><span class="n">s</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">		<span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">({</span> <span class="n">s</span><span class="p">,</span> <span class="n">dis</span><span class="p">[</span><span class="n">s</span><span class="p">]</span> <span class="p">});</span>
 </span></span><span class="line"><span class="cl">		<span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">q</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">			<span class="k">auto</span> <span class="n">u</span> <span class="o">=</span> <span class="n">q</span><span class="p">.</span><span class="n">top</span><span class="p">().</span><span class="n">u</span><span class="p">;</span>
@@ -646,16 +646,15 @@
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>时间复杂度 $O(m\log{m})$。</p>
+</div><p>时间复杂度 $O(e+n\log n)$</p>
 <h2 id="jhonson-全源最短路"><a href="#jhonson-%e5%85%a8%e6%ba%90%e6%9c%80%e7%9f%ad%e8%b7%af" class="header-anchor"></a>Jhonson 全源最短路
 </h2><h3 id="用途-3"><a href="#%e7%94%a8%e9%80%94-3" class="header-anchor"></a>用途
 </h3><p>任意图 の 全源最短路</p>
 <h3 id="实现-3"><a href="#%e5%ae%9e%e7%8e%b0-3" class="header-anchor"></a>实现
 </h3><p>为解决负权边，对边重新标注：</p>
-<p>$$
-w&rsquo; = w + h_u - h_v
-$$</p>
-<p>联想<strong>势能</strong>进行记忆。</p>
+$$
+w' = w + h_u - h_v
+$$<p>联想<strong>势能</strong>进行记忆。</p>
 <p>其中 $h_u$ 是零势能面(节点<code>0</code>) 到节点 $u$ 的最短路。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -664,7 +663,7 @@ $$</p>
 <pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li><input disabled="" type="checkbox"> TODO：完成 
+<li><input checked="" disabled="" type="checkbox"> TODO：完成 
 
  <a
   href="https://www.luogu.com.cn/problem/P5905"
@@ -673,7 +672,7 @@ $$</p>
   
   ># P5905 【模板】全源最短路（Johnson）</a
 >
- 🔽 📅 2024-12-06</li>
+ 🔽 📅 2024-12-06 ✅ 2025-04-03</li>
 </ul>
 
     
@@ -707,7 +706,7 @@ $$</p>
 
 
         <span>
-            最后更新于 Dec 17, 2024 13:31 CST
+            最后更新于 Jan 14, 2026 22:54 CST
         </span>
     </section></footer>
 
@@ -789,12 +788,12 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A0%86/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">堆</h2>
+            <h2 class="article-title">树</h2>
         </div>
     </a>
 </article>
@@ -802,12 +801,12 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A0%86/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">并查集</h2>
+            <h2 class="article-title">堆</h2>
         </div>
     </a>
 </article>
@@ -877,7 +876,7 @@ $$</p>
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -971,7 +970,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -986,12 +985,12 @@ $$</p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -1003,7 +1002,7 @@ $$</p>
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

@@ -28,12 +28,12 @@ publish: true
 > [!hint] 解析证明
 >
 > $$
-> \begin{align}
+> \begin{aligned}
 > I & =\int_{0}^{a} f(x) \, \mathrm{d}x +\int_{0}^{g(b)} x \, \mathrm{d}f(x) \\
 >  & =\int_{0}^{a} f(x) \, \mathrm{d}x + xf(x)\bigg|_{0}^{g(b)}-\int_{0}^{g(b)} f(x) \, \mathrm{d}x  \\
 >  & =\int_{g(b)}^{a} f(x) \, \mathrm{d}x + bg(b) \\
 >  & \ge \mathrm{max}f(x) \int_{g(b)}^{a}  \, \mathrm{d}x +bg(b) \\
 >  & = b(a-g(b))+bg(b) \\
 >  & = ab
-> \end{align}
+> \end{aligned}
 > $$

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>连续 on DvdBr3o</title>
-        <link>//localhost:1313/tags/%E8%BF%9E%E7%BB%AD/</link>
+        <link>http://localhost:38081/tags/%E8%BF%9E%E7%BB%AD/</link>
         <description>Recent content in 连续 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 27 Dec 2024 23:27:44 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/%E8%BF%9E%E7%BB%AD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 27 Dec 2024 23:27:44 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E8%BF%9E%E7%BB%AD/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>定义证明函数连续性</title>
-        <link>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</link>
+        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</link>
         <pubDate>Thu, 26 Dec 2024 10:33:22 +0800</pubDate>
         
-        <guid>//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</guid>
+        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</guid>
         <description>&lt;p&gt;
 
  &lt;a
@@ -25,16 +25,16 @@
 &lt;h2 id=&#34;-真题&#34;&gt;&lt;a href=&#34;#-%e7%9c%9f%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;🔗 真题
 &lt;/h2&gt;&lt;p&gt;(2021·中山大学·高等数学I·期末考试) 证明 $\lim_{ x \to a }x^{3}=a^{3}$.&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:1313/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;解答
     &lt;/div&gt;
       &lt;div class=&#34;admonition-content&#34;&gt;
         &lt;p&gt;&lt;strong&gt;法一&lt;/strong&gt;
-不妨 $\left| x-a \right|&amp;lt; \frac{a}{2}$，则 $f(x)=\left| x^{2}+a^{2}+ax \right|&amp;lt;f\left( \frac{3}{2}a \right)=\frac{19}{4}a^{2}$.
-则 $$\begin{align}\left| x^{3}-a^{3} \right|&amp;amp;=\left| x-a \right|\left| x^{2}+a^{2}+ax \right|\&amp;amp;&amp;lt;\left| x-a \right|\cdot \frac{19}{4}a^{2}\&amp;amp;&amp;lt;\epsilon\end{align}$$
-所以只需取 $\delta= \mathrm{min} \left{  \frac{a}{2}, \frac{4\epsilon}{19a^{2}}  \right}$，即可 $\forall \epsilon&amp;gt;0$， $\forall \left| x-a \right|&amp;lt;\delta$，$\left| x^3-a^3 \right|&amp;lt;\epsilon$.&lt;/p&gt;
-
+不妨 $\left| x-a \right|&lt; \frac{a}{2}$，则 $f(x)=\left| x^{2}+a^{2}+ax \right|&lt;f\left( \frac{3}{2}a \right)=\frac{19}{4}a^{2}$.
+则 &lt;/p&gt;
+$$\begin{aligned}\left| x^{3}-a^{3} \right|&amp;=\left| x-a \right|\left| x^{2}+a^{2}+ax \right|\\&amp;&lt;\left| x-a \right|\cdot \frac{19}{4}a^{2}\\&amp;&lt;\epsilon\end{aligned}$$&lt;p&gt;
+所以只需取 $\delta= \mathrm{min} \left\{  \frac{a}{2}, \frac{4\epsilon}{19a^{2}}  \right\}$，即可 $\forall \epsilon&gt;0$， $\forall \left| x-a \right|&lt;\delta$，$\left| x^3-a^3 \right|&lt;\epsilon$.&lt;/p&gt;
       &lt;/div&gt;
   &lt;/div&gt;
 &lt;h2 id=&#34;方法论&#34;&gt;&lt;a href=&#34;#%e6%96%b9%e6%b3%95%e8%ae%ba&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;方法论
@@ -42,15 +42,16 @@
 &lt;ol&gt;
 &lt;li&gt;可以先对 $\delta$ 假设一定值(&lt;strong&gt;第一前提&lt;/strong&gt;)。&lt;/li&gt;
 &lt;li&gt;根据 &lt;strong&gt;第一前提&lt;/strong&gt; 放缩，消去 $x$，转化为 $x_{0}$ / 其他定值。&lt;/li&gt;
-&lt;li&gt;最终转化为 $\mathrm{const}\ \cdot \ f(\delta) &amp;lt; \epsilon$ 的形式得出临界点。(最好是 $f(\delta)=\delta$)&lt;/li&gt;
-&lt;li&gt;将 $\delta=\mathrm{min}{ 第一前提，各临界点 }$ 作为取法
+&lt;li&gt;最终转化为 $\mathrm{const}\ \cdot \ f(\delta) &lt; \epsilon$ 的形式得出临界点。(最好是 $f(\delta)=\delta$)&lt;/li&gt;
+&lt;li&gt;将 $\delta=\mathrm{min}\{ 第一前提，各临界点 \}$ 作为取法
 （实际上是第一前提区间与各临界区间的交集，产生的 $\delta$ 取法）&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;现在我们再回顾真题的解答法一：
-不妨 $\left| x-a \right|&amp;lt; \frac{a}{2}$， (第一步：第一前提)
-则 $f(x)=\left| x^{2}+a^{2}+ax \right|&amp;lt;f\left( \frac{3}{2}a \right)=\frac{19}{4}a^{2}$. （第二步：根据第一前提放缩，向定值靠拢）
-则 $$\begin{align}\left| x^{3}-a^{3} \right|&amp;amp;=\left| x-a \right|\left| x^{2}+a^{2}+ax \right|\&amp;amp;&amp;lt;\left| x-a \right|\cdot \frac{19}{4}a^{2}\&amp;amp;&amp;lt;\epsilon\end{align}$$ （第三步：得出临界点）
-所以只需取 $\delta= \mathrm{min} \left{  \frac{a}{2}, \frac{4\epsilon}{19a^{2}}  \right}$，即可 $\forall \epsilon&amp;gt;0$， $\forall \left| x-a \right|&amp;lt;\delta$，$\left| x^3-a^3 \right|&amp;lt;\epsilon$. （第四步：取临界点交集作为 $\delta$ 取法）&lt;/p&gt;
+不妨 $\left| x-a \right|&lt; \frac{a}{2}$， (第一步：第一前提)
+则 $f(x)=\left| x^{2}+a^{2}+ax \right|&lt;f\left( \frac{3}{2}a \right)=\frac{19}{4}a^{2}$. （第二步：根据第一前提放缩，向定值靠拢）
+则 &lt;/p&gt;
+$$\begin{aligned}\left| x^{3}-a^{3} \right|&amp;=\left| x-a \right|\left| x^{2}+a^{2}+ax \right|\\&amp;&lt;\left| x-a \right|\cdot \frac{19}{4}a^{2}\\&amp;&lt;\epsilon\end{aligned}$$&lt;p&gt; （第三步：得出临界点）
+所以只需取 $\delta= \mathrm{min} \left\{  \frac{a}{2}, \frac{4\epsilon}{19a^{2}}  \right\}$，即可 $\forall \epsilon&gt;0$， $\forall \left| x-a \right|&lt;\delta$，$\left| x^3-a^3 \right|&lt;\epsilon$. （第四步：取临界点交集作为 $\delta$ 取法）&lt;/p&gt;
 </description>
         </item>
         

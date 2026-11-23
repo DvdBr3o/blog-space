@@ -9,6 +9,12 @@ theme = [ 'stack', 'admonitions' ]
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = true
+    # 保留 LaTeX 原文，避免 _ ^ * 等被 Markdown 当成强调/斜体而破坏公式
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['$$', '$$'], ['\[', '\]']]
+        inline = [['$', '$'], ['\(', '\)']]
   [markup.highlight]
     anchorLineNos = false
     codeFences = true

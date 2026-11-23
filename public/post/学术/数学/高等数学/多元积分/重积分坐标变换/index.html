@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="变换准则\r对于 $\\left( x_{1},x_{2},\\dots,x_{n} \\right) \\to (y_{1},y_{2},\\dots,y_{n})$\n且存在函数关系： $$ \\begin{align} x_{1}&amp;=x_{1}(y_{1},y_{2},\\dots,y_{n}) \\ x_{2}&amp;=x_{2}(y_{1},y_{2},\\dots,y_{n}) \\ &amp;\\dots \\ x_{n}&amp;=x_{n}(y_{1},y_{2},\\dots,y_{n}) \\end{align} $$ 则： $$ dx_{1}\\cdot dx_{2}\\cdot\\dots\\cdot dx_{n}=\\det J\\cdot dy_{1}\\cdot dy_{2}\\cdot\\dots\\cdot dy_{n} $$ 其中 $$ J=\\frac{D\\left( x_{1},x_{2},\\dots,x_{n} \\right) }{D\\left( y_{1},y_{2},\\dots,y_{n} \\right) } $$\n常见坐标变换\r温馨提醒\r以下坐标变换均为直角坐标系转为对应坐标系\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="变换准则\r对于 $\\left( x_{1},x_{2},\\dots,x_{n} \\right) \\to (y_{1},y_{2},\\dots,y_{n})$\n且存在函数关系： $$\r\\begin{aligned}\rx_{1}&=x_{1}(y_{1},y_{2},\\dots,y_{n}) \\\\\rx_{2}&=x_{2}(y_{1},y_{2},\\dots,y_{n}) \\\\\r&\\dots \\\\\rx_{n}&=x_{n}(y_{1},y_{2},\\dots,y_{n})\r\\end{aligned}\r$$ 则： $$\rdx_{1}\\cdot dx_{2}\\cdot\\dots\\cdot dx_{n}=\\det J\\cdot dy_{1}\\cdot dy_{2}\\cdot\\dots\\cdot dy_{n}\r$$ 其中 $$\rJ=\\frac{D\\left( x_{1},x_{2},\\dots,x_{n} \\right) }{D\\left( y_{1},y_{2},\\dots,y_{n} \\right) }\r$$ 常见坐标变换\r温馨提醒\r以下坐标变换均为直角坐标系转为对应坐标系\n">
 <title>重积分坐标变换</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="重积分坐标变换">
-<meta property='og:description' content="变换准则\r对于 $\\left( x_{1},x_{2},\\dots,x_{n} \\right) \\to (y_{1},y_{2},\\dots,y_{n})$\n且存在函数关系： $$ \\begin{align} x_{1}&amp;=x_{1}(y_{1},y_{2},\\dots,y_{n}) \\ x_{2}&amp;=x_{2}(y_{1},y_{2},\\dots,y_{n}) \\ &amp;\\dots \\ x_{n}&amp;=x_{n}(y_{1},y_{2},\\dots,y_{n}) \\end{align} $$ 则： $$ dx_{1}\\cdot dx_{2}\\cdot\\dots\\cdot dx_{n}=\\det J\\cdot dy_{1}\\cdot dy_{2}\\cdot\\dots\\cdot dy_{n} $$ 其中 $$ J=\\frac{D\\left( x_{1},x_{2},\\dots,x_{n} \\right) }{D\\left( y_{1},y_{2},\\dots,y_{n} \\right) } $$\n常见坐标变换\r温馨提醒\r以下坐标变换均为直角坐标系转为对应坐标系\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="重积分坐标变换">
+<meta property='og:description' content="变换准则\r对于 $\\left( x_{1},x_{2},\\dots,x_{n} \\right) \\to (y_{1},y_{2},\\dots,y_{n})$\n且存在函数关系： $$\r\\begin{aligned}\rx_{1}&=x_{1}(y_{1},y_{2},\\dots,y_{n}) \\\\\rx_{2}&=x_{2}(y_{1},y_{2},\\dots,y_{n}) \\\\\r&\\dots \\\\\rx_{n}&=x_{n}(y_{1},y_{2},\\dots,y_{n})\r\\end{aligned}\r$$ 则： $$\rdx_{1}\\cdot dx_{2}\\cdot\\dots\\cdot dx_{n}=\\det J\\cdot dy_{1}\\cdot dy_{2}\\cdot\\dots\\cdot dy_{n}\r$$ 其中 $$\rJ=\\frac{D\\left( x_{1},x_{2},\\dots,x_{n} \\right) }{D\\left( y_{1},y_{2},\\dots,y_{n} \\right) }\r$$ 常见坐标变换\r温馨提醒\r以下坐标变换均为直角坐标系转为对应坐标系\n">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='多元' /><meta property='article:published_time' content='2024-12-26T12:04:08&#43;08:00'/><meta property='article:modified_time' content='2024-12-26T12:25:05&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='多元' /><meta property='article:published_time' content='2024-12-26T12:04:08&#43;08:00'/><meta property='article:modified_time' content='2025-05-14T12:56:05&#43;08:00'/>
 <meta name="twitter:title" content="重积分坐标变换">
-<meta name="twitter:description" content="变换准则\r对于 $\\left( x_{1},x_{2},\\dots,x_{n} \\right) \\to (y_{1},y_{2},\\dots,y_{n})$\n且存在函数关系： $$ \\begin{align} x_{1}&amp;=x_{1}(y_{1},y_{2},\\dots,y_{n}) \\ x_{2}&amp;=x_{2}(y_{1},y_{2},\\dots,y_{n}) \\ &amp;\\dots \\ x_{n}&amp;=x_{n}(y_{1},y_{2},\\dots,y_{n}) \\end{align} $$ 则： $$ dx_{1}\\cdot dx_{2}\\cdot\\dots\\cdot dx_{n}=\\det J\\cdot dy_{1}\\cdot dy_{2}\\cdot\\dots\\cdot dy_{n} $$ 其中 $$ J=\\frac{D\\left( x_{1},x_{2},\\dots,x_{n} \\right) }{D\\left( y_{1},y_{2},\\dots,y_{n} \\right) } $$\n常见坐标变换\r温馨提醒\r以下坐标变换均为直角坐标系转为对应坐标系\n">
+<meta name="twitter:description" content="变换准则\r对于 $\\left( x_{1},x_{2},\\dots,x_{n} \\right) \\to (y_{1},y_{2},\\dots,y_{n})$\n且存在函数关系： $$\r\\begin{aligned}\rx_{1}&=x_{1}(y_{1},y_{2},\\dots,y_{n}) \\\\\rx_{2}&=x_{2}(y_{1},y_{2},\\dots,y_{n}) \\\\\r&\\dots \\\\\rx_{n}&=x_{n}(y_{1},y_{2},\\dots,y_{n})\r\\end{aligned}\r$$ 则： $$\rdx_{1}\\cdot dx_{2}\\cdot\\dots\\cdot dx_{n}=\\det J\\cdot dy_{1}\\cdot dy_{2}\\cdot\\dots\\cdot dy_{n}\r$$ 其中 $$\rJ=\\frac{D\\left( x_{1},x_{2},\\dots,x_{n} \\right) }{D\\left( y_{1},y_{2},\\dots,y_{n} \\right) }\r$$ 常见坐标变换\r温馨提醒\r以下坐标变换均为直角坐标系转为对应坐标系\n">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -393,7 +393,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
+            <a href="/categories/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
                 高等数学
             </a>
         
@@ -457,23 +457,25 @@
     <h2 id="变换准则"><a href="#%e5%8f%98%e6%8d%a2%e5%87%86%e5%88%99" class="header-anchor"></a>变换准则
 </h2><p>对于 $\left( x_{1},x_{2},\dots,x_{n} \right) \to (y_{1},y_{2},\dots,y_{n})$</p>
 <p>且存在函数关系：
+</p>
 $$
-\begin{align}
-x_{1}&amp;=x_{1}(y_{1},y_{2},\dots,y_{n}) \
-x_{2}&amp;=x_{2}(y_{1},y_{2},\dots,y_{n}) \
-&amp;\dots \
-x_{n}&amp;=x_{n}(y_{1},y_{2},\dots,y_{n})
-\end{align}
-$$
+\begin{aligned}
+x_{1}&=x_{1}(y_{1},y_{2},\dots,y_{n}) \\
+x_{2}&=x_{2}(y_{1},y_{2},\dots,y_{n}) \\
+&\dots \\
+x_{n}&=x_{n}(y_{1},y_{2},\dots,y_{n})
+\end{aligned}
+$$<p>
 则：
+</p>
 $$
 dx_{1}\cdot dx_{2}\cdot\dots\cdot dx_{n}=\det J\cdot dy_{1}\cdot dy_{2}\cdot\dots\cdot dy_{n}
-$$
+$$<p>
 其中
+</p>
 $$
 J=\frac{D\left( x_{1},x_{2},\dots,x_{n} \right) }{D\left( y_{1},y_{2},\dots,y_{n} \right) }
-$$</p>
-<h2 id="常见坐标变换"><a href="#%e5%b8%b8%e8%a7%81%e5%9d%90%e6%a0%87%e5%8f%98%e6%8d%a2" class="header-anchor"></a>常见坐标变换
+$$<h2 id="常见坐标变换"><a href="#%e5%b8%b8%e8%a7%81%e5%9d%90%e6%a0%87%e5%8f%98%e6%8d%a2" class="header-anchor"></a>常见坐标变换
 </h2>
         <link rel="stylesheet" href="/css/vendors/admonitions.css">
   <div class="admonition info">
@@ -481,42 +483,41 @@ $$</p>
     </div>
       <div class="admonition-content">
         <p>以下坐标变换均为直角坐标系转为对应坐标系</p>
-
       </div>
   </div>
 <div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>自由度</th>
-          <th>坐标系</th>
-          <th>转换形式</th>
-          <th>转换结果</th>
-          <th>雅可比行列式</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>二元</td>
-          <td>极坐标系</td>
-          <td>$(x,y)\to(r,\theta)$</td>
-          <td>$dx\cdot dy=r\cdot dr\cdot d\theta$</td>
-          <td>$\det J=r$</td>
-      </tr>
-      <tr>
-          <td>三元</td>
-          <td>柱坐标系</td>
-          <td>$(x,y,z)\to(r,\theta,z)$</td>
-          <td>$dx\cdot dy\cdot dz=r\cdot dr\cdot d\theta\cdot dz$</td>
-          <td>$\det J=r$</td>
-      </tr>
-      <tr>
-          <td>三元</td>
-          <td>球坐标系</td>
-          <td>$(x,y,z)\to(\rho,\phi,\theta)$</td>
-          <td>$dx\cdot dy\cdot dz=\rho^{2}\sin \theta\cdot d\rho \cdot d\phi\cdot d\theta$</td>
-          <td>$\det J=\rho^{2}\sin \theta$</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>自由度</th>
+					<th>坐标系</th>
+					<th>转换形式</th>
+					<th>转换结果</th>
+					<th>雅可比行列式</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>二元</td>
+					<td>极坐标系</td>
+					<td>$(x,y)\to(r,\theta)$</td>
+					<td>$dx\cdot dy=r\cdot dr\cdot d\theta$</td>
+					<td>$\det J=r$</td>
+			</tr>
+			<tr>
+					<td>三元</td>
+					<td>柱坐标系</td>
+					<td>$(x,y,z)\to(r,\theta,z)$</td>
+					<td>$dx\cdot dy\cdot dz=r\cdot dr\cdot d\theta\cdot dz$</td>
+					<td>$\det J=r$</td>
+			</tr>
+			<tr>
+					<td>三元</td>
+					<td>球坐标系</td>
+					<td>$(x,y,z)\to(\rho,\phi,\theta)$</td>
+					<td>$dx\cdot dy\cdot dz=\rho^{2}\sin \theta\cdot d\rho \cdot d\phi\cdot d\theta$</td>
+					<td>$\det J=\rho^{2}\sin \theta$</td>
+			</tr>
+	</tbody>
 </table></div>
 
   <div class="admonition note">
@@ -528,7 +529,6 @@ $$</p>
 <li>方位角 $\phi \in \left( 0,2\pi \right)$ $:=$ 坐标向量在 $xy$ 平面的投影与 $x$ 轴正方向的逆时针的偏移角</li>
 <li>极角 $\theta \in \left( 0, \pi \right)$ $:=$ 坐标向量与 $z$ 轴正方向的<strong>夹角</strong></li>
 </ul>
-
       </div>
   </div>
 
@@ -565,7 +565,7 @@ $$</p>
 
 
         <span>
-            最后更新于 Dec 26, 2024 12:25 CST
+            最后更新于 May 14, 2025 12:56 CST
         </span>
     </section></footer>
 
@@ -634,12 +634,25 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0-%E5%81%8F%E5%AF%BC-%E5%BE%AE%E5%88%86/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E6%9E%81%E9%99%90-%E5%81%8F%E5%AF%BC-%E5%BE%AE%E5%88%86/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">多元函数 偏导 微分</h2>
+            <h2 class="article-title">多元极限 偏导 微分</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E6%9E%81%E5%80%BC%E9%97%AE%E9%A2%98/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">极值问题</h2>
         </div>
     </a>
 </article>
@@ -653,19 +666,6 @@ $$</p>
 
         <div class="article-details">
             <h2 class="article-title">隐函数存在定理</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">中值定理</h2>
         </div>
     </a>
 </article>
@@ -735,7 +735,7 @@ $$</p>
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -829,7 +829,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -844,12 +844,12 @@ $$</p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -861,7 +861,7 @@ $$</p>
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

@@ -40,13 +40,13 @@ $$
 
 于是
 $$
-\begin{align}
+\begin{aligned}
 {\subset\!\supset} \mathllap{\iint}_{S}R\,dx\,dy & =\iint_{S_{1}+S_{2}+S_{3}}R\,dx\,dy \\
  & =\iint_{S_{1}}R\,dx\,dy+\iint_{S_{2}}R\,dx\,dy+\iint_{S_{3}}R\,dx\,dy \\
  & =\iint_{D}\left( R_{S_{1}}-R_{S_{2}} \right)\,dx\,dy + 0\\
  & =\iint_{D}dR\,dx\,dy \\
  & = \int dx\,dy\, \int_{S_{2}}^{S_{1}} \frac{\partial R}{\partial z} \, dz \\
  & =\iint_{D} \frac{\partial R}{\partial z}\,dV
-\end{align}
+\end{aligned}
 $$
 其他两维同理，三维相加即为**高斯公式**

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="第一型曲面积分\r特征\r类似\r曲线积分 &gt; 第一型曲线积分\r：\n无向 具有保守性 形式\r$$ \\iint_{S}f(x,y,z),dS $$\n计算\r隐函数型\r已知 $$ z=z(x,y) $$ 则 $$ dS=\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} },d\\delta $$ 即 $$ \\iint {S}f(x,y,z) , dS=\\iint{D}f(x,y,z(x,y))\\cdot\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} },d\\delta $$ 其中 $D$ 显然是曲面在平面 $xOy$ 的投影\n参数型\r已知 $$ \\left{ \\begin{align} x &amp; =x(u,v) \\ y &amp; =y(u,v) \\ z &amp; =z(u,v) \\end{align} \\right. $$ 则同\r曲面面积\r令 $$ \\left{ \\begin{align} E &amp; =x_{u}^{2}+y_{u}^{2}+z_{u}^{2} \\ \\ F &amp; =x_{u}x_{v}+y_{u}y_{v}+z_{u}z_{v}\\ \\ G &amp; =x_{v}^{2}+y_{v}^{2}+z_{v}^{2} \\end{align} \\right. $$ 有 $$ dS=\\sqrt{ EG-F^{2} },du,dv $$ 即 $$ \\iint {S}f(x,y,z) , dS = \\iint{D}f(x(u,v),y(u,v),z(u,v))\\cdot \\sqrt{ EG-F^{2} },du,dv $$\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="第一型曲面积分\r特征\r类似\r曲线积分 &gt; 第一型曲线积分\r：\n无向 具有保守性 形式\r$$\r\\iint_{S}f(x,y,z)\\,dS\r$$ 计算\r隐函数型\r已知 $$\rz=z(x,y)\r$$ 则 $$\rdS=\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} }\\,d\\delta\r$$ 即 $$\r\\iint _{S}f(x,y,z) \\, dS=\\iint_{D}f(x,y,z(x,y))\\cdot\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} }\\,d\\delta $$ 其中 $D$ 显然是曲面在平面 $xOy$ 的投影\n参数型\r已知 $$\r\\left\\{ \\begin{aligned}\rx & =x(u,v) \\\\\ry & =y(u,v) \\\\\rz & =z(u,v)\r\\end{aligned} \\right.\r$$ 则同\r曲面面积\r令 $$\r\\left\\{ \\begin{aligned}\rE & =x_{u}^{2}+y_{u}^{2}+z_{u}^{2} \\\\ \\\\\rF & =x_{u}x_{v}+y_{u}y_{v}+z_{u}z_{v}\\\\ \\\\\rG & =x_{v}^{2}+y_{v}^{2}+z_{v}^{2}\r\\end{aligned} \\right.\r$$ 有 ">
 <title>曲面积分</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="曲面积分">
-<meta property='og:description' content="第一型曲面积分\r特征\r类似\r曲线积分 &gt; 第一型曲线积分\r：\n无向 具有保守性 形式\r$$ \\iint_{S}f(x,y,z),dS $$\n计算\r隐函数型\r已知 $$ z=z(x,y) $$ 则 $$ dS=\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} },d\\delta $$ 即 $$ \\iint {S}f(x,y,z) , dS=\\iint{D}f(x,y,z(x,y))\\cdot\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} },d\\delta $$ 其中 $D$ 显然是曲面在平面 $xOy$ 的投影\n参数型\r已知 $$ \\left{ \\begin{align} x &amp; =x(u,v) \\ y &amp; =y(u,v) \\ z &amp; =z(u,v) \\end{align} \\right. $$ 则同\r曲面面积\r令 $$ \\left{ \\begin{align} E &amp; =x_{u}^{2}+y_{u}^{2}+z_{u}^{2} \\ \\ F &amp; =x_{u}x_{v}+y_{u}y_{v}+z_{u}z_{v}\\ \\ G &amp; =x_{v}^{2}+y_{v}^{2}+z_{v}^{2} \\end{align} \\right. $$ 有 $$ dS=\\sqrt{ EG-F^{2} },du,dv $$ 即 $$ \\iint {S}f(x,y,z) , dS = \\iint{D}f(x(u,v),y(u,v),z(u,v))\\cdot \\sqrt{ EG-F^{2} },du,dv $$\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="曲面积分">
+<meta property='og:description' content="第一型曲面积分\r特征\r类似\r曲线积分 &gt; 第一型曲线积分\r：\n无向 具有保守性 形式\r$$\r\\iint_{S}f(x,y,z)\\,dS\r$$ 计算\r隐函数型\r已知 $$\rz=z(x,y)\r$$ 则 $$\rdS=\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} }\\,d\\delta\r$$ 即 $$\r\\iint _{S}f(x,y,z) \\, dS=\\iint_{D}f(x,y,z(x,y))\\cdot\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} }\\,d\\delta $$ 其中 $D$ 显然是曲面在平面 $xOy$ 的投影\n参数型\r已知 $$\r\\left\\{ \\begin{aligned}\rx & =x(u,v) \\\\\ry & =y(u,v) \\\\\rz & =z(u,v)\r\\end{aligned} \\right.\r$$ 则同\r曲面面积\r令 $$\r\\left\\{ \\begin{aligned}\rE & =x_{u}^{2}+y_{u}^{2}+z_{u}^{2} \\\\ \\\\\rF & =x_{u}x_{v}+y_{u}y_{v}+z_{u}z_{v}\\\\ \\\\\rG & =x_{v}^{2}+y_{v}^{2}+z_{v}^{2}\r\\end{aligned} \\right.\r$$ 有 ">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='曲面' /><meta property='article:published_time' content='2025-01-12T17:15:11&#43;08:00'/><meta property='article:modified_time' content='2025-02-04T20:50:44&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='曲面' /><meta property='article:published_time' content='2025-01-12T17:15:11&#43;08:00'/><meta property='article:modified_time' content='2025-06-25T17:48:47&#43;08:00'/>
 <meta name="twitter:title" content="曲面积分">
-<meta name="twitter:description" content="第一型曲面积分\r特征\r类似\r曲线积分 &gt; 第一型曲线积分\r：\n无向 具有保守性 形式\r$$ \\iint_{S}f(x,y,z),dS $$\n计算\r隐函数型\r已知 $$ z=z(x,y) $$ 则 $$ dS=\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} },d\\delta $$ 即 $$ \\iint {S}f(x,y,z) , dS=\\iint{D}f(x,y,z(x,y))\\cdot\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} },d\\delta $$ 其中 $D$ 显然是曲面在平面 $xOy$ 的投影\n参数型\r已知 $$ \\left{ \\begin{align} x &amp; =x(u,v) \\ y &amp; =y(u,v) \\ z &amp; =z(u,v) \\end{align} \\right. $$ 则同\r曲面面积\r令 $$ \\left{ \\begin{align} E &amp; =x_{u}^{2}+y_{u}^{2}+z_{u}^{2} \\ \\ F &amp; =x_{u}x_{v}+y_{u}y_{v}+z_{u}z_{v}\\ \\ G &amp; =x_{v}^{2}+y_{v}^{2}+z_{v}^{2} \\end{align} \\right. $$ 有 $$ dS=\\sqrt{ EG-F^{2} },du,dv $$ 即 $$ \\iint {S}f(x,y,z) , dS = \\iint{D}f(x(u,v),y(u,v),z(u,v))\\cdot \\sqrt{ EG-F^{2} },du,dv $$\n">
+<meta name="twitter:description" content="第一型曲面积分\r特征\r类似\r曲线积分 &gt; 第一型曲线积分\r：\n无向 具有保守性 形式\r$$\r\\iint_{S}f(x,y,z)\\,dS\r$$ 计算\r隐函数型\r已知 $$\rz=z(x,y)\r$$ 则 $$\rdS=\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} }\\,d\\delta\r$$ 即 $$\r\\iint _{S}f(x,y,z) \\, dS=\\iint_{D}f(x,y,z(x,y))\\cdot\\sqrt{ 1+z_{x}^{2}+z_{y}^{2} }\\,d\\delta $$ 其中 $D$ 显然是曲面在平面 $xOy$ 的投影\n参数型\r已知 $$\r\\left\\{ \\begin{aligned}\rx & =x(u,v) \\\\\ry & =y(u,v) \\\\\rz & =z(u,v)\r\\end{aligned} \\right.\r$$ 则同\r曲面面积\r令 $$\r\\left\\{ \\begin{aligned}\rE & =x_{u}^{2}+y_{u}^{2}+z_{u}^{2} \\\\ \\\\\rF & =x_{u}x_{v}+y_{u}y_{v}+z_{u}z_{v}\\\\ \\\\\rG & =x_{v}^{2}+y_{v}^{2}+z_{v}^{2}\r\\end{aligned} \\right.\r$$ 有 ">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -405,7 +405,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
+            <a href="/categories/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
                 高等数学
             </a>
         
@@ -481,33 +481,36 @@
 <li>具有保守性</li>
 </ul>
 <h3 id="形式"><a href="#%e5%bd%a2%e5%bc%8f" class="header-anchor"></a>形式
-</h3><p>$$
-\iint_{S}f(x,y,z),dS
-$$</p>
-<h3 id="计算"><a href="#%e8%ae%a1%e7%ae%97" class="header-anchor"></a>计算
+</h3>$$
+\iint_{S}f(x,y,z)\,dS
+$$<h3 id="计算"><a href="#%e8%ae%a1%e7%ae%97" class="header-anchor"></a>计算
 </h3><h4 id="隐函数型"><a href="#%e9%9a%90%e5%87%bd%e6%95%b0%e5%9e%8b" class="header-anchor"></a>隐函数型
 </h4><p>已知
+</p>
 $$
 z=z(x,y)
-$$
+$$<p>
 则
+</p>
 $$
-dS=\sqrt{ 1+z_{x}^{2}+z_{y}^{2} },d\delta
-$$
+dS=\sqrt{ 1+z_{x}^{2}+z_{y}^{2} }\,d\delta
+$$<p>
 即
+</p>
 $$
-\iint <em>{S}f(x,y,z) , dS=\iint</em>{D}f(x,y,z(x,y))\cdot\sqrt{ 1+z_{x}^{2}+z_{y}^{2} },d\delta
-$$
+\iint _{S}f(x,y,z) \, dS=\iint_{D}f(x,y,z(x,y))\cdot\sqrt{ 1+z_{x}^{2}+z_{y}^{2} }\,d\delta 
+$$<p>
 其中 $D$ 显然是曲面在平面 $xOy$ 的投影</p>
 <h4 id="参数型"><a href="#%e5%8f%82%e6%95%b0%e5%9e%8b" class="header-anchor"></a>参数型
 </h4><p>已知
+</p>
 $$
-\left{ \begin{align}
-x &amp; =x(u,v) \
-y &amp; =y(u,v) \
-z &amp; =z(u,v)
-\end{align} \right.
-$$
+\left\{ \begin{aligned}
+x & =x(u,v) \\
+y & =y(u,v) \\
+z & =z(u,v)
+\end{aligned} \right.
+$$<p>
 则同
 
  <a
@@ -516,22 +519,24 @@ $$
   >曲面面积</a
 >
 令
+</p>
 $$
-\left{ \begin{align}
-E &amp; =x_{u}^{2}+y_{u}^{2}+z_{u}^{2} \ \
-F &amp; =x_{u}x_{v}+y_{u}y_{v}+z_{u}z_{v}\ \
-G &amp; =x_{v}^{2}+y_{v}^{2}+z_{v}^{2}
-\end{align} \right.
-$$
+\left\{ \begin{aligned}
+E & =x_{u}^{2}+y_{u}^{2}+z_{u}^{2} \\ \\
+F & =x_{u}x_{v}+y_{u}y_{v}+z_{u}z_{v}\\ \\
+G & =x_{v}^{2}+y_{v}^{2}+z_{v}^{2}
+\end{aligned} \right.
+$$<p>
 有
+</p>
 $$
-dS=\sqrt{ EG-F^{2} },du,dv
-$$
+dS=\sqrt{ EG-F^{2} }\,du\,dv
+$$<p>
 即
+</p>
 $$
-\iint <em>{S}f(x,y,z) , dS = \iint</em>{D}f(x(u,v),y(u,v),z(u,v))\cdot \sqrt{ EG-F^{2} },du,dv
-$$</p>
-<h2 id="第二型曲面积分"><a href="#%e7%ac%ac%e4%ba%8c%e5%9e%8b%e6%9b%b2%e9%9d%a2%e7%a7%af%e5%88%86" class="header-anchor"></a>第二型曲面积分
+\iint _{S}f(x,y,z) \, dS = \iint_{D}f(x(u,v),y(u,v),z(u,v))\cdot \sqrt{ EG-F^{2} }\,du\,dv
+$$<h2 id="第二型曲面积分"><a href="#%e7%ac%ac%e4%ba%8c%e5%9e%8b%e6%9b%b2%e9%9d%a2%e7%a7%af%e5%88%86" class="header-anchor"></a>第二型曲面积分
 </h2><h3 id="特征-1"><a href="#%e7%89%b9%e5%be%81-1" class="header-anchor"></a>特征
 </h3><p>类似
 
@@ -547,13 +552,14 @@ $$</p>
 </ul>
 <h3 id="形式-1"><a href="#%e5%bd%a2%e5%bc%8f-1" class="header-anchor"></a>形式
 </h3><h4 id="向量型"><a href="#%e5%90%91%e9%87%8f%e5%9e%8b" class="header-anchor"></a>向量型
-</h4><p>$$
-\iint_{S}\vec{F}(x,y,z)\cdot \vec{n}(x,y,z),dS
-$$
+</h4>$$
+\iint_{S}\vec{F}(x,y,z)\cdot \vec{n}(x,y,z)\,dS
+$$<p>
 或者
+</p>
 $$
-\iint_{S}\vec{F}(x,y,z),d\vec{S}
-$$
+\iint_{S}\vec{F}(x,y,z)\,d\vec{S}
+$$<p>
 其中 $\vec{n}$ 是 $dS$ 的单位法向量</p>
 
         <link rel="stylesheet" href="/css/vendors/admonitions.css">
@@ -573,7 +579,6 @@ $$
 	
 ></p>
 <p>这里 $\vec{v}$ 就是 $\vec{F}$</p>
-
       </div>
   </div>
 <h4 id="分拆型"><a href="#%e5%88%86%e6%8b%86%e5%9e%8b" class="header-anchor"></a>分拆型
@@ -585,17 +590,37 @@ $$
   >曲线积分 &gt; 第二型曲线积分</a
 >
 把向量函数拆成正常函数：
+</p>
 $$
-\iint <em>{S}\vec{F}\cdot \vec{n},dS=\iint</em>{S}(P\cdot \cos\alpha+Q\cdot \cos\beta+R\cdot \cos\gamma),dS
+\iint _{S}\vec{F}\cdot \vec{n}\,dS=\iint_{S}(P\cdot \cos\alpha+Q\cdot \cos\beta+R\cdot \cos\gamma)\,dS
+$$<p>
+(因为高维第二型曲线积分物理意义不强，所以这里只写三维的第二型曲线积分拆分)</p>
+<p>而 $\cos\gamma\,dS$ 明显具有几何意义，即 $dS$ 在平面 $xOy$ 上的有向投影(可正可负)
+故分拆型第二型曲线积分可以进一步表达成：
+</p>
 $$
-(因为高维第二性曲线积分物理意义不强，所以这里只写三维的第二型曲线积分拆分)</p>
-<p>而 $\cos\gamma,dS$ 明显具有几何意义，即 $dS$ 在平面 $xOy$ 上的有向投影(可正可负)
-故分拆型第二性曲线积分可以进一步表达成：
-$$
-\iint_{S}P,dy,dz+Q,dx,dz+R,dx,dy
-$$</p>
-<h3 id="计算-1"><a href="#%e8%ae%a1%e7%ae%97-1" class="header-anchor"></a>计算
-</h3><h4 id="转为第一型曲面积分"><a href="#%e8%bd%ac%e4%b8%ba%e7%ac%ac%e4%b8%80%e5%9e%8b%e6%9b%b2%e9%9d%a2%e7%a7%af%e5%88%86" class="header-anchor"></a>转为第一型曲面积分
+\iint_{S}P\,dy\,dz+Q\,dx\,dz+R\,dx\,dy
+$$<h3 id="计算-1"><a href="#%e8%ae%a1%e7%ae%97-1" class="header-anchor"></a>计算
+</h3><h4 id="转为标准平面重积分"><a href="#%e8%bd%ac%e4%b8%ba%e6%a0%87%e5%87%86%e5%b9%b3%e9%9d%a2%e9%87%8d%e7%a7%af%e5%88%86" class="header-anchor"></a>转为标准平面重积分
+</h4>$$
+\iint_{S}\vec{F}\cdot \vec{n}\,dS=\pm \iint_{D_{xy}} (-P\cdot z_{x}-Q\cdot z_{y}+R)\,d\delta
+$$<p>
+其中 $D_{xy}$ 显然是曲面在平面 $xOy$ 的投影</p>
+
+  <div class="admonition note">
+    <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>第二型曲面积分直接转为重积分推导
+    </div>
+      <div class="admonition-content">
+        <p>记<strong>曲面</strong>具有隐函数型 $z=f(x,y)$</p>
+<p>则取微分得：$-f_{x}\,dx-f_{y}\,dy+dz=0$</p>
+<p>故单位法向量：$\vec{n}=\pm\frac{1}{\sqrt{ 1+f_{x}^{2}+f_{y}^{2} }}\cdot(-f_{x},-f_{y},1)$</p>
+<p>所以根据向量运算：$\iint _{S}\vec{F}\cdot \vec{n}\,dS=\iint_{S} \pm\frac{1}{\sqrt{ 1+f_{x}^{2}+f_{y}^{2} }}(-P\cdot f_{x}-Q\cdot f_{y}+R)\,dS$</p>
+<p>又因为：$dS=\sqrt{ 1+f_{x}^{2}+f_{y}^{2} }\,d\delta$</p>
+<p>所以最终得出：$\iint_{S}\vec{F}\cdot \vec{n}\,dS=\iint_{S} \pm(-P\cdot f_{x}-Q\cdot f_{y}+R)\,d\delta$</p>
+<p>以上 $\pm$ 均规定为：当法向量向上($z>0$)时取正，向下时($z<0$)时取负</p>
+      </div>
+  </div>
+<h4 id="转为第一型曲面积分"><a href="#%e8%bd%ac%e4%b8%ba%e7%ac%ac%e4%b8%80%e5%9e%8b%e6%9b%b2%e9%9d%a2%e7%a7%af%e5%88%86" class="header-anchor"></a>转为第一型曲面积分
 </h4><p>根据 
 
  <a
@@ -603,57 +628,120 @@ $$</p>
   
   >分拆型</a
 >
- 将第二型曲面积分分拆成第一型曲面积分即可计算。</p>
-<h4 id="转为重积分"><a href="#%e8%bd%ac%e4%b8%ba%e9%87%8d%e7%a7%af%e5%88%86" class="header-anchor"></a>转为重积分
-</h4><p>$$
-\iint_{S}\vec{F}\cdot \vec{n},dS=\iint_{D} (-P\cdot z_{x}-Q\cdot z_{y}+R),d\delta
+ 将第二型曲面积分合并成第一型曲面积分即可计算。</p>
 $$
-其中 $D$ 显然是曲面在平面 $xOy$ 的投影</p>
+\iint_{S:F(x,y,z)=0} P\,\mathrm{d}y\mathrm{d}z+Q\,\mathrm{d}z\mathrm{d}x+R\,\mathrm{d}x\mathrm{d}y=\frac{1}{\sqrt{ F_{x}^{2}+F_{y}^{2}+F_{z}^{2} }}\iint_{S}\left(P\cdot F_{x}+Q\cdot F_{y}+R\cdot F_{z}\right)\,\mathrm{d}S
+$$<p>其中 $\vec{n}=(\cos\alpha,\cos\beta,\cos\gamma)$
+如果 $\vec{n}$ 比较简单/可大量消元，比如</p>
+<ul>
+<li>球面 $x^{2}+y^{2}+z^{2}=R^{2}$ $\Rightarrow$ $\vec{n}=\frac{1}{R}(x,y,z)$
+就可以考虑第二型转为第一型</li>
+</ul>
+<p>建议熟练掌握 
 
-  <div class="admonition note">
-    <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>第二型曲面积分直接转为重积分推导
-    </div>
-      <div class="admonition-content">
-        <p><p>记曲面具有隐函数型 $z=f(x,y)$</p>
-<p>则取微分得：$-f_{x},dx-f_{y},dy+dz=0$</p>
-<p>故单位法向量：$\vec{n}=\pm\frac{1}{\sqrt{ 1+f_{x}^{2}+f_{y}^{2} }}\cdot(-f_{x},-f_{y},1)$</p>
-<p>所以根据向量运算：$\iint <em>{S}\vec{F}\cdot \vec{n},dS=\iint</em>{S} \pm\frac{1}{\sqrt{ 1+f_{x}^{2}+f_{y}^{2} }}(-P\cdot f_{x}-Q\cdot f_{y}+R),dS$</p>
-<p>又因为：$dS=\sqrt{ 1+f_{x}^{2}+f_{y}^{2} },d\delta$</p>
-<p>所以最终得出：$\iint_{S}\vec{F}\cdot \vec{n},dS=\iint_{S} \pm(-P\cdot f_{x}-Q\cdot f_{y}+R),d\delta$</p>
-<p>以上 $\pm$ 均规定为：当法向量向上($z&gt;0$)时取正，向下时($z&lt;0$)时取负</p>
-
-      </div>
-  </div>
-<h4 id="参数型-1"><a href="#%e5%8f%82%e6%95%b0%e5%9e%8b-1" class="header-anchor"></a>参数型
+ <a
+  href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/"
+  
+  >多元微分几何 &gt; 法线</a
+>
+ 的求法</p>
+<h4 id="转为参数平面重积分"><a href="#%e8%bd%ac%e4%b8%ba%e5%8f%82%e6%95%b0%e5%b9%b3%e9%9d%a2%e9%87%8d%e7%a7%af%e5%88%86" class="header-anchor"></a>转为参数平面重积分
 </h4><p>已知曲面 $S$ 由参数方程给出：
+</p>
 $$
-\left{ \begin{align}
-x &amp; =x(u,v) \ \</p>
-<p>y &amp; =y(u,v) \ \</p>
-<p>z &amp; =z(u,v)
-\end{align} \right.
-, \ (u,v) \in D
-$$
+\left\{ \begin{aligned}
+x & =x(u,v) \\ \\
+y & =y(u,v) \\ \\
+z & =z(u,v)
+\end{aligned} \right.
+, \ (u,v) \in D_{uv}
+$$<p>
 则：</p>
 <p>$S$ 上任一点法向量の方向余弦：
+</p>
 $$
 \pm(\cos\alpha,\cos\beta,\cos\gamma)=\pm \frac{1}{\sqrt{ EG-F^{2} }}(A,B,C)
-$$
+$$<p>
+(等价于 $\pm \mathrm{d}\vec{S}=\pm(A,B,C) \cdot \mathrm{d}u\mathrm{d}v$)
 其中
 $$
-\left{ \begin{align}
+\left{ \begin{aligned}
 A &amp; =\frac{\partial(y,z)}{\partial(u,v)} \ \</p>
 <p>B &amp; =\frac{\partial(x,z)}{\partial(u,v)} \ \</p>
 <p>C &amp; =\frac{\partial(x,y)}{\partial(u,v)}
-\end{align} \right.
+\end{aligned} \right.
 $$</p>
 <p>而原第二型曲面积分可化为：
+</p>
 $$
-\begin{align}
-&amp; \iint_{S}P,dx,dy+Q,dx,dz+R,dx,dy \
-= &amp; \iint_{D}\left[\ P(x(u,v),y(u,v),z(u,v))\cdot A+Q(x(u,v),y(u,v),z(u,v))\cdot B+R(x(u,v),y(u,v),z(u,v))\cdot C \ \right],du,dv
-\end{align}
-$$</p>
+\begin{aligned}
+ & \iint_{S}P\,dy\,dz+Q\,dz\,dx+R\,dx\,dy \\
+= & \iint_{D_{uv}}\left[\ P(x(u,v),y(u,v),z(u,v))\cdot A+Q(x(u,v),y(u,v),z(u,v))\cdot B+R(x(u,v),y(u,v),z(u,v))\cdot C \ \right]\,du\,dv
+\end{aligned}
+$$
+  <div class="admonition note">
+    <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>第二型曲面积分の转化
+    </div>
+      <div class="admonition-content">
+        <p>本质都是通过 <strong>分量</strong> $\times$ <strong>法向量</strong> 合并转化积分</p>
+<ol>
+<li>
+<p>
+
+ <a
+  href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/"
+  
+  >第二型曲面积分 &gt; 计算 &gt; 转为第一型曲面积分</a
+>
+ 用到 
+
+ <a
+  href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/"
+  
+  >多元微分几何 &gt; 法线 &gt; 非参形式</a
+>
+
+<img src="/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95.md#"
+	
+	
+	
+	loading="lazy"
+	
+		alt="多元微分几何 &gt; 法线 &gt; 非参形式"
+	
+	
+></p>
+</li>
+<li>
+<p>
+
+ <a
+  href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/"
+  
+  >第二型曲面积分 &gt; 计算 &gt; 转为参数平面重积分</a
+>
+ 用到 
+
+ <a
+  href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/"
+  
+  >多元微分几何 &gt; 法线 &gt; 参数形式</a
+>
+
+<img src="/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95.md#"
+	
+	
+	
+	loading="lazy"
+	
+		alt="多元微分几何 &gt; 法线 &gt; 参数形式"
+	
+	
+></p>
+</li>
+</ol>
+      </div>
+  </div>
 
     
     
@@ -690,7 +778,7 @@ $$</p>
 
 
         <span>
-            最后更新于 Feb 04, 2025 20:50 CST
+            最后更新于 Jun 25, 2025 17:48 CST
         </span>
     </section></footer>
 
@@ -730,6 +818,19 @@ $$</p>
     <h2 class="section-title">相关文章</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Green 公式</h2>
+        </div>
+    </a>
+</article>
+
             
                 
 <article class="">
@@ -778,19 +879,6 @@ $$</p>
 
         <div class="article-details">
             <h2 class="article-title">重积分坐标变换</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">多元微分几何</h2>
         </div>
     </a>
 </article>
@@ -860,7 +948,7 @@ $$</p>
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -954,7 +1042,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -969,12 +1057,12 @@ $$</p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -986,7 +1074,7 @@ $$</p>
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

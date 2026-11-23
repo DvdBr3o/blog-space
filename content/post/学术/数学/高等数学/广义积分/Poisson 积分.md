@@ -11,10 +11,10 @@ publish: true
 ---
 
 $$
-I(r)=\int_{0}^{\pi} \ln (1\pm2r\cos\theta+r^{2}) \, \mathrm{d}\theta =\left\{ \begin{align}
+I(r)=\int_{0}^{\pi} \ln (1\pm2r\cos\theta+r^{2}) \, \mathrm{d}\theta =\left\{ \begin{aligned}
  & 0, & \left| r \right| < 1 \\
  & 2\pi \ln \left| r \right| , & \left| r \right| > 1
-\end{align} \right.
+\end{aligned} \right.
 $$
 
 > [!hint] 证明思路 | 递推法

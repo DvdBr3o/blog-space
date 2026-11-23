@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="第一型曲线积分\r第一型曲线积分通性\r重点在于曲线微分 $ds$ 的转换： $$ ds = \\sqrt{ dx_{1}^{2} + dx_{2}^{2} + \\dots + dx_{n}^{2} } $$\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="第一型曲线积分\r第一型曲线积分通性\r重点在于曲线微分 $ds$ 的转换： $$ >ds = \\sqrt{ dx_{1}^{2} + dx_{2}^{2} + \\dots + dx_{n}^{2} } >$$\r特征\r无方向性 保守性 ($\\oint = 0$) 形式\r$$ \\int_{L}f(x_{1},x_{2},\\dots,x_{n})ds = \\int_{L}f(x_{1},x_{2},\\dots,x_{n}) \\cdot \\sqrt{ \\left[ dx_{1} \\right] ^{2}+\\left[ dx_{2} \\right] ^{2} + \\dots + \\left[ dx_{n} \\right]^{2} } $$ 计算\r隐函数型\r$$ \\int_{L}f(x,y(x))\\,ds=\\int_{\\alpha}^{\\beta} f(x,y(x))\\cdot \\sqrt{ 1+\\left[ y'(x) \\right]^{2} } \\, dx $$\r曲线积分通性\r与文首提到的通性联系记忆：\n$$ >\\begin{aligned} >ds & =\\sqrt{ dx^{2}+dy^{2} } \\\\ & =\\sqrt{ dx^{2}+(y'(x)dx)^{2} } \\\\ > & =\\sqrt{ 1+\\left[y'(x)\\right]^{2}}\\,dx >\\end{aligned} >$$\r">
 <title>曲线积分</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="曲线积分">
-<meta property='og:description' content="第一型曲线积分\r第一型曲线积分通性\r重点在于曲线微分 $ds$ 的转换： $$ ds = \\sqrt{ dx_{1}^{2} + dx_{2}^{2} + \\dots + dx_{n}^{2} } $$\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="曲线积分">
+<meta property='og:description' content="第一型曲线积分\r第一型曲线积分通性\r重点在于曲线微分 $ds$ 的转换： $$ >ds = \\sqrt{ dx_{1}^{2} + dx_{2}^{2} + \\dots + dx_{n}^{2} } >$$\r特征\r无方向性 保守性 ($\\oint = 0$) 形式\r$$ \\int_{L}f(x_{1},x_{2},\\dots,x_{n})ds = \\int_{L}f(x_{1},x_{2},\\dots,x_{n}) \\cdot \\sqrt{ \\left[ dx_{1} \\right] ^{2}+\\left[ dx_{2} \\right] ^{2} + \\dots + \\left[ dx_{n} \\right]^{2} } $$ 计算\r隐函数型\r$$ \\int_{L}f(x,y(x))\\,ds=\\int_{\\alpha}^{\\beta} f(x,y(x))\\cdot \\sqrt{ 1+\\left[ y'(x) \\right]^{2} } \\, dx $$\r曲线积分通性\r与文首提到的通性联系记忆：\n$$ >\\begin{aligned} >ds & =\\sqrt{ dx^{2}+dy^{2} } \\\\ & =\\sqrt{ dx^{2}+(y'(x)dx)^{2} } \\\\ > & =\\sqrt{ 1+\\left[y'(x)\\right]^{2}}\\,dx >\\end{aligned} >$$\r">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='曲线' /><meta property='article:published_time' content='2025-01-12T15:11:34&#43;08:00'/><meta property='article:modified_time' content='2025-01-14T21:47:36&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='曲线' /><meta property='article:published_time' content='2025-01-12T15:11:34&#43;08:00'/><meta property='article:modified_time' content='2025-07-05T20:08:53&#43;08:00'/>
 <meta name="twitter:title" content="曲线积分">
-<meta name="twitter:description" content="第一型曲线积分\r第一型曲线积分通性\r重点在于曲线微分 $ds$ 的转换： $$ ds = \\sqrt{ dx_{1}^{2} + dx_{2}^{2} + \\dots + dx_{n}^{2} } $$\n">
+<meta name="twitter:description" content="第一型曲线积分\r第一型曲线积分通性\r重点在于曲线微分 $ds$ 的转换： $$ >ds = \\sqrt{ dx_{1}^{2} + dx_{2}^{2} + \\dots + dx_{n}^{2} } >$$\r特征\r无方向性 保守性 ($\\oint = 0$) 形式\r$$ \\int_{L}f(x_{1},x_{2},\\dots,x_{n})ds = \\int_{L}f(x_{1},x_{2},\\dots,x_{n}) \\cdot \\sqrt{ \\left[ dx_{1} \\right] ^{2}+\\left[ dx_{2} \\right] ^{2} + \\dots + \\left[ dx_{n} \\right]^{2} } $$ 计算\r隐函数型\r$$ \\int_{L}f(x,y(x))\\,ds=\\int_{\\alpha}^{\\beta} f(x,y(x))\\cdot \\sqrt{ 1+\\left[ y'(x) \\right]^{2} } \\, dx $$\r曲线积分通性\r与文首提到的通性联系记忆：\n$$ >\\begin{aligned} >ds & =\\sqrt{ dx^{2}+dy^{2} } \\\\ & =\\sqrt{ dx^{2}+(y'(x)dx)^{2} } \\\\ > & =\\sqrt{ 1+\\left[y'(x)\\right]^{2}}\\,dx >\\end{aligned} >$$\r">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -406,7 +406,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
+            <a href="/categories/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
                 高等数学
             </a>
         
@@ -475,10 +475,10 @@
     </div>
       <div class="admonition-content">
         <p>重点在于<strong>曲线微分 $ds$</strong> 的转换：
+</p>
 $$
-ds = \sqrt{ dx_{1}^{2} + dx_{2}^{2} + \dots + dx_{n}^{2} }
-$$</p>
-
+>ds = \sqrt{ dx_{1}^{2} + dx_{2}^{2} + \dots + dx_{n}^{2} }
+>$$
       </div>
   </div>
 <h3 id="特征"><a href="#%e7%89%b9%e5%be%81" class="header-anchor"></a>特征
@@ -487,68 +487,69 @@ $$</p>
 <li>保守性 ($\oint = 0$)</li>
 </ul>
 <h3 id="形式"><a href="#%e5%bd%a2%e5%bc%8f" class="header-anchor"></a>形式
-</h3><p>$$
-\int_{L}f(x_{1},x_{2},\dots,x_{n})ds = \int_{L}f(x_{1},x_{2},\dots,x_{n}) \cdot d\left( \sqrt{ \left[ dx_{1} \right] ^{2}+\left[ dx_{2} \right] ^{2} + \dots + \left[ dx_{n} \right]^{2}  } \right)
-$$</p>
-<h3 id="计算"><a href="#%e8%ae%a1%e7%ae%97" class="header-anchor"></a>计算
+</h3>$$
+\int_{L}f(x_{1},x_{2},\dots,x_{n})ds = \int_{L}f(x_{1},x_{2},\dots,x_{n}) \cdot  \sqrt{ \left[ dx_{1} \right] ^{2}+\left[ dx_{2} \right] ^{2} + \dots + \left[ dx_{n} \right]^{2}  }
+$$<h3 id="计算"><a href="#%e8%ae%a1%e7%ae%97" class="header-anchor"></a>计算
 </h3><h4 id="隐函数型"><a href="#%e9%9a%90%e5%87%bd%e6%95%b0%e5%9e%8b" class="header-anchor"></a>隐函数型
-</h4><p>$$
-\int_{L}f(x,y(x)),ds=\int_{\alpha}^{\beta} f(x,y(x))\cdot \sqrt{ 1+\left[ y&rsquo;(x) \right]^{2} } , dx
-$$</p>
-
+</h4>$$
+\int_{L}f(x,y(x))\,ds=\int_{\alpha}^{\beta} f(x,y(x))\cdot \sqrt{ 1+\left[ y'(x) \right]^{2} } \, dx 
+$$
   <div class="admonition note">
     <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>曲线积分通性
     </div>
       <div class="admonition-content">
         <p>与文首提到的通性联系记忆：</p>
-<p>$$
-\begin{align}
-ds &amp; =\sqrt{ dx^{2}+dy^{2} } \
-&amp; =\sqrt{ dx^{2}+(y&rsquo;(x)dx)^{2} } \
-&amp; =\sqrt{ 1+\left[y&rsquo;(x)\right]^{2}},dx
-\end{align}
-$$</p>
+$$
+>\begin{aligned}
+>ds & =\sqrt{ dx^{2}+dy^{2} } \\
+ & =\sqrt{ dx^{2}+(y'(x)dx)^{2} } \\
+> & =\sqrt{ 1+\left[y'(x)\right]^{2}}\,dx
+>\end{aligned}
+>$$
+      </div>
+  </div>
 
+  <div class="admonition note">
+    <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>转换后定积分の端点值
+    </div>
+      <div class="admonition-content">
+        <p>第一型曲线积分<strong>与路径方向无关</strong>
+所以端点总是 $(a,b)$ 其中 $a$ 是较小值，$b$ 是较大值</p>
       </div>
   </div>
 <h4 id="参数型"><a href="#%e5%8f%82%e6%95%b0%e5%9e%8b" class="header-anchor"></a>参数型
 </h4><p>已知</p>
-<p>$$
-\left{ \begin{align}
-x &amp; =x(t) \
-y &amp; =y(t)
-\end{align} \right.
-$$</p>
-<p>则</p>
-<p>$$
-\int_{L}f(x(t),y(t))ds=\int_{\alpha}^{\beta} f(x(t),y(t)) \cdot \sqrt{ \left[ x&rsquo;(t) \right] ^{2}+\left[ y&rsquo;(t) \right] ^{2} } , ds
-$$</p>
-<h2 id="第二型曲线积分"><a href="#%e7%ac%ac%e4%ba%8c%e5%9e%8b%e6%9b%b2%e7%ba%bf%e7%a7%af%e5%88%86" class="header-anchor"></a>第二型曲线积分
+$$
+\left\{ \begin{aligned}
+x & =x(t) \\
+y & =y(t)
+\end{aligned} \right.
+$$<p>则</p>
+$$
+\int_{L}f(x(t),y(t))ds=\int_{\alpha}^{\beta} f(x(t),y(t)) \cdot \sqrt{ \left[ x'(t) \right] ^{2}+\left[ y'(t) \right] ^{2} } \, dt
+$$<h2 id="第二型曲线积分"><a href="#%e7%ac%ac%e4%ba%8c%e5%9e%8b%e6%9b%b2%e7%ba%bf%e7%a7%af%e5%88%86" class="header-anchor"></a>第二型曲线积分
 </h2><h3 id="特征-1"><a href="#%e7%89%b9%e5%be%81-1" class="header-anchor"></a>特征
 </h3><ul>
 <li>有向性</li>
 <li>不一定具有保守性 ($\oint\neq 0$)</li>
 </ul>
 <h3 id="形式-1"><a href="#%e5%bd%a2%e5%bc%8f-1" class="header-anchor"></a>形式
-</h3><p>$$
-\int_{\overset{\frown}{AB}}\vec{F}(x_{1},x_{2},\dots,x_{n}),d\vec{r}=\int_{\overset{\frown}{AB}} F_{1}(x_{1},x_{2},\dots,x_{n}),dx_{1}+F_{2}(x_{1},x_{2},\dots,x_{n}),dx_{2}+\dots+F_{n},(x_{1},x_{2},\dots,x_{n}),dx_{n}
-$$</p>
-<h3 id="计算-1"><a href="#%e8%ae%a1%e7%ae%97-1" class="header-anchor"></a>计算
+</h3>$$
+\int_{\overset{\frown}{AB}}\vec{F}(x_{1},x_{2},\dots,x_{n})\,d\vec{r}=\int_{\overset{\frown}{AB}} F_{1}(x_{1},x_{2},\dots,x_{n})\,dx_{1}+F_{2}(x_{1},x_{2},\dots,x_{n})\,dx_{2}+\dots+F_{n},(x_{1},x_{2},\dots,x_{n})\,dx_{n}
+$$<h3 id="计算-1"><a href="#%e8%ae%a1%e7%ae%97-1" class="header-anchor"></a>计算
 </h3><h4 id="参数型-1"><a href="#%e5%8f%82%e6%95%b0%e5%9e%8b-1" class="header-anchor"></a>参数型
 </h4><p>已知</p>
-<p>$$
-\left{ \begin{align}
-x_{1} &amp; =x_{1}(t) \
-x_{2} &amp; =x_{2}(t) \
-&amp; \dots \
-x_{n} &amp; =x_{n}(t)
-\end{align} \right.
-$$</p>
-<p>则</p>
-<p>$$
-\int_{\overset{\frown}{AB}}\vec{F},d\vec{r}=\int_{\overset{\frown}{AB}}F_{1}\cdot x_{1}&rsquo;(t),dt+\dots F_{n}\cdot x_{n}&rsquo;(t),dt
-$$</p>
-<p>仍然符合直觉上的微分运算，因此根据微分运算直觉记忆即可</p>
+$$
+\left\{ \begin{aligned}
+x_{1} & =x_{1}(t) \\
+x_{2} & =x_{2}(t) \\
+ & \dots \\
+x_{n} & =x_{n}(t)
+\end{aligned} \right.
+$$<p>则</p>
+$$
+\int_{\overset{\frown}{AB}}\vec{F}\,d\vec{r}=\int_{\overset{\frown}{AB}}F_{1}\cdot x_{1}'(t)\,dt+\dots F_{n}\cdot x_{n}'(t)\,dt
+$$<p>仍然符合直觉上的微分运算，因此根据微分运算直觉记忆即可</p>
 <h3 id="保守性"><a href="#%e4%bf%9d%e5%ae%88%e6%80%a7" class="header-anchor"></a>保守性
 </h3>
   <div class="admonition info">
@@ -557,28 +558,27 @@ $$</p>
       <div class="admonition-content">
         <p>
  <a
-  href="../../../../../../%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F.md"
+  href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/"
   
-  >格林公式</a
+  >Green 公式</a
 >
 
-<img src="/%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F.md"
+<img src="/Green%20%E5%85%AC%E5%BC%8F.md"
 	
 	
 	
 	loading="lazy"
 	
-		alt="格林公式"
+		alt="Green 公式"
 	
 	
 ></p>
-
       </div>
   </div>
-<p>第二性曲线积分与路径无关条件 $\iff$ $\oint = 0$</p>
+<p>第二型曲线积分与路径无关条件 $\iff$ $\oint = 0$</p>
 <ol>
 <li><strong>格林公式</strong>法：$\forall(x,y)\in D$ 都满足 $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$</li>
-<li><strong>原函数</strong>法：$\exists F$ 满足 $dF=P,dx+Q,dy$
+<li><strong>原函数</strong>法：$\exists F$ 满足 $dF=P\,dx+Q\,dy$
 <ul>
 <li>凑原函数法</li>
 <li>微分方程法</li>
@@ -606,13 +606,13 @@ $$</p>
 <li>原函数法可以用于单连通区域和多连通区域</li>
 </ul>
 <p>北大版高数教材有给出在多联通区域使用格林公式法判定保守性导致错误的案例：
-在区域 $D:0&lt;\delta\leq x^{2}+y^{2}\leq 4$
+在区域 $D:0<\delta\leq x^{2}+y^{2}\leq 4$
 积分
+</p>
 $$
-\oint_{L+} \frac{-(x+y)}{x^{2}+y^{2}},dx+\frac{x-y}{x^{2}+y^{2}},dy
-$$
-满足 $Q_{x} = P_{y}$，但是 $D$ 中的任意圆周 $C+$ 有 $\oint_{C+}P,dx+Q,dy=2\pi\neq 0$</p>
-
+>\oint_{L+} \frac{-(x+y)}{x^{2}+y^{2}}\,dx+\frac{x-y}{x^{2}+y^{2}}\,dy
+>$$<p>
+满足 $Q_{x} = P_{y}$，但是 $D$ 中的任意圆周 $C+$ 有 $\oint_{C+}P\,dx+Q\,dy=2\pi\neq 0$</p>
       </div>
   </div>
 
@@ -651,7 +651,7 @@ $$
 
 
         <span>
-            最后更新于 Jan 14, 2025 21:47 CST
+            最后更新于 Jul 05, 2025 20:08 CST
         </span>
     </section></footer>
 
@@ -733,12 +733,12 @@ $$
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">多元微分几何</h2>
+            <h2 class="article-title">欧拉代换</h2>
         </div>
     </a>
 </article>
@@ -746,12 +746,12 @@ $$
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E9%AB%98%E9%98%B6%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E9%99%8D%E6%AC%A1/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">高阶三角函数积分降次</h2>
+            <h2 class="article-title">多元微分几何</h2>
         </div>
     </a>
 </article>
@@ -821,7 +821,7 @@ $$
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -915,7 +915,7 @@ $$
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -930,12 +930,12 @@ $$
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -947,7 +947,7 @@ $$
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

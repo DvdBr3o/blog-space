@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Benchmark on DvdBr3o</title>
-        <link>//localhost:1313/tags/benchmark/</link>
+        <link>http://localhost:38081/tags/benchmark/</link>
         <description>Recent content in Benchmark on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 12 Dec 2024 19:26:03 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/benchmark/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 30 Apr 2025 21:56:07 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/benchmark/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>C&#43;&#43; Benchmarking</title>
-        <link>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</link>
+        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</link>
         <pubDate>Tue, 10 Dec 2024 23:15:57 +0800</pubDate>
         
-        <guid>//localhost:1313/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</guid>
+        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</guid>
         <description>&lt;h2 id=&#34;候选名单&#34;&gt;&lt;a href=&#34;#%e5%80%99%e9%80%89%e5%90%8d%e5%8d%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;候选名单
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -44,7 +44,7 @@
 &lt;p&gt;到 C++17，至少微 modern。而且打了 lightweight high-performance 的标签 &lt;del&gt;(在抢 nano 的饭碗吗阿喂)&lt;/del&gt; 感觉可以一试&lt;/p&gt;
 &lt;h2 id=&#34;试试看&#34;&gt;&lt;a href=&#34;#%e8%af%95%e8%af%95%e7%9c%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;试试看！
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Test cpp benchmarking tools 🔽 📅 2024-12-22&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Test cpp benchmarking tools 🔽 📅 2024-12-22 ✅ 2025-03-09&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

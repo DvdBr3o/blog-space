@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="定义\r满足以下功能的树状数组结构：\n单点修改 区间查询 满足以下特征： 代码量小 维护的信息 &amp; 运算满足： 结合律：$(x \\circ y) \\circ z = x \\circ (y \\circ z)$ 可差分：运算具有逆运算，已知 $x \\circ y$ 和 $y$ 可推 $x$。 用途\r单点修改，区间查询\n实现\r结构\r对于给定数据数组 $a[n]$ ，树状数组提供缓存数组 $c[n]$ 缓存区间信息。\n$c[i]$ 的管辖区间应为 $[i + \\mathrm{lowbit}(i) .. i]$，即： $$ c[i] = \\mathrm{opt}{a[i - \\mathrm{lowbit}(i) + 1 .. i]} $$\nLowbit\r$\\mathrm{lowbit}$ 运算是指一个数只保留在二进制下最低位的 1 ，其余位为 0 所构成的二进制数。\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="定义\r满足以下功能的树状数组结构：\n单点修改 区间查询 满足以下特征： 代码量小 维护的信息 &amp; 运算满足： 结合律：$(x \\circ y) \\circ z = x \\circ (y \\circ z)$ 可差分：运算具有逆运算，已知 $x \\circ y$ 和 $y$ 可推 $x$。 用途\r单点修改，区间查询\n实现\r结构\r对于给定数据数组 $a[n]$ ，树状数组提供缓存数组 $c[n]$ 缓存区间信息。\n$c[i]$ 的管辖区间应为 $[i + \\mathrm{lowbit}(i) .. i]$，即： $$ c[i] = \\mathrm{opt}\\{a[i - \\mathrm{lowbit}(i) + 1 .. i]\\} $$\rLowbit\r$\\mathrm{lowbit}$ 运算是指一个数只保留在二进制下最低位的 1 ，其余位为 0 所构成的二进制数。\n根据二进制知识有：\n1 auto lowbit(int x) -&gt; int{ return x &amp; -x; } ">
 <title>树状数组</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="树状数组">
-<meta property='og:description' content="定义\r满足以下功能的树状数组结构：\n单点修改 区间查询 满足以下特征： 代码量小 维护的信息 &amp; 运算满足： 结合律：$(x \\circ y) \\circ z = x \\circ (y \\circ z)$ 可差分：运算具有逆运算，已知 $x \\circ y$ 和 $y$ 可推 $x$。 用途\r单点修改，区间查询\n实现\r结构\r对于给定数据数组 $a[n]$ ，树状数组提供缓存数组 $c[n]$ 缓存区间信息。\n$c[i]$ 的管辖区间应为 $[i + \\mathrm{lowbit}(i) .. i]$，即： $$ c[i] = \\mathrm{opt}{a[i - \\mathrm{lowbit}(i) + 1 .. i]} $$\nLowbit\r$\\mathrm{lowbit}$ 运算是指一个数只保留在二进制下最低位的 1 ，其余位为 0 所构成的二进制数。\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="树状数组">
+<meta property='og:description' content="定义\r满足以下功能的树状数组结构：\n单点修改 区间查询 满足以下特征： 代码量小 维护的信息 &amp; 运算满足： 结合律：$(x \\circ y) \\circ z = x \\circ (y \\circ z)$ 可差分：运算具有逆运算，已知 $x \\circ y$ 和 $y$ 可推 $x$。 用途\r单点修改，区间查询\n实现\r结构\r对于给定数据数组 $a[n]$ ，树状数组提供缓存数组 $c[n]$ 缓存区间信息。\n$c[i]$ 的管辖区间应为 $[i + \\mathrm{lowbit}(i) .. i]$，即： $$ c[i] = \\mathrm{opt}\\{a[i - \\mathrm{lowbit}(i) + 1 .. i]\\} $$\rLowbit\r$\\mathrm{lowbit}$ 运算是指一个数只保留在二进制下最低位的 1 ，其余位为 0 所构成的二进制数。\n根据二进制知识有：\n1 auto lowbit(int x) -&gt; int{ return x &amp; -x; } ">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='algorithm' /><meta property='article:tag' content='数据结构' /><meta property='article:published_time' content='2024-11-27T12:46:42&#43;08:00'/><meta property='article:modified_time' content='2024-12-07T19:51:11&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='algorithm' /><meta property='article:tag' content='数据结构' /><meta property='article:published_time' content='2024-11-27T12:46:42&#43;08:00'/><meta property='article:modified_time' content='2025-04-10T18:49:59&#43;08:00'/>
 <meta name="twitter:title" content="树状数组">
-<meta name="twitter:description" content="定义\r满足以下功能的树状数组结构：\n单点修改 区间查询 满足以下特征： 代码量小 维护的信息 &amp; 运算满足： 结合律：$(x \\circ y) \\circ z = x \\circ (y \\circ z)$ 可差分：运算具有逆运算，已知 $x \\circ y$ 和 $y$ 可推 $x$。 用途\r单点修改，区间查询\n实现\r结构\r对于给定数据数组 $a[n]$ ，树状数组提供缓存数组 $c[n]$ 缓存区间信息。\n$c[i]$ 的管辖区间应为 $[i + \\mathrm{lowbit}(i) .. i]$，即： $$ c[i] = \\mathrm{opt}{a[i - \\mathrm{lowbit}(i) + 1 .. i]} $$\nLowbit\r$\\mathrm{lowbit}$ 运算是指一个数只保留在二进制下最低位的 1 ，其余位为 0 所构成的二进制数。\n">
+<meta name="twitter:description" content="定义\r满足以下功能的树状数组结构：\n单点修改 区间查询 满足以下特征： 代码量小 维护的信息 &amp; 运算满足： 结合律：$(x \\circ y) \\circ z = x \\circ (y \\circ z)$ 可差分：运算具有逆运算，已知 $x \\circ y$ 和 $y$ 可推 $x$。 用途\r单点修改，区间查询\n实现\r结构\r对于给定数据数组 $a[n]$ ，树状数组提供缓存数组 $c[n]$ 缓存区间信息。\n$c[i]$ 的管辖区间应为 $[i + \\mathrm{lowbit}(i) .. i]$，即： $$ c[i] = \\mathrm{opt}\\{a[i - \\mathrm{lowbit}(i) + 1 .. i]\\} $$\rLowbit\r$\\mathrm{lowbit}$ 运算是指一个数只保留在二进制下最低位的 1 ，其余位为 0 所构成的二进制数。\n根据二进制知识有：\n1 auto lowbit(int x) -&gt; int{ return x &amp; -x; } ">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -398,7 +398,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E7%AE%97%E6%B3%95/" >
+            <a href="/categories/categories/%E7%AE%97%E6%B3%95/" >
                 算法
             </a>
         
@@ -479,10 +479,10 @@
 </h2><h3 id="结构"><a href="#%e7%bb%93%e6%9e%84" class="header-anchor"></a>结构
 </h3><p>对于给定数据数组 $a[n]$ ，树状数组提供缓存数组 $c[n]$ 缓存区间信息。</p>
 <p>$c[i]$ 的管辖区间应为 $[i + \mathrm{lowbit}(i) .. i]$，即：
+</p>
 $$
-c[i] = \mathrm{opt}{a[i - \mathrm{lowbit}(i) + 1 .. i]}
-$$</p>
-
+c[i] = \mathrm{opt}\{a[i - \mathrm{lowbit}(i) + 1 .. i]\}
+$$
         <link rel="stylesheet" href="/css/vendors/admonitions.css">
   <div class="admonition note">
     <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>Lowbit
@@ -503,7 +503,21 @@ $$</p>
   </div>
 <p>区间查询结果根据缓存信息结合构成，因此要求<strong>结合律</strong>。</p>
 <ul>
-<li><input disabled="" type="checkbox"> TODO：由于线段树能够全包含且大于树状数组的适用范围，且 树状数组 相对 线段树 占优仅在于部分场景的时间复杂度常数系数，所以优先学线段树，树状数组有空再来看 🔽</li>
+<li><input disabled="" type="checkbox"> TODO：由于线段树能够全包含且大于树状数组的适用范围，且 
+
+ <a
+  href="/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"
+  
+  >树状数组</a
+>
+ 相对 
+
+ <a
+  href="/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91/"
+  
+  >线段树</a
+>
+ 占优仅在于部分场景的时间复杂度常数系数，所以优先学线段树，树状数组有空再来看 🔽</li>
 </ul>
 
     
@@ -537,7 +551,7 @@ $$</p>
 
 
         <span>
-            最后更新于 Dec 07, 2024 19:51 CST
+            最后更新于 Apr 10, 2025 18:49 CST
         </span>
     </section></footer>
 
@@ -593,6 +607,19 @@ $$</p>
             
                 
 <article class="">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">树</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A0%86/">
         
         
@@ -625,19 +652,6 @@ $$</p>
 
         <div class="article-details">
             <h2 class="article-title">线段树</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/kmp/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">KMP</h2>
         </div>
     </a>
 </article>
@@ -707,7 +721,7 @@ $$</p>
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -801,7 +815,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -816,12 +830,12 @@ $$</p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -833,7 +847,7 @@ $$</p>
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

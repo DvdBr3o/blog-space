@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="微分形式\raka 外微分形式\n重要微分形式\r在 $\\mathbb{R}^{n}$ 域下\n零阶微分形式：光滑函数\n一阶微分形式 $$ \\sum_{i=1}^{n} f_{i}(\\dots),\\mathrm{d}x_{i} $$\n二阶微分形式 $$ \\sum_{i,j=1}^{n} f_{ij}(\\dots),\\mathrm{d}x_{i} \\land ,\\mathrm{d}x_{j} $$\n记号\r记 $\\Lambda_{m}(D)$ 是在 $D\\in \\mathbb{R}^{n}$ 的所有 $m$ 阶微分形式的集合\n运算\r线性运算\r把微分形式看成多项式，每一项看作一阶线性空间的一维\n数乘 加减 外积运算\r对于 $m$ 阶的外微分形式 $\\mathrm{d}x_{1}\\land \\mathrm{d}x_{2}\\land\\dots \\land \\mathrm{d}x_{m}$ 中的任意连续两项$$\\mathrm{d}x_{i}\\land \\mathrm{d}x_{j}=-,\\mathrm{d}x_{j}\\land \\mathrm{d}x_{i}$$ $\\mathrm{d}x_{i}\\land \\mathrm{d}x_{i}=0$ 外微分运算\r0 $\\to$ 1 (全微分运算) $$\\mathrm{d}F(x_{1},\\dots,x_{n})=\\sum_{i=1}^{n} \\frac{ \\partial F }{ \\partial x_{1} } \\mathrm{d}x_{i}$$ 1 $\\to$ 2 $$\\mathrm{d}\\left( \\sum_{i=1}^{n} f_{i},\\mathrm{d}x_{i} \\right)=\\sum_{i=1}^{n} \\mathrm{d}f_{i}\\land \\mathrm{d}x_{i}$$ 庞加莱定理\r恰当微分\r已知 $\\omega \\in \\Lambda_{m}(D)$ $\\exists ,\\Omega$ s.t. $\\mathrm{d}\\Omega=\\omega$ 结论 $\\omega$ 是 恰当微分 闭的微分形式\r已知 $\\omega \\in\\Lambda_{m}(D)$ $\\mathrm{d}\\omega=0$ 结论 $\\omega$ 是 闭的微分形式 庞加莱定理\r恰当微分是闭的 aka $$ \\mathrm{d}\\mathrm{d}\\Omega=0 $$\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="微分形式\raka 外微分形式\n重要微分形式\r在 $\\mathbb{R}^{n}$ 域下\n零阶微分形式：光滑函数\n一阶微分形式 $$\r\\sum_{i=1}^{n} f_{i}(\\dots)\\,\\mathrm{d}x_{i}\r$$ 二阶微分形式 $$\r\\sum_{i,j=1}^{n} f_{ij}(\\dots)\\,\\mathrm{d}x_{i} \\land \\,\\mathrm{d}x_{j} $$ 记号\r记 $\\Lambda_{m}(D)$ 是在 $D\\in \\mathbb{R}^{n}$ 的所有 $m$ 阶微分形式的集合\n运算\r线性运算\r把微分形式看成多项式，每一项看作一阶线性空间的一维\n数乘 加减 外积运算\r对于 $m$ 阶的外微分形式 $\\mathrm{d}x_{1}\\land \\mathrm{d}x_{2}\\land\\dots \\land \\mathrm{d}x_{m}$ 中的任意连续两项 $$\\mathrm{d}x_{i}\\land \\mathrm{d}x_{j}=-\\,\\mathrm{d}x_{j}\\land \\mathrm{d}x_{i}$$ $\\mathrm{d}x_{i}\\land \\mathrm{d}x_{i}=0$ 外微分运算\r0 $\\to$ 1 (全微分运算) $$\\mathrm{d}F(x_{1},\\dots,x_{n})=\\sum_{i=1}^{n} \\frac{ \\partial F }{ \\partial x_{1} } \\mathrm{d}x_{i}$$ 1 $\\to$ 2 $$\\mathrm{d}\\left( \\sum_{i=1}^{n} f_{i}\\,\\mathrm{d}x_{i} \\right)=\\sum_{i=1}^{n} \\mathrm{d}f_{i}\\land \\mathrm{d}x_{i}$$ 庞加莱定理\r恰当微分\r已知 $\\omega \\in \\Lambda_{m}(D)$ $\\exists \\,\\Omega$ s.t. $\\mathrm{d}\\Omega=\\omega$ 结论 $\\omega$ 是 恰当微分 闭的微分形式\r已知 $\\omega \\in\\Lambda_{m}(D)$ $\\mathrm{d}\\omega=0$ 结论 $\\omega$ 是 闭的微分形式 庞加莱定理\r恰当微分是闭的 aka ">
 <title>外微分</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="外微分">
-<meta property='og:description' content="微分形式\raka 外微分形式\n重要微分形式\r在 $\\mathbb{R}^{n}$ 域下\n零阶微分形式：光滑函数\n一阶微分形式 $$ \\sum_{i=1}^{n} f_{i}(\\dots),\\mathrm{d}x_{i} $$\n二阶微分形式 $$ \\sum_{i,j=1}^{n} f_{ij}(\\dots),\\mathrm{d}x_{i} \\land ,\\mathrm{d}x_{j} $$\n记号\r记 $\\Lambda_{m}(D)$ 是在 $D\\in \\mathbb{R}^{n}$ 的所有 $m$ 阶微分形式的集合\n运算\r线性运算\r把微分形式看成多项式，每一项看作一阶线性空间的一维\n数乘 加减 外积运算\r对于 $m$ 阶的外微分形式 $\\mathrm{d}x_{1}\\land \\mathrm{d}x_{2}\\land\\dots \\land \\mathrm{d}x_{m}$ 中的任意连续两项$$\\mathrm{d}x_{i}\\land \\mathrm{d}x_{j}=-,\\mathrm{d}x_{j}\\land \\mathrm{d}x_{i}$$ $\\mathrm{d}x_{i}\\land \\mathrm{d}x_{i}=0$ 外微分运算\r0 $\\to$ 1 (全微分运算) $$\\mathrm{d}F(x_{1},\\dots,x_{n})=\\sum_{i=1}^{n} \\frac{ \\partial F }{ \\partial x_{1} } \\mathrm{d}x_{i}$$ 1 $\\to$ 2 $$\\mathrm{d}\\left( \\sum_{i=1}^{n} f_{i},\\mathrm{d}x_{i} \\right)=\\sum_{i=1}^{n} \\mathrm{d}f_{i}\\land \\mathrm{d}x_{i}$$ 庞加莱定理\r恰当微分\r已知 $\\omega \\in \\Lambda_{m}(D)$ $\\exists ,\\Omega$ s.t. $\\mathrm{d}\\Omega=\\omega$ 结论 $\\omega$ 是 恰当微分 闭的微分形式\r已知 $\\omega \\in\\Lambda_{m}(D)$ $\\mathrm{d}\\omega=0$ 结论 $\\omega$ 是 闭的微分形式 庞加莱定理\r恰当微分是闭的 aka $$ \\mathrm{d}\\mathrm{d}\\Omega=0 $$\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="外微分">
+<meta property='og:description' content="微分形式\raka 外微分形式\n重要微分形式\r在 $\\mathbb{R}^{n}$ 域下\n零阶微分形式：光滑函数\n一阶微分形式 $$\r\\sum_{i=1}^{n} f_{i}(\\dots)\\,\\mathrm{d}x_{i}\r$$ 二阶微分形式 $$\r\\sum_{i,j=1}^{n} f_{ij}(\\dots)\\,\\mathrm{d}x_{i} \\land \\,\\mathrm{d}x_{j} $$ 记号\r记 $\\Lambda_{m}(D)$ 是在 $D\\in \\mathbb{R}^{n}$ 的所有 $m$ 阶微分形式的集合\n运算\r线性运算\r把微分形式看成多项式，每一项看作一阶线性空间的一维\n数乘 加减 外积运算\r对于 $m$ 阶的外微分形式 $\\mathrm{d}x_{1}\\land \\mathrm{d}x_{2}\\land\\dots \\land \\mathrm{d}x_{m}$ 中的任意连续两项 $$\\mathrm{d}x_{i}\\land \\mathrm{d}x_{j}=-\\,\\mathrm{d}x_{j}\\land \\mathrm{d}x_{i}$$ $\\mathrm{d}x_{i}\\land \\mathrm{d}x_{i}=0$ 外微分运算\r0 $\\to$ 1 (全微分运算) $$\\mathrm{d}F(x_{1},\\dots,x_{n})=\\sum_{i=1}^{n} \\frac{ \\partial F }{ \\partial x_{1} } \\mathrm{d}x_{i}$$ 1 $\\to$ 2 $$\\mathrm{d}\\left( \\sum_{i=1}^{n} f_{i}\\,\\mathrm{d}x_{i} \\right)=\\sum_{i=1}^{n} \\mathrm{d}f_{i}\\land \\mathrm{d}x_{i}$$ 庞加莱定理\r恰当微分\r已知 $\\omega \\in \\Lambda_{m}(D)$ $\\exists \\,\\Omega$ s.t. $\\mathrm{d}\\Omega=\\omega$ 结论 $\\omega$ 是 恰当微分 闭的微分形式\r已知 $\\omega \\in\\Lambda_{m}(D)$ $\\mathrm{d}\\omega=0$ 结论 $\\omega$ 是 闭的微分形式 庞加莱定理\r恰当微分是闭的 aka ">
+<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='微分' /><meta property='article:published_time' content='2025-02-08T21:27:03&#43;08:00'/><meta property='article:modified_time' content='2025-02-18T23:59:14&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多元' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='微分' /><meta property='article:published_time' content='2025-02-08T21:27:03&#43;08:00'/><meta property='article:modified_time' content='2025-02-22T20:53:57&#43;08:00'/>
 <meta name="twitter:title" content="外微分">
-<meta name="twitter:description" content="微分形式\raka 外微分形式\n重要微分形式\r在 $\\mathbb{R}^{n}$ 域下\n零阶微分形式：光滑函数\n一阶微分形式 $$ \\sum_{i=1}^{n} f_{i}(\\dots),\\mathrm{d}x_{i} $$\n二阶微分形式 $$ \\sum_{i,j=1}^{n} f_{ij}(\\dots),\\mathrm{d}x_{i} \\land ,\\mathrm{d}x_{j} $$\n记号\r记 $\\Lambda_{m}(D)$ 是在 $D\\in \\mathbb{R}^{n}$ 的所有 $m$ 阶微分形式的集合\n运算\r线性运算\r把微分形式看成多项式，每一项看作一阶线性空间的一维\n数乘 加减 外积运算\r对于 $m$ 阶的外微分形式 $\\mathrm{d}x_{1}\\land \\mathrm{d}x_{2}\\land\\dots \\land \\mathrm{d}x_{m}$ 中的任意连续两项$$\\mathrm{d}x_{i}\\land \\mathrm{d}x_{j}=-,\\mathrm{d}x_{j}\\land \\mathrm{d}x_{i}$$ $\\mathrm{d}x_{i}\\land \\mathrm{d}x_{i}=0$ 外微分运算\r0 $\\to$ 1 (全微分运算) $$\\mathrm{d}F(x_{1},\\dots,x_{n})=\\sum_{i=1}^{n} \\frac{ \\partial F }{ \\partial x_{1} } \\mathrm{d}x_{i}$$ 1 $\\to$ 2 $$\\mathrm{d}\\left( \\sum_{i=1}^{n} f_{i},\\mathrm{d}x_{i} \\right)=\\sum_{i=1}^{n} \\mathrm{d}f_{i}\\land \\mathrm{d}x_{i}$$ 庞加莱定理\r恰当微分\r已知 $\\omega \\in \\Lambda_{m}(D)$ $\\exists ,\\Omega$ s.t. $\\mathrm{d}\\Omega=\\omega$ 结论 $\\omega$ 是 恰当微分 闭的微分形式\r已知 $\\omega \\in\\Lambda_{m}(D)$ $\\mathrm{d}\\omega=0$ 结论 $\\omega$ 是 闭的微分形式 庞加莱定理\r恰当微分是闭的 aka $$ \\mathrm{d}\\mathrm{d}\\Omega=0 $$\n">
+<meta name="twitter:description" content="微分形式\raka 外微分形式\n重要微分形式\r在 $\\mathbb{R}^{n}$ 域下\n零阶微分形式：光滑函数\n一阶微分形式 $$\r\\sum_{i=1}^{n} f_{i}(\\dots)\\,\\mathrm{d}x_{i}\r$$ 二阶微分形式 $$\r\\sum_{i,j=1}^{n} f_{ij}(\\dots)\\,\\mathrm{d}x_{i} \\land \\,\\mathrm{d}x_{j} $$ 记号\r记 $\\Lambda_{m}(D)$ 是在 $D\\in \\mathbb{R}^{n}$ 的所有 $m$ 阶微分形式的集合\n运算\r线性运算\r把微分形式看成多项式，每一项看作一阶线性空间的一维\n数乘 加减 外积运算\r对于 $m$ 阶的外微分形式 $\\mathrm{d}x_{1}\\land \\mathrm{d}x_{2}\\land\\dots \\land \\mathrm{d}x_{m}$ 中的任意连续两项 $$\\mathrm{d}x_{i}\\land \\mathrm{d}x_{j}=-\\,\\mathrm{d}x_{j}\\land \\mathrm{d}x_{i}$$ $\\mathrm{d}x_{i}\\land \\mathrm{d}x_{i}=0$ 外微分运算\r0 $\\to$ 1 (全微分运算) $$\\mathrm{d}F(x_{1},\\dots,x_{n})=\\sum_{i=1}^{n} \\frac{ \\partial F }{ \\partial x_{1} } \\mathrm{d}x_{i}$$ 1 $\\to$ 2 $$\\mathrm{d}\\left( \\sum_{i=1}^{n} f_{i}\\,\\mathrm{d}x_{i} \\right)=\\sum_{i=1}^{n} \\mathrm{d}f_{i}\\land \\mathrm{d}x_{i}$$ 庞加莱定理\r恰当微分\r已知 $\\omega \\in \\Lambda_{m}(D)$ $\\exists \\,\\Omega$ s.t. $\\mathrm{d}\\Omega=\\omega$ 结论 $\\omega$ 是 恰当微分 闭的微分形式\r已知 $\\omega \\in\\Lambda_{m}(D)$ $\\mathrm{d}\\omega=0$ 结论 $\\omega$ 是 闭的微分形式 庞加莱定理\r恰当微分是闭的 aka ">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -394,6 +394,7 @@
         <li><a href="#场论中的庞加莱定理">场论中的庞加莱定理</a></li>
       </ul>
     </li>
+    <li><a href="#hodge对偶">Hodge对偶</a></li>
   </ul>
 </nav>
         </div>
@@ -412,7 +413,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
+            <a href="/categories/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" >
                 高等数学
             </a>
         
@@ -483,16 +484,16 @@
 </li>
 <li>
 <p><strong>一阶微分形式</strong>
+</p>
 $$
-\sum_{i=1}^{n} f_{i}(\dots),\mathrm{d}x_{i}
-$$</p>
-</li>
+\sum_{i=1}^{n} f_{i}(\dots)\,\mathrm{d}x_{i}
+$$</li>
 <li>
 <p><strong>二阶微分形式</strong>
+</p>
 $$
-\sum_{i,j=1}^{n} f_{ij}(\dots),\mathrm{d}x_{i} \land ,\mathrm{d}x_{j}
-$$</p>
-</li>
+\sum_{i,j=1}^{n} f_{ij}(\dots)\,\mathrm{d}x_{i} \land \,\mathrm{d}x_{j} 
+$$</li>
 </ul>
 <h3 id="记号"><a href="#%e8%ae%b0%e5%8f%b7" class="header-anchor"></a>记号
 </h3><p>记 $\Lambda_{m}(D)$ 是在 $D\in \mathbb{R}^{n}$ 的所有 $m$ 阶微分形式的集合</p>
@@ -505,13 +506,16 @@ $$</p>
 </ul>
 <h4 id="外积运算"><a href="#%e5%a4%96%e7%a7%af%e8%bf%90%e7%ae%97" class="header-anchor"></a>外积运算
 </h4><ol>
-<li>对于 $m$ 阶的外微分形式 $\mathrm{d}x_{1}\land \mathrm{d}x_{2}\land\dots \land \mathrm{d}x_{m}$ 中的<strong>任意连续两项</strong>$$\mathrm{d}x_{i}\land \mathrm{d}x_{j}=-,\mathrm{d}x_{j}\land \mathrm{d}x_{i}$$</li>
+<li>对于 $m$ 阶的外微分形式 $\mathrm{d}x_{1}\land \mathrm{d}x_{2}\land\dots \land \mathrm{d}x_{m}$ 中的<strong>任意连续两项</strong>
+$$\mathrm{d}x_{i}\land \mathrm{d}x_{j}=-\,\mathrm{d}x_{j}\land \mathrm{d}x_{i}$$</li>
 <li>$\mathrm{d}x_{i}\land \mathrm{d}x_{i}=0$</li>
 </ol>
 <h4 id="外微分运算"><a href="#%e5%a4%96%e5%be%ae%e5%88%86%e8%bf%90%e7%ae%97" class="header-anchor"></a>外微分运算
 </h4><ul>
-<li>0 $\to$ 1 (全微分运算) $$\mathrm{d}F(x_{1},\dots,x_{n})=\sum_{i=1}^{n} \frac{ \partial F }{ \partial x_{1} } \mathrm{d}x_{i}$$</li>
-<li>1 $\to$ 2 $$\mathrm{d}\left( \sum_{i=1}^{n} f_{i},\mathrm{d}x_{i} \right)=\sum_{i=1}^{n} \mathrm{d}f_{i}\land \mathrm{d}x_{i}$$</li>
+<li>0 $\to$ 1 (全微分运算)
+$$\mathrm{d}F(x_{1},\dots,x_{n})=\sum_{i=1}^{n} \frac{ \partial F }{ \partial x_{1} } \mathrm{d}x_{i}$$</li>
+<li>1 $\to$ 2
+$$\mathrm{d}\left( \sum_{i=1}^{n} f_{i}\,\mathrm{d}x_{i} \right)=\sum_{i=1}^{n} \mathrm{d}f_{i}\land \mathrm{d}x_{i}$$</li>
 </ul>
 <h2 id="庞加莱定理"><a href="#%e5%ba%9e%e5%8a%a0%e8%8e%b1%e5%ae%9a%e7%90%86" class="header-anchor"></a>庞加莱定理
 </h2><h3 id="恰当微分"><a href="#%e6%81%b0%e5%bd%93%e5%be%ae%e5%88%86" class="header-anchor"></a>恰当微分
@@ -519,7 +523,7 @@ $$</p>
 <li><strong>已知</strong>
 <ul>
 <li>$\omega \in \Lambda_{m}(D)$</li>
-<li>$\exists ,\Omega$ s.t. $\mathrm{d}\Omega=\omega$</li>
+<li>$\exists \,\Omega$ s.t. $\mathrm{d}\Omega=\omega$</li>
 </ul>
 </li>
 <li><strong>结论</strong>
@@ -545,98 +549,97 @@ $$</p>
 <h3 id="庞加莱定理-1"><a href="#%e5%ba%9e%e5%8a%a0%e8%8e%b1%e5%ae%9a%e7%90%86-1" class="header-anchor"></a>庞加莱定理
 </h3><p>恰当微分是闭的
 aka
+</p>
 $$
 \mathrm{d}\mathrm{d}\Omega=0
-$$</p>
-<h2 id="应用"><a href="#%e5%ba%94%e7%94%a8" class="header-anchor"></a>应用
+$$<h2 id="应用"><a href="#%e5%ba%94%e7%94%a8" class="header-anchor"></a>应用
 </h2><h3 id="一般形式の环积分公式"><a href="#%e4%b8%80%e8%88%ac%e5%bd%a2%e5%bc%8f%e3%81%ae%e7%8e%af%e7%a7%af%e5%88%86%e5%85%ac%e5%bc%8f" class="header-anchor"></a>一般形式の环积分公式
 </h3><div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>公式</th>
-          <th>一般形式</th>
-          <th>条件</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>格林公式</td>
-          <td>$$\int_{S}\omega=\iint_{\Omega}\mathrm{d}\omega$$</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>高斯公式</td>
-          <td>$$\iint_{S}\omega=\iiint_{\Omega}\mathrm{d}\omega$$<br></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>斯托克斯公式</td>
-          <td>$$\int_{S}\omega=\iint_{\Omega}\mathrm{d}\omega$$</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td><strong>统一表述</strong></td>
-          <td>$$\int_{\partial \sum}\omega=\int_{\sum}\mathrm{d}\omega$$</td>
-          <td>$\omega$ 在 $\sum \cap ,\partial \sum$ 上光滑</td>
-      </tr>
-      <tr>
-          <td>其中 $\partial \sum$ 是 $\sum$ 的边界</td>
-          <td></td>
-          <td></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>公式</th>
+					<th>一般形式</th>
+					<th>条件</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>格林公式</td>
+					<td>$$\int_{S}\omega=\iint_{\Omega}\mathrm{d}\omega$$</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>高斯公式</td>
+					<td>$$\iint_{S}\omega=\iiint_{\Omega}\mathrm{d}\omega$$<br></td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>斯托克斯公式</td>
+					<td>$$\int_{S}\omega=\iint_{\Omega}\mathrm{d}\omega$$</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td><strong>统一表述</strong></td>
+					<td>$$\int_{\partial \sum}\omega=\int_{\sum}\mathrm{d}\omega$$</td>
+					<td>$\omega$ 在 $\sum \cap \,\partial \sum$ 上光滑</td>
+			</tr>
+	</tbody>
 </table></div>
+<p>其中 $\partial \sum$ 是 $\sum$ 的边界</p>
 
         <link rel="stylesheet" href="/css/vendors/admonitions.css">
   <div class="admonition note">
     <div class="admonition-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>统一表述与牛顿莱布尼茨公式
     </div>
       <div class="admonition-content">
-        <p>牛顿莱布尼茨公式 $$\int_{a}^{b} f(x) , dx = F(b) - F(a)$$
-可以把 $(a,b)$ 看作 $\sum$，则其边界为 $\partial \sum=\left{ a,b \right}$
+        <p>牛顿莱布尼茨公式 </p>
+$$\int_{a}^{b} f(x) \, dx = F(b) - F(a)$$<p>
+可以把 $(a,b)$ 看作 $\sum$，则其边界为 $\partial \sum=\left\{ a,b \right\}$
 所以遵守统一表述 $\int_{\partial \sum}\omega=\int_{\sum}\mathrm{d}\omega$</p>
-
       </div>
   </div>
 <h3 id="外微分意义下的场论"><a href="#%e5%a4%96%e5%be%ae%e5%88%86%e6%84%8f%e4%b9%89%e4%b8%8b%e7%9a%84%e5%9c%ba%e8%ae%ba" class="header-anchor"></a>外微分意义下的场论
 </h3><p>在 $\mathbb{R}^{3}$ 下</p>
 <div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>度</th>
-          <th>外微分阶数</th>
-          <th>意义</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>梯度 $\mathrm{grad}$</td>
-          <td>0 $\to$ 1</td>
-          <td>零阶微分形式 的 外微分运算</td>
-      </tr>
-      <tr>
-          <td>旋度 $\mathrm{rot}$</td>
-          <td>1 $\to$ 2</td>
-          <td>一阶微分形式 的 外微分运算</td>
-      </tr>
-      <tr>
-          <td>散度 $\mathrm{div}$</td>
-          <td>2 $\to$ 3</td>
-          <td>二阶微分形式 的 外微分运算</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>度</th>
+					<th>外微分阶数</th>
+					<th>意义</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>梯度 $\mathrm{grad}$</td>
+					<td>0 $\to$ 1</td>
+					<td>零阶微分形式 的 外微分运算</td>
+			</tr>
+			<tr>
+					<td>旋度 $\mathrm{rot}$</td>
+					<td>1 $\to$ 2</td>
+					<td>一阶微分形式 的 外微分运算</td>
+			</tr>
+			<tr>
+					<td>散度 $\mathrm{div}$</td>
+					<td>2 $\to$ 3</td>
+					<td>二阶微分形式 的 外微分运算</td>
+			</tr>
+	</tbody>
 </table></div>
 <h3 id="场论中的庞加莱定理"><a href="#%e5%9c%ba%e8%ae%ba%e4%b8%ad%e7%9a%84%e5%ba%9e%e5%8a%a0%e8%8e%b1%e5%ae%9a%e7%90%86" class="header-anchor"></a>场论中的庞加莱定理
-</h3><p>$$
+</h3>$$
 \mathrm{d}\mathrm{d}\Omega=0
-$$
+$$<p>
 $\implies$
+</p>
 $$
-\mathrm{grad},\mathrm{rot},f=0
+\mathrm{grad}\,\mathrm{rot}\,f=0
+$$<p>
+</p>
 $$
-$$
-\mathrm{rot},\mathrm{div},f=0
-$$</p>
+\mathrm{rot}\,\mathrm{div}\,f=0
+$$<h2 id="hodge对偶"><a href="#hodge%e5%af%b9%e5%81%b6" class="header-anchor"></a>Hodge对偶
+</h2><p>自行学习，我不学。</p>
 
     
     
@@ -673,7 +676,7 @@ $$</p>
 
 
         <span>
-            最后更新于 Feb 18, 2025 23:59 CST
+            最后更新于 Feb 22, 2025 20:53 CST
         </span>
     </section></footer>
 
@@ -716,12 +719,12 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%96%AF%E6%89%98%E5%85%8B%E6%96%AF%E5%85%AC%E5%BC%8F/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">斯托克斯公式</h2>
+            <h2 class="article-title">Stokes 公式</h2>
         </div>
     </a>
 </article>
@@ -755,12 +758,12 @@ $$</p>
             
                 
 <article class="">
-    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%AB%98%E6%96%AF%E5%85%AC%E5%BC%8F/">
+    <a href="/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/gauss-%E5%85%AC%E5%BC%8F/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">高斯公式</h2>
+            <h2 class="article-title">Gauss 公式</h2>
         </div>
     </a>
 </article>
@@ -843,7 +846,7 @@ $$</p>
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -937,7 +940,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -952,12 +955,12 @@ $$</p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -969,7 +972,7 @@ $$</p>
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

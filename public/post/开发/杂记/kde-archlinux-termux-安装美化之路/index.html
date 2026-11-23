@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS\r。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
 <title>KDE &#43; Archlinux @ Termux 安装美化之路</title>
 
-<link rel='canonical' href='//localhost:1313/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/'>
+<link rel='canonical' href='http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/'>
 
-<link rel="stylesheet" href="/scss/style.min.3cede45e1dcc747a9f54e5fa12c5d42c7a38c2acc27c97fc49f28d85f60608e8.css"><meta property='og:title' content="KDE + Archlinux @ Termux 安装美化之路">
-<meta property='og:description' content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS\r。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
-<meta property='og:url' content='//localhost:1313/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/'>
+<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="KDE + Archlinux @ Termux 安装美化之路">
+<meta property='og:description' content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
+<meta property='og:url' content='http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/'>
 <meta property='og:site_name' content='DvdBr3o'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='archlinux' /><meta property='article:tag' content='kde' /><meta property='article:tag' content='termux' /><meta property='article:published_time' content='2024-12-08T16:42:04&#43;08:00'/><meta property='article:modified_time' content='2024-12-10T20:23:15&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='archlinux' /><meta property='article:tag' content='kde' /><meta property='article:tag' content='termux' /><meta property='article:published_time' content='2024-12-08T16:42:04&#43;08:00'/><meta property='article:modified_time' content='2025-07-06T21:45:50&#43;08:00'/>
 <meta name="twitter:title" content="KDE + Archlinux @ Termux 安装美化之路">
-<meta name="twitter:description" content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS\r。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
+<meta name="twitter:description" content="\rWarning\r因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)\nTLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭\n前情提要\r咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 termux 敲代码，还能画个画啥的。结果 termux 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS。没错，ColorOS 的 termux 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉\n">
     <link rel="shortcut icon" href="/dvdbr3o.ico" />
 <script src="https://cdn.jsdelivr.net/npm/cardlink"></script>
     </head>
@@ -65,7 +65,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="//localhost:1313/">DvdBr3o</a></h1>
+            <h1 class="site-name"><a href="/">DvdBr3o</a></h1>
             <h2 class="site-description">一个天天都在想她的白痴</h2>
         </div>
     </header><ol class="menu-social">
@@ -309,44 +309,44 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_29">
+            <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" class="font_size_82">
                 高等数学
             </a>
         
-            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_16">
+            <a href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="font_size_75">
+                离散数学
+            </a>
+        
+            <a href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="font_size_57">
+                线性代数
+            </a>
+        
+            <a href="/tags/%E7%A7%AF%E5%88%86/" class="font_size_46">
                 积分
             </a>
         
-            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_14">
+            <a href="/tags/%E8%AE%A1%E7%BB%84%E5%8E%9F%E7%90%86/" class="font_size_46">
+                计组原理
+            </a>
+        
+            <a href="/tags/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="font_size_24">
+                概率统计
+            </a>
+        
+            <a href="/tags/%E5%A4%9A%E5%85%83/" class="font_size_20">
                 多元
             </a>
         
-            <a href="/tags/algorithm/" class="font_size_9">
-                Algorithm
+            <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/" class="font_size_19">
+                数字电路
             </a>
         
-            <a href="/tags/%E5%BE%AE%E5%88%86/" class="font_size_5">
-                微分
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="font_size_19">
+                深度学习
             </a>
         
-            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="font_size_5">
-                数据结构
-            </a>
-        
-            <a href="/tags/vulkan/" class="font_size_4">
-                Vulkan
-            </a>
-        
-            <a href="/tags/%E6%9E%81%E9%99%90/" class="font_size_4">
-                极限
-            </a>
-        
-            <a href="/tags/cpp/" class="font_size_3">
-                Cpp
-            </a>
-        
-            <a href="/tags/graphics/" class="font_size_2">
-                Graphics
+            <a href="/tags/%E5%A4%A7%E8%A7%82/" class="font_size_18">
+                大观
             </a>
         
     </div>
@@ -472,18 +472,10 @@
       <div class="admonition-content">
         <p>因为不太可能有人像我一样傻买个国产平板搭 termux 环境打代码，所以本篇语言不会很干练，更像吐槽 :)</p>
 <p>TLDR: 最后失败了，别想着在 arm 架构的平板上搭开发环境😭😭</p>
-
       </div>
   </div>
 <h2 id="前情提要"><a href="#%e5%89%8d%e6%83%85%e6%8f%90%e8%a6%81" class="header-anchor"></a>前情提要
-</h2><p>咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 <code>termux</code> 敲代码，还能画个画啥的。结果 <code>termux</code> 面对 ColorOS 当场碰壁，详见 
-
- <a
-  href="../../../../archlinux%20@%20termux%20@%20ColorOS.md"
-  
-  >archlinux @ termux @ ColorOS</a
->
-。没错，ColorOS 的 <code>termux</code> 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉</p>
+</h2><p>咱就是说勒紧裤头攒钱买了个平板，想着游戏本续航是根本带不到课室的，一个平板又能无纸化，又能 <code>termux</code> 敲代码，还能画个画啥的。结果 <code>termux</code> 面对 ColorOS 当场碰壁，详见 archlinux @ termux @ ColorOS。没错，ColorOS 的 <code>termux</code> 一直处于瘫痪状态。经过 ColorOS 15 后的第二次更新，OnePlus Pad Pro 终于不会再一直在你安装包的时候弹窗还删你包了 🎉</p>
 <p>美中不足是 ColorOS (或者说所有 Android 14+？) 权限越缩越紧，导致 <code>lspci</code> 会被 <code>Permission Denied</code>。从而就导致一大批 Wayland Compositor 没办法在 unrooted termux 上运行。。<del>（NO~ 我的 Hyprland 😭😭）</del></p>
 <p>你知道的，我勒紧裤头才省钱省出来买个平板，不想随随便便 root，真怕变板砖。。。所以只好委屈一下用 x11 的 window manger 了。。为了避免太多 hacking，最终选定了比较成熟的 <strong>KDE</strong>。</p>
 <h2 id="安装-termux--archlinux"><a href="#%e5%ae%89%e8%a3%85-termux--archlinux" class="header-anchor"></a>安装 termux &amp; archlinux
@@ -543,7 +535,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/data/data/com.termux/files/usr/bin/bash
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Kill open X11 processes</span>
 </span></span><span class="line"><span class="cl"><span class="nb">kill</span> -9 <span class="k">$(</span>pgrep -f <span class="s2">&#34;termux.x11&#34;</span><span class="k">)</span> 2&gt;/dev/null
 </span></span><span class="line"><span class="cl">
@@ -597,7 +589,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="c1"># Display Resolution</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"># Display Resolution</span>
 </span></span><span class="line"><span class="cl">xrandr --newmode <span class="s2">&#34;1920x1080_60.00&#34;</span>  173.00  <span class="m">1920</span> <span class="m">2048</span> <span class="m">2248</span> <span class="m">2576</span>  <span class="m">1080</span> <span class="m">1083</span> <span class="m">1088</span> <span class="m">1120</span> -hsync +vsync
 </span></span><span class="line"><span class="cl">xrandr --newmode <span class="s2">&#34;1280x768_60.00&#34;</span>   79.50  <span class="m">1280</span> <span class="m">1344</span> <span class="m">1472</span> <span class="m">1664</span>  <span class="m">768</span> <span class="m">771</span> <span class="m">781</span> <span class="m">798</span> -hsync +vsync
 </span></span><span class="line"><span class="cl">xrandr --addmode <span class="s2">&#34;Builtin Display&#34;</span> <span class="s2">&#34;1920x1080_60.00&#34;</span>
@@ -692,7 +684,7 @@
 
 
         <span>
-            最后更新于 Dec 10, 2024 20:23 CST
+            最后更新于 Jul 06, 2025 21:45 CST
         </span>
     </section></footer>
 
@@ -788,7 +780,7 @@
     <section class="copyright">
         &copy; 
         
-        2025 DvdBr3o
+        2026 DvdBr3o
     </section>
     
     <section class="powerby">
@@ -882,7 +874,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.353c44d4932d7106d10d4e7e28ecb9cad6154841b5ed1fc2e6252e502442be5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.0e087e57ca3d572cfda926ce1c36ef54662f78226fbf17b7b0929121fb9cd2d9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -897,12 +889,12 @@
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(//localhost:1313/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(//localhost:1313/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -914,7 +906,7 @@
 
 <style>
   body {
-    background: url(//localhost:1313/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

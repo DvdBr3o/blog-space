@@ -22,10 +22,10 @@ $$
 其中傅里叶系数
 $$
 \left\{
-\begin{align}
+\begin{aligned}
 a_{n} & =\frac{1}{l}\int_{-l}^{l} f(x)\cos \frac{\pi}{l}nx \, \mathrm{d}x \\
 b_{n} & =\frac{1}{l}\int_{-l}^{l} f(x)\sin \frac{\pi}{l}nx \, \mathrm{d}x 
-\end{align}
+\end{aligned}
 \right.
 $$
 
@@ -59,11 +59,11 @@ $$
 
 原函数 $f(x)$ 定义在 $[0,l]$
 $$
-F_{\mathrm{odd}}(x)=\left\{\begin{align}
+F_{\mathrm{odd}}(x)=\left\{\begin{aligned}
  & f(x), & 0 < x \le l \\
  & 0, & x = 0 \\
  & -f(-x), & -l \le x < 0
-\end{align}\right.
+\end{aligned}\right.
 $$
 其傅里叶级数一定为[三角级数 > 正弦级数](../../../../../../%E4%B8%89%E8%A7%92%E7%BA%A7%E6%95%B0.md#)
 
@@ -71,10 +71,10 @@ $$
 
 原函数 $f(x)$ 定义在 $[0,l]$
 $$
-F_{\mathrm{even}}(x)=\left\{\begin{align}
+F_{\mathrm{even}}(x)=\left\{\begin{aligned}
  & f(x), & 0 \le x \le l \\
  & f(-x),  & -l \le x < 0 
-\end{align}\right.
+\end{aligned}\right.
 $$
 其傅里叶级数一定为[三角级数 > 余弦级数](../../../../../../%E4%B8%89%E8%A7%92%E7%BA%A7%E6%95%B0.md#)
 
@@ -93,7 +93,7 @@ $$
 	- 在区间 $[-\pi,\pi]$ 上满足 Dirichlet 条件 i.e.
 		- 分段连续
 		- 分段单调
-	则$f(x)$ 在 $(-\infty,+\infty)$ 上**逐点收敛**到 $$S(x)=\left\{\begin{align} & f(x), & 连续点\\  & \frac{f(x+0)+f(x-0)}{2}, & 间断点\end{align}\right.$$
+	则$f(x)$ 在 $(-\infty,+\infty)$ 上**逐点收敛**到 $$S(x)=\left\{\begin{aligned} & f(x), & 连续点\\  & \frac{f(x+0)+f(x-0)}{2}, & 间断点\end{aligned}\right.$$
 2. 已知函数 $f(x)$
 	- 周期 $2\pi$
 	- 在区间 $[-\pi,\pi]$ 上分段可微
