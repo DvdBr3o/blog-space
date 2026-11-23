@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>空间几何 on DvdBr3o</title>
-        <link>http://localhost:38081/tags/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95/</link>
+        <link>http://localhost:36721/tags/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95/</link>
         <description>Recent content in 空间几何 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 11 May 2025 17:10:09 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 11 May 2025 17:10:09 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>多元微分几何</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/</link>
         <pubDate>Mon, 30 Dec 2024 12:37:47 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/</guid>
         <description>&lt;h2 id=&#34;曲线&#34;&gt;&lt;a href=&#34;#%e6%9b%b2%e7%ba%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;曲线
 &lt;/h2&gt;&lt;h3 id=&#34;切线&#34;&gt;&lt;a href=&#34;#%e5%88%87%e7%ba%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;切线
 &lt;/h3&gt;&lt;h4 id=&#34;参数方程&#34;&gt;&lt;a href=&#34;#%e5%8f%82%e6%95%b0%e6%96%b9%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;参数方程
@@ -35,7 +35,7 @@ $$
 \mathrm{d}\vec{l}=(x_{t},y_{t},z_{t})
 $$&lt;h4 id=&#34;非参方程&#34;&gt;&lt;a href=&#34;#%e9%9d%9e%e5%8f%82%e6%96%b9%e7%a8%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;非参方程
 &lt;/h4&gt;
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;非参方程
     &lt;/div&gt;
@@ -137,12 +137,12 @@ $$</description>
         </item>
         <item>
         <title>空间几何点线面</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%82%B9%E7%BA%BF%E9%9D%A2/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%82%B9%E7%BA%BF%E9%9D%A2/</link>
         <pubDate>Thu, 26 Dec 2024 22:25:21 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%82%B9%E7%BA%BF%E9%9D%A2/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%82%B9%E7%BA%BF%E9%9D%A2/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;约定
     &lt;/div&gt;

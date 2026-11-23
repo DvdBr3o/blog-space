@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Ai on DvdBr3o</title>
-        <link>http://localhost:38081/tags/ai/</link>
+        <link>http://localhost:36721/tags/ai/</link>
         <description>Recent content in Ai on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 14 Aug 2025 00:39:54 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Aug 2025 00:39:54 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MCP 概论</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/agent/mcp-%E6%A6%82%E8%AE%BA/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/agent/mcp-%E6%A6%82%E8%AE%BA/</link>
         <pubDate>Wed, 16 Jul 2025 17:44:38 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/agent/mcp-%E6%A6%82%E8%AE%BA/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/agent/mcp-%E6%A6%82%E8%AE%BA/</guid>
         <description>&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/07/16/S7UNRaCbDqieKJg.png&#34;
 	
 	
@@ -76,10 +76,10 @@
         </item>
         <item>
         <title>数据预处理</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%AF%BC%E8%AE%BA/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%AF%BC%E8%AE%BA/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</link>
         <pubDate>Mon, 14 Jul 2025 18:49:30 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%AF%BC%E8%AE%BA/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%AF%BC%E8%AE%BA/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
         <description>&lt;h2 id=&#34;输入&#34;&gt;&lt;a href=&#34;#%e8%be%93%e5%85%a5&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;输入
 &lt;/h2&gt;&lt;h3 id=&#34;csv&#34;&gt;&lt;a href=&#34;#csv&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;CSV
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -164,7 +164,7 @@
 &lt;/div&gt;&lt;p&gt;&lt;code&gt;get_dummies&lt;/code&gt;: 进行 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/one-hot-%E7%BC%96%E7%A0%81/&#34;
+  href=&#34;http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/one-hot-%E7%BC%96%E7%A0%81/&#34;
   
   &gt;one-hot 编码&lt;/a
 &gt;
@@ -191,7 +191,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;如果 &lt;code&gt;Alley&lt;/code&gt; 有其他值比如 &lt;code&gt;Bave&lt;/code&gt;，则会多一列 &lt;code&gt;Alley_Bave&lt;/code&gt; 只在值为 &lt;code&gt;Bave&lt;/code&gt; 的行为 &lt;code&gt;1&lt;/code&gt;&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;Why one-hot?
     &lt;/div&gt;
@@ -217,10 +217,10 @@
         </item>
         <item>
         <title>张量</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%AF%BC%E8%AE%BA/%E5%BC%A0%E9%87%8F/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%AF%BC%E8%AE%BA/%E5%BC%A0%E9%87%8F/</link>
         <pubDate>Mon, 14 Jul 2025 17:56:50 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%AF%BC%E8%AE%BA/%E5%BC%A0%E9%87%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%AF%BC%E8%AE%BA/%E5%BC%A0%E9%87%8F/</guid>
         <description> 
 
 &lt;a href=https://zh.d2l.ai/chapter_preliminaries/ndarray.html target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -393,12 +393,12 @@
         </item>
         <item>
         <title>部署 ollama &#43; vscode</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E9%83%A8%E7%BD%B2-ollama-and-vscode/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E9%83%A8%E7%BD%B2-ollama-and-vscode/</link>
         <pubDate>Tue, 17 Dec 2024 18:12:13 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E9%83%A8%E7%BD%B2-ollama-and-vscode/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E9%83%A8%E7%BD%B2-ollama-and-vscode/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;前情提要
     &lt;/div&gt;

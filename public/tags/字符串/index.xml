@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>字符串 on DvdBr3o</title>
-        <link>http://localhost:38081/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+        <link>http://localhost:36721/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
         <description>Recent content in 字符串 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 14 Jan 2026 21:23:24 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Jan 2026 21:23:24 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>KMP</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/kmp/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/kmp/</link>
         <pubDate>Thu, 21 Nov 2024 18:50:02 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/kmp/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/kmp/</guid>
         <description> 
 
 &lt;a href=https://oi-wiki.org/string/kmp/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -195,10 +195,10 @@ $$&lt;p&gt;⭐️ 最终实现：&lt;/p&gt;
         </item>
         <item>
         <title>字符串哈希</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/</link>
         <pubDate>Thu, 21 Nov 2024 17:52:36 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/</guid>
         <description> 
 
 &lt;a href=https://oi-wiki.org/string/hash/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -214,7 +214,7 @@ hash = (str)_{base}
 $$&lt;p&gt;
 但由于下标类型大小有限，所以需要取模 $mod$ 。&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;Info
     &lt;/div&gt;

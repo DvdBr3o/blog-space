@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=36721&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="计算\r转换为累次积分： $$ \\iint_{D} f(x,y)\\,dx\\,dy = \\int_{a}^{b} \\, dx \\int_{\\phi_{1}(x)}^{\\phi_{2}(x)} f(x,y) \\, dy $$ $$ \\iiint_{\\Omega}f(x,y,z)\\,\\mathrm{d}V=\\iint_{D}\\left( \\int_{z_1(x,y)}^{z_2(x,y)} f(x,y,z)\\,\\mathrm{d}z \\right) \\mathrm{d}\\delta $$ 其中 $D$ 为 $\\Omega$ 在平面 $x-y$ 的投影\n累次积分の边界问题\r主要解决：\n主元の最值 (线性规划) 其他元の投影平面 投影平面\r无论多少重积分：\n主其中一元不变 其他元自由移动形成平面 e.g.\n球坐标系 $\\theta-\\varphi$ 平面：$\\rho$ 不变，一个球面 $\\rho-\\theta$ 平面：$\\varphi$ 不变，一个过极点的圆形截面 $\\rho-\\varphi$ 平面：$\\theta$ 不变，一个过球心的圆锥面 柱坐标系 $r-\\theta$ 平面：$z$ 不变，一个平行于 $x-y$ 的圆形截面 $r-z$ 平面：$\\theta$ 不变，一个过中心轴的矩形截面 $z-\\theta$ 平面：$r$ 不变，一个同轴圆柱面 ">
 <title>重积分</title>
 
-<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86/'>
+<link rel='canonical' href='http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86/'>
 
-<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="重积分">
+<link rel="stylesheet" href="/scss/style.min.5b58abbfe74329627755af31f05f6d3a523ef778c6c5e549283c331624afc69e.css"><meta property='og:title' content="重积分">
 <meta property='og:description' content="计算\r转换为累次积分： $$ \\iint_{D} f(x,y)\\,dx\\,dy = \\int_{a}^{b} \\, dx \\int_{\\phi_{1}(x)}^{\\phi_{2}(x)} f(x,y) \\, dy $$ $$ \\iiint_{\\Omega}f(x,y,z)\\,\\mathrm{d}V=\\iint_{D}\\left( \\int_{z_1(x,y)}^{z_2(x,y)} f(x,y,z)\\,\\mathrm{d}z \\right) \\mathrm{d}\\delta $$ 其中 $D$ 为 $\\Omega$ 在平面 $x-y$ 的投影\n累次积分の边界问题\r主要解决：\n主元の最值 (线性规划) 其他元の投影平面 投影平面\r无论多少重积分：\n主其中一元不变 其他元自由移动形成平面 e.g.\n球坐标系 $\\theta-\\varphi$ 平面：$\\rho$ 不变，一个球面 $\\rho-\\theta$ 平面：$\\varphi$ 不变，一个过极点的圆形截面 $\\rho-\\varphi$ 平面：$\\theta$ 不变，一个过球心的圆锥面 柱坐标系 $r-\\theta$ 平面：$z$ 不变，一个平行于 $x-y$ 的圆形截面 $r-z$ 平面：$\\theta$ 不变，一个过中心轴的矩形截面 $z-\\theta$ 平面：$r$ 不变，一个同轴圆柱面 ">
-<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86/'>
+<meta property='og:url' content='http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86/'>
 <meta property='og:site_name' content='DvdBr3o'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='高等数学' /><meta property='article:tag' content='积分' /><meta property='article:tag' content='多元' /><meta property='article:published_time' content='2025-01-12T14:53:14&#43;08:00'/><meta property='article:modified_time' content='2025-04-28T20:12:00&#43;08:00'/>
 <meta name="twitter:title" content="重积分">
@@ -835,12 +835,12 @@ $$<p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:36721/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:36721/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -852,7 +852,7 @@ $$<p>
 
 <style>
   body {
-    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:36721/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

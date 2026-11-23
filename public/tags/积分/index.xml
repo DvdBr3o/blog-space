@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>积分 on DvdBr3o</title>
-        <link>http://localhost:38081/tags/%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/tags/%E7%A7%AF%E5%88%86/</link>
         <description>Recent content in 积分 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 05 Jul 2025 20:08:53 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E7%A7%AF%E5%88%86/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 05 Jul 2025 20:08:53 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/%E7%A7%AF%E5%88%86/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>重积分の分部积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E3%81%AE%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E3%81%AE%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86/</link>
         <pubDate>Fri, 09 May 2025 23:46:20 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E3%81%AE%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E3%81%AE%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86/</guid>
         <description>$$
 \iint_{\Omega}fg_{x}\,\mathrm{d}x\mathrm{d}y=\int_{\partial\Omega}fg\,\mathrm{d}y-\iint_{\Omega}f_{x}g\,\mathrm{d}x\mathrm{d}y
 $$$$
 \iint_{\Omega}fg_{y}\,\mathrm{d}x\mathrm{d}y=\int_{\partial\Omega}fg\,\mathrm{d}x - \iint_{\Omega}f_{y}g\,\mathrm{d}x\mathrm{d}y
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;证明
     &lt;/div&gt;
@@ -29,17 +29,17 @@ $$
         </item>
         <item>
         <title>Poisson 积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/poisson-%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/poisson-%E7%A7%AF%E5%88%86/</link>
         <pubDate>Fri, 09 May 2025 22:54:38 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/poisson-%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/poisson-%E7%A7%AF%E5%88%86/</guid>
         <description>$$
 I(r)=\int_{0}^{\pi} \ln (1\pm2r\cos\theta+r^{2}) \, \mathrm{d}\theta =\left\{ \begin{aligned}
  &amp; 0, &amp; \left| r \right| &lt; 1 \\
  &amp; 2\pi \ln \left| r \right| , &amp; \left| r \right| &gt; 1
 \end{aligned} \right.
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;证明思路 | 递推法
     &lt;/div&gt;
@@ -83,10 +83,10 @@ $$
         </item>
         <item>
         <title>矩与误差</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%9F%A9%E4%B8%8E%E8%AF%AF%E5%B7%AE/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%9F%A9%E4%B8%8E%E8%AF%AF%E5%B7%AE/</link>
         <pubDate>Thu, 08 May 2025 16:39:04 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%9F%A9%E4%B8%8E%E8%AF%AF%E5%B7%AE/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%9F%A9%E4%B8%8E%E8%AF%AF%E5%B7%AE/</guid>
         <description>&lt;h2 id=&#34;形式&#34;&gt;&lt;a href=&#34;#%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;形式
 &lt;/h2&gt;&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
@@ -97,7 +97,7 @@ $$
 &lt;li&gt;$\inf \displaystyle\mathop{\max}_{a&lt;x&lt;b}\left|f(x)\right|$&lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;矩与误差
     &lt;/div&gt;
@@ -133,10 +133,10 @@ $$&lt;p&gt;可以&lt;/p&gt;
         </item>
         <item>
         <title>分部积分with拟合函数证积分不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86with%E6%8B%9F%E5%90%88%E5%87%BD%E6%95%B0%E8%AF%81%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86with%E6%8B%9F%E5%90%88%E5%87%BD%E6%95%B0%E8%AF%81%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Tue, 06 May 2025 23:03:55 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86with%E6%8B%9F%E5%90%88%E5%87%BD%E6%95%B0%E8%AF%81%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86with%E6%8B%9F%E5%90%88%E5%87%BD%E6%95%B0%E8%AF%81%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;
 
  &lt;a
@@ -188,10 +188,10 @@ $$\int_{a}^{b} F(f&#39;(\varphi,\bar{f}))-F(f(\varphi,\bar{f})) \, \mathrm{d}x \
         </item>
         <item>
         <title>Poincare 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/poincare-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/poincare-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Tue, 06 May 2025 22:52:58 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/poincare-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/poincare-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;
 
  &lt;a
@@ -211,7 +211,7 @@ $$
 \int_{0}^{L} f^{2}(x) \, \mathrm{d}x \leq \frac{L^{2}}{\pi^{2}}\int_{0}^{L} f&#39;^{2}(x) \, \mathrm{d}x
 $$&lt;p&gt;等号成立当且仅当 $f(x)=c\sin \frac{\pi}{L}x$&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;衍生形式
     &lt;/div&gt;
@@ -236,7 +236,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{\pi^{2}}\int_{a}^{b} f
         &lt;p&gt;奇延拓 + 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Wirtinger 不等式&lt;/a
 &gt;
@@ -247,10 +247,10 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{\pi^{2}}\int_{a}^{b} f
         </item>
         <item>
         <title>Wirtinger 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Tue, 06 May 2025 11:48:58 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;
 
  &lt;a
@@ -271,7 +271,7 @@ $$
 \int_{-L}^{L} f^{2}(x) \, \mathrm{d}x \le \frac{L^{2}}{\pi^{2}}\int_{-L}^{L} f&#39;^{2}(x) \, \mathrm{d}x
 $$&lt;p&gt;等号成立当且仅当 $f(x)=a\sin \frac{\pi}{L}x+b\cos \frac{\pi}{L}x$&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;衍生形式
     &lt;/div&gt;
@@ -306,10 +306,10 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
         </item>
         <item>
         <title>积分不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Sat, 03 May 2025 16:37:30 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;ol&gt;
 &lt;li&gt;乘积 &amp;amp; 构造乘积
 &lt;ol&gt;
@@ -322,7 +322,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86with%E6%8B%9F%E5%90%88%E5%87%BD%E6%95%B0%E8%AF%81%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86with%E6%8B%9F%E5%90%88%E5%87%BD%E6%95%B0%E8%AF%81%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;分部积分 with 拟合函数证积分不等式&lt;/a
 &gt;
@@ -331,7 +331,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%9F%A9%E4%B8%8E%E8%AF%AF%E5%B7%AE/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%9F%A9%E4%B8%8E%E8%AF%AF%E5%B7%AE/&#34;
   
   &gt;矩与误差&lt;/a
 &gt;
@@ -368,7 +368,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/&#34;
   
   &gt;积分中值定理&lt;/a
 &gt;
@@ -376,7 +376,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%91%97%E5%90%8D%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%91%97%E5%90%8D%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;著名积分不等式&lt;/a
 &gt;
@@ -385,7 +385,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/hadamard-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/hadamard-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Hadamard 不等式&lt;/a
 &gt;
@@ -393,7 +393,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Jensen 不等式&lt;/a
 &gt;
@@ -401,7 +401,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/schwarz-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/schwarz-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Schwarz 不等式&lt;/a
 &gt;
@@ -409,7 +409,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/young-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/young-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Young 不等式&lt;/a
 &gt;
@@ -417,7 +417,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/holder-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/holder-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Holder 不等式&lt;/a
 &gt;
@@ -425,7 +425,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/minkowski-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/minkowski-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Minkowski 不等式&lt;/a
 &gt;
@@ -433,7 +433,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Opial 不等式&lt;/a
 &gt;
@@ -441,7 +441,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/bellman-gronwall-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/bellman-gronwall-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Bellman-Gronwall 不等式&lt;/a
 &gt;
@@ -449,7 +449,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Wirtinger 不等式&lt;/a
 &gt;
@@ -457,7 +457,7 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/poincare-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/poincare-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Poincare 不等式&lt;/a
 &gt;
@@ -471,10 +471,10 @@ $$\int_{a}^{b} f^{2} \, \mathrm{d}x \leq \frac{(b-a)^{2}}{4\pi^{2}}\int_{a}^{b} 
         </item>
         <item>
         <title>Bellman-Gronwall 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/bellman-gronwall-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/bellman-gronwall-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Sat, 03 May 2025 15:58:08 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/bellman-gronwall-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/bellman-gronwall-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$f(x)$ 和 $g(x)$ 在 $[a,b)$ 非负连续&lt;/li&gt;
@@ -485,7 +485,7 @@ $$f(x)\le A(x)+\int_{a}^{x} f(t)g(t) \, \mathrm{d}t $$&lt;/li&gt;
 $$
 f(x) \le A(x) + \int_{a}^{x} g(t)A(t)\exp\left(\int_{t}^{x} g(r) \, \mathrm{d}r \right) \, \mathrm{d}t
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;记忆
     &lt;/div&gt;
@@ -522,10 +522,10 @@ $$
         </item>
         <item>
         <title>Opial 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Fri, 02 May 2025 23:02:50 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;h2 id=&#34;线性单端零点&#34;&gt;&lt;a href=&#34;#%e7%ba%bf%e6%80%a7%e5%8d%95%e7%ab%af%e9%9b%b6%e7%82%b9&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;线性单端零点
 &lt;/h2&gt;&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
@@ -537,7 +537,7 @@ $$
   $$&lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;证明
     &lt;/div&gt;
@@ -578,7 +578,7 @@ $$
 &lt;li&gt;对 $[a,\frac{a+b}{2}]$ 和 $-[\frac{a+b}{2}, b]$ 使用 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;线性单端零点&lt;/a
 &gt;
@@ -592,10 +592,10 @@ $$
         </item>
         <item>
         <title>著名积分不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%91%97%E5%90%8D%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%91%97%E5%90%8D%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Tue, 29 Apr 2025 10:28:15 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%91%97%E5%90%8D%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%91%97%E5%90%8D%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;table&gt;
 	&lt;thead&gt;
 			&lt;tr&gt;
@@ -609,7 +609,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/hadamard-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/hadamard-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Hadamard 不等式&lt;/a
 &gt;
@@ -621,7 +621,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Jensen 不等式&lt;/a
 &gt;
@@ -633,7 +633,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/schwarz-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/schwarz-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Schwarz 不等式&lt;/a
 &gt;
@@ -645,7 +645,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/young-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/young-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Young 不等式&lt;/a
 &gt;
@@ -657,7 +657,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/holder-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/holder-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Holder 不等式&lt;/a
 &gt;
@@ -669,7 +669,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/minkowski-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/minkowski-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Minkowski 不等式&lt;/a
 &gt;
@@ -681,7 +681,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/opial-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Opial 不等式&lt;/a
 &gt;
@@ -693,7 +693,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/bellman-gronwall-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/bellman-gronwall-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Bellman-Gronwall 不等式&lt;/a
 &gt;
@@ -705,7 +705,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wirtinger-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Wirtinger 不等式&lt;/a
 &gt;
@@ -717,7 +717,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/poincare-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/poincare-%E4%B8%8D%E7%AD%89%E5%BC%8F/&#34;
   
   &gt;Poincare 不等式&lt;/a
 &gt;
@@ -731,10 +731,10 @@ $$
         </item>
         <item>
         <title>Holder 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/holder-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/holder-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Tue, 29 Apr 2025 10:24:35 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/holder-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/holder-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$\frac{1}{p}+\frac{1}{q}=1$&lt;/li&gt;
@@ -745,7 +745,7 @@ $$
 \int_{a}^{b} \left|f(x)g(x)\right| \, \mathrm{d}x \le \left(\int_{a}^{b} \left|f(x)\right|^{p} \, \mathrm{d}x \right)^{\frac{1}{p}} \left(\int_{a}^{b} \left|g(x)\right|^{q} \, \mathrm{d}x \right)^{\frac{1}{q}}
 $$&lt;p&gt;$p&lt;1$ 反向&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;衍生形式
     &lt;/div&gt;
@@ -784,10 +784,10 @@ $$\frac{\int_{a}^{b} |fg|}{(\int_{a}^{b} |f|^{p})^{1/p} (\int_{a}^{b} |g|^{q})^{
         </item>
         <item>
         <title>Minkowski 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/minkowski-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/minkowski-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Mon, 28 Apr 2025 22:19:51 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/minkowski-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/minkowski-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$p\geq1$
@@ -799,7 +799,7 @@ $$
 &lt;/ul&gt;
 &lt;p&gt;$p&lt;1$ 反向&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;衍生形式
     &lt;/div&gt;
@@ -828,10 +828,10 @@ $$
         </item>
         <item>
         <title>Young 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/young-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/young-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Mon, 28 Apr 2025 22:06:44 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/young-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/young-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$f(x)$ 在 $[0,+\infty)$
@@ -848,7 +848,7 @@ $$
   $$&lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;几何证明
     &lt;/div&gt;
@@ -877,14 +877,14 @@ $$
         </item>
         <item>
         <title>Schwarz 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/schwarz-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/schwarz-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Mon, 28 Apr 2025 21:36:45 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/schwarz-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/schwarz-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>$$
 \int_{a}^{b} f^{2}(x) \, \mathrm{d}x\int_{a}^{b} g^{2}(x) \, \mathrm{d}x \geq \left(\int_{a}^{b} f(x)g(x) \, \mathrm{d}x \right)^{2}
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;证明
     &lt;/div&gt;
@@ -905,12 +905,12 @@ $$
         </item>
         <item>
         <title>定积分计算</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</link>
         <pubDate>Fri, 18 Apr 2025 20:52:02 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition warning&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;先讲易错
     &lt;/div&gt;
@@ -930,7 +930,7 @@ $$
 &lt;li&gt;换元 同
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/&#34;
   
   &gt;不定积分计算&lt;/a
 &gt;
@@ -942,7 +942,7 @@ $$
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%8C%BA%E9%97%B4%E5%86%8D%E7%8E%B0/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%8C%BA%E9%97%B4%E5%86%8D%E7%8E%B0/&#34;
   
   &gt;区间再现&lt;/a
 &gt;
@@ -950,7 +950,7 @@ $$
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/gamma%E5%87%BD%E6%95%B0--b%E5%87%BD%E6%95%B0/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/gamma%E5%87%BD%E6%95%B0--b%E5%87%BD%E6%95%B0/&#34;
   
   &gt;Gamma函数 &amp;amp; B函数&lt;/a
 &gt;
@@ -972,17 +972,17 @@ $$
         </item>
         <item>
         <title>不定积分计算</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</link>
         <pubDate>Fri, 18 Apr 2025 20:45:08 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;可积函数
 &lt;ul&gt;
 &lt;li&gt;有理函数 $\Rightarrow$ 部分分式+
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%95%99%E6%95%B0%E6%B3%95-%E6%B1%82%E6%9C%89%E7%90%86%E5%BC%8F%E5%88%86%E8%A7%A3/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%95%99%E6%95%B0%E6%B3%95-%E6%B1%82%E6%9C%89%E7%90%86%E5%BC%8F%E5%88%86%E8%A7%A3/&#34;
   
   &gt;留数法 求有理式分解&lt;/a
 &gt;
@@ -993,7 +993,7 @@ $$
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%AE%9A%E7%90%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%AE%9A%E7%90%86/&#34;
   
   &gt;切比雪夫定理&lt;/a
 &gt;
@@ -1001,7 +1001,7 @@ $$
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/&#34;
   
   &gt;欧拉代换&lt;/a
 &gt;
@@ -1039,7 +1039,7 @@ $$
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%A1%A8%E6%A0%BC%E6%B3%95/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%A1%A8%E6%A0%BC%E6%B3%95/&#34;
   
   &gt;表格法&lt;/a
 &gt;
@@ -1059,7 +1059,7 @@ $$
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%AE%9A%E7%90%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%AE%9A%E7%90%86/&#34;
   
   &gt;切比雪夫定理&lt;/a
 &gt;
@@ -1067,7 +1067,7 @@ $$
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/&#34;
   
   &gt;欧拉代换&lt;/a
 &gt;
@@ -1098,7 +1098,7 @@ $$
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E9%AB%98%E9%98%B6%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E9%99%8D%E6%AC%A1/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E9%AB%98%E9%98%B6%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E9%99%8D%E6%AC%A1/&#34;
   
   &gt;高阶三角函数积分降次&lt;/a
 &gt;
@@ -1119,10 +1119,10 @@ $$
         </item>
         <item>
         <title>常见广义积分の值</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B8%B8%E8%A7%81%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E3%81%AE%E5%80%BC/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B8%B8%E8%A7%81%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E3%81%AE%E5%80%BC/</link>
         <pubDate>Thu, 17 Apr 2025 23:34:35 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B8%B8%E8%A7%81%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E3%81%AE%E5%80%BC/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B8%B8%E8%A7%81%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E3%81%AE%E5%80%BC/</guid>
         <description>&lt;table&gt;
 	&lt;thead&gt;
 			&lt;tr&gt;
@@ -1167,7 +1167,7 @@ $$
 					&lt;td&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/poisson-%E7%A7%AF%E5%88%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/poisson-%E7%A7%AF%E5%88%86/&#34;
   
   &gt;Poisson 积分&lt;/a
 &gt;
@@ -1194,10 +1194,10 @@ $$
         </item>
         <item>
         <title>Jensen 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Thu, 17 Apr 2025 18:37:41 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$f(x)$ 有界&lt;/li&gt;
@@ -1211,7 +1211,7 @@ $$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;($\varphi$ 上凸则反向)&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;具体形式
     &lt;/div&gt;
@@ -1234,10 +1234,10 @@ $$&lt;/li&gt;
         </item>
         <item>
         <title>Hadamard 不等式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/hadamard-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/hadamard-%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
         <pubDate>Thu, 17 Apr 2025 18:34:23 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/hadamard-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/hadamard-%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
         <description>&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$f(x)$ 是 $(a,b)$ 上的下凸函数&lt;/li&gt;
@@ -1247,7 +1247,7 @@ $$&lt;/li&gt;
 $$
 f\left( \frac{x_{1}+x_{2}}{2} \right)\leq \frac{\int_{x_{1}}^{x_{2}} f(t) \, \mathrm{d}t}{x_{2}-x_{1}}\leq \frac{f(x_{1})+f(x_{2})}{2} 
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;证明
     &lt;/div&gt;
@@ -1266,17 +1266,17 @@ $$
         </item>
         <item>
         <title>对定积分求极限</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AF%B9%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AF%B9%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E6%9E%81%E9%99%90/</link>
         <pubDate>Thu, 17 Apr 2025 11:08:46 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AF%B9%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AF%B9%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E6%9E%81%E9%99%90/</guid>
         <description>&lt;h2 id=&#34;本质&#34;&gt;&lt;a href=&#34;#%e6%9c%ac%e8%b4%a8&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;本质
 &lt;/h2&gt;&lt;p&gt;定积分本质是数，对其求极限本质是求一个数列的极限&lt;/p&gt;
 &lt;h2 id=&#34;求法&#34;&gt;&lt;a href=&#34;#%e6%b1%82%e6%b3%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;求法
 &lt;/h2&gt;&lt;p&gt;当被积函数序列在区间内
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/&#34;
   
   &gt;一致收敛&lt;/a
 &gt;
@@ -1296,12 +1296,12 @@ $$</description>
         </item>
         <item>
         <title>广义积分快速审敛</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E5%BF%AB%E9%80%9F%E5%AE%A1%E6%95%9B/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E5%BF%AB%E9%80%9F%E5%AE%A1%E6%95%9B/</link>
         <pubDate>Tue, 15 Apr 2025 12:33:40 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E5%BF%AB%E9%80%9F%E5%AE%A1%E6%95%9B/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E5%BF%AB%E9%80%9F%E5%AE%A1%E6%95%9B/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;原理
     &lt;/div&gt;
@@ -1319,7 +1319,7 @@ $$</description>
         &lt;p&gt;根据
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E5%BF%AB%E9%80%9F%E5%AE%A1%E6%95%9B/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E5%BF%AB%E9%80%9F%E5%AE%A1%E6%95%9B/&#34;
   
   &gt;五大基准广义积分&lt;/a
 &gt;
@@ -1336,7 +1336,7 @@ $$\int_{1+\varepsilon}^{+\infty} \frac{\sin x}{\sqrt{ x }} \, \mathrm{d}x $$&lt;
 &lt;li&gt;根据
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E5%BF%AB%E9%80%9F%E5%AE%A1%E6%95%9B/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E5%BF%AB%E9%80%9F%E5%AE%A1%E6%95%9B/&#34;
   
   &gt;五大基准广义积分&lt;/a
 &gt;
@@ -1415,22 +1415,22 @@ $$\int_{0}^{\infty} x^{k}e^{-\lambda x} \, \mathrm{d}x $$&lt;ul&gt;
         </item>
         <item>
         <title>复变函数の积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E3%81%AE%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E3%81%AE%E7%A7%AF%E5%88%86/</link>
         <pubDate>Mon, 24 Mar 2025 20:57:07 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E3%81%AE%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E3%81%AE%E7%A7%AF%E5%88%86/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;p&gt;对于 $f(z)=u+vi$ 的积分 $\displaystyle\int_{C}f(z)\,\mathrm{d}z$ 以及环积分 $\displaystyle\oint_{C}f(z)\,\mathrm{d}z$
 类似于实平面上的
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/&#34;
   
   &gt;曲线积分 &amp;gt; 第二型曲线积分&lt;/a
 &gt;
 &lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;黎曼积分定义
     &lt;/div&gt;
@@ -1465,12 +1465,12 @@ $$</description>
         </item>
         <item>
         <title>含参瑕积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E7%91%95%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E7%91%95%E7%A7%AF%E5%88%86/</link>
         <pubDate>Sat, 15 Mar 2025 14:02:44 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E7%91%95%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E7%91%95%E7%A7%AF%E5%88%86/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;约定
     &lt;/div&gt;
@@ -1524,10 +1524,10 @@ $$</description>
         </item>
         <item>
         <title>含参无穷积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86/</link>
         <pubDate>Sat, 15 Mar 2025 14:02:21 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;$$
 g(y)=\int_{a}^{+\infty} f(x,y) \, \mathrm{d}x 
@@ -1575,12 +1575,12 @@ $$g&#39;(y)=\int_{a}^{b} f_{y}(x,y) \, \mathrm{d}x $$&lt;/li&gt;
         </item>
         <item>
         <title>含参常义积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E5%B8%B8%E4%B9%89%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E5%B8%B8%E4%B9%89%E7%A7%AF%E5%88%86/</link>
         <pubDate>Fri, 14 Mar 2025 15:53:25 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E5%B8%B8%E4%B9%89%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/%E5%90%AB%E5%8F%82%E5%B8%B8%E4%B9%89%E7%A7%AF%E5%88%86/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;约定
     &lt;/div&gt;
@@ -1631,10 +1631,10 @@ $$\frac{\mathrm{d}}{\mathrm{d}y}\int_{a}^{b} f(x,y) \, \mathrm{d}x =\int_{a}^{b}
         </item>
         <item>
         <title>指数三角乘积特殊积分的の快速求解</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%8C%87%E6%95%B0%E4%B8%89%E8%A7%92%E4%B9%98%E7%A7%AF%E7%89%B9%E6%AE%8A%E7%A7%AF%E5%88%86%E7%9A%84%E3%81%AE%E5%BF%AB%E9%80%9F%E6%B1%82%E8%A7%A3/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%8C%87%E6%95%B0%E4%B8%89%E8%A7%92%E4%B9%98%E7%A7%AF%E7%89%B9%E6%AE%8A%E7%A7%AF%E5%88%86%E7%9A%84%E3%81%AE%E5%BF%AB%E9%80%9F%E6%B1%82%E8%A7%A3/</link>
         <pubDate>Thu, 13 Mar 2025 13:53:06 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%8C%87%E6%95%B0%E4%B8%89%E8%A7%92%E4%B9%98%E7%A7%AF%E7%89%B9%E6%AE%8A%E7%A7%AF%E5%88%86%E7%9A%84%E3%81%AE%E5%BF%AB%E9%80%9F%E6%B1%82%E8%A7%A3/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%8C%87%E6%95%B0%E4%B8%89%E8%A7%92%E4%B9%98%E7%A7%AF%E7%89%B9%E6%AE%8A%E7%A7%AF%E5%88%86%E7%9A%84%E3%81%AE%E5%BF%AB%E9%80%9F%E6%B1%82%E8%A7%A3/</guid>
         <description>$$
 \int e^{ax}\sin bx\,\mathrm{d}x=\frac{1}{a^{2}+b^{2}}\begin{vmatrix}
 (e^{ax})&#39; &amp; (\sin bx)&#39; \\
@@ -1648,7 +1648,7 @@ $$
 e^{ax} &amp; \cos bx
 \end{vmatrix} + C
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;证明
     &lt;/div&gt;
@@ -1660,16 +1660,16 @@ $$
         </item>
         <item>
         <title>Gamma函数 &amp; B函数</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/gamma%E5%87%BD%E6%95%B0--b%E5%87%BD%E6%95%B0/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/gamma%E5%87%BD%E6%95%B0--b%E5%87%BD%E6%95%B0/</link>
         <pubDate>Thu, 13 Mar 2025 09:22:11 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/gamma%E5%87%BD%E6%95%B0--b%E5%87%BD%E6%95%B0/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86/gamma%E5%87%BD%E6%95%B0--b%E5%87%BD%E6%95%B0/</guid>
         <description>&lt;h2 id=&#34;gamma-函数&#34;&gt;&lt;a href=&#34;#gamma-%e5%87%bd%e6%95%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Gamma 函数
 &lt;/h2&gt;&lt;h3 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h3&gt;$$
 	\Gamma(\alpha)=\int_{0}^{+\infty} x^{\alpha-1} e^{-x} \, dx 
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;变种形式
     &lt;/div&gt;
@@ -1729,10 +1729,10 @@ $$
         </item>
         <item>
         <title>外微分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/</link>
         <pubDate>Sat, 08 Feb 2025 21:27:03 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%A4%96%E5%BE%AE%E5%88%86/</guid>
         <description>&lt;h2 id=&#34;微分形式&#34;&gt;&lt;a href=&#34;#%e5%be%ae%e5%88%86%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;微分形式
 &lt;/h2&gt;&lt;p&gt;aka 外微分形式&lt;/p&gt;
 &lt;h3 id=&#34;重要微分形式&#34;&gt;&lt;a href=&#34;#%e9%87%8d%e8%a6%81%e5%be%ae%e5%88%86%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;重要微分形式
@@ -1902,10 +1902,10 @@ $$&lt;h2 id=&#34;hodge对偶&#34;&gt;&lt;a href=&#34;#hodge%e5%af%b9%e5%81%b6&#3
         </item>
         <item>
         <title>Stokes 公式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/</link>
         <pubDate>Sat, 08 Feb 2025 14:07:02 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/</guid>
         <description>&lt;h2 id=&#34;应用&#34;&gt;&lt;a href=&#34;#%e5%ba%94%e7%94%a8&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;应用
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;空间&lt;/li&gt;
@@ -1937,7 +1937,7 @@ $$&lt;h3 id=&#34;旋度形式&#34;&gt;&lt;a href=&#34;#%e6%97%8b%e5%ba%a6%e5%bd%
 &lt;/h3&gt;&lt;p&gt;由
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/&#34;
   
   &gt;朴素行列式形式&lt;/a
 &gt;
@@ -1974,10 +1974,10 @@ $$&lt;h2 id=&#34;证明&#34;&gt;&lt;a href=&#34;#%e8%af%81%e6%98%8e&#34; class=&
         </item>
         <item>
         <title>场论初步</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/</link>
         <pubDate>Sat, 08 Feb 2025 13:58:53 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/</guid>
         <description>&lt;h2 id=&#34;场&#34;&gt;&lt;a href=&#34;#%e5%9c%ba&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;场
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;数量场 $f:(x,y,z)\to \mathrm{val}$&lt;/li&gt;
@@ -2168,10 +2168,10 @@ $$\mathrm{rot}\,\vec{F}=0$$&lt;/li&gt;
         </item>
         <item>
         <title>环积分转化公式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E7%8E%AF%E7%A7%AF%E5%88%86%E8%BD%AC%E5%8C%96%E5%85%AC%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E7%8E%AF%E7%A7%AF%E5%88%86%E8%BD%AC%E5%8C%96%E5%85%AC%E5%BC%8F/</link>
         <pubDate>Fri, 07 Feb 2025 20:24:43 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E7%8E%AF%E7%A7%AF%E5%88%86%E8%BD%AC%E5%8C%96%E5%85%AC%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E7%8E%AF%E7%A7%AF%E5%88%86%E8%BD%AC%E5%8C%96%E5%85%AC%E5%BC%8F/</guid>
         <description>&lt;h2 id=&#34;总结&#34;&gt;&lt;a href=&#34;#%e6%80%bb%e7%bb%93&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;总结
 &lt;/h2&gt;&lt;p&gt;环积分转化公式主要有三：&lt;/p&gt;
 &lt;ul&gt;
@@ -2214,7 +2214,7 @@ $$\mathrm{rot}\,\vec{F}=0$$&lt;/li&gt;
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/&#34;
   
   &gt;Green 公式&lt;/a
 &gt;
@@ -2222,7 +2222,7 @@ $$\mathrm{rot}\,\vec{F}=0$$&lt;/li&gt;
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/gauss-%E5%85%AC%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/gauss-%E5%85%AC%E5%BC%8F/&#34;
   
   &gt;Gauss 公式&lt;/a
 &gt;
@@ -2230,7 +2230,7 @@ $$\mathrm{rot}\,\vec{F}=0$$&lt;/li&gt;
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/stokes-%E5%85%AC%E5%BC%8F/&#34;
   
   &gt;Stokes 公式&lt;/a
 &gt;
@@ -2240,10 +2240,10 @@ $$\mathrm{rot}\,\vec{F}=0$$&lt;/li&gt;
         </item>
         <item>
         <title>Gauss 公式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/gauss-%E5%85%AC%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/gauss-%E5%85%AC%E5%BC%8F/</link>
         <pubDate>Thu, 30 Jan 2025 19:40:38 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/gauss-%E5%85%AC%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/gauss-%E5%85%AC%E5%BC%8F/</guid>
         <description>&lt;h2 id=&#34;已知&#34;&gt;&lt;a href=&#34;#%e5%b7%b2%e7%9f%a5&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;已知
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;曲面 $S$
@@ -2264,7 +2264,7 @@ $$&lt;h3 id=&#34;散度形式&#34;&gt;&lt;a href=&#34;#%e6%95%a3%e5%ba%a6%e5%bd%
 $$&lt;h2 id=&#34;证明&#34;&gt;&lt;a href=&#34;#%e8%af%81%e6%98%8e&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;证明
 &lt;/h2&gt;&lt;p&gt;任选一维，以 $z$/$R$ 方向为例&lt;/p&gt;
 &lt;p&gt;对于该维，将闭合曲面分割成形如下图的形式，由此定义出 $S$，$S_{1}$，$S_{2}$，$S_{3}$，$D$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:38081/%E9%AB%98%E6%95%B0%E4%B8%8B/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%20%E5%8C%97%E5%A4%A7%E7%89%88%20%E7%AC%AC%E4%B8%89%E7%89%88%20%E4%B8%8B%E5%86%8C%20%28%E6%9D%8E%E5%BF%A0%20%E5%91%A8%E5%BB%BA%E8%8E%B9%29%20%28Z-Library%29.pdf.md#page147andrect240358385520andcolornote&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36721/%E9%AB%98%E6%95%B0%E4%B8%8B/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%20%E5%8C%97%E5%A4%A7%E7%89%88%20%E7%AC%AC%E4%B8%89%E7%89%88%20%E4%B8%8B%E5%86%8C%20%28%E6%9D%8E%E5%BF%A0%20%E5%91%A8%E5%BB%BA%E8%8E%B9%29%20%28Z-Library%29.pdf.md#page147andrect240358385520andcolornote&#34;
 	
 	
 	
@@ -2291,16 +2291,16 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>曲面积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/</link>
         <pubDate>Sun, 12 Jan 2025 17:15:11 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/</guid>
         <description>&lt;h2 id=&#34;第一型曲面积分&#34;&gt;&lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e5%9e%8b%e6%9b%b2%e9%9d%a2%e7%a7%af%e5%88%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;第一型曲面积分
 &lt;/h2&gt;&lt;h3 id=&#34;特征&#34;&gt;&lt;a href=&#34;#%e7%89%b9%e5%be%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;特征
 &lt;/h3&gt;&lt;p&gt;类似
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/&#34;
   
   &gt;曲线积分 &amp;gt; 第一型曲线积分&lt;/a
 &gt;
@@ -2343,7 +2343,7 @@ $$&lt;p&gt;
 则同
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF/&#34;
   
   &gt;曲面面积&lt;/a
 &gt;
@@ -2370,7 +2370,7 @@ $$&lt;h2 id=&#34;第二型曲面积分&#34;&gt;&lt;a href=&#34;#%e7%ac%ac%e4%ba%
 &lt;/h3&gt;&lt;p&gt;类似
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/&#34;
   
   &gt;曲线积分 &amp;gt; 第二型曲线积分&lt;/a
 &gt;
@@ -2391,7 +2391,7 @@ $$
 $$&lt;p&gt;
 其中 $\vec{n}$ 是 $dS$ 的单位法向量&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;形象记忆
     &lt;/div&gt;
@@ -2414,7 +2414,7 @@ $$&lt;p&gt;
 &lt;/h4&gt;&lt;p&gt;同样还可以类似
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/&#34;
   
   &gt;曲线积分 &amp;gt; 第二型曲线积分&lt;/a
 &gt;
@@ -2453,7 +2453,7 @@ $$&lt;p&gt;
 &lt;/h4&gt;&lt;p&gt;根据 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/&#34;
   
   &gt;分拆型&lt;/a
 &gt;
@@ -2469,7 +2469,7 @@ $$&lt;p&gt;其中 $\vec{n}=(\cos\alpha,\cos\beta,\cos\gamma)$
 &lt;p&gt;建议熟练掌握 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/&#34;
   
   &gt;多元微分几何 &amp;gt; 法线&lt;/a
 &gt;
@@ -2518,19 +2518,19 @@ $$
 &lt;p&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/&#34;
   
   &gt;第二型曲面积分 &amp;gt; 计算 &amp;gt; 转为第一型曲面积分&lt;/a
 &gt;
  用到 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/&#34;
   
   &gt;多元微分几何 &amp;gt; 法线 &amp;gt; 非参形式&lt;/a
 &gt;
 
-&lt;img src=&#34;http://localhost:38081/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95.md#&#34;
+&lt;img src=&#34;http://localhost:36721/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95.md#&#34;
 	
 	
 	
@@ -2545,19 +2545,19 @@ $$
 &lt;p&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/&#34;
   
   &gt;第二型曲面积分 &amp;gt; 计算 &amp;gt; 转为参数平面重积分&lt;/a
 &gt;
  用到 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/&#34;
   
   &gt;多元微分几何 &amp;gt; 法线 &amp;gt; 参数形式&lt;/a
 &gt;
 
-&lt;img src=&#34;http://localhost:38081/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95.md#&#34;
+&lt;img src=&#34;http://localhost:36721/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95.md#&#34;
 	
 	
 	
@@ -2575,10 +2575,10 @@ $$
         </item>
         <item>
         <title>Green 公式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/</link>
         <pubDate>Sun, 12 Jan 2025 16:41:06 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;h3 id=&#34;连通区域&#34;&gt;&lt;a href=&#34;#%e8%bf%9e%e9%80%9a%e5%8c%ba%e5%9f%9f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;连通区域
 &lt;/h3&gt;&lt;p&gt;连通区域分为：&lt;/p&gt;
@@ -2603,13 +2603,13 @@ $$</description>
         </item>
         <item>
         <title>曲线积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</link>
         <pubDate>Sun, 12 Jan 2025 15:11:34 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86/</guid>
         <description>&lt;h2 id=&#34;第一型曲线积分&#34;&gt;&lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e5%9e%8b%e6%9b%b2%e7%ba%bf%e7%a7%af%e5%88%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;第一型曲线积分
 &lt;/h2&gt;
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;第一型曲线积分通性
     &lt;/div&gt;
@@ -2698,12 +2698,12 @@ $$&lt;p&gt;仍然符合直觉上的微分运算，因此根据微分运算直觉
       &lt;div class=&#34;admonition-content&#34;&gt;
         &lt;p&gt;
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/green-%E5%85%AC%E5%BC%8F/&#34;
   
   &gt;Green 公式&lt;/a
 &gt;
 
-&lt;img src=&#34;http://localhost:38081/Green%20%E5%85%AC%E5%BC%8F.md&#34;
+&lt;img src=&#34;http://localhost:36721/Green%20%E5%85%AC%E5%BC%8F.md&#34;
 	
 	
 	
@@ -2759,12 +2759,12 @@ $$
         </item>
         <item>
         <title>曲面面积</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF/</link>
         <pubDate>Sun, 12 Jan 2025 15:06:30 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;注意
     &lt;/div&gt;
@@ -2773,7 +2773,7 @@ $$
       &lt;/div&gt;
   &lt;/div&gt;
 &lt;h2 id=&#34;推导&#34;&gt;&lt;a href=&#34;#%e6%8e%a8%e5%af%bc&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;推导
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:38081/%E9%AB%98%E6%95%B0%E4%B8%8B/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%20%E5%8C%97%E5%A4%A7%E7%89%88%20%E7%AC%AC%E4%B8%89%E7%89%88%20%E4%B8%8B%E5%86%8C%20%28%E6%9D%8E%E5%BF%A0%20%E5%91%A8%E5%BB%BA%E8%8E%B9%29%20%28Z-Library%29.pdf.md#page69andrect2177402531andcolornote&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:36721/%E9%AB%98%E6%95%B0%E4%B8%8B/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%20%E5%8C%97%E5%A4%A7%E7%89%88%20%E7%AC%AC%E4%B8%89%E7%89%88%20%E4%B8%8B%E5%86%8C%20%28%E6%9D%8E%E5%BF%A0%20%E5%91%A8%E5%BB%BA%E8%8E%B9%29%20%28Z-Library%29.pdf.md#page69andrect2177402531andcolornote&#34;
 	
 	
 	
@@ -2810,10 +2810,10 @@ $$</description>
         </item>
         <item>
         <title>重积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86/</link>
         <pubDate>Sun, 12 Jan 2025 14:53:14 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86/</guid>
         <description>&lt;h2 id=&#34;计算&#34;&gt;&lt;a href=&#34;#%e8%ae%a1%e7%ae%97&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;计算
 &lt;/h2&gt;&lt;p&gt;转换为&lt;strong&gt;累次积分&lt;/strong&gt;：
 &lt;/p&gt;
@@ -2832,7 +2832,7 @@ $$&lt;p&gt;
 &lt;li&gt;其他元の&lt;strong&gt;投影平面&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;投影平面
     &lt;/div&gt;
@@ -2867,7 +2867,7 @@ $$&lt;p&gt;
 &lt;li&gt;轮换对称性&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;坐标系转换&#34;&gt;&lt;a href=&#34;#%e5%9d%90%e6%a0%87%e7%b3%bb%e8%bd%ac%e6%8d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;坐标系转换
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:38081/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2.md&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:36721/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2.md&#34;
 	
 	
 	
@@ -2881,10 +2881,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>欧拉代换</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/</link>
         <pubDate>Fri, 03 Jan 2025 23:45:05 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%AC%A7%E6%8B%89%E4%BB%A3%E6%8D%A2/</guid>
         <description>&lt;h2 id=&#34;应用&#34;&gt;&lt;a href=&#34;#%e5%ba%94%e7%94%a8&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;应用
 &lt;/h2&gt;&lt;p&gt;解决 $\sqrt{ ax^{2}+bx+c }$ 在不定积分中的代换&lt;/p&gt;
 &lt;h2 id=&#34;欧拉第一代换&#34;&gt;&lt;a href=&#34;#%e6%ac%a7%e6%8b%89%e7%ac%ac%e4%b8%80%e4%bb%a3%e6%8d%a2&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;欧拉第一代换
@@ -2900,10 +2900,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>高阶三角函数积分降次</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E9%AB%98%E9%98%B6%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E9%99%8D%E6%AC%A1/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E9%AB%98%E9%98%B6%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E9%99%8D%E6%AC%A1/</link>
         <pubDate>Sun, 29 Dec 2024 14:33:17 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E9%AB%98%E9%98%B6%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E9%99%8D%E6%AC%A1/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E9%AB%98%E9%98%B6%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E9%99%8D%E6%AC%A1/</guid>
         <description>$$
 \int \sin^{n} x \, dx = -\frac{1}{n}\sin^{n-1}x \cos x + \frac{n-1}{n}\int \sin^{n-2}x \, dx
 $$&lt;p&gt;
@@ -2923,7 +2923,7 @@ $$&lt;p&gt;
 $$
 \int \sec^{n}x\,dx=\frac{1}{n-1}\sec^{n-2}x\tan x + \frac{n-2}{n-1}\int \sec^{n-2}x\,dx
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;华里士公式
     &lt;/div&gt;
@@ -2931,7 +2931,7 @@ $$
         &lt;p&gt;根据前两个公式可以推出
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wallis-%E5%85%AC%E5%BC%8F/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wallis-%E5%85%AC%E5%BC%8F/&#34;
   
   &gt;Wallis 公式&lt;/a
 &gt;
@@ -2959,10 +2959,10 @@ $$\begin{aligned}
         </item>
         <item>
         <title>表格法</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%A1%A8%E6%A0%BC%E6%B3%95/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%A1%A8%E6%A0%BC%E6%B3%95/</link>
         <pubDate>Fri, 27 Dec 2024 23:50:05 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%A1%A8%E6%A0%BC%E6%B3%95/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E8%A1%A8%E6%A0%BC%E6%B3%95/</guid>
         <description>&lt;h2 id=&#34;有限&#34;&gt;&lt;a href=&#34;#%e6%9c%89%e9%99%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;有限
 &lt;/h2&gt;&lt;p&gt;当被积式有因式&lt;strong&gt;可导尽&lt;/strong&gt;，为有限情形，表格法如下&lt;/p&gt;
 &lt;ol&gt;
@@ -2972,12 +2972,12 @@ $$\begin{aligned}
 &lt;li&gt;各乘式相加&lt;/li&gt;
 &lt;/ol&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition example&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 640 512&#34;&gt;&lt;path d=&#34;M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8 384l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-288 56 0 64 0 16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-64 192 0 0 192-192 0 0-32-64 0 0 48c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L368 0c-26.5 0-48 21.5-48 48l0 80-76.9 0-65.9 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9 120 480c0 17.7 14.3 32 32 32s32-14.3 32-32z&#34;/&gt;&lt;/svg&gt;有限例子
     &lt;/div&gt;
       &lt;div class=&#34;admonition-content&#34;&gt;
-        &lt;p&gt;&lt;img src=&#34;http://localhost:38081/%E8%A1%A8%E6%A0%BC%E6%B3%95%E4%BE%8B%E5%AD%90.svg&#34;
+        &lt;p&gt;&lt;img src=&#34;http://localhost:36721/%E8%A1%A8%E6%A0%BC%E6%B3%95%E4%BE%8B%E5%AD%90.svg&#34;
 	
 	
 	
@@ -3017,7 +3017,7 @@ $$\int(+1)\cdot(-b^{2}\sin bx\cdot \frac{1}{a^{2}}e^{ax})\,\mathrm{d}x$$&lt;p&gt
 $$\begin{aligned}\int e^{ax}\sin bx\,\mathrm{d}x &amp; = \sin bx\cdot\frac{1}{a}e^{ax}-b\cos bx\cdot\frac{1}{a^{2}}e^{ax}-\frac{b^{2}}{a^{2}}\int e^{ax}\sin bx\,\mathrm{d}x\\\left( 1+\frac{b^{2}}{a^{2}} \right)\int e^{ax}\sin bx\,\mathrm{d}x &amp; =\sin bx\cdot\frac{1}{a}e^{ax}-b\cos bx\cdot\frac{1}{a^{2}}e^{ax}\\ \int e^{ax}\sin bx\,\mathrm{d}x &amp; =\frac{a^{2}}{a^{2}+b^{2}}\left(\sin bx\cdot\frac{1}{a}e^{ax}-b\cos bx\cdot\frac{1}{a^{2}}e^{ax}\right)\\ \int e^{ax}\sin bx\,\mathrm{d}x &amp; = \frac{1}{a^{2}+b^{2}}(ae^{ax}\sin bx-be^{ax}\cos bx) + C \end{aligned}$$&lt;p&gt;这与
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%8C%87%E6%95%B0%E4%B8%89%E8%A7%92%E4%B9%98%E7%A7%AF%E7%89%B9%E6%AE%8A%E7%A7%AF%E5%88%86%E7%9A%84%E3%81%AE%E5%BF%AB%E9%80%9F%E6%B1%82%E8%A7%A3/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E6%8C%87%E6%95%B0%E4%B8%89%E8%A7%92%E4%B9%98%E7%A7%AF%E7%89%B9%E6%AE%8A%E7%A7%AF%E5%88%86%E7%9A%84%E3%81%AE%E5%BF%AB%E9%80%9F%E6%B1%82%E8%A7%A3/&#34;
   
   &gt;指数三角乘积特殊积分的の快速求解&lt;/a
 &gt;
@@ -3028,10 +3028,10 @@ $$\begin{aligned}\int e^{ax}\sin bx\,\mathrm{d}x &amp; = \sin bx\cdot\frac{1}{a}
         </item>
         <item>
         <title>切比雪夫定理</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%AE%9A%E7%90%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%AE%9A%E7%90%86/</link>
         <pubDate>Fri, 27 Dec 2024 15:44:29 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%AE%9A%E7%90%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%AE%9A%E7%90%86/</guid>
         <description>&lt;p&gt;🔗 
 
  &lt;a
@@ -3087,10 +3087,10 @@ $$\int x^{m}(a+bx^{n})^{p}dx$$&lt;p&gt; 具有初等函数积分，当且仅当�
         </item>
         <item>
         <title>重积分坐标变换</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2/</link>
         <pubDate>Thu, 26 Dec 2024 12:04:08 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86/%E9%87%8D%E7%A7%AF%E5%88%86%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2/</guid>
         <description>&lt;h2 id=&#34;变换准则&#34;&gt;&lt;a href=&#34;#%e5%8f%98%e6%8d%a2%e5%87%86%e5%88%99&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;变换准则
 &lt;/h2&gt;&lt;p&gt;对于 $\left( x_{1},x_{2},\dots,x_{n} \right) \to (y_{1},y_{2},\dots,y_{n})$&lt;/p&gt;
 &lt;p&gt;且存在函数关系：
@@ -3171,14 +3171,14 @@ $$&lt;h2 id=&#34;常见坐标变换&#34;&gt;&lt;a href=&#34;#%e5%b8%b8%e8%a7%81%
         </item>
         <item>
         <title>变限积分</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%8F%98%E9%99%90%E7%A7%AF%E5%88%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%8F%98%E9%99%90%E7%A7%AF%E5%88%86/</link>
         <pubDate>Thu, 26 Dec 2024 10:50:57 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%8F%98%E9%99%90%E7%A7%AF%E5%88%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%8F%98%E9%99%90%E7%A7%AF%E5%88%86/</guid>
         <description>&lt;h2 id=&#34;-真题&#34;&gt;&lt;a href=&#34;#-%e7%9c%9f%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;🔗 真题
 &lt;/h2&gt;&lt;p&gt;(2021·中山大学·高等数学I·期末考试·节选) 已知 $g(x)=\int_{0}^{1} f(tx) \, dt$，求 $g&#39;(x)$ .&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;解答
     &lt;/div&gt;
@@ -3197,15 +3197,15 @@ $$&lt;p&gt;$$&lt;/p&gt;
         </item>
         <item>
         <title>积分中值定理</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/</link>
         <pubDate>Mon, 02 Dec 2024 11:34:09 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/</guid>
         <description>&lt;h2 id=&#34;第一积分中值定理&#34;&gt;&lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e7%a7%af%e5%88%86%e4%b8%ad%e5%80%bc%e5%ae%9a%e7%90%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;第一积分中值定理
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;已知：&lt;/strong&gt;$f(x)$ 在 $[a,b]$ 上连续&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;结论：&lt;/strong&gt;$\int_a^b f(x)\ dx=f(\xi)(b-a)$&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;Attention
     &lt;/div&gt;
@@ -3214,7 +3214,7 @@ $$&lt;p&gt;$$&lt;/p&gt;
       &lt;/div&gt;
   &lt;/div&gt;
 &lt;h2 id=&#34;第一积分中值定理推广&#34;&gt;&lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e7%a7%af%e5%88%86%e4%b8%ad%e5%80%bc%e5%ae%9a%e7%90%86%e6%8e%a8%e5%b9%bf&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;第一积分中值定理推广
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:38081/%E5%BC%A0%E5%AE%87/2025%E5%BC%A0%E5%AE%87%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%8030%E8%AE%B2-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%88%86%E5%86%8C%20%28%E5%BC%A0%E5%AE%87%29%20%28Z-Library%29.pdf.md#page205andrect13078482124andcolornote&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:36721/%E5%BC%A0%E5%AE%87/2025%E5%BC%A0%E5%AE%87%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%8030%E8%AE%B2-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%88%86%E5%86%8C%20%28%E5%BC%A0%E5%AE%87%29%20%28Z-Library%29.pdf.md#page205andrect13078482124andcolornote&#34;
 	
 	
 	
@@ -3251,7 +3251,7 @@ $$&lt;/li&gt;
         &lt;p&gt;先分部积分，再对后项运用
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/&#34;
   
   &gt;第一积分中值定理推广&lt;/a
 &gt;
@@ -3271,11 +3271,11 @@ $$
         </item>
         <item>
         <title>Wallis 公式</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wallis-%E5%85%AC%E5%BC%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wallis-%E5%85%AC%E5%BC%8F/</link>
         <pubDate>Wed, 27 Nov 2024 11:46:59 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wallis-%E5%85%AC%E5%BC%8F/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:38081/%E5%BC%A0%E5%AE%87/2025%E5%BC%A0%E5%AE%87%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%8030%E8%AE%B2-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%88%86%E5%86%8C%20%28%E5%BC%A0%E5%AE%87%29%20%28Z-Library%29.pdf.md#page175andrect59364461658andcolornote&#34;
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/wallis-%E5%85%AC%E5%BC%8F/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:36721/%E5%BC%A0%E5%AE%87/2025%E5%BC%A0%E5%AE%87%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%8030%E8%AE%B2-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%88%86%E5%86%8C%20%28%E5%BC%A0%E5%AE%87%29%20%28Z-Library%29.pdf.md#page175andrect59364461658andcolornote&#34;
 	
 	
 	
@@ -3309,7 +3309,7 @@ $$
  &amp; 4\cdot \int_{0}^{\frac{\pi}{2}} \sin ^{n} \, dx &amp; (n为偶) 
 \end{aligned} \right.  
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;提示
     &lt;/div&gt;
@@ -3321,10 +3321,10 @@ $$
         </item>
         <item>
         <title>留数法 求有理式分解</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%95%99%E6%95%B0%E6%B3%95-%E6%B1%82%E6%9C%89%E7%90%86%E5%BC%8F%E5%88%86%E8%A7%A3/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%95%99%E6%95%B0%E6%B3%95-%E6%B1%82%E6%9C%89%E7%90%86%E5%BC%8F%E5%88%86%E8%A7%A3/</link>
         <pubDate>Tue, 26 Nov 2024 13:13:34 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%95%99%E6%95%B0%E6%B3%95-%E6%B1%82%E6%9C%89%E7%90%86%E5%BC%8F%E5%88%86%E8%A7%A3/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E7%95%99%E6%95%B0%E6%B3%95-%E6%B1%82%E6%9C%89%E7%90%86%E5%BC%8F%E5%88%86%E8%A7%A3/</guid>
         <description>&lt;h2 id=&#34;一次项&#34;&gt;&lt;a href=&#34;#%e4%b8%80%e6%ac%a1%e9%a1%b9&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;一次项
 &lt;/h2&gt; 
 
@@ -3380,7 +3380,7 @@ M=2 \\
 N=1
 \end{aligned} \right.
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;复变运算推广
     &lt;/div&gt;

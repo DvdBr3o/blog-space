@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Ssh on DvdBr3o</title>
-        <link>http://localhost:38081/tags/ssh/</link>
+        <link>http://localhost:36721/tags/ssh/</link>
         <description>Recent content in Ssh on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 06 Mar 2026 15:24:53 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/ssh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 06 Mar 2026 15:24:53 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/ssh/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>教室平板打码摸鱼工作流 with SSH</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E6%95%99%E5%AE%A4%E5%B9%B3%E6%9D%BF%E6%89%93%E7%A0%81%E6%91%B8%E9%B1%BC%E5%B7%A5%E4%BD%9C%E6%B5%81-with-ssh/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E6%95%99%E5%AE%A4%E5%B9%B3%E6%9D%BF%E6%89%93%E7%A0%81%E6%91%B8%E9%B1%BC%E5%B7%A5%E4%BD%9C%E6%B5%81-with-ssh/</link>
         <pubDate>Fri, 06 Mar 2026 15:11:14 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E6%95%99%E5%AE%A4%E5%B9%B3%E6%9D%BF%E6%89%93%E7%A0%81%E6%91%B8%E9%B1%BC%E5%B7%A5%E4%BD%9C%E6%B5%81-with-ssh/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E6%95%99%E5%AE%A4%E5%B9%B3%E6%9D%BF%E6%89%93%E7%A0%81%E6%91%B8%E9%B1%BC%E5%B7%A5%E4%BD%9C%E6%B5%81-with-ssh/</guid>
         <description>&lt;p&gt;经历了
 
  &lt;a
@@ -99,10 +99,10 @@
         </item>
         <item>
         <title>SSH 免密登录</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/ssh-%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/ssh-%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/</link>
         <pubDate>Sun, 25 Jan 2026 04:44:25 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/ssh-%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/ssh-%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/</guid>
         <description>&lt;h2 id=&#34;生成密钥&#34;&gt;&lt;a href=&#34;#%e7%94%9f%e6%88%90%e5%af%86%e9%92%a5&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;生成密钥
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -137,10 +137,10 @@
         </item>
         <item>
         <title>ssh known hosts</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/ssh-known-hosts/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/ssh-known-hosts/</link>
         <pubDate>Sun, 13 Jul 2025 23:13:58 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/ssh-known-hosts/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/ssh-known-hosts/</guid>
         <description>&lt;h2 id=&#34;问题&#34;&gt;&lt;a href=&#34;#%e9%97%ae%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;问题
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2025/07/13/LIaHvYiJloECMP1.png&#34;
 	
@@ -179,10 +179,10 @@
         </item>
         <item>
         <title>SSH @ github 快速配置指南</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/ssh-at-github-%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/ssh-at-github-%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
         <pubDate>Mon, 09 Dec 2024 19:28:30 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/ssh-at-github-%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/ssh-at-github-%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
         <description>&lt;h2 id=&#34;本地生成-ssh-key&#34;&gt;&lt;a href=&#34;#%e6%9c%ac%e5%9c%b0%e7%94%9f%e6%88%90-ssh-key&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;本地生成 SSH key
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -194,7 +194,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;enter 到底。如果需要 passphrase 可以设置一下。&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;注意
     &lt;/div&gt;

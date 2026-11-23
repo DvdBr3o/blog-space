@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=36721&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\r前情提要\r我的 gui 项目原本是写成 headeronly + inline 的形式。但是转念一想我这个项目最低标准也是 C++20 ，索性一把梭哈只支持 module 的接口形式不就好了。\n而且一想想 headeronly 那一改的编译时长，比 static lib 慢得满地找牙。。更别提图形学部分之外还有对 Widget 的抽象，那真是 template 满天飞，以后规模大了改一下可以放肆摸鱼等编译了估计。(现在没啥规模改一下都要 4s 编译😅) 所以急迫需要模块加快编译速度 😭😭\n但考虑到智能提示对 module 落后的支持，我到现在才开始着手迁移到 module。\nC++ Module 笑话\rC++20 就已经有了 module，但是直到 2024 年的 clangd 19 才初步支持 module 的智能提示 (看 issue\r听起来是真的非常初步)，然后截至我开始写这篇文章 📅 2024-12-11，clang 19 还没支持 Windows (or just clangd, idk)。。。\n">
 <title>迁移到 C&#43;&#43; Module</title>
 
-<link rel='canonical' href='http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E8%BF%81%E7%A7%BB%E5%88%B0-cpp-module/'>
+<link rel='canonical' href='http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E8%BF%81%E7%A7%BB%E5%88%B0-cpp-module/'>
 
-<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="迁移到 C++ Module">
+<link rel="stylesheet" href="/scss/style.min.5b58abbfe74329627755af31f05f6d3a523ef778c6c5e549283c331624afc69e.css"><meta property='og:title' content="迁移到 C++ Module">
 <meta property='og:description' content="\r前情提要\r我的 gui 项目原本是写成 headeronly + inline 的形式。但是转念一想我这个项目最低标准也是 C++20 ，索性一把梭哈只支持 module 的接口形式不就好了。\n而且一想想 headeronly 那一改的编译时长，比 static lib 慢得满地找牙。。更别提图形学部分之外还有对 Widget 的抽象，那真是 template 满天飞，以后规模大了改一下可以放肆摸鱼等编译了估计。(现在没啥规模改一下都要 4s 编译😅) 所以急迫需要模块加快编译速度 😭😭\n但考虑到智能提示对 module 落后的支持，我到现在才开始着手迁移到 module。\nC++ Module 笑话\rC++20 就已经有了 module，但是直到 2024 年的 clangd 19 才初步支持 module 的智能提示 (看 issue\r听起来是真的非常初步)，然后截至我开始写这篇文章 📅 2024-12-11，clang 19 还没支持 Windows (or just clangd, idk)。。。\n">
-<meta property='og:url' content='http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E8%BF%81%E7%A7%BB%E5%88%B0-cpp-module/'>
+<meta property='og:url' content='http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E8%BF%81%E7%A7%BB%E5%88%B0-cpp-module/'>
 <meta property='og:site_name' content='DvdBr3o'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-11T23:51:35&#43;08:00'/><meta property='article:modified_time' content='2025-02-26T18:02:40&#43;08:00'/>
 <meta name="twitter:title" content="迁移到 C++ Module">
@@ -720,12 +720,12 @@
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:36721/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:36721/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -737,7 +737,7 @@
 
 <style>
   body {
-    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:36721/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

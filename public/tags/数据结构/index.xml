@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>数据结构 on DvdBr3o</title>
-        <link>http://localhost:38081/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+        <link>http://localhost:36721/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
         <description>Recent content in 数据结构 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 14 Jan 2026 22:11:34 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Jan 2026 22:11:34 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>数据结构与算法实验大观</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%AE%9E%E9%AA%8C%E5%A4%A7%E8%A7%82/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%AE%9E%E9%AA%8C%E5%A4%A7%E8%A7%82/</link>
         <pubDate>Wed, 14 Jan 2026 17:14:50 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%AE%9E%E9%AA%8C%E5%A4%A7%E8%A7%82/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%AE%9E%E9%AA%8C%E5%A4%A7%E8%A7%82/</guid>
         <description>&lt;h2 id=&#34;考前必备&#34;&gt;&lt;a href=&#34;#%e8%80%83%e5%89%8d%e5%bf%85%e5%a4%87&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;考前必备
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;线性
@@ -186,10 +186,10 @@
         </item>
         <item>
         <title>卡特兰数</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%8D%A1%E7%89%B9%E5%85%B0%E6%95%B0/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%8D%A1%E7%89%B9%E5%85%B0%E6%95%B0/</link>
         <pubDate>Wed, 24 Dec 2025 18:13:47 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%8D%A1%E7%89%B9%E5%85%B0%E6%95%B0/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%8D%A1%E7%89%B9%E5%85%B0%E6%95%B0/</guid>
         <description>&lt;h2 id=&#34;求解&#34;&gt;&lt;a href=&#34;#%e6%b1%82%e8%a7%a3&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;求解
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -216,7 +216,7 @@
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/&#34;
   
   &gt;树&lt;/a
 &gt;
@@ -226,10 +226,10 @@
         </item>
         <item>
         <title>查找效率</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%9F%A5%E6%89%BE%E6%95%88%E7%8E%87/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%9F%A5%E6%89%BE%E6%95%88%E7%8E%87/</link>
         <pubDate>Sun, 14 Dec 2025 21:40:14 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%9F%A5%E6%89%BE%E6%95%88%E7%8E%87/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%9F%A5%E6%89%BE%E6%95%88%E7%8E%87/</guid>
         <description>&lt;table&gt;
 	&lt;thead&gt;
 			&lt;tr&gt;
@@ -324,12 +324,12 @@ $$\alpha=\frac{表中填入项数}{哈希表容量}$$&lt;/li&gt;
         </item>
         <item>
         <title>散列查找</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%95%A3%E5%88%97%E6%9F%A5%E6%89%BE/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%95%A3%E5%88%97%E6%9F%A5%E6%89%BE/</link>
         <pubDate>Sun, 14 Dec 2025 21:31:46 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%95%A3%E5%88%97%E6%9F%A5%E6%89%BE/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%95%A3%E5%88%97%E6%9F%A5%E6%89%BE/</guid>
         <description>&lt;h2 id=&#34;构造&#34;&gt;&lt;a href=&#34;#%e6%9e%84%e9%80%a0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;构造
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:38081/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0.md&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:36721/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0.md&#34;
 	
 	
 	
@@ -358,10 +358,10 @@ $d[i]$ 为冲突后寻找新地址增量，因为可能冲突多次所以是一�
         </item>
         <item>
         <title>典型散列函数</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/</link>
         <pubDate>Sun, 14 Dec 2025 21:28:26 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/</guid>
         <description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;直接定址 &lt;/p&gt;
@@ -380,10 +380,10 @@ $$\mathrm{Hash}(key)=key\% p$$&lt;/li&gt;
         </item>
         <item>
         <title>平衡二叉树</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
         <pubDate>Sun, 14 Dec 2025 21:15:09 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;平衡因子 = 左子树高度 - 右子树高度&lt;/li&gt;
@@ -547,10 +547,10 @@ $$\mathrm{Hash}(key)=key\% p$$&lt;/li&gt;
         </item>
         <item>
         <title>二叉排序树</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</link>
         <pubDate>Sun, 14 Dec 2025 21:08:19 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;左子树所有节点小于当前节点&lt;/li&gt;
@@ -598,10 +598,10 @@ $$\mathrm{Hash}(key)=key\% p$$&lt;/li&gt;
         </item>
         <item>
         <title>查找大观</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%9F%A5%E6%89%BE%E5%A4%A7%E8%A7%82/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%9F%A5%E6%89%BE%E5%A4%A7%E8%A7%82/</link>
         <pubDate>Sun, 14 Dec 2025 20:22:54 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%9F%A5%E6%89%BE%E5%A4%A7%E8%A7%82/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%9F%A5%E6%89%BE%E5%A4%A7%E8%A7%82/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;线性查找&lt;/p&gt;
@@ -664,7 +664,7 @@ $$\mathrm{Hash}(key)=key\% p$$&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition warning&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;折半查找
     &lt;/div&gt;
@@ -681,10 +681,10 @@ $$\mathrm{Hash}(key)=key\% p$$&lt;/li&gt;
         </item>
         <item>
         <title>关键路径</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84/</link>
         <pubDate>Fri, 05 Dec 2025 17:59:37 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84/</guid>
         <description>&lt;h2 id=&#34;aoe-网&#34;&gt;&lt;a href=&#34;#aoe-%e7%bd%91&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;AOE 网
 &lt;/h2&gt;&lt;p&gt;action on edge&lt;/p&gt;
 &lt;ol&gt;
@@ -737,10 +737,10 @@ $$\mathrm{Hash}(key)=key\% p$$&lt;/li&gt;
         </item>
         <item>
         <title>树状数组</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
         <pubDate>Wed, 27 Nov 2024 12:46:42 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;p&gt;满足以下功能的树状数组结构：&lt;/p&gt;
 &lt;ul&gt;
@@ -765,7 +765,7 @@ $$\mathrm{Hash}(key)=key\% p$$&lt;/li&gt;
 $$
 c[i] = \mathrm{opt}\{a[i - \mathrm{lowbit}(i) + 1 .. i]\}
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;Lowbit
     &lt;/div&gt;
@@ -788,14 +788,14 @@ $$
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; TODO：由于线段树能够全包含且大于树状数组的适用范围，且 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/&#34;
   
   &gt;树状数组&lt;/a
 &gt;
  相对 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91/&#34;
   
   &gt;线段树&lt;/a
 &gt;
@@ -805,10 +805,10 @@ $$
         </item>
         <item>
         <title>ST 表</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/st-%E8%A1%A8/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/st-%E8%A1%A8/</link>
         <pubDate>Tue, 26 Nov 2024 17:23:39 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/st-%E8%A1%A8/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/st-%E8%A1%A8/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;p&gt;一个二维表 $f(i, j)$。&lt;/p&gt;
 &lt;p&gt;其中 $f(i, j)$ 表示区间 $\mathrm{op}\{[i .. i + 2^j - 1]\}$。&lt;/p&gt;
@@ -818,7 +818,7 @@ $$
 &lt;h2 id=&#34;用途&#34;&gt;&lt;a href=&#34;#%e7%94%a8%e9%80%94&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;用途
 &lt;/h2&gt;&lt;p&gt;解决 &lt;strong&gt;可重复贡献问题&lt;/strong&gt;。&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;可重复贡献问题
     &lt;/div&gt;
@@ -923,10 +923,10 @@ $$
         </item>
         <item>
         <title>树</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/</link>
         <pubDate>Mon, 25 Nov 2024 21:23:51 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;度
@@ -1049,10 +1049,10 @@ $$\log_{m}((m-1)n+1) \leq h \leq n-m+1 $$&lt;ol&gt;
         </item>
         <item>
         <title>堆</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A0%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A0%86/</link>
         <pubDate>Mon, 25 Nov 2024 21:22:22 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A0%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A0%86/</guid>
         <description> 
 
 &lt;a href=https://oi-wiki.org/ds/heap/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -1064,7 +1064,7 @@ $$\log_{m}((m-1)n+1) \leq h \leq n-m+1 $$&lt;ol&gt;
 &lt;li&gt;子节点键值 &lt;strong&gt;都&lt;/strong&gt; $\le$ 或者 $\ge$ 父节点键值&lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;分类
     &lt;/div&gt;
@@ -1366,10 +1366,10 @@ $$\log_{m}((m-1)n+1) \leq h \leq n-m+1 $$&lt;ol&gt;
         </item>
         <item>
         <title>并查集</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/</link>
         <pubDate>Sun, 24 Nov 2024 23:31:44 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;p&gt;树状结构，支持两种操作：&lt;/p&gt;
 &lt;ul&gt;
@@ -1378,7 +1378,7 @@ $$\log_{m}((m-1)n+1) \leq h \leq n-m+1 $$&lt;ol&gt;
 &lt;/ul&gt;
 &lt;p&gt;由于其查询功能，并查集常用于&lt;strong&gt;检查图の连通性&lt;/strong&gt;。&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;Attention
     &lt;/div&gt;
@@ -1445,7 +1445,7 @@ $$\log_{m}((m-1)n+1) \leq h \leq n-m+1 $$&lt;ol&gt;
     &lt;/div&gt;
       &lt;div class=&#34;admonition-content&#34;&gt;
         &lt;p&gt;即把树结构扁平化&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:38081/assets/disjoint-set-compress.svg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36721/assets/disjoint-set-compress.svg&#34;
 	
 	
 	
@@ -1673,10 +1673,10 @@ $$\log_{m}((m-1)n+1) \leq h \leq n-m+1 $$&lt;ol&gt;
         </item>
         <item>
         <title>线段树</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91/</link>
         <pubDate>Fri, 22 Nov 2024 11:57:35 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%BF%E6%AE%B5%E6%A0%91/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;p&gt;如其名，线段 $\Leftrightarrow$ 区间。&lt;/p&gt;
 &lt;p&gt;将线段不断二分作为子节点，从而构成树缓存。&lt;/p&gt;
@@ -1689,7 +1689,7 @@ $$\log_{m}((m-1)n+1) \leq h \leq n-m+1 $$&lt;ol&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;实现&#34;&gt;&lt;a href=&#34;#%e5%ae%9e%e7%8e%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;实现
 &lt;/h2&gt;
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;Info
     &lt;/div&gt;

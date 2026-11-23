@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Graphics on DvdBr3o</title>
-        <link>http://localhost:38081/tags/graphics/</link>
+        <link>http://localhost:36721/tags/graphics/</link>
         <description>Recent content in Graphics on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 14 Nov 2025 13:42:33 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/graphics/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 14 Nov 2025 13:42:33 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/graphics/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>解决 glfw window freeze when resized</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/%E8%A7%A3%E5%86%B3-glfw-window-freeze-when-resized/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/%E8%A7%A3%E5%86%B3-glfw-window-freeze-when-resized/</link>
         <pubDate>Sat, 29 Mar 2025 13:07:04 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/%E8%A7%A3%E5%86%B3-glfw-window-freeze-when-resized/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/%E8%A7%A3%E5%86%B3-glfw-window-freeze-when-resized/</guid>
         <description>&lt;h2 id=&#34;问题&#34;&gt;&lt;a href=&#34;#%e9%97%ae%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;问题
 &lt;/h2&gt;&lt;p&gt;至少在 windows 下，glfw window 在 resize 时整个窗口会停止渲染，直到 resize 结束&lt;/p&gt;
 &lt;h2 id=&#34;分析&#34;&gt;&lt;a href=&#34;#%e5%88%86%e6%9e%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;分析
@@ -124,10 +124,10 @@
         </item>
         <item>
         <title>Color Blend</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/color-blend/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/color-blend/</link>
         <pubDate>Sun, 23 Mar 2025 16:14:13 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/color-blend/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/color-blend/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;p&gt;如何将该 pipeline 得到的像素色彩 混合到 已有的 color buffer 上&lt;/p&gt;
 &lt;ul&gt;
@@ -141,10 +141,10 @@ $$</description>
         </item>
         <item>
         <title>viewport &amp; scissor</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/viewport--scissor/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/viewport--scissor/</link>
         <pubDate>Sun, 23 Mar 2025 16:11:26 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/viewport--scissor/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/viewport--scissor/</guid>
         <description>&lt;h2 id=&#34;viewport&#34;&gt;&lt;a href=&#34;#viewport&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;viewport
 &lt;/h2&gt;&lt;p&gt;定义如何 NDC $\Rightarrow$ 屏幕坐标&lt;/p&gt;
 &lt;h2 id=&#34;scissor&#34;&gt;&lt;a href=&#34;#scissor&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;scissor
@@ -175,10 +175,10 @@ $$</description>
         </item>
         <item>
         <title>MVP矩阵</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/</link>
         <pubDate>Sat, 08 Mar 2025 13:55:45 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/</guid>
         <description> 
 
 &lt;a href=https://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -346,14 +346,14 @@ CC ---&gt;|Projection Matrix| HC[Homogeneous Coordinate]&lt;/div&gt;
 &lt;p&gt;根据 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/&#34;
+  href=&#34;http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/&#34;
   
   &gt;坐标变换&lt;/a
 &gt;
  中的 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/&#34;
+  href=&#34;http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/&#34;
   
   &gt;复合变换&lt;/a
 &gt;
@@ -373,7 +373,7 @@ CC ---&gt;|Projection Matrix| HC[Homogeneous Coordinate]&lt;/div&gt;
 &lt;/h3&gt;&lt;p&gt;再把世界坐标下的模型，通过 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/&#34;
+  href=&#34;http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/mvp%E7%9F%A9%E9%98%B5/&#34;
   
   &gt;复合变换&lt;/a
 &gt;
@@ -493,10 +493,10 @@ CC ---&gt;|Projection Matrix| HC[Homogeneous Coordinate]&lt;/div&gt;
         </item>
         <item>
         <title>Vulkan 同步</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%90%8C%E6%AD%A5/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%90%8C%E6%AD%A5/</link>
         <pubDate>Thu, 28 Nov 2024 11:28:03 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%90%8C%E6%AD%A5/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%90%8C%E6%AD%A5/</guid>
         <description>&lt;p&gt;主要有两种同步原语：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Fence&lt;/strong&gt; 栅栏：用于 &lt;strong&gt;应用程序 $\Leftrightarrow$  渲染&lt;/strong&gt;&lt;/li&gt;
@@ -506,10 +506,10 @@ CC ---&gt;|Projection Matrix| HC[Homogeneous Coordinate]&lt;/div&gt;
         </item>
         <item>
         <title>Vulkan 学习资料汇总</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</link>
         <pubDate>Thu, 21 Nov 2024 22:19:23 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E5%9B%BE%E5%BD%A2%E5%AD%A6/vulkan/vulkan-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</guid>
         <description>&lt;h2 id=&#34;tutorial&#34;&gt;&lt;a href=&#34;#tutorial&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Tutorial
 &lt;/h2&gt; 
 

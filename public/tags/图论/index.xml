@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>图论 on DvdBr3o</title>
-        <link>http://localhost:38081/tags/%E5%9B%BE%E8%AE%BA/</link>
+        <link>http://localhost:36721/tags/%E5%9B%BE%E8%AE%BA/</link>
         <description>Recent content in 图论 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 14 Jan 2026 22:54:24 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E5%9B%BE%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Jan 2026 22:54:24 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/%E5%9B%BE%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>图论概念</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/</link>
         <pubDate>Tue, 16 Dec 2025 21:53:23 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition warning&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;Warning
     &lt;/div&gt;
@@ -211,10 +211,10 @@ $\equiv$ 保留两端均在 $V&#39;$ 的边&lt;/li&gt;
         </item>
         <item>
         <title>关键路径</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84/</link>
         <pubDate>Fri, 05 Dec 2025 17:59:37 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84/</guid>
         <description>&lt;h2 id=&#34;aoe-网&#34;&gt;&lt;a href=&#34;#aoe-%e7%bd%91&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;AOE 网
 &lt;/h2&gt;&lt;p&gt;action on edge&lt;/p&gt;
 &lt;ol&gt;
@@ -267,10 +267,10 @@ $\equiv$ 保留两端均在 $V&#39;$ 的边&lt;/li&gt;
         </item>
         <item>
         <title>特殊图</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/</link>
         <pubDate>Fri, 05 Dec 2025 16:20:51 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/</guid>
         <description>&lt;h2 id=&#34;平面图&#34;&gt;&lt;a href=&#34;#%e5%b9%b3%e9%9d%a2%e5%9b%be&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;平面图
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;可平面图 := 平面画出 $\land$ 边边交点只能为顶点&lt;/li&gt;
@@ -354,15 +354,15 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
         </item>
         <item>
         <title>图论</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/</link>
         <pubDate>Sat, 16 Aug 2025 16:38:28 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/&#34;
   
   &gt;图论概念&lt;/a
 &gt;
@@ -371,7 +371,7 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/&#34;
   
   &gt;特殊图&lt;/a
 &gt;
@@ -380,7 +380,7 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/&#34;
   
   &gt;平面图&lt;/a
 &gt;
@@ -388,7 +388,7 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/&#34;
   
   &gt;欧拉图&lt;/a
 &gt;
@@ -396,7 +396,7 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%9B%BE%E8%AE%BA/%E7%89%B9%E6%AE%8A%E5%9B%BE/&#34;
   
   &gt;哈密尔顿图&lt;/a
 &gt;
@@ -408,10 +408,10 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
         </item>
         <item>
         <title>最小生成树</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/</link>
         <pubDate>Sat, 05 Apr 2025 14:32:57 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/</guid>
         <description> 
 
 &lt;a href=https://oi-wiki.org/graph/mst/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -431,7 +431,7 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
 检测点联通性用 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/&#34;
   
   &gt;并查集&lt;/a
 &gt;
@@ -449,7 +449,7 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
 &lt;li&gt;循环 2. 直到 $T$ = 原点集&lt;/li&gt;
 &lt;/ol&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;维护最小边
     &lt;/div&gt;
@@ -474,10 +474,10 @@ $$m\leq\frac{l}{l-2}(n-2)$$&lt;ol&gt;
         </item>
         <item>
         <title>拓扑排序</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
         <pubDate>Sat, 30 Nov 2024 17:50:57 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
         <description>&lt;h2 id=&#34;栈实现&#34;&gt;&lt;a href=&#34;#%e6%a0%88%e5%ae%9e%e7%8e%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;栈实现
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;入度为 0 的顶点入栈&lt;/li&gt;
@@ -509,7 +509,7 @@ e.g. 下面两张图都满足拓扑排序唯一为 1 2 3&lt;/li&gt;
 &lt;li&gt;拓扑排序方案数是
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E9%9B%86%E5%90%88%E8%AE%BA/%E5%87%BD%E6%95%B0/np-%E9%97%AE%E9%A2%98/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E9%9B%86%E5%90%88%E8%AE%BA/%E5%87%BD%E6%95%B0/np-%E9%97%AE%E9%A2%98/&#34;
   
   &gt;NP 问题&lt;/a
 &gt;
@@ -520,10 +520,10 @@ e.g. 下面两张图都满足拓扑排序唯一为 1 2 3&lt;/li&gt;
         </item>
         <item>
         <title>最短路</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/</link>
         <pubDate>Fri, 29 Nov 2024 16:16:01 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/</guid>
         <description>&lt;h2 id=&#34;floyd&#34;&gt;&lt;a href=&#34;#floyd&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Floyd
 &lt;/h2&gt;&lt;p&gt;核心逻辑：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -725,10 +725,10 @@ $$&lt;p&gt;联想&lt;strong&gt;势能&lt;/strong&gt;进行记忆。&lt;/p&gt;
         </item>
         <item>
         <title>图论概念</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/</link>
         <pubDate>Fri, 29 Nov 2024 15:53:57 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E6%A6%82%E5%BF%B5/</guid>
         <description> 
 
 &lt;a href=https://oi-wiki.org/graph/concept/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -757,7 +757,7 @@ $$&lt;p&gt;联想&lt;strong&gt;势能&lt;/strong&gt;进行记忆。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;为什么起点是 tail，终点是 head？
     &lt;/div&gt;

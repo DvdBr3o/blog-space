@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=36721&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Floyd\r核心逻辑：\n1 2 3 4 for (auto k = 1; k &lt;= n; ++k) for (auto x = 1; x &lt;= n; ++x) for (auto y = 1; y &lt;= n; ++y) f[x][y] = std::min(f[x][y], f[x][k] + f[k][y]); 时间复杂度 $O(|V|^3)$，空间复杂度 $O(|V|^2)$\nBellman-Ford\r用途\r处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。\n时间复杂度 $O(|V||E|)$。\n实现\r判负环\r🔗 洛谷 P3385 【模板】负环\rSPFA\r用途\r优先队列优化 Bellman-Ford 时间复杂度。\n时间复杂度\n实现\rDijkstra\r被证明普遍最优了 :)\n用途\r求解\u00a0非负权图\u00a0上单源最短路径\n实现\r将所有点分为 已经确定最短路点集 $S$ (vis[u] = true) 和 未确定最短路点集 $T$ (vis[u] = false])。\n初始化源点 $s$ 有 $dis(s) = 0$，其他 $dis(u) = +\\infty$\n然后重复操作：\n从 $T$ 取最短路长度最小的点，移到 $S$ 对刚刚被加进 $S$ 的点所有出边进行松弛 $T$ 为空时结束。\n">
 <title>最短路</title>
 
-<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/'>
+<link rel='canonical' href='http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/'>
 
-<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="最短路">
+<link rel="stylesheet" href="/scss/style.min.5b58abbfe74329627755af31f05f6d3a523ef778c6c5e549283c331624afc69e.css"><meta property='og:title' content="最短路">
 <meta property='og:description' content="Floyd\r核心逻辑：\n1 2 3 4 for (auto k = 1; k &lt;= n; ++k) for (auto x = 1; x &lt;= n; ++x) for (auto y = 1; y &lt;= n; ++y) f[x][y] = std::min(f[x][y], f[x][k] + f[k][y]); 时间复杂度 $O(|V|^3)$，空间复杂度 $O(|V|^2)$\nBellman-Ford\r用途\r处理有负权边的单源最短路，作为负权边图 dijkstra 的替代方案。\n时间复杂度 $O(|V||E|)$。\n实现\r判负环\r🔗 洛谷 P3385 【模板】负环\rSPFA\r用途\r优先队列优化 Bellman-Ford 时间复杂度。\n时间复杂度\n实现\rDijkstra\r被证明普遍最优了 :)\n用途\r求解\u00a0非负权图\u00a0上单源最短路径\n实现\r将所有点分为 已经确定最短路点集 $S$ (vis[u] = true) 和 未确定最短路点集 $T$ (vis[u] = false])。\n初始化源点 $s$ 有 $dis(s) = 0$，其他 $dis(u) = +\\infty$\n然后重复操作：\n从 $T$ 取最短路长度最小的点，移到 $S$ 对刚刚被加进 $S$ 的点所有出边进行松弛 $T$ 为空时结束。\n">
-<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/'>
+<meta property='og:url' content='http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%9B%BE%E8%AE%BA/%E6%9C%80%E7%9F%AD%E8%B7%AF/'>
 <meta property='og:site_name' content='DvdBr3o'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='algorithm' /><meta property='article:tag' content='图论' /><meta property='article:published_time' content='2024-11-29T16:16:01&#43;08:00'/><meta property='article:modified_time' content='2026-01-14T22:54:24&#43;08:00'/>
 <meta name="twitter:title" content="最短路">
@@ -985,12 +985,12 @@ $$<p>联想<strong>势能</strong>进行记忆。</p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:36721/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:36721/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -1002,7 +1002,7 @@ $$<p>联想<strong>势能</strong>进行记忆。</p>
 
 <style>
   body {
-    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:36721/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

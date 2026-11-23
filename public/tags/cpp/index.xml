@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Cpp on DvdBr3o</title>
-        <link>http://localhost:38081/tags/cpp/</link>
+        <link>http://localhost:36721/tags/cpp/</link>
         <description>Recent content in Cpp on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 11 Mar 2026 17:59:32 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/cpp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 11 Mar 2026 17:59:32 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/cpp/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>实现一个 C&#43;&#43; Unified Call</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/implement-cpp-unified-call/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/implement-cpp-unified-call/</link>
         <pubDate>Wed, 11 Mar 2026 13:02:14 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/implement-cpp-unified-call/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/implement-cpp-unified-call/</guid>
         <description>&lt;p&gt;
 
  &lt;a
@@ -467,10 +467,10 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
         </item>
         <item>
         <title>Cpp20 NTTP UDL</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp20-nttp-udl/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/cpp20-nttp-udl/</link>
         <pubDate>Thu, 22 Jan 2026 03:06:12 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp20-nttp-udl/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/cpp20-nttp-udl/</guid>
         <description>&lt;p&gt;从 C++20 开始，用户定义字面量运算符 (user-defined literals, UDL) 允许接受一个 NTTP 参数，从而完成从字面量构建编译期对象！&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -490,10 +490,10 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
         </item>
         <item>
         <title>pars 匹配原语</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/-%E9%A1%B9%E7%9B%AE/pars/pars-%E5%8C%B9%E9%85%8D%E5%8E%9F%E8%AF%AD/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/-%E9%A1%B9%E7%9B%AE/pars/pars-%E5%8C%B9%E9%85%8D%E5%8E%9F%E8%AF%AD/</link>
         <pubDate>Sat, 27 Dec 2025 22:02:51 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/-%E9%A1%B9%E7%9B%AE/pars/pars-%E5%8C%B9%E9%85%8D%E5%8E%9F%E8%AF%AD/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/-%E9%A1%B9%E7%9B%AE/pars/pars-%E5%8C%B9%E9%85%8D%E5%8E%9F%E8%AF%AD/</guid>
         <description>&lt;h2 id=&#34;匹配原语&#34;&gt;&lt;a href=&#34;#%e5%8c%b9%e9%85%8d%e5%8e%9f%e8%af%ad&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;匹配原语
 &lt;/h2&gt;&lt;table&gt;
 	&lt;thead&gt;
@@ -650,10 +650,10 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
         </item>
         <item>
         <title>stdexec 学习资料</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/execution/stdexec-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/execution/stdexec-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</link>
         <pubDate>Mon, 21 Jul 2025 22:11:35 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/execution/stdexec-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/execution/stdexec-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</guid>
         <description>&lt;h2 id=&#34;docs&#34;&gt;&lt;a href=&#34;#docs&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Docs
 &lt;/h2&gt; 
 
@@ -672,10 +672,10 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
         </item>
         <item>
         <title>NRVO</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/nrvo/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/nrvo/</link>
         <pubDate>Fri, 18 Jul 2025 20:37:52 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/nrvo/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/nrvo/</guid>
         <description>&lt;p&gt;NRVO aka. Named Return Value Optimization&lt;/p&gt;
 &lt;h2 id=&#34;机制&#34;&gt;&lt;a href=&#34;#%e6%9c%ba%e5%88%b6&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;机制
 &lt;/h2&gt;&lt;p&gt;若&lt;/p&gt;
@@ -689,7 +689,7 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
 &lt;li&gt;直接在 caller 的栈上构造并操作变量&lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition warning&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;违反该机制 の Bad Practice
     &lt;/div&gt;
@@ -704,10 +704,10 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
         </item>
         <item>
         <title>神人 initializer_list</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E7%A5%9E%E4%BA%BA-initializer_list/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E7%A5%9E%E4%BA%BA-initializer_list/</link>
         <pubDate>Thu, 10 Jul 2025 23:29:15 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E7%A5%9E%E4%BA%BA-initializer_list/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E7%A5%9E%E4%BA%BA-initializer_list/</guid>
         <description> 
 
 &lt;a href=https://tristanbrindle.com/posts/beware-copies-initializer-list target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -737,10 +737,10 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
         </item>
         <item>
         <title>optional 与 move</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/optional-%E4%B8%8E-move/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/optional-%E4%B8%8E-move/</link>
         <pubDate>Wed, 30 Apr 2025 21:45:46 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/optional-%E4%B8%8E-move/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/optional-%E4%B8%8E-move/</guid>
         <description>&lt;h2 id=&#34;move&#34;&gt;&lt;a href=&#34;#move&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;move
 &lt;/h2&gt; 
 
@@ -905,10 +905,10 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
         </item>
         <item>
         <title>condition variable</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/condition-variable/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/condition-variable/</link>
         <pubDate>Tue, 01 Apr 2025 19:52:28 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/condition-variable/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/condition-variable/</guid>
         <description>&lt;h2 id=&#34;工作原理&#34;&gt;&lt;a href=&#34;#%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;工作原理
 &lt;/h2&gt;&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
 
@@ -948,10 +948,10 @@ you know how ADL works right? either make it friend or in the same namespace!!&l
         </item>
         <item>
         <title>锁</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/</link>
         <pubDate>Tue, 01 Apr 2025 19:46:56 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/</guid>
         <description> 
 
 &lt;a href=https://blog.csdn.net/iuices/article/details/123173966 target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -1088,14 +1088,14 @@ LK ---&gt; std::scoped_lock&lt;/div&gt;
 解决方法应使用 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/#lock&#34;
+  href=&#34;http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/#lock&#34;
   
   &gt;lock&lt;/a
 &gt;
  或者 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/#scopedlock&#34;
+  href=&#34;http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/#scopedlock&#34;
   
   &gt;scoped_lock&lt;/a
 &gt;
@@ -1106,7 +1106,7 @@ LK ---&gt; std::scoped_lock&lt;/div&gt;
 &lt;/h2&gt;&lt;p&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/#lockguard&#34;
+  href=&#34;http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%94%81/#lockguard&#34;
   
   &gt;lock_guard&lt;/a
 &gt;
@@ -1252,10 +1252,10 @@ LK ---&gt; std::scoped_lock&lt;/div&gt;
         </item>
         <item>
         <title>同步原语</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E5%90%8C%E6%AD%A5%E5%8E%9F%E8%AF%AD/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E5%90%8C%E6%AD%A5%E5%8E%9F%E8%AF%AD/</link>
         <pubDate>Tue, 01 Apr 2025 19:44:26 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E5%90%8C%E6%AD%A5%E5%8E%9F%E8%AF%AD/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E5%90%8C%E6%AD%A5%E5%8E%9F%E8%AF%AD/</guid>
         <description>&lt;div class=&#34;mermaid&#34;&gt;graph LR
 SP(同步原语 Sync Primitives) ---&gt; std::mutex
 SP ---&gt; std::condition_variable
@@ -1264,7 +1264,7 @@ SP ---&gt; std::barrier
 SP ---&gt; std::latch&lt;/div&gt;
 &lt;h2 id=&#34;mutex&#34;&gt;&lt;a href=&#34;#mutex&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;mutex
 &lt;/h2&gt;&lt;h2 id=&#34;condition_variable&#34;&gt;&lt;a href=&#34;#condition_variable&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;condition_variable
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:38081/condition%2520variable.md#&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:36721/condition%2520variable.md#&#34;
 	
 	
 	
@@ -1352,10 +1352,10 @@ SP ---&gt; std::latch&lt;/div&gt;
         </item>
         <item>
         <title>成员指针</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E6%88%90%E5%91%98%E6%8C%87%E9%92%88/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E6%88%90%E5%91%98%E6%8C%87%E9%92%88/</link>
         <pubDate>Sun, 23 Mar 2025 17:10:37 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E6%88%90%E5%91%98%E6%8C%87%E9%92%88/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E6%88%90%E5%91%98%E6%8C%87%E9%92%88/</guid>
         <description>&lt;h2 id=&#34;类型&#34;&gt;&lt;a href=&#34;#%e7%b1%bb%e5%9e%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;类型
 &lt;/h2&gt;&lt;p&gt;形如 &lt;code&gt;Member Class::*&lt;/code&gt; 的类型是成员指针类型&lt;/p&gt;
 &lt;p&gt;可以理解为，&lt;code&gt;Class::*&lt;/code&gt; 是一种特别的与 &lt;code&gt;Class&lt;/code&gt; 有关的 &lt;code&gt;*&lt;/code&gt; (指针)，而这个指针的指向类型是 &lt;code&gt;Member&lt;/code&gt;&lt;/p&gt;
@@ -1370,7 +1370,7 @@ SP ---&gt; std::latch&lt;/div&gt;
 &lt;h2 id=&#34;解引用&#34;&gt;&lt;a href=&#34;#%e8%a7%a3%e5%bc%95%e7%94%a8&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;解引用
 &lt;/h2&gt;&lt;p&gt;成员指针的解引用运算符是 operator &lt;code&gt;-&amp;gt;*&lt;/code&gt; 或者 operator &lt;code&gt;.*&lt;/code&gt;&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition example&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 640 512&#34;&gt;&lt;path d=&#34;M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8 384l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-288 56 0 64 0 16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-64 192 0 0 192-192 0 0-32-64 0 0 48c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L368 0c-26.5 0-48 21.5-48 48l0 80-76.9 0-65.9 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9 120 480c0 17.7 14.3 32 32 32s32-14.3 32-32z&#34;/&gt;&lt;/svg&gt;例子
     &lt;/div&gt;
@@ -1434,10 +1434,10 @@ SP ---&gt; std::latch&lt;/div&gt;
         </item>
         <item>
         <title>coroutine 初论</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-%E5%88%9D%E8%AE%BA/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-%E5%88%9D%E8%AE%BA/</link>
         <pubDate>Thu, 06 Mar 2025 14:32:27 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-%E5%88%9D%E8%AE%BA/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-%E5%88%9D%E8%AE%BA/</guid>
         <description> 
 
 &lt;a href=https://en.cppreference.com/w/cpp/language/coroutines target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -1503,7 +1503,7 @@ some representation of the current suspension point, so that a resume knows wher
 &lt;li&gt;执行 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-%E5%88%9D%E8%AE%BA/&#34;
+  href=&#34;http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-%E5%88%9D%E8%AE%BA/&#34;
   
   &gt;三大协程操作&lt;/a
 &gt;
@@ -1819,7 +1819,7 @@ AWAIT_SUSPEND -...- AWAIT_SUSPEND_RESP[&#34;awaitable.await_suspend(cur_coro) �
 &lt;/h2&gt;&lt;p&gt;C++ coroutine 作为无栈协程，默认使用 heap allocation (&lt;code&gt;operator new/delete&lt;/code&gt;)&lt;/p&gt;
 &lt;p&gt;相比 static alloc 会少内联优化机会，且无法在嵌入式环境工作&lt;/p&gt;
 &lt;p&gt;可以自定义 allocator 并重载 &lt;code&gt;operator new&lt;/code&gt; 调用解决&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:38081/coroutine%2520without%2520heap%2520allocation.md#&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36721/coroutine%2520without%2520heap%2520allocation.md#&#34;
 	
 	
 	
@@ -1833,10 +1833,10 @@ AWAIT_SUSPEND -...- AWAIT_SUSPEND_RESP[&#34;awaitable.await_suspend(cur_coro) �
         </item>
         <item>
         <title>coroutine without heap allocation</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-without-heap-allocation/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-without-heap-allocation/</link>
         <pubDate>Thu, 06 Mar 2025 13:46:44 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-without-heap-allocation/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/%E5%8D%8F%E7%A8%8B/coroutine-without-heap-allocation/</guid>
         <description> 
 
 &lt;a href=https://pigweed.dev/docs/blog/05-coroutines.html target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -1865,10 +1865,10 @@ AWAIT_SUSPEND -...- AWAIT_SUSPEND_RESP[&#34;awaitable.await_suspend(cur_coro) �
         </item>
         <item>
         <title>remove_cvref vs decay</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/remove_cvref-vs-decay/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/remove_cvref-vs-decay/</link>
         <pubDate>Wed, 05 Mar 2025 21:04:41 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/remove_cvref-vs-decay/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/remove_cvref-vs-decay/</guid>
         <description> 
 
 &lt;a href=https://stackoverflow.com/questions/74257533/difference-between-stddecay-and-stdremove-cvref target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -1903,10 +1903,10 @@ AWAIT_SUSPEND -...- AWAIT_SUSPEND_RESP[&#34;awaitable.await_suspend(cur_coro) �
         </item>
         <item>
         <title>C&#43;&#43; 错误机制</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E9%94%99%E8%AF%AF%E6%9C%BA%E5%88%B6/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E9%94%99%E8%AF%AF%E6%9C%BA%E5%88%B6/</link>
         <pubDate>Thu, 12 Dec 2024 12:57:31 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E9%94%99%E8%AF%AF%E6%9C%BA%E5%88%B6/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E9%94%99%E8%AF%AF%E6%9C%BA%E5%88%B6/</guid>
         <description>&lt;h2 id=&#34;备选方式&#34;&gt;&lt;a href=&#34;#%e5%a4%87%e9%80%89%e6%96%b9%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;备选方式
 &lt;/h2&gt;&lt;p&gt;不看 outdated 的方式，只看 modern C++ 的错误处理方式主要是以下几种：&lt;/p&gt;
 &lt;ul&gt;
@@ -1953,10 +1953,10 @@ AWAIT_SUSPEND -...- AWAIT_SUSPEND_RESP[&#34;awaitable.await_suspend(cur_coro) �
         </item>
         <item>
         <title>C&#43;&#43; Benchmarking</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</link>
         <pubDate>Tue, 10 Dec 2024 23:15:57 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/cpp-benchmarking/</guid>
         <description>&lt;h2 id=&#34;候选名单&#34;&gt;&lt;a href=&#34;#%e5%80%99%e9%80%89%e5%90%8d%e5%8d%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;候选名单
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1995,10 +1995,10 @@ AWAIT_SUSPEND -...- AWAIT_SUSPEND_RESP[&#34;awaitable.await_suspend(cur_coro) �
         </item>
         <item>
         <title>C&#43;&#43; 调优验证工具</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E8%B0%83%E4%BC%98%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E8%B0%83%E4%BC%98%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7/</link>
         <pubDate>Tue, 10 Dec 2024 22:57:25 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E8%B0%83%E4%BC%98%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/cpp/cpp-%E8%B0%83%E4%BC%98%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7/</guid>
         <description> 
 
 &lt;a href=https://mq-b.github.io/Loser-HomeWork/src/%E5%8D%A2%E7%91%9F%E6%97%A5%E7%BB%8F/godbolt%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3 target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;

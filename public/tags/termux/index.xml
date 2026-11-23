@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Termux on DvdBr3o</title>
-        <link>http://localhost:38081/tags/termux/</link>
+        <link>http://localhost:36721/tags/termux/</link>
         <description>Recent content in Termux on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 06 Mar 2026 15:24:53 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/termux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 06 Mar 2026 15:24:53 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/termux/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>教室平板打码摸鱼工作流 with SSH</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E6%95%99%E5%AE%A4%E5%B9%B3%E6%9D%BF%E6%89%93%E7%A0%81%E6%91%B8%E9%B1%BC%E5%B7%A5%E4%BD%9C%E6%B5%81-with-ssh/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E6%95%99%E5%AE%A4%E5%B9%B3%E6%9D%BF%E6%89%93%E7%A0%81%E6%91%B8%E9%B1%BC%E5%B7%A5%E4%BD%9C%E6%B5%81-with-ssh/</link>
         <pubDate>Fri, 06 Mar 2026 15:11:14 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E6%95%99%E5%AE%A4%E5%B9%B3%E6%9D%BF%E6%89%93%E7%A0%81%E6%91%B8%E9%B1%BC%E5%B7%A5%E4%BD%9C%E6%B5%81-with-ssh/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E6%95%99%E5%AE%A4%E5%B9%B3%E6%9D%BF%E6%89%93%E7%A0%81%E6%91%B8%E9%B1%BC%E5%B7%A5%E4%BD%9C%E6%B5%81-with-ssh/</guid>
         <description>&lt;p&gt;经历了
 
  &lt;a
@@ -99,12 +99,12 @@
         </item>
         <item>
         <title>KDE &#43; Archlinux @ Termux 安装美化之路</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/</link>
         <pubDate>Sun, 08 Dec 2024 16:42:04 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/kde-archlinux-termux-%E5%AE%89%E8%A3%85%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition warning&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;Warning
     &lt;/div&gt;

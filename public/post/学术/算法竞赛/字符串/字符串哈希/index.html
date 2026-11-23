@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38081&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=36721&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\r原理\r哈希： any -&gt; int/long long，结果用于下标，实现随机访问。本质是离散化。 字符串哈希：string -&gt; index\n实现 | 哈希算法\r本质是转换为进制为 $base$ 的进制数： $$ hash = (str)_{base} $$ 但由于下标类型大小有限，所以需要取模 $mod$ 。\nInfo\r$base$ 选择：大于每位数字最大值，不含 $mod$ 质因子：27, 233, 19260817 $mod$ 选择： 一个 $10^9$ 质数做单哈希：1e9+7 ，但是任意 $\\sqrt{10^9}$ 个串就容易哈希冲突 两个 $10^9$ 质数做双哈希：19260817 &amp; 19660813 用 unsigned long long 自然溢出 朴素实现\r如下\n1 2 for (int i = 0; i &lt; str.size(); i++) hash = (hash + str[i] * pow(base, i)) % mod; 时间复杂度由于 pow 为 $O(n^2)$ 。 所以使用滚动优化/累积优化降低复杂度到 $O(n)$ 。\n">
 <title>字符串哈希</title>
 
-<link rel='canonical' href='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/'>
+<link rel='canonical' href='http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/'>
 
-<link rel="stylesheet" href="/scss/style.min.b29aa6d0768673408d762dc3121aa92b7ccb08f4c6eb7d8335d28ae0a9d13afe.css"><meta property='og:title' content="字符串哈希">
+<link rel="stylesheet" href="/scss/style.min.5b58abbfe74329627755af31f05f6d3a523ef778c6c5e549283c331624afc69e.css"><meta property='og:title' content="字符串哈希">
 <meta property='og:description' content="\r原理\r哈希： any -&gt; int/long long，结果用于下标，实现随机访问。本质是离散化。 字符串哈希：string -&gt; index\n实现 | 哈希算法\r本质是转换为进制为 $base$ 的进制数： $$ hash = (str)_{base} $$ 但由于下标类型大小有限，所以需要取模 $mod$ 。\nInfo\r$base$ 选择：大于每位数字最大值，不含 $mod$ 质因子：27, 233, 19260817 $mod$ 选择： 一个 $10^9$ 质数做单哈希：1e9+7 ，但是任意 $\\sqrt{10^9}$ 个串就容易哈希冲突 两个 $10^9$ 质数做双哈希：19260817 &amp; 19660813 用 unsigned long long 自然溢出 朴素实现\r如下\n1 2 for (int i = 0; i &lt; str.size(); i++) hash = (hash + str[i] * pow(base, i)) % mod; 时间复杂度由于 pow 为 $O(n^2)$ 。 所以使用滚动优化/累积优化降低复杂度到 $O(n)$ 。\n">
-<meta property='og:url' content='http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/'>
+<meta property='og:url' content='http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/'>
 <meta property='og:site_name' content='DvdBr3o'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='algorithm' /><meta property='article:tag' content='字符串' /><meta property='article:tag' content='哈希' /><meta property='article:published_time' content='2024-11-21T17:52:36&#43;08:00'/><meta property='article:modified_time' content='2026-01-14T21:23:24&#43;08:00'/>
 <meta name="twitter:title" content="字符串哈希">
@@ -807,12 +807,12 @@ $$<p>
 <style>
   @font-face {
     font-family: 'CaskaydiaCove';
-    src: url(http://localhost:38081/fonts/CaskaydiaCove.woff2) format('truetype');
+    src: url(http://localhost:36721/fonts/CaskaydiaCove.woff2) format('truetype');
   }
 
   @font-face {
     font-family: 'HarmonyOSSans';
-    src: url(http://localhost:38081/fonts/HarmonyOSSans.woff2) format('truetype');
+    src: url(http://localhost:36721/fonts/HarmonyOSSans.woff2) format('truetype');
   }
 
 
@@ -824,7 +824,7 @@ $$<p>
 
 <style>
   body {
-    background: url(http://localhost:38081/img/background/pixelisland.jpg) no-repeat center top;
+    background: url(http://localhost:36721/img/background/pixelisland.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }

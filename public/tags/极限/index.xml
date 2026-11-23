@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>极限 on DvdBr3o</title>
-        <link>http://localhost:38081/tags/%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:36721/tags/%E6%9E%81%E9%99%90/</link>
         <description>Recent content in 极限 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 24 Jun 2025 16:14:42 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E6%9E%81%E9%99%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 Jun 2025 16:14:42 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/%E6%9E%81%E9%99%90/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>多元极限</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E6%9E%81%E9%99%90/</link>
         <pubDate>Thu, 01 May 2025 20:44:00 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%A4%9A%E5%85%83%E6%9E%81%E9%99%90/</guid>
         <description>&lt;h2 id=&#34;重极限与累次极限&#34;&gt;&lt;a href=&#34;#%e9%87%8d%e6%9e%81%e9%99%90%e4%b8%8e%e7%b4%af%e6%ac%a1%e6%9e%81%e9%99%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;重极限与累次极限
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;存在性
@@ -64,10 +64,10 @@
         </item>
         <item>
         <title>二元幂零极限</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E4%BA%8C%E5%85%83%E5%B9%82%E9%9B%B6%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E4%BA%8C%E5%85%83%E5%B9%82%E9%9B%B6%E6%9E%81%E9%99%90/</link>
         <pubDate>Thu, 17 Apr 2025 16:53:51 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E4%BA%8C%E5%85%83%E5%B9%82%E9%9B%B6%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86/%E4%BA%8C%E5%85%83%E5%B9%82%E9%9B%B6%E6%9E%81%E9%99%90/</guid>
         <description>&lt;h2 id=&#34;形式&#34;&gt;&lt;a href=&#34;#%e5%bd%a2%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;形式
 &lt;/h2&gt;$$
 \lim_{ (x,y) \to (0,0) } \frac{x^{p}y^{q}}{x^{m}+y^{n}}
@@ -106,17 +106,17 @@ $$&lt;h2 id=&#34;求值&#34;&gt;&lt;a href=&#34;#%e6%b1%82%e5%80%bc&#34; class=&
         </item>
         <item>
         <title>对定积分求极限</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AF%B9%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AF%B9%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E6%9E%81%E9%99%90/</link>
         <pubDate>Thu, 17 Apr 2025 11:08:46 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AF%B9%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E7%A7%AF%E5%88%86/%E5%AF%B9%E5%AE%9A%E7%A7%AF%E5%88%86%E6%B1%82%E6%9E%81%E9%99%90/</guid>
         <description>&lt;h2 id=&#34;本质&#34;&gt;&lt;a href=&#34;#%e6%9c%ac%e8%b4%a8&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;本质
 &lt;/h2&gt;&lt;p&gt;定积分本质是数，对其求极限本质是求一个数列的极限&lt;/p&gt;
 &lt;h2 id=&#34;求法&#34;&gt;&lt;a href=&#34;#%e6%b1%82%e6%b3%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;求法
 &lt;/h2&gt;&lt;p&gt;当被积函数序列在区间内
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/&#34;
   
   &gt;一致收敛&lt;/a
 &gt;
@@ -136,10 +136,10 @@ $$</description>
         </item>
         <item>
         <title>一致收敛</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/</link>
         <pubDate>Tue, 15 Apr 2025 20:50:32 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/</guid>
         <description>&lt;h2 id=&#34;函数序列&#34;&gt;&lt;a href=&#34;#%e5%87%bd%e6%95%b0%e5%ba%8f%e5%88%97&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;函数序列
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;把函数序列看做二元函数 $f(n,x)$&lt;/li&gt;
@@ -176,7 +176,7 @@ $\Rightarrow$ &lt;strong&gt;证一致收敛&lt;/strong&gt;
 &lt;li&gt;能求部分和序列封闭形式 $\Rightarrow$ 同
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B/&#34;
   
   &gt;函数序列&lt;/a
 &gt;
@@ -212,7 +212,7 @@ $\Rightarrow$ &lt;strong&gt;证一致收敛&lt;/strong&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;广义积分&#34;&gt;&lt;a href=&#34;#%e5%b9%bf%e4%b9%89%e7%a7%af%e5%88%86&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;广义积分
 &lt;/h2&gt;
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;本质
     &lt;/div&gt;
@@ -272,10 +272,10 @@ $$\left|\int_{A}^{+\infty} f(x,y_{0}) \, \mathrm{d}x \right| &gt; l \nrightarrow
         </item>
         <item>
         <title>Stolz 定理</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/stolz-%E5%AE%9A%E7%90%86/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/stolz-%E5%AE%9A%E7%90%86/</link>
         <pubDate>Mon, 14 Apr 2025 23:31:30 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/stolz-%E5%AE%9A%E7%90%86/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/stolz-%E5%AE%9A%E7%90%86/</guid>
         <description>&lt;h2 id=&#34;00-型&#34;&gt;&lt;a href=&#34;#00-%e5%9e%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;0/0 型
 &lt;/h2&gt;&lt;p&gt;已知&lt;/p&gt;
 &lt;ul&gt;
@@ -299,7 +299,7 @@ $$\lim_{ n \to \infty } \frac{b_{n+1}-b_{n}}{a_{n+1}-a_{n}}=l$$其中 $l=\mathrm
 &lt;/ul&gt;
 &lt;hr&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;记忆方式
     &lt;/div&gt;
@@ -313,10 +313,10 @@ $$\lim_{ n \to \infty } \frac{a_{n}}{b_{n}}=\lim_{ n \to \infty } \frac{\Delta a
         </item>
         <item>
         <title>阶乘与极限</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E9%98%B6%E4%B9%98%E4%B8%8E%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E9%98%B6%E4%B9%98%E4%B8%8E%E6%9E%81%E9%99%90/</link>
         <pubDate>Fri, 11 Apr 2025 08:42:25 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E9%98%B6%E4%B9%98%E4%B8%8E%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E9%98%B6%E4%B9%98%E4%B8%8E%E6%9E%81%E9%99%90/</guid>
         <description>&lt;h2 id=&#34;wallis-公式&#34;&gt;&lt;a href=&#34;#wallis-%e5%85%ac%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Wallis 公式
 &lt;/h2&gt;$$
 \frac{(2n)!!}{(2n-1)!!} \sim \sqrt{ \pi n } \  (n\to \infty)
@@ -328,7 +328,7 @@ $$&lt;h2 id=&#34;stirling-公式&#34;&gt;&lt;a href=&#34;#stirling-%e5%85%ac%e5%
 &lt;/h2&gt;$$
 n! \sim \sqrt{ 2\pi n }\left( \frac{n}{e} \right)^{n} \ (n\to \infty)
 $$
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;弱化 Strling 不等式
     &lt;/div&gt;
@@ -351,10 +351,10 @@ $$
         </item>
         <item>
         <title>常见级数の敛散性</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E5%B8%B8%E8%A7%81%E7%BA%A7%E6%95%B0%E3%81%AE%E6%95%9B%E6%95%A3%E6%80%A7/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E5%B8%B8%E8%A7%81%E7%BA%A7%E6%95%B0%E3%81%AE%E6%95%9B%E6%95%A3%E6%80%A7/</link>
         <pubDate>Tue, 04 Mar 2025 16:48:58 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E5%B8%B8%E8%A7%81%E7%BA%A7%E6%95%B0%E3%81%AE%E6%95%9B%E6%95%A3%E6%80%A7/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E5%B8%B8%E8%A7%81%E7%BA%A7%E6%95%B0%E3%81%AE%E6%95%9B%E6%95%A3%E6%80%A7/</guid>
         <description>&lt;h2 id=&#34;一般项级数&#34;&gt;&lt;a href=&#34;#%e4%b8%80%e8%88%ac%e9%a1%b9%e7%ba%a7%e6%95%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;一般项级数
 &lt;/h2&gt;&lt;table&gt;
 	&lt;thead&gt;
@@ -416,10 +416,10 @@ $$
         </item>
         <item>
         <title>正项级数</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E6%AD%A3%E9%A1%B9%E7%BA%A7%E6%95%B0/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E6%AD%A3%E9%A1%B9%E7%BA%A7%E6%95%B0/</link>
         <pubDate>Tue, 04 Mar 2025 15:57:27 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E6%AD%A3%E9%A1%B9%E7%BA%A7%E6%95%B0/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E6%AD%A3%E9%A1%B9%E7%BA%A7%E6%95%B0/</guid>
         <description>&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#%e5%ae%9a%e4%b9%89&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;定义
 &lt;/h2&gt;&lt;p&gt;每项都 $&gt; 0$
 &lt;/p&gt;
@@ -485,7 +485,7 @@ $$A=\lim_{ i \to \infty }\frac{u_i}{v_i}$$&lt;table&gt;
 这类审敛的一般形式是 
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E6%AD%A3%E9%A1%B9%E7%BA%A7%E6%95%B0/#kummer&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E6%AD%A3%E9%A1%B9%E7%BA%A7%E6%95%B0/#kummer&#34;
   
   &gt;Kummer 审敛&lt;/a
 &gt;
@@ -613,10 +613,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>级数初论</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E7%BA%A7%E6%95%B0%E5%88%9D%E8%AE%BA/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E7%BA%A7%E6%95%B0%E5%88%9D%E8%AE%BA/</link>
         <pubDate>Tue, 04 Mar 2025 15:35:16 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E7%BA%A7%E6%95%B0%E5%88%9D%E8%AE%BA/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E7%BA%A7%E6%95%B0%E5%88%9D%E8%AE%BA/</guid>
         <description>&lt;h2 id=&#34;级数&#34;&gt;&lt;a href=&#34;#%e7%ba%a7%e6%95%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;级数
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;级数：形如
@@ -631,7 +631,7 @@ $$S_n=\sum_{i=1}^{n} a_k$$&lt;/li&gt;
 $$ \left|\sum_{i=n+1}^{n+p} a_i  \right| &lt; \epsilon$$&lt;/li&gt;
 &lt;/ol&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;序列柯西审敛原理
     &lt;/div&gt;
@@ -681,7 +681,7 @@ e.g. $\sum_{i=1}^{\infty}(-1)^{n}$ 发散，但是奇偶项配对得到 $\sum_{i
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%88%AC%E9%A1%B9%E7%BA%A7%E6%95%B0/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%B8%80%E8%88%AC%E9%A1%B9%E7%BA%A7%E6%95%B0/&#34;
   
   &gt;一般项级数&lt;/a
 &gt;
@@ -690,7 +690,7 @@ e.g. $\sum_{i=1}^{\infty}(-1)^{n}$ 发散，但是奇偶项配对得到 $\sum_{i
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E6%AD%A3%E9%A1%B9%E7%BA%A7%E6%95%B0/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E6%AD%A3%E9%A1%B9%E7%BA%A7%E6%95%B0/&#34;
   
   &gt;正项级数&lt;/a
 &gt;
@@ -698,7 +698,7 @@ e.g. $\sum_{i=1}^{\infty}(-1)^{n}$ 发散，但是奇偶项配对得到 $\sum_{i
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%BA%A4%E9%94%99%E7%BA%A7%E6%95%B0/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E4%BA%A4%E9%94%99%E7%BA%A7%E6%95%B0/&#34;
   
   &gt;交错级数&lt;/a
 &gt;
@@ -708,7 +708,7 @@ e.g. $\sum_{i=1}^{\infty}(-1)^{n}$ 发散，但是奇偶项配对得到 $\sum_{i
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E5%87%BD%E6%95%B0%E9%A1%B9%E7%BA%A7%E6%95%B0/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E5%87%BD%E6%95%B0%E9%A1%B9%E7%BA%A7%E6%95%B0/&#34;
   
   &gt;函数项级数&lt;/a
 &gt;
@@ -717,7 +717,7 @@ e.g. $\sum_{i=1}^{\infty}(-1)^{n}$ 发散，但是奇偶项配对得到 $\sum_{i
 &lt;li&gt;
 
  &lt;a
-  href=&#34;http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E5%B9%82%E7%BA%A7%E6%95%B0/&#34;
+  href=&#34;http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/%E5%B9%82%E7%BA%A7%E6%95%B0/&#34;
   
   &gt;幂级数&lt;/a
 &gt;
@@ -729,10 +729,10 @@ e.g. $\sum_{i=1}^{\infty}(-1)^{n}$ 发散，但是奇偶项配对得到 $\sum_{i
         </item>
         <item>
         <title>定义证明函数连续性</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</link>
         <pubDate>Thu, 26 Dec 2024 10:33:22 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%BE%AE%E5%88%86/%E5%AE%9A%E4%B9%89%E8%AF%81%E6%98%8E%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7/</guid>
         <description>&lt;p&gt;
 
  &lt;a
@@ -746,7 +746,7 @@ e.g. $\sum_{i=1}^{\infty}(-1)^{n}$ 发散，但是奇偶项配对得到 $\sum_{i
 &lt;h2 id=&#34;-真题&#34;&gt;&lt;a href=&#34;#-%e7%9c%9f%e9%a2%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;🔗 真题
 &lt;/h2&gt;&lt;p&gt;(2021·中山大学·高等数学I·期末考试) 证明 $\lim_{ x \to a }x^{3}=a^{3}$.&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;解答
     &lt;/div&gt;
@@ -777,10 +777,10 @@ $$\begin{aligned}\left| x^{3}-a^{3} \right|&amp;=\left| x-a \right|\left| x^{2}+
         </item>
         <item>
         <title>可爱因子与夹逼准则的选择</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E5%8F%AF%E7%88%B1%E5%9B%A0%E5%AD%90%E4%B8%8E%E5%A4%B9%E9%80%BC%E5%87%86%E5%88%99%E7%9A%84%E9%80%89%E6%8B%A9/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E5%8F%AF%E7%88%B1%E5%9B%A0%E5%AD%90%E4%B8%8E%E5%A4%B9%E9%80%BC%E5%87%86%E5%88%99%E7%9A%84%E9%80%89%E6%8B%A9/</link>
         <pubDate>Thu, 26 Dec 2024 10:14:49 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E5%8F%AF%E7%88%B1%E5%9B%A0%E5%AD%90%E4%B8%8E%E5%A4%B9%E9%80%BC%E5%87%86%E5%88%99%E7%9A%84%E9%80%89%E6%8B%A9/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E5%8F%AF%E7%88%B1%E5%9B%A0%E5%AD%90%E4%B8%8E%E5%A4%B9%E9%80%BC%E5%87%86%E5%88%99%E7%9A%84%E9%80%89%E6%8B%A9/</guid>
         <description>&lt;p&gt;一言以蔽之：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;变量部分与主体部分相比是&lt;strong&gt;次量级&lt;/strong&gt; $\Rightarrow$ 夹逼准则&lt;/li&gt;
@@ -790,10 +790,10 @@ $$\begin{aligned}\left| x^{3}-a^{3} \right|&amp;=\left| x-a \right|\left| x^{2}+
         </item>
         <item>
         <title>高阶无穷小运算</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E9%AB%98%E9%98%B6%E6%97%A0%E7%A9%B7%E5%B0%8F%E8%BF%90%E7%AE%97/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E9%AB%98%E9%98%B6%E6%97%A0%E7%A9%B7%E5%B0%8F%E8%BF%90%E7%AE%97/</link>
         <pubDate>Wed, 25 Dec 2024 23:13:47 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E9%AB%98%E9%98%B6%E6%97%A0%E7%A9%B7%E5%B0%8F%E8%BF%90%E7%AE%97/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E9%AB%98%E9%98%B6%E6%97%A0%E7%A9%B7%E5%B0%8F%E8%BF%90%E7%AE%97/</guid>
         <description>&lt;p&gt;牢记以下几条法则：
 &lt;/p&gt;
 $$
@@ -810,10 +810,10 @@ $$</description>
         </item>
         <item>
         <title>函数极限</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/</link>
         <pubDate>Wed, 18 Dec 2024 17:15:26 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E6%9E%81%E9%99%90/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/</guid>
         <description>&lt;h2 id=&#34;不定型&#34;&gt;&lt;a href=&#34;#%e4%b8%8d%e5%ae%9a%e5%9e%8b&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;不定型
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;$\frac{0}{0}$ 型 / $\frac{\infty}{\infty}$ 型 / $0\cdot \infty$ 型 $\Rightarrow$ 洛必达&lt;/li&gt;

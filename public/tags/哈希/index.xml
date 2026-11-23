@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>哈希 on DvdBr3o</title>
-        <link>http://localhost:38081/tags/%E5%93%88%E5%B8%8C/</link>
+        <link>http://localhost:36721/tags/%E5%93%88%E5%B8%8C/</link>
         <description>Recent content in 哈希 on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 14 Jan 2026 21:23:24 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/%E5%93%88%E5%B8%8C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Jan 2026 21:23:24 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/%E5%93%88%E5%B8%8C/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>散列查找</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%95%A3%E5%88%97%E6%9F%A5%E6%89%BE/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%95%A3%E5%88%97%E6%9F%A5%E6%89%BE/</link>
         <pubDate>Sun, 14 Dec 2025 21:31:46 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%95%A3%E5%88%97%E6%9F%A5%E6%89%BE/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E6%95%A3%E5%88%97%E6%9F%A5%E6%89%BE/</guid>
         <description>&lt;h2 id=&#34;构造&#34;&gt;&lt;a href=&#34;#%e6%9e%84%e9%80%a0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;构造
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:38081/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0.md&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:36721/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0.md&#34;
 	
 	
 	
@@ -42,10 +42,10 @@ $d[i]$ 为冲突后寻找新地址增量，因为可能冲突多次所以是一�
         </item>
         <item>
         <title>典型散列函数</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/</link>
         <pubDate>Sun, 14 Dec 2025 21:28:26 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE/%E5%85%B8%E5%9E%8B%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0/</guid>
         <description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;直接定址 &lt;/p&gt;
@@ -64,10 +64,10 @@ $$\mathrm{Hash}(key)=key\% p$$&lt;/li&gt;
         </item>
         <item>
         <title>字符串哈希</title>
-        <link>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/</link>
+        <link>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/</link>
         <pubDate>Thu, 21 Nov 2024 17:52:36 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/</guid>
+        <guid>http://localhost:36721/post/%E5%AD%A6%E6%9C%AF/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/</guid>
         <description> 
 
 &lt;a href=https://oi-wiki.org/string/hash/ target=&#34;_blank&#34; data-tag=&#34;cardlink&#34;&gt;&lt;/a&gt;
@@ -83,7 +83,7 @@ hash = (str)_{base}
 $$&lt;p&gt;
 但由于下标类型大小有限，所以需要取模 $mod$ 。&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;Info
     &lt;/div&gt;

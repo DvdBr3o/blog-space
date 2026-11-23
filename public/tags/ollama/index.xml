@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Ollama on DvdBr3o</title>
-        <link>http://localhost:38081/tags/ollama/</link>
+        <link>http://localhost:36721/tags/ollama/</link>
         <description>Recent content in Ollama on DvdBr3o</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 09 Mar 2025 13:46:59 +0800</lastBuildDate><atom:link href="http://localhost:38081/tags/ollama/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 09 Mar 2025 13:46:59 +0800</lastBuildDate><atom:link href="http://localhost:36721/tags/ollama/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>部署 ollama &#43; vscode</title>
-        <link>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E9%83%A8%E7%BD%B2-ollama-and-vscode/</link>
+        <link>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E9%83%A8%E7%BD%B2-ollama-and-vscode/</link>
         <pubDate>Tue, 17 Dec 2024 18:12:13 +0800</pubDate>
         
-        <guid>http://localhost:38081/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E9%83%A8%E7%BD%B2-ollama-and-vscode/</guid>
+        <guid>http://localhost:36721/post/%E5%BC%80%E5%8F%91/%E6%9D%82%E8%AE%B0/%E9%83%A8%E7%BD%B2-ollama-and-vscode/</guid>
         <description>
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:38081/css/vendors/admonitions.css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:36721/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;前情提要
     &lt;/div&gt;
