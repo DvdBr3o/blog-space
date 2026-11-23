@@ -1,4 +1,4 @@
-# baseURL = 'blog-space-ten.vercel.app'
+baseURL = 'https://blog-space-ten.vercel.app/'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
 title = 'DvdBr3o'
