@@ -8,7 +8,7 @@ publish: true
 
 ### pars, first encountered
 
-一开始想做 pars : PEG $\to$ CUDA, 具体思路是 $$\text{PEG} \mapsto \text{sequential for-if program} \xlongrightarrow{\text{monoid analysis}} \text{scan/scatter/sort-based CUDA program}$$ 与高人讨论得到以下指点:
+一开始想做 pars : PEG $\to$ CUDA, 具体思路是 $$\text{PEG} \mapsto \text{sequential for-if program} \xrightarrow{\text{monoid analysis}} \text{scan/scatter/sort-based CUDA program}$$ 与高人讨论得到以下指点:
 1. 都 map 到 for-if program 再做本质投机加速了，
 	1. 怎么跟 general purpose seq2par compiler 比？已经存在一个 such case 叫 [`bend`](https://github.com/bendlang/bend/) 了，那你工作的 novelty 成立吗
 	2. 怎么跟硬件的投机设施比？
