@@ -1,7 +1,7 @@
 ---
 title: pars revisited
 date: 2026-11-23T17:43:43+08:00
-lastmod: 2026-11-25T02:07:14+08:00
+lastmod: 2026-11-25T02:07:43+08:00
 publish: true
 ---
 ## 前情提要
@@ -117,7 +117,7 @@ struct residual {};
 
 template<char c>
 struct residual<Lit<c>> {
-	constexpr auto operator(Cursor& s) const -> std::optional<char> {
+	constexpr auto operator()(Cursor& s) const -> std::optional<char> {
 		if (s.peek() == c) {
 			s.bump();
 			return c;
@@ -128,7 +128,7 @@ struct residual<Lit<c>> {
 
 template<typename... Rules>
 struct residual<Seq<Rules...>> {
-	constexpr auto operator(Cursor& s) const -> std::optional<std::tuple<Rules::result_type...>> {
+	constexpr auto operator()(Cursor& s) const -> std::optional<std::tuple<Rules::result_type...>> {
 		std::tuple<Rules::result_type...> res;
 		const auto lookback = s;
 		if ([&]<size_t... Is>(std::index_sequence<Is...>){
