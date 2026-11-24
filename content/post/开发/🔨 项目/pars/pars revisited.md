@@ -1,7 +1,7 @@
 ---
 title: pars revisited
 date: 2026-11-23T17:43:43+08:00
-lastmod: 2026-11-25T01:51:53+08:00
+lastmod: 2026-11-25T02:07:14+08:00
 publish: true
 ---
 ## 前情提要
@@ -14,7 +14,7 @@ publish: true
 	2. 怎么跟硬件的投机设施比？
 		1. 分支预测
 		2. gpu warp masking-branch
-2. pars 如何解决 branch-rich 的语法？高人认为 json 并不本质 branch-rich, 或者类似的数据描述语言 DDL 并不能代表所有 PEG 文法，属实 overclaim
+2. pars 如何解决 branch-rich 的语法？json 相比 general purpose pl 并不本质 branch-rich, 或者类似的数据描述语言 DDL 并不能代表所有 PEG 文法，属实 overclaim
 
 ### "rebuttal"
 
